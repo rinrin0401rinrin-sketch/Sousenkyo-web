@@ -1,0 +1,89 @@
+{
+  "proportionalSeats": [
+    {
+      "blockId": "hokkaido-block",
+      "blockName": "北海道",
+      "electionId": "shugiin-50th",
+      "id": "hokkaido-pr-1",
+      "mapPoint": {
+        "x": 84,
+        "y": 14,
+        "z": 5
+      },
+      "partyId": "liberal-blue",
+      "partyName": "未来政策党",
+      "seats": 3,
+      "status": "elected",
+      "turnout": 60.3,
+      "voteRate": 41.2
+    },
+    {
+      "blockId": "tohoku-block",
+      "blockName": "東北",
+      "electionId": "shugiin-50th",
+      "id": "tohoku-pr-1",
+      "mapPoint": {
+        "x": 76,
+        "y": 35,
+        "z": 4
+      },
+      "partyId": "green-reform",
+      "partyName": "みどり改革会",
+      "seats": 2,
+      "status": "counting",
+      "turnout": 57.6,
+      "voteRate": 32.8
+    },
+    {
+      "blockId": "tokyo-block",
+      "blockName": "東京",
+      "electionId": "shugiin-50th",
+      "id": "tokyo-pr-1",
+      "mapPoint": {
+        "x": 79,
+        "y": 52,
+        "z": 6
+      },
+      "partyId": "liberal-blue",
+      "partyName": "未来政策党",
+      "seats": 5,
+      "status": "elected",
+      "turnout": 62.1,
+      "voteRate": 45.5
+    },
+    {
+      "blockId": "kinki-block",
+      "blockName": "近畿",
+      "electionId": "shugiin-50th",
+      "id": "kinki-pr-1",
+      "mapPoint": {
+        "x": 47,
+        "y": 62,
+        "z": 5
+      },
+      "partyId": "green-reform",
+      "partyName": "みどり改革会",
+      "seats": 4,
+      "status": "proportionalRevival",
+      "turnout": 59.9,
+      "voteRate": 37.9
+    },
+    {
+      "blockId": "kyushu-block",
+      "blockName": "九州",
+      "electionId": "shugiin-50th",
+      "id": "kyushu-pr-1",
+      "mapPoint": {
+        "x": 25,
+        "y": 80,
+        "z": 2
+      },
+      "partyId": "independent",
+      "partyName": "無所属",
+      "seats": 1,
+      "status": "pending",
+      "turnout": 54.8,
+      "voteRate": 8.4
+    }
+  ]
+}

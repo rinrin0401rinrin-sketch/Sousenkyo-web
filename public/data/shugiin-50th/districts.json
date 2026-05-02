@@ -1,0 +1,38 @@
+{
+  "districts": [
+    {
+      "id": "tokyo-1",
+      "name": "東京1区",
+      "prefectureId": "tokyo",
+      "winnerMemberId": "aoi-sato"
+    },
+    {
+      "id": "tokyo-2",
+      "name": "東京2区",
+      "prefectureId": "tokyo",
+      "winnerMemberId": "ren-takahashi"
+    },
+    {
+      "id": "osaka-1",
+      "name": "大阪1区",
+      "prefectureId": "osaka",
+      "winnerMemberId": "mina-kobayashi"
+    },
+    {
+      "id": "osaka-2",
+      "name": "大阪2区",
+      "prefectureId": "osaka",
+      "winnerMemberId": "haru-yamada"
+    },
+    {
+      "id": "fukuoka-1",
+      "name": "福岡1区",
+      "prefectureId": "fukuoka"
+    },
+    {
+      "id": "hokkaido-1",
+      "name": "北海道1区",
+      "prefectureId": "hokkaido"
+    }
+  ]
+}

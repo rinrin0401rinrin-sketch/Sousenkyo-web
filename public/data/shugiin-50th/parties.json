@@ -1,0 +1,22 @@
+{
+  "parties": [
+    {
+      "color": "#2563eb",
+      "id": "liberal-blue",
+      "name": "未来政策党",
+      "shortName": "未来"
+    },
+    {
+      "color": "#16a34a",
+      "id": "green-reform",
+      "name": "みどり改革会",
+      "shortName": "改革"
+    },
+    {
+      "color": "#64748b",
+      "id": "independent",
+      "name": "無所属",
+      "shortName": "無"
+    }
+  ]
+}

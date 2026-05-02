@@ -1,0 +1,62 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+      - master
+      - codex/**
+  workflow_dispatch:
+    inputs:
+      run_release_check:
+        description: Run strict release gate and preview smoke
+        required: false
+        default: "false"
+      election_id:
+        description: Election ID for release check
+        required: false
+        default: shugiin-50th
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Validate data
+        run: npm run validate:data
+
+      - name: Build
+        run: npm run build
+
+  release-check:
+    if: github.event_name == 'workflow_dispatch' && github.event.inputs.run_release_check == 'true'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Release check
+        run: npm run release:check -- ${{ github.event.inputs.election_id }}

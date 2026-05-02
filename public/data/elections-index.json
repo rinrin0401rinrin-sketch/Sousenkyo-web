@@ -1,0 +1,28 @@
+{
+  "elections": [
+    {
+      "id": "shugiin-50th",
+      "isDataReady": true,
+      "name": "第50回 衆議院総選挙",
+      "status": "current",
+      "type": "衆議院",
+      "year": 2024
+    },
+    {
+      "id": "shugiin-49th",
+      "isDataReady": false,
+      "name": "第49回 衆議院総選挙",
+      "status": "past",
+      "type": "衆議院",
+      "year": 2021
+    },
+    {
+      "id": "sangiin-27th",
+      "isDataReady": false,
+      "name": "第27回 参議院通常選挙",
+      "status": "upcoming",
+      "type": "参議院",
+      "year": 2025
+    }
+  ]
+}

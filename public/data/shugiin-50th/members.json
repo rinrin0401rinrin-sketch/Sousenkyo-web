@@ -1,0 +1,48 @@
+{
+  "members": [
+    {
+      "districtId": "tokyo-1",
+      "id": "aoi-sato",
+      "name": "佐藤 あおい",
+      "partyId": "liberal-blue",
+      "photoUrl": "/data/shugiin-50th/photos/placeholder.svg",
+      "prefectureId": "tokyo",
+      "proportionalBlockId": "tokyo-block",
+      "status": "elected",
+      "wins": 3
+    },
+    {
+      "districtId": "tokyo-2",
+      "id": "ren-takahashi",
+      "name": "高橋 蓮",
+      "partyId": "green-reform",
+      "photoUrl": "/data/shugiin-50th/photos/placeholder.svg",
+      "prefectureId": "tokyo",
+      "proportionalBlockId": "tokyo-block",
+      "status": "elected",
+      "wins": 1
+    },
+    {
+      "districtId": "osaka-1",
+      "id": "mina-kobayashi",
+      "name": "小林 美奈",
+      "partyId": "independent",
+      "photoUrl": "/data/shugiin-50th/photos/placeholder.svg",
+      "prefectureId": "osaka",
+      "proportionalBlockId": "kinki-block",
+      "status": "elected",
+      "wins": 2
+    },
+    {
+      "districtId": "osaka-2",
+      "id": "haru-yamada",
+      "name": "山田 春",
+      "partyId": "green-reform",
+      "photoUrl": "/data/shugiin-50th/photos/placeholder.svg",
+      "prefectureId": "osaka",
+      "proportionalBlockId": "kinki-block",
+      "status": "proportionalRevival",
+      "wins": 0
+    }
+  ]
+}

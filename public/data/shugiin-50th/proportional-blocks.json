@@ -1,0 +1,59 @@
+{
+  "proportionalBlocks": [
+    {
+      "id": "hokkaido-block",
+      "name": "北海道",
+      "seats": 8
+    },
+    {
+      "id": "tohoku-block",
+      "name": "東北",
+      "seats": 12
+    },
+    {
+      "id": "kitakanto-block",
+      "name": "北関東",
+      "seats": 19
+    },
+    {
+      "id": "minamikanto-block",
+      "name": "南関東",
+      "seats": 23
+    },
+    {
+      "id": "tokyo-block",
+      "name": "東京ブロック",
+      "seats": 19
+    },
+    {
+      "id": "hokuriku-shinetsu-block",
+      "name": "北陸信越",
+      "seats": 10
+    },
+    {
+      "id": "tokai-block",
+      "name": "東海",
+      "seats": 21
+    },
+    {
+      "id": "kinki-block",
+      "name": "近畿ブロック",
+      "seats": 28
+    },
+    {
+      "id": "chugoku-block",
+      "name": "中国",
+      "seats": 10
+    },
+    {
+      "id": "shikoku-block",
+      "name": "四国",
+      "seats": 6
+    },
+    {
+      "id": "kyushu-block",
+      "name": "九州",
+      "seats": 20
+    }
+  ]
+}

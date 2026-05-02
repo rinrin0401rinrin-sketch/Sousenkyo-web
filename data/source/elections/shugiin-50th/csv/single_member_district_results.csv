@@ -1,0 +1,7 @@
+id,electionId,prefectureId,prefecture,districtName,districtNumber,candidateId,candidateName,partyId,partyName,status,votes,voteRate,turnout,photoUrl,profileUrl,mapX,mapY,mapZ
+tokyo-1-result,shugiin-50th,tokyo,東京都,東京1区,1,aoi-sato,佐藤 あおい,liberal-blue,未来政策党,elected,120430,51.8,62.4,/data/shugiin-50th/photos/placeholder.svg,#,70,50,6
+tokyo-2-result,shugiin-50th,tokyo,東京都,東京2区,2,ren-takahashi,高橋 蓮,green-reform,みどり改革会,counting,88420,44.2,59.7,/data/shugiin-50th/photos/placeholder.svg,#,73,54,4
+osaka-1-result,shugiin-50th,osaka,大阪府,大阪1区,1,mina-kobayashi,小林 美奈,independent,無所属,elected,101240,48.1,58.9,/data/shugiin-50th/photos/placeholder.svg,#,52,65,5
+osaka-2-result,shugiin-50th,osaka,大阪府,大阪2区,2,haru-yamada,山田 春,green-reform,みどり改革会,proportionalRevival,75320,39.6,57.1,/data/shugiin-50th/photos/placeholder.svg,#,49,68,3
+fukuoka-1-result,shugiin-50th,fukuoka,福岡県,福岡1区,1,yui-nakamura,中村 結衣,liberal-blue,未来政策党,runnerUp,69240,34.4,55.8,/data/shugiin-50th/photos/placeholder.svg,#,30,78,2
+hokkaido-1-result,shugiin-50th,hokkaido,北海道,北海道1区,1,kenta-mori,森 健太,liberal-blue,未来政策党,pending,0,0,0,/data/shugiin-50th/photos/placeholder.svg,#,78,18,1

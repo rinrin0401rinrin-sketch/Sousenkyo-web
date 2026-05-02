@@ -1,0 +1,6 @@
+id,role,title,description,alt,imageUrl
+main-hero-ballot,hero,未来の一票を預かる透明な投票箱,総選挙サイトのファーストビューに使う、投票箱と投票用紙の高級感あるビジュアル。,透明な投票箱と投票用紙を中心にした衆議院総選挙のヒーロービジュアル,/data/shugiin-50th/visuals/election-main-hero-ballot.png
+data-dashboard,analytics,データで見る選挙,議席、投票率、開票率などを扱う分析セクション向けのガラスUIビジュアル。,議席や投票率の分析を表すガラスUIの選挙データダッシュボード,/data/shugiin-50th/visuals/election-data-dashboard-hero.png
+voting-guide,guide,投票と地域検索,投票所、選挙区検索、地域から探す導線を支える案内ビジュアル。,投票所ピンと地域検索カードを表す投票ガイドのガラスUI,/data/shugiin-50th/visuals/voting-guide-map-panels.png
+homepage-ui,overview,選挙ポータル全体像,トップページの構成や主要カードを示すWeb UIモックアップ。,衆議院総選挙サイトのトップページを表す白基調のWeb UI,/data/shugiin-50th/visuals/election-homepage-ui-wide.png
+responsive-dashboard,responsive,レスポンシブ結果ビュー,スマホでも見やすい結果ダッシュボードの方向性を示すビジュアル。,スマホ表示に配慮した選挙結果ダッシュボードのビジュアル,/data/shugiin-50th/visuals/election-responsive-dashboard.png

@@ -1,0 +1,12 @@
+id,name,seats
+hokkaido-block,北海道,8
+tohoku-block,東北,12
+kitakanto-block,北関東,19
+minamikanto-block,南関東,23
+tokyo-block,東京ブロック,19
+hokuriku-shinetsu-block,北陸信越,10
+tokai-block,東海,21
+kinki-block,近畿ブロック,28
+chugoku-block,中国,10
+shikoku-block,四国,6
+kyushu-block,九州,20

@@ -1,0 +1,5 @@
+id,name,partyId,prefectureId,districtId,proportionalBlockId,photoUrl,wins,status
+aoi-sato,佐藤 あおい,liberal-blue,tokyo,tokyo-1,tokyo-block,/data/shugiin-50th/photos/placeholder.svg,3,elected
+ren-takahashi,高橋 蓮,green-reform,tokyo,tokyo-2,tokyo-block,/data/shugiin-50th/photos/placeholder.svg,1,elected
+mina-kobayashi,小林 美奈,independent,osaka,osaka-1,kinki-block,/data/shugiin-50th/photos/placeholder.svg,2,elected
+haru-yamada,山田 春,green-reform,osaka,osaka-2,kinki-block,/data/shugiin-50th/photos/placeholder.svg,0,proportionalRevival

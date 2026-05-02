@@ -1,0 +1,51 @@
+{
+  "description": "選挙区・比例代表・議員情報をJSONで差し替えられる選挙特番風ダッシュボードです。",
+  "id": "shugiin-50th",
+  "name": "第50回 衆議院総選挙",
+  "shortName": "衆院選 2024",
+  "status": "current",
+  "type": "衆議院",
+  "visuals": [
+    {
+      "alt": "透明な投票箱と投票用紙を中心にした衆議院総選挙のヒーロービジュアル",
+      "description": "総選挙サイトのファーストビューに使う、投票箱と投票用紙の高級感あるビジュアル。",
+      "id": "main-hero-ballot",
+      "imageUrl": "/data/shugiin-50th/visuals/election-main-hero-ballot.png",
+      "role": "hero",
+      "title": "未来の一票を預かる透明な投票箱"
+    },
+    {
+      "alt": "議席や投票率の分析を表すガラスUIの選挙データダッシュボード",
+      "description": "議席、投票率、開票率などを扱う分析セクション向けのガラスUIビジュアル。",
+      "id": "data-dashboard",
+      "imageUrl": "/data/shugiin-50th/visuals/election-data-dashboard-hero.png",
+      "role": "analytics",
+      "title": "データで見る選挙"
+    },
+    {
+      "alt": "投票所ピンと地域検索カードを表す投票ガイドのガラスUI",
+      "description": "投票所、選挙区検索、地域から探す導線を支える案内ビジュアル。",
+      "id": "voting-guide",
+      "imageUrl": "/data/shugiin-50th/visuals/voting-guide-map-panels.png",
+      "role": "guide",
+      "title": "投票と地域検索"
+    },
+    {
+      "alt": "衆議院総選挙サイトのトップページを表す白基調のWeb UI",
+      "description": "トップページの構成や主要カードを示すWeb UIモックアップ。",
+      "id": "homepage-ui",
+      "imageUrl": "/data/shugiin-50th/visuals/election-homepage-ui-wide.png",
+      "role": "overview",
+      "title": "選挙ポータル全体像"
+    },
+    {
+      "alt": "スマホ表示に配慮した選挙結果ダッシュボードのビジュアル",
+      "description": "スマホでも見やすい結果ダッシュボードの方向性を示すビジュアル。",
+      "id": "responsive-dashboard",
+      "imageUrl": "/data/shugiin-50th/visuals/election-responsive-dashboard.png",
+      "role": "responsive",
+      "title": "レスポンシブ結果ビュー"
+    }
+  ],
+  "year": 2024
+}

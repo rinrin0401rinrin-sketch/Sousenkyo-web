@@ -1,0 +1,610 @@
+{
+  "election": {
+    "id": "shugiin-50th"
+  },
+  "files": {
+    "candidates.json": {
+      "candidates": [
+        {
+          "districtId": "tokyo-1",
+          "id": "aoi-sato",
+          "name": "佐藤 あおい",
+          "partyId": "liberal-blue",
+          "photoUrl": "/data/shugiin-50th/photos/placeholder.svg",
+          "prefectureId": "tokyo",
+          "profileUrl": "#",
+          "proportionalBlockId": "tokyo-block",
+          "wins": 3
+        },
+        {
+          "districtId": "tokyo-2",
+          "id": "ren-takahashi",
+          "name": "高橋 蓮",
+          "partyId": "green-reform",
+          "photoUrl": "/data/shugiin-50th/photos/placeholder.svg",
+          "prefectureId": "tokyo",
+          "profileUrl": "#",
+          "proportionalBlockId": "tokyo-block",
+          "wins": 1
+        },
+        {
+          "districtId": "osaka-1",
+          "id": "mina-kobayashi",
+          "name": "小林 美奈",
+          "partyId": "independent",
+          "photoUrl": "/data/shugiin-50th/photos/placeholder.svg",
+          "prefectureId": "osaka",
+          "profileUrl": "#",
+          "proportionalBlockId": "kinki-block",
+          "wins": 2
+        },
+        {
+          "districtId": "osaka-2",
+          "id": "haru-yamada",
+          "name": "山田 春",
+          "partyId": "green-reform",
+          "photoUrl": "/data/shugiin-50th/photos/placeholder.svg",
+          "prefectureId": "osaka",
+          "profileUrl": "#",
+          "proportionalBlockId": "kinki-block",
+          "wins": 0
+        },
+        {
+          "districtId": "fukuoka-1",
+          "id": "yui-nakamura",
+          "name": "中村 結衣",
+          "partyId": "liberal-blue",
+          "photoUrl": "/data/shugiin-50th/photos/placeholder.svg",
+          "prefectureId": "fukuoka",
+          "profileUrl": "#",
+          "proportionalBlockId": "kyushu-block",
+          "wins": 0
+        },
+        {
+          "districtId": "hokkaido-1",
+          "id": "kenta-mori",
+          "name": "森 健太",
+          "partyId": "liberal-blue",
+          "photoUrl": "/data/shugiin-50th/photos/placeholder.svg",
+          "prefectureId": "hokkaido",
+          "profileUrl": "#",
+          "proportionalBlockId": "hokkaido-block",
+          "wins": 0
+        }
+      ]
+    },
+    "districts.json": {
+      "districts": [
+        {
+          "id": "tokyo-1",
+          "name": "東京1区",
+          "prefectureId": "tokyo",
+          "winnerMemberId": "aoi-sato"
+        },
+        {
+          "id": "tokyo-2",
+          "name": "東京2区",
+          "prefectureId": "tokyo",
+          "winnerMemberId": "ren-takahashi"
+        },
+        {
+          "id": "osaka-1",
+          "name": "大阪1区",
+          "prefectureId": "osaka",
+          "winnerMemberId": "mina-kobayashi"
+        },
+        {
+          "id": "osaka-2",
+          "name": "大阪2区",
+          "prefectureId": "osaka",
+          "winnerMemberId": "haru-yamada"
+        },
+        {
+          "id": "fukuoka-1",
+          "name": "福岡1区",
+          "prefectureId": "fukuoka"
+        },
+        {
+          "id": "hokkaido-1",
+          "name": "北海道1区",
+          "prefectureId": "hokkaido"
+        }
+      ]
+    },
+    "election-meta.json": {
+      "description": "選挙区・比例代表・議員情報をJSONで差し替えられる選挙特番風ダッシュボードです。",
+      "id": "shugiin-50th",
+      "name": "第50回 衆議院総選挙",
+      "shortName": "衆院選 2024",
+      "status": "current",
+      "type": "衆議院",
+      "visuals": [
+        {
+          "alt": "透明な投票箱と投票用紙を中心にした衆議院総選挙のヒーロービジュアル",
+          "description": "総選挙サイトのファーストビューに使う、投票箱と投票用紙の高級感あるビジュアル。",
+          "id": "main-hero-ballot",
+          "imageUrl": "/data/shugiin-50th/visuals/election-main-hero-ballot.png",
+          "role": "hero",
+          "title": "未来の一票を預かる透明な投票箱"
+        },
+        {
+          "alt": "議席や投票率の分析を表すガラスUIの選挙データダッシュボード",
+          "description": "議席、投票率、開票率などを扱う分析セクション向けのガラスUIビジュアル。",
+          "id": "data-dashboard",
+          "imageUrl": "/data/shugiin-50th/visuals/election-data-dashboard-hero.png",
+          "role": "analytics",
+          "title": "データで見る選挙"
+        },
+        {
+          "alt": "投票所ピンと地域検索カードを表す投票ガイドのガラスUI",
+          "description": "投票所、選挙区検索、地域から探す導線を支える案内ビジュアル。",
+          "id": "voting-guide",
+          "imageUrl": "/data/shugiin-50th/visuals/voting-guide-map-panels.png",
+          "role": "guide",
+          "title": "投票と地域検索"
+        },
+        {
+          "alt": "衆議院総選挙サイトのトップページを表す白基調のWeb UI",
+          "description": "トップページの構成や主要カードを示すWeb UIモックアップ。",
+          "id": "homepage-ui",
+          "imageUrl": "/data/shugiin-50th/visuals/election-homepage-ui-wide.png",
+          "role": "overview",
+          "title": "選挙ポータル全体像"
+        },
+        {
+          "alt": "スマホ表示に配慮した選挙結果ダッシュボードのビジュアル",
+          "description": "スマホでも見やすい結果ダッシュボードの方向性を示すビジュアル。",
+          "id": "responsive-dashboard",
+          "imageUrl": "/data/shugiin-50th/visuals/election-responsive-dashboard.png",
+          "role": "responsive",
+          "title": "レスポンシブ結果ビュー"
+        }
+      ],
+      "year": 2024
+    },
+    "members.json": {
+      "members": [
+        {
+          "districtId": "tokyo-1",
+          "id": "aoi-sato",
+          "name": "佐藤 あおい",
+          "partyId": "liberal-blue",
+          "photoUrl": "/data/shugiin-50th/photos/placeholder.svg",
+          "prefectureId": "tokyo",
+          "proportionalBlockId": "tokyo-block",
+          "status": "elected",
+          "wins": 3
+        },
+        {
+          "districtId": "tokyo-2",
+          "id": "ren-takahashi",
+          "name": "高橋 蓮",
+          "partyId": "green-reform",
+          "photoUrl": "/data/shugiin-50th/photos/placeholder.svg",
+          "prefectureId": "tokyo",
+          "proportionalBlockId": "tokyo-block",
+          "status": "elected",
+          "wins": 1
+        },
+        {
+          "districtId": "osaka-1",
+          "id": "mina-kobayashi",
+          "name": "小林 美奈",
+          "partyId": "independent",
+          "photoUrl": "/data/shugiin-50th/photos/placeholder.svg",
+          "prefectureId": "osaka",
+          "proportionalBlockId": "kinki-block",
+          "status": "elected",
+          "wins": 2
+        },
+        {
+          "districtId": "osaka-2",
+          "id": "haru-yamada",
+          "name": "山田 春",
+          "partyId": "green-reform",
+          "photoUrl": "/data/shugiin-50th/photos/placeholder.svg",
+          "prefectureId": "osaka",
+          "proportionalBlockId": "kinki-block",
+          "status": "proportionalRevival",
+          "wins": 0
+        }
+      ]
+    },
+    "parties.json": {
+      "parties": [
+        {
+          "color": "#2563eb",
+          "id": "liberal-blue",
+          "name": "未来政策党",
+          "shortName": "未来"
+        },
+        {
+          "color": "#16a34a",
+          "id": "green-reform",
+          "name": "みどり改革会",
+          "shortName": "改革"
+        },
+        {
+          "color": "#64748b",
+          "id": "independent",
+          "name": "無所属",
+          "shortName": "無"
+        }
+      ]
+    },
+    "prefectures.json": {
+      "prefectures": [
+        {
+          "districtCount": 2,
+          "id": "tokyo",
+          "name": "東京都",
+          "region": "関東"
+        },
+        {
+          "districtCount": 1,
+          "id": "osaka",
+          "name": "大阪府",
+          "region": "近畿"
+        },
+        {
+          "districtCount": 1,
+          "id": "fukuoka",
+          "name": "福岡県",
+          "region": "九州"
+        },
+        {
+          "districtCount": 1,
+          "id": "hokkaido",
+          "name": "北海道",
+          "region": "北海道"
+        }
+      ]
+    },
+    "proportional-blocks.json": {
+      "proportionalBlocks": [
+        {
+          "id": "hokkaido-block",
+          "name": "北海道",
+          "seats": 8
+        },
+        {
+          "id": "tohoku-block",
+          "name": "東北",
+          "seats": 12
+        },
+        {
+          "id": "kitakanto-block",
+          "name": "北関東",
+          "seats": 19
+        },
+        {
+          "id": "minamikanto-block",
+          "name": "南関東",
+          "seats": 23
+        },
+        {
+          "id": "tokyo-block",
+          "name": "東京ブロック",
+          "seats": 19
+        },
+        {
+          "id": "hokuriku-shinetsu-block",
+          "name": "北陸信越",
+          "seats": 10
+        },
+        {
+          "id": "tokai-block",
+          "name": "東海",
+          "seats": 21
+        },
+        {
+          "id": "kinki-block",
+          "name": "近畿ブロック",
+          "seats": 28
+        },
+        {
+          "id": "chugoku-block",
+          "name": "中国",
+          "seats": 10
+        },
+        {
+          "id": "shikoku-block",
+          "name": "四国",
+          "seats": 6
+        },
+        {
+          "id": "kyushu-block",
+          "name": "九州",
+          "seats": 20
+        }
+      ]
+    },
+    "results.json": {
+      "proportionalSeats": [
+        {
+          "blockId": "hokkaido-block",
+          "blockName": "北海道",
+          "electionId": "shugiin-50th",
+          "id": "hokkaido-pr-1",
+          "mapPoint": {
+            "x": 84,
+            "y": 14,
+            "z": 5
+          },
+          "partyId": "liberal-blue",
+          "partyName": "未来政策党",
+          "seats": 3,
+          "status": "elected",
+          "turnout": 60.3,
+          "voteRate": 41.2
+        },
+        {
+          "blockId": "tohoku-block",
+          "blockName": "東北",
+          "electionId": "shugiin-50th",
+          "id": "tohoku-pr-1",
+          "mapPoint": {
+            "x": 76,
+            "y": 35,
+            "z": 4
+          },
+          "partyId": "green-reform",
+          "partyName": "みどり改革会",
+          "seats": 2,
+          "status": "counting",
+          "turnout": 57.6,
+          "voteRate": 32.8
+        },
+        {
+          "blockId": "tokyo-block",
+          "blockName": "東京",
+          "electionId": "shugiin-50th",
+          "id": "tokyo-pr-1",
+          "mapPoint": {
+            "x": 79,
+            "y": 52,
+            "z": 6
+          },
+          "partyId": "liberal-blue",
+          "partyName": "未来政策党",
+          "seats": 5,
+          "status": "elected",
+          "turnout": 62.1,
+          "voteRate": 45.5
+        },
+        {
+          "blockId": "kinki-block",
+          "blockName": "近畿",
+          "electionId": "shugiin-50th",
+          "id": "kinki-pr-1",
+          "mapPoint": {
+            "x": 47,
+            "y": 62,
+            "z": 5
+          },
+          "partyId": "green-reform",
+          "partyName": "みどり改革会",
+          "seats": 4,
+          "status": "proportionalRevival",
+          "turnout": 59.9,
+          "voteRate": 37.9
+        },
+        {
+          "blockId": "kyushu-block",
+          "blockName": "九州",
+          "electionId": "shugiin-50th",
+          "id": "kyushu-pr-1",
+          "mapPoint": {
+            "x": 25,
+            "y": 80,
+            "z": 2
+          },
+          "partyId": "independent",
+          "partyName": "無所属",
+          "seats": 1,
+          "status": "pending",
+          "turnout": 54.8,
+          "voteRate": 8.4
+        }
+      ]
+    },
+    "single-member-districts.json": {
+      "singleMemberDistricts": [
+        {
+          "candidateId": "aoi-sato",
+          "candidateName": "佐藤 あおい",
+          "districtName": "東京1区",
+          "districtNumber": 1,
+          "electionId": "shugiin-50th",
+          "id": "tokyo-1-result",
+          "mapPoint": {
+            "x": 70,
+            "y": 50,
+            "z": 6
+          },
+          "partyId": "liberal-blue",
+          "partyName": "未来政策党",
+          "photoUrl": "/data/shugiin-50th/photos/placeholder.svg",
+          "prefecture": "東京都",
+          "prefectureId": "tokyo",
+          "profileUrl": "#",
+          "status": "elected",
+          "turnout": 62.4,
+          "voteRate": 51.8,
+          "votes": 120430
+        },
+        {
+          "candidateId": "ren-takahashi",
+          "candidateName": "高橋 蓮",
+          "districtName": "東京2区",
+          "districtNumber": 2,
+          "electionId": "shugiin-50th",
+          "id": "tokyo-2-result",
+          "mapPoint": {
+            "x": 73,
+            "y": 54,
+            "z": 4
+          },
+          "partyId": "green-reform",
+          "partyName": "みどり改革会",
+          "photoUrl": "/data/shugiin-50th/photos/placeholder.svg",
+          "prefecture": "東京都",
+          "prefectureId": "tokyo",
+          "profileUrl": "#",
+          "status": "counting",
+          "turnout": 59.7,
+          "voteRate": 44.2,
+          "votes": 88420
+        },
+        {
+          "candidateId": "mina-kobayashi",
+          "candidateName": "小林 美奈",
+          "districtName": "大阪1区",
+          "districtNumber": 1,
+          "electionId": "shugiin-50th",
+          "id": "osaka-1-result",
+          "mapPoint": {
+            "x": 52,
+            "y": 65,
+            "z": 5
+          },
+          "partyId": "independent",
+          "partyName": "無所属",
+          "photoUrl": "/data/shugiin-50th/photos/placeholder.svg",
+          "prefecture": "大阪府",
+          "prefectureId": "osaka",
+          "profileUrl": "#",
+          "status": "elected",
+          "turnout": 58.9,
+          "voteRate": 48.1,
+          "votes": 101240
+        },
+        {
+          "candidateId": "haru-yamada",
+          "candidateName": "山田 春",
+          "districtName": "大阪2区",
+          "districtNumber": 2,
+          "electionId": "shugiin-50th",
+          "id": "osaka-2-result",
+          "mapPoint": {
+            "x": 49,
+            "y": 68,
+            "z": 3
+          },
+          "partyId": "green-reform",
+          "partyName": "みどり改革会",
+          "photoUrl": "/data/shugiin-50th/photos/placeholder.svg",
+          "prefecture": "大阪府",
+          "prefectureId": "osaka",
+          "profileUrl": "#",
+          "status": "proportionalRevival",
+          "turnout": 57.1,
+          "voteRate": 39.6,
+          "votes": 75320
+        },
+        {
+          "candidateId": "yui-nakamura",
+          "candidateName": "中村 結衣",
+          "districtName": "福岡1区",
+          "districtNumber": 1,
+          "electionId": "shugiin-50th",
+          "id": "fukuoka-1-result",
+          "mapPoint": {
+            "x": 30,
+            "y": 78,
+            "z": 2
+          },
+          "partyId": "liberal-blue",
+          "partyName": "未来政策党",
+          "photoUrl": "/data/shugiin-50th/photos/placeholder.svg",
+          "prefecture": "福岡県",
+          "prefectureId": "fukuoka",
+          "profileUrl": "#",
+          "status": "runnerUp",
+          "turnout": 55.8,
+          "voteRate": 34.4,
+          "votes": 69240
+        },
+        {
+          "candidateId": "kenta-mori",
+          "candidateName": "森 健太",
+          "districtName": "北海道1区",
+          "districtNumber": 1,
+          "electionId": "shugiin-50th",
+          "id": "hokkaido-1-result",
+          "mapPoint": {
+            "x": 78,
+            "y": 18,
+            "z": 1
+          },
+          "partyId": "liberal-blue",
+          "partyName": "未来政策党",
+          "photoUrl": "/data/shugiin-50th/photos/placeholder.svg",
+          "prefecture": "北海道",
+          "prefectureId": "hokkaido",
+          "profileUrl": "#",
+          "status": "pending",
+          "turnout": 0,
+          "voteRate": 0,
+          "votes": 0
+        }
+      ]
+    },
+    "summary.json": {
+      "districtSeats": 289,
+      "partySeats": [
+        {
+          "partyId": "liberal-blue",
+          "seats": 9
+        },
+        {
+          "partyId": "green-reform",
+          "seats": 5
+        },
+        {
+          "partyId": "independent",
+          "seats": 1
+        }
+      ],
+      "proportionalSeats": 176,
+      "reportingRate": 87.4,
+      "totalSeats": 465,
+      "updatedAt": "2026-05-01T10:30:00+09:00"
+    }
+  },
+  "generatedFrom": "csv",
+  "schemaVersion": 1,
+  "topLevel": {
+    "active-election.json": {
+      "currentId": "shugiin-50th"
+    },
+    "elections-index.json": {
+      "elections": [
+        {
+          "id": "shugiin-50th",
+          "isDataReady": true,
+          "name": "第50回 衆議院総選挙",
+          "status": "current",
+          "type": "衆議院",
+          "year": 2024
+        },
+        {
+          "id": "shugiin-49th",
+          "isDataReady": false,
+          "name": "第49回 衆議院総選挙",
+          "status": "past",
+          "type": "衆議院",
+          "year": 2021
+        },
+        {
+          "id": "sangiin-27th",
+          "isDataReady": false,
+          "name": "第27回 参議院通常選挙",
+          "status": "upcoming",
+          "type": "参議院",
+          "year": 2025
+        }
+      ]
+    }
+  }
+}

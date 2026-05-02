@@ -1,0 +1,142 @@
+{
+  "singleMemberDistricts": [
+    {
+      "candidateId": "aoi-sato",
+      "candidateName": "佐藤 あおい",
+      "districtName": "東京1区",
+      "districtNumber": 1,
+      "electionId": "shugiin-50th",
+      "id": "tokyo-1-result",
+      "mapPoint": {
+        "x": 70,
+        "y": 50,
+        "z": 6
+      },
+      "partyId": "liberal-blue",
+      "partyName": "未来政策党",
+      "photoUrl": "/data/shugiin-50th/photos/placeholder.svg",
+      "prefecture": "東京都",
+      "prefectureId": "tokyo",
+      "profileUrl": "#",
+      "status": "elected",
+      "turnout": 62.4,
+      "voteRate": 51.8,
+      "votes": 120430
+    },
+    {
+      "candidateId": "ren-takahashi",
+      "candidateName": "高橋 蓮",
+      "districtName": "東京2区",
+      "districtNumber": 2,
+      "electionId": "shugiin-50th",
+      "id": "tokyo-2-result",
+      "mapPoint": {
+        "x": 73,
+        "y": 54,
+        "z": 4
+      },
+      "partyId": "green-reform",
+      "partyName": "みどり改革会",
+      "photoUrl": "/data/shugiin-50th/photos/placeholder.svg",
+      "prefecture": "東京都",
+      "prefectureId": "tokyo",
+      "profileUrl": "#",
+      "status": "counting",
+      "turnout": 59.7,
+      "voteRate": 44.2,
+      "votes": 88420
+    },
+    {
+      "candidateId": "mina-kobayashi",
+      "candidateName": "小林 美奈",
+      "districtName": "大阪1区",
+      "districtNumber": 1,
+      "electionId": "shugiin-50th",
+      "id": "osaka-1-result",
+      "mapPoint": {
+        "x": 52,
+        "y": 65,
+        "z": 5
+      },
+      "partyId": "independent",
+      "partyName": "無所属",
+      "photoUrl": "/data/shugiin-50th/photos/placeholder.svg",
+      "prefecture": "大阪府",
+      "prefectureId": "osaka",
+      "profileUrl": "#",
+      "status": "elected",
+      "turnout": 58.9,
+      "voteRate": 48.1,
+      "votes": 101240
+    },
+    {
+      "candidateId": "haru-yamada",
+      "candidateName": "山田 春",
+      "districtName": "大阪2区",
+      "districtNumber": 2,
+      "electionId": "shugiin-50th",
+      "id": "osaka-2-result",
+      "mapPoint": {
+        "x": 49,
+        "y": 68,
+        "z": 3
+      },
+      "partyId": "green-reform",
+      "partyName": "みどり改革会",
+      "photoUrl": "/data/shugiin-50th/photos/placeholder.svg",
+      "prefecture": "大阪府",
+      "prefectureId": "osaka",
+      "profileUrl": "#",
+      "status": "proportionalRevival",
+      "turnout": 57.1,
+      "voteRate": 39.6,
+      "votes": 75320
+    },
+    {
+      "candidateId": "yui-nakamura",
+      "candidateName": "中村 結衣",
+      "districtName": "福岡1区",
+      "districtNumber": 1,
+      "electionId": "shugiin-50th",
+      "id": "fukuoka-1-result",
+      "mapPoint": {
+        "x": 30,
+        "y": 78,
+        "z": 2
+      },
+      "partyId": "liberal-blue",
+      "partyName": "未来政策党",
+      "photoUrl": "/data/shugiin-50th/photos/placeholder.svg",
+      "prefecture": "福岡県",
+      "prefectureId": "fukuoka",
+      "profileUrl": "#",
+      "status": "runnerUp",
+      "turnout": 55.8,
+      "voteRate": 34.4,
+      "votes": 69240
+    },
+    {
+      "candidateId": "kenta-mori",
+      "candidateName": "森 健太",
+      "districtName": "北海道1区",
+      "districtNumber": 1,
+      "electionId": "shugiin-50th",
+      "id": "hokkaido-1-result",
+      "mapPoint": {
+        "x": 78,
+        "y": 18,
+        "z": 1
+      },
+      "partyId": "liberal-blue",
+      "partyName": "未来政策党",
+      "photoUrl": "/data/shugiin-50th/photos/placeholder.svg",
+      "prefecture": "北海道",
+      "prefectureId": "hokkaido",
+      "profileUrl": "#",
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0,
+      "votes": 0
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+Data diff report: shugiin-50th
+topLevel.elections: 3 -> 3 (+0 / -0 / ~0)
+electionMeta.visuals: 5 -> 5 (+0 / -0 / ~0)
+parties: 3 -> 3 (+0 / -0 / ~0)
+prefectures: 4 -> 4 (+0 / -0 / ~0)
+proportionalBlocks: 11 -> 11 (+0 / -0 / ~0)
+districts: 6 -> 6 (+0 / -0 / ~0)
+candidates: 6 -> 6 (+0 / -0 / ~0)
+members: 4 -> 4 (+0 / -0 / ~0)
+singleMemberDistricts: 6 -> 6 (+0 / -0 / ~0)
+proportionalSeats: 5 -> 5 (+0 / -0 / ~0)
+summary.partySeats: 3 -> 3 (+0 / -0 / ~0)
+No collection row changes detected.

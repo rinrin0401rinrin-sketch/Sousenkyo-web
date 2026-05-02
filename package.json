@@ -1,0 +1,48 @@
+{
+  "name": "sousenkyo-web",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "validate:data": "node scripts/validate-data.mjs",
+    "smoke:routes": "node scripts/smoke-routes.mjs",
+    "smoke:preview": "node scripts/smoke-preview.mjs",
+    "export:source": "node scripts/export-source-data.mjs",
+    "gen:data": "node scripts/generate-data.mjs",
+    "gen:data:dry": "node scripts/generate-data.mjs --dry-run",
+    "create:election": "node scripts/create-election.mjs",
+    "export:csv": "node scripts/export-source-csv.mjs",
+    "import:csv": "node scripts/import-source-csv.mjs",
+    "import:csv:dry": "node scripts/import-source-csv.mjs --dry-run",
+    "template:csv": "node scripts/create-csv-template.mjs",
+    "fixture:large": "node scripts/create-large-fixture.mjs --write",
+    "fixture:large:dry": "node scripts/create-large-fixture.mjs",
+    "report:data": "node scripts/report-data-diff.mjs",
+    "report:data:write": "node scripts/report-data-diff.mjs --write",
+    "report:data:check": "node scripts/report-data-diff.mjs --fail-on-diff",
+    "scan:secrets": "node scripts/scan-secrets.mjs",
+    "scan:release-text": "node scripts/scan-release-text.mjs",
+    "screenshots:routes": "node scripts/capture-screenshots.mjs",
+    "validate:data:strict": "node scripts/validate-data.mjs --strict",
+    "release:check": "node scripts/release-check.mjs",
+    "check": "npm run validate:data && npm run build"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^5.0.0",
+    "autoprefixer": "^10.4.21",
+    "tailwindcss": "^3.4.17",
+    "postcss": "^8.5.6",
+    "typescript": "^5.8.3",
+    "vite": "^7.0.0"
+  }
+}

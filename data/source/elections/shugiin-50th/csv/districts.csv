@@ -1,0 +1,7 @@
+id,name,prefectureId,winnerMemberId
+tokyo-1,東京1区,tokyo,aoi-sato
+tokyo-2,東京2区,tokyo,ren-takahashi
+osaka-1,大阪1区,osaka,mina-kobayashi
+osaka-2,大阪2区,osaka,haru-yamada
+fukuoka-1,福岡1区,fukuoka,
+hokkaido-1,北海道1区,hokkaido,

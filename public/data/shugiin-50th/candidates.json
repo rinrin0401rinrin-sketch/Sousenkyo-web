@@ -1,0 +1,70 @@
+{
+  "candidates": [
+    {
+      "districtId": "tokyo-1",
+      "id": "aoi-sato",
+      "name": "佐藤 あおい",
+      "partyId": "liberal-blue",
+      "photoUrl": "/data/shugiin-50th/photos/placeholder.svg",
+      "prefectureId": "tokyo",
+      "profileUrl": "#",
+      "proportionalBlockId": "tokyo-block",
+      "wins": 3
+    },
+    {
+      "districtId": "tokyo-2",
+      "id": "ren-takahashi",
+      "name": "高橋 蓮",
+      "partyId": "green-reform",
+      "photoUrl": "/data/shugiin-50th/photos/placeholder.svg",
+      "prefectureId": "tokyo",
+      "profileUrl": "#",
+      "proportionalBlockId": "tokyo-block",
+      "wins": 1
+    },
+    {
+      "districtId": "osaka-1",
+      "id": "mina-kobayashi",
+      "name": "小林 美奈",
+      "partyId": "independent",
+      "photoUrl": "/data/shugiin-50th/photos/placeholder.svg",
+      "prefectureId": "osaka",
+      "profileUrl": "#",
+      "proportionalBlockId": "kinki-block",
+      "wins": 2
+    },
+    {
+      "districtId": "osaka-2",
+      "id": "haru-yamada",
+      "name": "山田 春",
+      "partyId": "green-reform",
+      "photoUrl": "/data/shugiin-50th/photos/placeholder.svg",
+      "prefectureId": "osaka",
+      "profileUrl": "#",
+      "proportionalBlockId": "kinki-block",
+      "wins": 0
+    },
+    {
+      "districtId": "fukuoka-1",
+      "id": "yui-nakamura",
+      "name": "中村 結衣",
+      "partyId": "liberal-blue",
+      "photoUrl": "/data/shugiin-50th/photos/placeholder.svg",
+      "prefectureId": "fukuoka",
+      "profileUrl": "#",
+      "proportionalBlockId": "kyushu-block",
+      "wins": 0
+    },
+    {
+      "districtId": "hokkaido-1",
+      "id": "kenta-mori",
+      "name": "森 健太",
+      "partyId": "liberal-blue",
+      "photoUrl": "/data/shugiin-50th/photos/placeholder.svg",
+      "prefectureId": "hokkaido",
+      "profileUrl": "#",
+      "proportionalBlockId": "hokkaido-block",
+      "wins": 0
+    }
+  ]
+}

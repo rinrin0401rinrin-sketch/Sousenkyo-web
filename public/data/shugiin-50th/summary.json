@@ -1,0 +1,21 @@
+{
+  "districtSeats": 289,
+  "partySeats": [
+    {
+      "partyId": "liberal-blue",
+      "seats": 9
+    },
+    {
+      "partyId": "green-reform",
+      "seats": 5
+    },
+    {
+      "partyId": "independent",
+      "seats": 1
+    }
+  ],
+  "proportionalSeats": 176,
+  "reportingRate": 87.4,
+  "totalSeats": 465,
+  "updatedAt": "2026-05-01T10:30:00+09:00"
+}

@@ -1,0 +1,28 @@
+{
+  "prefectures": [
+    {
+      "districtCount": 2,
+      "id": "tokyo",
+      "name": "東京都",
+      "region": "関東"
+    },
+    {
+      "districtCount": 1,
+      "id": "osaka",
+      "name": "大阪府",
+      "region": "近畿"
+    },
+    {
+      "districtCount": 1,
+      "id": "fukuoka",
+      "name": "福岡県",
+      "region": "九州"
+    },
+    {
+      "districtCount": 1,
+      "id": "hokkaido",
+      "name": "北海道",
+      "region": "北海道"
+    }
+  ]
+}

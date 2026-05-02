@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #f8fafc;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@layer components {
+  .glass-panel {
+    @apply rounded-[2rem] border border-white/60 bg-white/55 shadow-panel backdrop-blur-2xl ring-1 ring-white/40;
+  }
+
+  .glass-card {
+    @apply rounded-2xl border border-white/60 bg-white/50 shadow-sm backdrop-blur-xl;
+  }
+
+  .glass-chip {
+    @apply inline-flex items-center rounded-full border border-white/60 bg-white/55 px-3 py-1.5 text-xs font-bold shadow-sm backdrop-blur-xl;
+  }
+
+  .glass-gallery-card {
+    @apply glass-card overflow-hidden p-2 transition hover:-translate-y-0.5 hover:bg-white/70;
+  }
+}

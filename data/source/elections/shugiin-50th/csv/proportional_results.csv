@@ -1,0 +1,6 @@
+id,electionId,blockId,blockName,partyId,partyName,status,seats,voteRate,turnout,mapX,mapY,mapZ
+hokkaido-pr-1,shugiin-50th,hokkaido-block,北海道,liberal-blue,未来政策党,elected,3,41.2,60.3,84,14,5
+tohoku-pr-1,shugiin-50th,tohoku-block,東北,green-reform,みどり改革会,counting,2,32.8,57.6,76,35,4
+tokyo-pr-1,shugiin-50th,tokyo-block,東京,liberal-blue,未来政策党,elected,5,45.5,62.1,79,52,6
+kinki-pr-1,shugiin-50th,kinki-block,近畿,green-reform,みどり改革会,proportionalRevival,4,37.9,59.9,47,62,5
+kyushu-pr-1,shugiin-50th,kyushu-block,九州,independent,無所属,pending,1,8.4,54.8,25,80,2
