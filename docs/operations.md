@@ -233,6 +233,16 @@ GitHub Actionsでは以下を実行します。
 
 画像の形式、サイズ、命名ルールは [asset-guidelines.md](./asset-guidelines.md) を確認してください。
 
+## Deploy
+
+`main` にpushすると、GitHub Pages workflowが `GITHUB_PAGES=true npm run build` を実行し、`dist` をPagesへアップロードします。GitHub Pagesでは `/Sousenkyo-web/` 配下で配信されるため、アプリ内の `/data/...` 参照は `import.meta.env.BASE_URL` を通して解決します。
+
+手元でPages向けbuildだけ確認する場合は次を使います。
+
+```bash
+GITHUB_PAGES=true npm run build
+```
+
 ## Safety Rules
 
 - APIキー、トークン、パスワード、秘密鍵、個人情報を source / public のJSONに入れない

@@ -1,4 +1,5 @@
 import type { Party } from '../../types/election';
+import { publicPath } from '../../utils/publicPath';
 import type { ElectionMapItem } from '../../utils/resultFilters';
 import { PartyBadge } from '../PartyBadge';
 import { statusLabels } from './statusLabels';
@@ -26,7 +27,7 @@ export function CandidateDetailCard({ item, party }: CandidateDetailCardProps) {
       <div className="flex items-start gap-4">
         {isSingle ? (
           <img
-            src={item.photoUrl}
+            src={publicPath(item.photoUrl)}
             alt={`${item.label}の顔写真`}
             className="h-16 w-16 rounded-2xl border border-white/70 bg-white/70 object-cover shadow-sm"
           />

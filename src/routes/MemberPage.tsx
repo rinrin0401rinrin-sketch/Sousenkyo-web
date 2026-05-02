@@ -7,6 +7,7 @@ import { PartyBadge } from '../components/PartyBadge';
 import { useAsyncData } from '../hooks/useAsyncData';
 import { loadElectionBundle } from '../utils/dataLoader';
 import { findMember, findParty, findPrefecture } from '../utils/electionHelpers';
+import { publicPath } from '../utils/publicPath';
 
 export function MemberPage() {
   const { electionId, memberId } = useParams();
@@ -43,7 +44,7 @@ export function MemberPage() {
         </Link>
         <div className="mt-5 grid gap-6 sm:grid-cols-[12rem_1fr] sm:items-start">
           <img
-            src={member.photoUrl}
+            src={publicPath(member.photoUrl)}
             alt={`${member.name}の顔写真`}
             className="aspect-square w-full max-w-48 rounded-[2rem] bg-slate-100 object-cover"
           />

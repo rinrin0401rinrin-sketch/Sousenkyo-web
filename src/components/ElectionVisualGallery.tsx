@@ -1,4 +1,5 @@
 import type { ElectionVisual } from '../types/election';
+import { publicPath } from '../utils/publicPath';
 
 type ElectionVisualGalleryProps = {
   visuals?: ElectionVisual[];
@@ -30,7 +31,7 @@ export function ElectionVisualGallery({ visuals = [], featuredOnly = false }: El
           >
             <div className="relative aspect-[4/3] overflow-hidden rounded-[1.35rem] bg-slate-100">
               <img
-                src={visual.imageUrl}
+                src={publicPath(visual.imageUrl)}
                 alt={visual.alt}
                 className="h-full w-full object-cover transition duration-500 group-hover:scale-[1.03]"
                 loading="lazy"

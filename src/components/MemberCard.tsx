@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import type { Member, Party, Prefecture } from '../types/election';
+import { publicPath } from '../utils/publicPath';
 import { PartyBadge } from './PartyBadge';
 
 type MemberCardProps = {
@@ -16,7 +17,7 @@ export function MemberCard({ electionId, member, party, prefecture }: MemberCard
       className="flex gap-4 rounded-3xl border border-slate-200 bg-white p-4 transition hover:border-slate-300"
     >
       <img
-        src={member.photoUrl}
+        src={publicPath(member.photoUrl)}
         alt={`${member.name}の顔写真`}
         className="h-16 w-16 shrink-0 rounded-2xl bg-slate-100 object-cover"
       />

@@ -55,6 +55,14 @@ npm run release:check -- shugiin-50th
 
 このコマンドは、秘密情報スキャン、仮表記スキャン、strictデータ検証、source/public差分チェック、build、preview smoke を順番に実行します。
 
+## Deploy
+
+`main` にpushすると GitHub Pages 用のworkflowが `dist` をビルドして公開します。GitHub Pagesでは `/Sousenkyo-web/` 配下で配信されるため、`GITHUB_PAGES=true` のbuildではViteのbase pathを自動で切り替えます。
+
+```bash
+GITHUB_PAGES=true npm run build
+```
+
 ## Placeholder Policy
 
 本番公開対象の `public/data/{electionId}` には、`TODO`、`sample`、`dummy`、`サンプル`、`ダミー` などの仮表記を残さないでください。画面検証用の架空名や空データは、公開対象ではない electionId に分け、`elections-index.json` では `isDataReady: false` にします。

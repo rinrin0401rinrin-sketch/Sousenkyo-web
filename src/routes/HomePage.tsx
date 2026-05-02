@@ -11,6 +11,7 @@ import { StatCard } from '../components/StatCard';
 import { useAsyncData } from '../hooks/useAsyncData';
 import { loadActiveElection, loadElectionBundle, loadElectionsIndex } from '../utils/dataLoader';
 import { getPartySeats, getUndecidedDistrictCount } from '../utils/electionHelpers';
+import { publicPath } from '../utils/publicPath';
 
 export function HomePage() {
   const state = useAsyncData(async () => {
@@ -58,7 +59,7 @@ export function HomePage() {
             <div className="grid gap-3">
               {heroVisual ? (
                 <div className="relative min-h-64 overflow-hidden rounded-[1.75rem] border border-white/70 bg-white/60 shadow-sm">
-                  <img src={heroVisual.imageUrl} alt={heroVisual.alt} className="h-full min-h-64 w-full object-cover" />
+                  <img src={publicPath(heroVisual.imageUrl)} alt={heroVisual.alt} className="h-full min-h-64 w-full object-cover" />
                   <div className="absolute inset-x-3 bottom-3 rounded-2xl border border-white/60 bg-white/75 p-3 shadow-sm backdrop-blur-xl">
                     <p className="text-xs font-black uppercase tracking-[0.16em] text-slate-500">{heroVisual.role}</p>
                     <p className="mt-1 text-base font-black text-slate-950">{heroVisual.title}</p>

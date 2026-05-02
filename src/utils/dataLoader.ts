@@ -12,6 +12,7 @@ import type {
   Prefecture,
   ProportionalBlock,
 } from '../types/election';
+import { publicPath } from './publicPath';
 
 type ElectionBundleJson = {
   meta: ElectionMeta;
@@ -27,7 +28,8 @@ type ElectionBundleJson = {
 };
 
 async function loadJson<T>(path: string): Promise<T> {
-  const response = await fetch(path, { cache: 'no-store' });
+  const url = publicPath(path) ?? path;
+  const response = await fetch(url, { cache: 'no-store' });
 
   if (!response.ok) {
     throw new Error(`${path} を読み込めませんでした (${response.status})`);
@@ -42,7 +44,8 @@ async function loadJson<T>(path: string): Promise<T> {
 }
 
 async function loadOptionalJson<T>(path: string): Promise<T | undefined> {
-  const response = await fetch(path, { cache: 'no-store' });
+  const url = publicPath(path) ?? path;
+  const response = await fetch(url, { cache: 'no-store' });
 
   if (response.status === 404) {
     return undefined;
