@@ -60,7 +60,7 @@ npm run release:check -- shugiin-50th
 `main` にpushすると GitHub Pages 用のworkflowが `dist` をビルドして公開します。GitHub Pagesでは `/Sousenkyo-web/` 配下で配信されるため、`GITHUB_PAGES=true` のbuildではViteのbase pathを自動で切り替えます。
 
 ```bash
-GITHUB_PAGES=true npm run build
+npm run pages:build
 ```
 
 ## Placeholder Policy

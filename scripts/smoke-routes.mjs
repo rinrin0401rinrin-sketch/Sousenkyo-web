@@ -4,6 +4,7 @@ import { promisify } from 'node:util';
 
 const execFileAsync = promisify(execFile);
 const baseUrl = process.env.SMOKE_BASE_URL ?? 'http://127.0.0.1:5174';
+const basePath = (process.env.SMOKE_BASE_PATH ?? '').replace(/\/$/, '');
 const chromeBin = process.env.CHROME_BIN ?? findChrome();
 
 const routes = [
@@ -62,7 +63,7 @@ async function dumpDom(url) {
 const failures = [];
 
 for (const route of routes) {
-  const url = `${baseUrl}${route.path}`;
+  const url = `${baseUrl}${basePath}${route.path}`;
   try {
     const html = await dumpDom(url);
     const missing = route.includes.filter((text) => !html.includes(text));

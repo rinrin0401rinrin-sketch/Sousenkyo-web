@@ -235,12 +235,14 @@ GitHub Actionsでは以下を実行します。
 
 ## Deploy
 
-`main` にpushすると、GitHub Pages workflowが `GITHUB_PAGES=true npm run build` を実行し、`dist` をPagesへアップロードします。GitHub Pagesでは `/Sousenkyo-web/` 配下で配信されるため、アプリ内の `/data/...` 参照は `import.meta.env.BASE_URL` を通して解決します。
+`main` にpushすると、GitHub Pages workflowが `npm run pages:build` を実行し、`dist` をPagesへアップロードします。GitHub Pagesでは `/Sousenkyo-web/` 配下で配信されるため、アプリ内の `/data/...` 参照は `import.meta.env.BASE_URL` を通して解決します。
+
+Pagesの直リンクで404にならないよう、`pages:build` は `dist/index.html` を `dist/404.html` にコピーしてSPA fallbackも用意します。
 
 手元でPages向けbuildだけ確認する場合は次を使います。
 
 ```bash
-GITHUB_PAGES=true npm run build
+npm run pages:build
 ```
 
 ## Safety Rules

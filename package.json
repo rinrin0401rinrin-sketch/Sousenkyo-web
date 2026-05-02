@@ -26,6 +26,8 @@
     "scan:secrets": "node scripts/scan-secrets.mjs",
     "scan:release-text": "node scripts/scan-release-text.mjs",
     "screenshots:routes": "node scripts/capture-screenshots.mjs",
+    "pages:prepare": "node scripts/prepare-pages-dist.mjs",
+    "pages:build": "GITHUB_PAGES=true npm run build && npm run pages:prepare",
     "validate:data:strict": "node scripts/validate-data.mjs --strict",
     "release:check": "node scripts/release-check.mjs",
     "check": "npm run validate:data && npm run build"
