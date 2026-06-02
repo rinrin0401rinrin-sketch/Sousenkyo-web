@@ -1,0 +1,466 @@
+id,label,category,reading,description,electionIds,relatedIds,photoUrl,districtLabel,partyLabel,statusLabel,age,wins,seatType,reviewStatus
+aoyama-shigeharu,青山 繁晴,candidate,あおやま しげはる,兵庫8区 / 自由民主党 / 新人 / 当選1回 / 73歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/aoyama-shigeharu.png,兵庫8区,自由民主党,新人,73,1,小選挙区,ok
+aoyama-shuhei,青山 周平,candidate,あおやま しゅうへい,愛知12区 / 自由民主党 / 元職 / 当選5回 / 48歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/aoyama-shuhei.png,愛知12区,自由民主党,元職,48,5,小選挙区,ok
+akazawa-ryosei,赤沢 亮正,candidate,あかざわ りょうせい,鳥取2区 / 自由民主党 / 前職 / 当選8回 / 65歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/akazawa-ryosei.png,鳥取2区,自由民主党,前職,65,8,小選挙区,ok
+aisawa-ichiro,逢沢 一郎,candidate,あいさわ いちろう,岡山1区 / 自由民主党 / 前職 / 当選14回 / 71歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/aisawa-ichiro.png,岡山1区,自由民主党,前職,71,14,小選挙区,ok
+aoki-hitomi,青木 ひとみ,candidate,あおき ひとみ,比北関東 / 参政党 / 新人 / 当選1回 / 44歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/aoki-hitomi.png,比北関東,参政党,新人,44,1,比例,ok
+aoyagi-hitoshi,青柳 仁士,candidate,あおやぎ ひとし,大阪14区 / 日本維新の会 / 前職 / 当選3回 / 47歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/aoyagi-hitoshi.png,大阪14区,日本維新の会,前職,47,3,小選挙区,ok
+asada-masumi,浅田 真澄美,candidate,あさだ ますみ,比九州 / 自由民主党 / 新人 / 当選1回 / 59歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/asada-masumi.png,比九州,自由民主党,新人,59,1,比例,ok
+asano-satoshi,浅野 哲,candidate,あさの さとし,茨城5区 / 国民民主党 / 前職 / 当選4回 / 43歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/asano-satoshi.png,茨城5区,国民民主党,前職,43,4,小選挙区,ok
+azuma-kuniyoshi,東 国幹,candidate,あずま くによし,北海道6区 / 自由民主党 / 前職 / 当選3回 / 57歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/azuma-kuniyoshi.png,北海道6区,自由民主党,前職,57,3,小選挙区,ok
+akaba-kazuyoshi,赤羽 一嘉,candidate,あかば かずよし,比近畿 / 公明党 / 前職 / 当選11回 / 67歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/akaba-kazuyoshi.png,比近畿,公明党,前職,67,11,比例,ok
+akama-jiro,赤間 二郎,candidate,あかま じろう,神奈川14区 / 自由民主党 / 前職 / 当選7回 / 57歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/akama-jiro.png,神奈川14区,自由民主党,前職,57,7,小選挙区,ok
+akiba-kenya,秋葉 賢也,candidate,あきば けんや,比東北 / 自由民主党 / 元職 / 当選8回 / 63歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/akiba-kenya.png,比東北,自由民主党,元職,63,8,比例,ok
+abe-keishi,阿部 圭史,candidate,あべ けいし,兵庫2区 / 日本維新の会 / 前職 / 当選2回 / 39歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/abe-keishi.png,兵庫2区,日本維新の会,前職,39,2,小選挙区,ok
+abe-tsukasa,阿部 司,candidate,あべ つかさ,比東京 / 日本維新の会 / 前職 / 当選3回 / 43歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/abe-tsukasa.png,比東京,日本維新の会,前職,43,3,比例,ok
+abe-toshiko,阿部 俊子,candidate,あべ としこ,比中国 / 自由民主党 / 前職 / 当選8回 / 66歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/abe-toshiko.png,比中国,自由民主党,前職,66,8,比例,ok
+azuma-toru,東 徹,candidate,あずま とおる,大阪3区 / 日本維新の会 / 前職 / 当選2回 / 59歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/azuma-toru.png,大阪3区,日本維新の会,前職,59,2,小選挙区,ok
+azemoto-shogo,畦元 将吾,candidate,あぜもと しょうご,東京6区 / 自由民主党 / 元職 / 当選3回 / 67歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/azemoto-shogo.png,東京6区,自由民主党,元職,67,3,小選挙区,ok
+aso-taro,麻生 太郎,candidate,あそう たろう,福岡8区 / 自由民主党 / 前職 / 当選16回 / 85歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/aso-taro.png,福岡8区,自由民主党,前職,85,16,小選挙区,ok
+iizumi-kamon,飯泉 嘉門,candidate,いいずみ かもん,比四国 / 国民民主党 / 新人 / 当選1回 / 65歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/iizumi-kamon.png,比四国,国民民主党,新人,65,1,比例,ok
+igarashi-kiyoshi,五十嵐 清,candidate,いがらし きよし,栃木2区 / 自由民主党 / 前職 / 当選3回 / 56歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/igarashi-kiyoshi.png,栃木2区,自由民主党,前職,56,3,小選挙区,ok
+candidate-021,池下卓,candidate,いけした たく,大阪10区 / 日本維新の会 / 前職 / 当選3回 / 50歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-021.png,大阪10区,日本維新の会,前職,50,3,小選挙区,ok
+candidate-022,阿部弘樹,candidate,あべひろき,比九州 / 自由民主党 / 前職 / 当選3回 / 64歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-022.png,比九州,自由民主党,前職,64,3,比例,ok
+candidate-023,有田芳生,candidate,ありたよしふ,比東北 / 立憲民主党 / 前職 / 当選2回 / 73歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-023.png,比東北,立憲民主党,前職,73,2,比例,ok
+candidate-024,安藤高夫,candidate,あんどうたかお,東京28区 / 自由民主党 / 前職 / 当選3回 / 66歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-024.png,東京28区,自由民主党,前職,66,3,小選挙区,ok
+candidate-025,石井 拓,candidate,いしいたく,愛知13区 / 自由民主党 / 元職 / 当選2回 / 60歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-025.png,愛知13区,自由民主党,元職,60,2,小選挙区,ok
+candidate-026,石川 昭政,candidate,いしかわあき,比北関東 / 自由民主党 / 元職 / 当選5回 / 53歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-026.png,比北関東,自由民主党,元職,53,5,比例,ok
+candidate-027,石川 勝,candidate,いしかわまさる,比近畿 / 参政党 / 新人 / 当選1回 / 57歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-027.png,比近畿,参政党,新人,57,1,比例,ok
+candidate-028,池畑浩太朗,candidate,いけはたこうたろう,比近畿 / 日本維新の会 / 前職 / 当選3回 / 51歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-028.png,比近畿,日本維新の会,前職,51,3,比例,ok
+candidate-029,伊佐進一,candidate,いさしんいち,比近畿 / 公明党 / 元職 / 当選5回 / 51歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-029.png,比近畿,公明党,元職,51,5,比例,ok
+candidate-030,石井啓一,candidate,いしい けいいち,比北関東 / 公明党 / 元職 / 当選11回 / 67歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-030.png,比北関東,公明党,元職,67,11,比例,ok
+candidate-031,石橋林太郎,candidate,いしばしりんたろう,広島3区 / 自由民主党 / 前職 / 当選3回 / 47歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-031.png,広島3区,自由民主党,前職,47,3,小選挙区,ok
+candidate-032,石原宏高,candidate,いしはらひろたか,東京3区 / 自由民主党 / 前職 / 当選7回 / 61歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-032.png,東京3区,自由民主党,前職,61,7,小選挙区,ok
+candidate-033,石原正敬,candidate,いしはら まさたか,三重3区 / 自由民主党 / 元職 / 当選2回 / 54歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-033.png,三重3区,自由民主党,元職,54,2,小選挙区,ok
+candidate-034,石坂 太,candidate,いしざかまさる,栃木4区 / 自由民主党 / 新人 / 当選1回 / 45歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-034.png,栃木4区,自由民主党,新人,45,1,小選挙区,ok
+candidate-035,石田真敏,candidate,いしだ まさとし,比近畿 / 自由民主党 / 前職 / 当選10回 / 73歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-035.png,比近畿,自由民主党,前職,73,10,比例,ok
+candidate-036,石破茂,candidate,いしば しげる,鳥取1区 / 自由民主党 / 前職 / 当選14回 / 69歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-036.png,鳥取1区,自由民主党,前職,69,14,小選挙区,ok
+candidate-037,井出庸生,candidate,いでようせい,長野3区 / 自由民主党 / 前職 / 当選6回 / 48歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-037.png,長野3区,自由民主党,前職,48,6,小選挙区,ok
+candidate-038,井戸正枝,candidate,いどまさえ,比東京 / 国民民主党 / 元職 / 当選2回 / 60歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-038.png,比東京,国民民主党,元職,60,2,比例,ok
+candidate-039,伊藤恵介,candidate,いとう けいすけ,比東海 / 参政党 / 新人 / 当選1回 / 47歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-039.png,比東海,参政党,新人,47,1,比例,ok
+candidate-040,泉健太,candidate,いずみ けんた,京都3区 / 立憲民主党 / 前職 / 当選10回 / 51歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-040.png,京都3区,立憲民主党,前職,51,10,小選挙区,ok
+candidate-041,一谷勇一郎,candidate,いちたにゆういちろう,比近畿 / 日本維新の会 / 元職 / 当選2回 / 51歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-041.png,比近畿,日本維新の会,元職,51,2,比例,ok
+candidate-042,市村浩一郎,candidate,いちむら こういちろう,比近畿 / 日本維新の会 / 前職 / 当選6回 / 61歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-042.png,比近畿,日本維新の会,前職,61,6,比例,ok
+candidate-043,伊藤達也,candidate,いとうたつや,東京22区 / 自由民主党 / 前職 / 当選11回 / 64歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-043.png,東京22区,自由民主党,前職,64,11,小選挙区,ok
+candidate-044,伊東信久,candidate,いとうのぶひさ,比近畿 / 日本維新の会 / 前職 / 当選5回 / 62歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-044.png,比近畿,日本維新の会,前職,62,5,比例,ok
+candidate-045,伊東良孝,candidate,いとうよしたか,比北海道 / 自由民主党 / 前職 / 当選7回 / 77歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-045.png,比北海道,自由民主党,前職,77,7,比例,ok
+candidate-046,伊藤聡,candidate,いとうさとし,比南関東 / 自由民主党 / 新人 / 当選1回 / 47歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-046.png,比南関東,自由民主党,新人,47,1,比例,ok
+candidate-047,伊藤信太郎,candidate,いとうしんたろう,比東北 / 自由民主党 / 元職 / 当選8回 / 72歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-047.png,比東北,自由民主党,元職,72,8,比例,ok
+candidate-048,伊藤忠彦,candidate,いとうただひこ,比南関東 / 自由民主党 / 前職 / 当選7回 / 61歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-048.png,比南関東,自由民主党,前職,61,7,比例,ok
+candidate-049,井野俊郎,candidate,いのとしろう,群馬2区 / 自由民主党 / 前職 / 当選6回 / 46歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-049.png,群馬2区,自由民主党,前職,46,6,小選挙区,ok
+candidate-050,井上 信治,candidate,いのうえしん,東京25区 / 自由民主党 / 前職 / 当選9回 / 56歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-050.png,東京25区,自由民主党,前職,56,9,小選挙区,ok
+candidate-051,井上貴博,candidate,いのうえたかひろ,福岡1区 / 自由民主党 / 前職 / 当選6回 / 63歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-051.png,福岡1区,自由民主党,前職,63,6,小選挙区,ok
+candidate-052,稲田朋美,candidate,いなだともみ,福井1区 / 自由民主党 / 前職 / 当選8回 / 66歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-052.png,福井1区,自由民主党,前職,66,8,小選挙区,ok
+candidate-053,稲葉大輔,candidate,いなばだいすけ,静岡8区 / 自由民主党 / 新人 / 当選1回 / 51歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-053.png,静岡8区,自由民主党,新人,51,1,小選挙区,ok
+candidate-054,犬飼明佳,candidate,いぬかいあきよし,比東海 / 公明党 / 新人 / 当選1回 / 53歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-054.png,比東海,公明党,新人,53,1,比例,ok
+candidate-055,井原隆,candidate,いはらゆたか,埼玉5区 / 自由民主党 / 新人 / 当選1回 / 43歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-055.png,埼玉5区,自由民主党,新人,43,1,小選挙区,ok
+candidate-056,今枝宗一郎,candidate,いまえだそういちろう,愛知14区 / 自由民主党 / 前職 / 当選6回 / 41歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-056.png,愛知14区,自由民主党,前職,41,6,小選挙区,ok
+candidate-057,今岡植,candidate,いまおか うえき,東京26区 / 自由民主党 / 新人 / 当選1回 / 37歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-057.png,東京26区,自由民主党,新人,37,1,小選挙区,ok
+candidate-058,井上英孝,candidate,いのうえひでたか,大阪1区 / 日本維新の会 / 前職 / 当選6回 / 54歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-058.png,大阪1区,日本維新の会,前職,54,6,小選挙区,ok
+candidate-059,井林辰憲,candidate,いばやしたつのり,静岡2区 / 自由民主党 / 前職 / 当選6回 / 49歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-059.png,静岡2区,自由民主党,前職,49,6,小選挙区,ok
+candidate-060,井原 巧,candidate,いはらたくみ,愛媛2区 / 自由民主党 / 元職 / 当選2回 / 62歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-060.png,愛媛2区,自由民主党,元職,62,2,小選挙区,ok
+candidate-061,岩屋毅,candidate,いわやたけし,大分3区 / 自由民主党 / 前職 / 当選11回 / 68歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-061.png,大分3区,自由民主党,前職,68,11,小選挙区,ok
+candidate-062,上杉謙太郎,candidate,うえすぎけんたろう,福島3区 / 自由民主党 / 元職 / 当選3回 / 50歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-062.png,福島3区,自由民主党,元職,50,3,小選挙区,ok
+candidate-063,上田英俊,candidate,うえだえいしゅん,大分3区 / 自由民主党 / 前職 / 当選3回 / 61歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-063.png,大分3区,自由民主党,前職,61,3,小選挙区,ok
+candidate-064,岩崎比菜,candidate,いわさきひな,比南関東 / 自由民主党 / 新人 / 当選1回 / 32歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-064.png,比南関東,自由民主党,新人,32,1,比例,ok
+candidate-065,岩田和親,candidate,いわたかずちか,佐賀1区 / 自由民主党 / 前職 / 当選6回 / 52歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-065.png,佐賀1区,自由民主党,前職,52,6,小選挙区,ok
+candidate-066,岩谷良平,candidate,いわたに りょうへい,大阪13区 / 日本維新の会 / 前職 / 当選3回 / 45歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-066.png,大阪13区,日本維新の会,前職,45,3,小選挙区,ok
+candidate-067,浮島智子,candidate,うきしまともこ,比北海道 / 公明党 / 前職 / 当選6回 / 63歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-067.png,比北海道,公明党,前職,63,6,比例,ok
+candidate-068,宇佐美 登,candidate,うさみのぼる,比東京 / みらい / 元職 / 当選3回 / 58歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-068.png,比東京,みらい,元職,58,3,比例,ok
+candidate-069,臼木秀剛,candidate,うすきひでたけ,比東京 / 国民民主党 / 前職 / 当選2回 / 44歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-069.png,比東京,国民民主党,前職,44,2,比例,ok
+candidate-070,上野賢一郎,candidate,うえのけんいちろう,滋賀2区 / 自由民主党 / 前職 / 当選7回 / 60歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-070.png,滋賀2区,自由民主党,前職,60,7,小選挙区,ok
+candidate-071,上野宏史,candidate,うえのひろし,比九州 / 自由民主党 / 元職 / 当選3回 / 54歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-071.png,比九州,自由民主党,元職,54,3,比例,ok
+candidate-072,上原正裕,candidate,うえはら まさひろ,神奈川9区 / 自由民主党 / 新人 / 当選1回 / 47歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-072.png,神奈川9区,自由民主党,新人,47,1,小選挙区,ok
+candidate-073,漆間譲司,candidate,うるまじょうじ,大阪8区 / 日本維新の会 / 前職 / 当選3回 / 51歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-073.png,大阪8区,日本維新の会,前職,51,3,小選挙区,ok
+candidate-074,江渡聡徳,candidate,えと あきのり,比東北 / 自由民主党 / 前職 / 当選10回 / 70歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-074.png,比東北,自由民主党,前職,70,10,比例,ok
+candidate-075,江藤拓,candidate,えとう たく,比九州 / 自由民主党 / 前職 / 当選9回 / 65歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-075.png,比九州,自由民主党,前職,65,9,比例,ok
+candidate-076,内山航,candidate,うちやま こう,新潟1区 / 自由民主党 / 新人 / 当選1回 / 44歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-076.png,新潟1区,自由民主党,新人,44,1,小選挙区,ok
+candidate-077,梅村聡,candidate,うめむら さとし,大阪5区 / 日本維新の会 / 前職 / 当選2回 / 50歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-077.png,大阪5区,日本維新の会,前職,50,2,小選挙区,ok
+candidate-078,浦野靖人,candidate,うらのやすと,大阪5区 / 日本維新の会 / 前職 / 当選6回 / 52歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-078.png,大阪5区,日本維新の会,前職,52,6,小選挙区,ok
+candidate-079,遠藤寛明,candidate,えんどうひろあき,山形1区 / 自由民主党 / 新人 / 当選1回 / 39歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-079.png,山形1区,自由民主党,新人,39,1,小選挙区,ok
+candidate-080,大岡敏孝,candidate,おおおかとしたか,滋賀1区 / 自由民主党 / 前職 / 当選6回 / 53歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-080.png,滋賀1区,自由民主党,前職,53,6,小選挙区,ok
+candidate-081,大串正樹,candidate,おおぐし まさき,兵庫6区 / 自由民主党 / 前職 / 当選6回 / 60歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-081.png,兵庫6区,自由民主党,前職,60,6,小選挙区,ok
+candidate-082,衛藤博昭,candidate,えとうひろあき,大分1区 / 自由民主党 / 新人 / 当選1回 / 46歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-082.png,大分1区,自由民主党,新人,46,1,小選挙区,ok
+candidate-083,英利アルフィヤ,candidate,えり あるふぃや,千葉5区 / 自由民主党 / 前職 / 当選3回 / 37歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-083.png,千葉5区,自由民主党,前職,37,3,小選挙区,ok
+candidate-084,遠藤敬,candidate,えんどう たかし,大阪18区 / 日本維新の会 / 前職 / 当選6回 / 57歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-084.png,大阪18区,日本維新の会,前職,57,6,小選挙区,ok
+candidate-085,大西洋平,candidate,おおにしようへい,東京16区 / 自由民主党 / 前職 / 当選2回 / 48歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-085.png,東京16区,自由民主党,前職,48,2,小選挙区,ok
+candidate-086,大野敬太郎,candidate,おおのけいたろう,香川3区 / 自由民主党 / 前職 / 当選6回 / 57歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-086.png,香川3区,自由民主党,前職,57,6,小選挙区,ok
+candidate-087,大森江里子,candidate,おおもり えりこ,比東京 / 立憲民主党 / 前職 / 当選2回 / 52歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-087.png,比東京,立憲民主党,前職,52,2,比例,ok
+candidate-088,大島敦,candidate,おおしま あつし,比北関東 / 立憲民主党 / 前職 / 当選10回 / 69歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-088.png,比北関東,立憲民主党,前職,69,10,比例,ok
+candidate-089,大空幸星,candidate,おおぞらこうき,東京15区 / 自由民主党 / 前職 / 当選2回 / 27歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-089.png,東京15区,自由民主党,前職,27,2,小選挙区,ok
+candidate-090,大塚拓,candidate,おおつか たく,埼玉9区 / 自由民主党 / 元職 / 当選6回 / 52歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-090.png,埼玉9区,自由民主党,元職,52,6,小選挙区,ok
+candidate-091,岡本康宏,candidate,おかもとやすひろ,愛知5区 / 自由民主党 / 新人 / 当選1回 / 43歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-091.png,愛知5区,自由民主党,新人,43,1,小選挙区,ok
+candidate-092,小川淳也,candidate,おがわじゅんや,香川1区 / 立憲民主党 / 前職 / 当選8回 / 54歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-092.png,香川1区,立憲民主党,前職,54,8,小選挙区,ok
+candidate-093,奥下剛光,candidate,おくした たけみつ,大阪7区 / 日本維新の会 / 前職 / 当選3回 / 50歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-093.png,大阪7区,日本維新の会,前職,50,3,小選挙区,ok
+candidate-094,緒方 林太郎,candidate,おがたりんたろう,福岡9区 / 無所属 / 前職 / 当選5回 / 53歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-094.png,福岡9区,無所属,前職,53,5,小選挙区,ok
+candidate-095,岡野純子,candidate,おかのじゅんこ,比南関東 / 国民民主党 / 前職 / 当選2回 / 47歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-095.png,比南関東,国民民主党,前職,47,2,比例,ok
+candidate-096,岡本三成,candidate,おかもと みつなり,比東京 / 公明党 / 前職 / 当選6回 / 60歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-096.png,比東京,公明党,前職,60,6,比例,ok
+candidate-097,小竹 凱,candidate,おだけかい,比北信越 / 国民民主党 / 前職 / 当選2回 / 27歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-097.png,比北信越,国民民主党,前職,27,2,比例,ok
+candidate-098,小田原潔,candidate,おだわら きよし,東京21区 / 自由民主党 / 元職 / 当選5回 / 61歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-098.png,東京21区,自由民主党,元職,61,5,小選挙区,ok
+candidate-099,落合貴之,candidate,おちあいたかゆき,比東京 / 立憲民主党 / 前職 / 当選5回 / 46歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-099.png,比東京,立憲民主党,前職,46,5,比例,ok
+candidate-100,尾崎 正直,candidate,おざきまさなお,高知2区 / 自由民主党 / 前職 / 当選3回 / 58歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-100.png,高知2区,自由民主党,前職,58,3,小選挙区,ok
+candidate-101,長田紘一郎,candidate,おさだこういちろう,比東海 / 自由民主党 / 新人 / 当選1回 / 26歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-101.png,比東海,自由民主党,新人,26,1,比例,ok
+candidate-102,小里泰弘,candidate,おざと やすひろ,比九州 / 自由民主党 / 元職 / 当選7回 / 67歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-102.png,比九州,自由民主党,元職,67,7,比例,ok
+candidate-103,小渕 優子,candidate,おぶちゆうこ,群馬5区 / 自由民主党 / 前職 / 当選10回 / 52歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-103.png,群馬5区,自由民主党,前職,52,10,小選挙区,ok
+candidate-104,尾身朝子,candidate,おみあさこ,比北関東 / 自由民主党 / 元職 / 当選4回 / 64歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-104.png,比北関東,自由民主党,元職,64,4,比例,ok
+candidate-105,河西宏一,candidate,かさい こういち,比東京 / 公明党 / 前職 / 当選3回 / 46歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-105.png,比東京,公明党,前職,46,3,比例,ok
+candidate-106,鬼木誠,candidate,おにきまこと,福岡2区 / 自由民主党 / 前職 / 当選6回 / 53歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-106.png,福岡2区,自由民主党,前職,53,6,小選挙区,ok
+candidate-107,小野寺五典,candidate,おのでらいつのり,宮城5区 / 自由民主党 / 前職 / 当選10回 / 65歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-107.png,宮城5区,自由民主党,前職,65,10,小選挙区,ok
+candidate-108,尾花瑛仁,candidate,おばなあきひと,福岡2区 / 自由民主党 / 新人 / 当選1回 / 42歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-108.png,福岡2区,自由民主党,新人,42,1,小選挙区,ok
+candidate-109,勝俣孝明,candidate,かつまたたかあき,静岡6区 / 自由民主党 / 前職 / 当選6回 / 49歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-109.png,静岡6区,自由民主党,前職,49,6,小選挙区,ok
+candidate-110,勝目 康,candidate,かつめやすし,京都1区 / 自由民主党 / 前職 / 当選3回 / 51歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-110.png,京都1区,自由民主党,前職,51,3,小選挙区,ok
+candidate-111,門 寛子,candidate,かどひろこ,東京8区 / 自由民主党 / 新人 / 当選1回 / 45歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-111.png,東京8区,自由民主党,新人,45,1,小選挙区,ok
+candidate-112,鹿嶋祐介,candidate,かしまゆうすけ,千葉4区 / 自由民主党 / 新人 / 当選1回 / 45歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-112.png,千葉4区,自由民主党,新人,45,1,小選挙区,ok
+candidate-113,梶山弘志,candidate,かじやまひろし,茨城4区 / 自由民主党 / 前職 / 当選10回 / 70歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-113.png,茨城4区,自由民主党,前職,70,10,小選挙区,ok
+candidate-114,柏倉祐司,candidate,かしわくらゆうじ,比北関東 / 日本維新の会 / 元職 / 当選2回 / 56歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-114.png,比北関東,日本維新の会,元職,56,2,比例,ok
+candidate-115,加藤 大博,candidate,かとうともひろ,岐阜4区 / 自由民主党 / 新人 / 当選1回 / 46歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-115.png,岐阜4区,自由民主党,新人,46,1,小選挙区,ok
+candidate-116,加藤竜祥,candidate,かとうりゅうしょう,長崎2区 / 自由民主党 / 前職 / 当選3回 / 45歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-116.png,長崎2区,自由民主党,前職,45,3,小選挙区,ok
+candidate-117,門山宏哲,candidate,かどやま ひろあき,千葉1区 / 自由民主党 / 元職 / 当選5回 / 61歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-117.png,千葉1区,自由民主党,元職,61,5,小選挙区,ok
+candidate-118,加藤鮎子,candidate,かとうあゆこ,山形3区 / 自由民主党 / 前職 / 当選5回 / 46歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-118.png,山形3区,自由民主党,前職,46,5,小選挙区,ok
+candidate-119,加藤勝信,candidate,かとうかつのぶ,岡山3区 / 自由民主党 / 前職 / 当選9回 / 70歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-119.png,岡山3区,自由民主党,前職,70,9,小選挙区,ok
+candidate-120,加藤貴弘,candidate,かとう たかひろ,北海道1区 / 自由民主党 / 新人 / 当選1回 / 43歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-120.png,北海道1区,自由民主党,新人,43,1,小選挙区,ok
+candidate-121,金子容三,candidate,かねこようぞう,長崎3区 / 自由民主党 / 前職 / 当選3回 / 43歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-121.png,長崎3区,自由民主党,前職,43,3,小選挙区,ok
+candidate-122,金村龍那,candidate,かねむらりゅうな,比南関東 / 日本維新の会 / 前職 / 当選3回 / 46歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-122.png,比南関東,日本維新の会,前職,46,3,比例,ok
+candidate-123,上川陽子,candidate,かみかわ ようこ,静岡1区 / 自由民主党 / 前職 / 当選9回 / 72歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-123.png,静岡1区,自由民主党,前職,72,9,小選挙区,ok
+candidate-124,金沢 結衣,candidate,かなざわゆい,神奈川20区 / 自由民主党 / 新人 / 当選1回 / 35歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-124.png,神奈川20区,自由民主党,新人,35,1,小選挙区,ok
+candidate-125,金子恵美,candidate,かねこえみ,比東北 / 立憲民主党 / 前職 / 当選5回 / 60歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-125.png,比東北,立憲民主党,前職,60,5,比例,ok
+candidate-126,金子恭之,candidate,かねこ やすし,熊本4区 / 自由民主党 / 前職 / 当選10回 / 64歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-126.png,熊本4区,自由民主党,前職,64,10,小選挙区,ok
+candidate-127,河合道雄,candidate,かわいみちお,比南関東 / みらい / 新人 / 当選1回 / 35歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-127.png,比南関東,みらい,新人,35,1,比例,ok
+candidate-128,川崎秀人,candidate,かわさきひでと,三重2区 / 自由民主党 / 前職 / 当選3回 / 44歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-128.png,三重2区,自由民主党,前職,44,3,小選挙区,ok
+candidate-129,河野正美,candidate,かわの まさみ,比九州 / 自由民主党 / 元職 / 当選3回 / 64歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-129.png,比九州,自由民主党,元職,64,3,比例,ok
+candidate-130,神谷裕,candidate,かみやひろし,北海道10区 / 立憲民主党 / 前職 / 当選4回 / 57歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-130.png,北海道10区,立憲民主党,前職,57,4,小選挙区,ok
+candidate-131,川裕一郎,candidate,かわゆういちろう,比北信越 / 参政党 / 新人 / 当選1回 / 54歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-131.png,比北信越,参政党,新人,54,1,比例,ok
+candidate-132,河井昭成,candidate,かわいあきなり,比近畿 / 国民民主党 / 新人 / 当選1回 / 52歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-132.png,比近畿,国民民主党,新人,52,1,比例,ok
+candidate-133,菅家一郎,candidate,かんけいちろう,比東北 / 自由民主党 / 元職 / 当選5回 / 70歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-133.png,比東北,自由民主党,元職,70,5,比例,ok
+candidate-134,神田潤一,candidate,かんだじゅんいち,青森2区 / 自由民主党 / 前職 / 当選3回 / 55歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-134.png,青森2区,自由民主党,前職,55,3,小選挙区,ok
+candidate-135,城内 実,candidate,きうちみのる,静岡7区 / 自由民主党 / 前職 / 当選8回 / 60歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-135.png,静岡7区,自由民主党,前職,60,8,小選挙区,ok
+candidate-136,河野義博,candidate,かわのよしひろ,比九州 / 公明党 / 新人 / 当選1回 / 48歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-136.png,比九州,公明党,新人,48,1,比例,ok
+candidate-137,川松真一朗,candidate,かわまつしんいちろう,東京23区 / 自由民主党 / 新人 / 当選1回 / 45歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-137.png,東京23区,自由民主党,新人,45,1,小選挙区,ok
+candidate-138,河村 たかし,candidate,かわむらたかし,比九州 / ゆうこく / 前職 / 当選7回 / 77歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-138.png,比九州,ゆうこく,前職,77,7,比例,ok
+candidate-139,岸田文雄,candidate,きしだふみお,広島1区 / 自由民主党 / 前職 / 当選12回 / 68歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-139.png,広島1区,自由民主党,前職,68,12,小選挙区,ok
+candidate-140,喜多義典,candidate,きたよしのり,比中国 / 日本維新の会 / 新人 / 当選1回 / 59歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-140.png,比中国,日本維新の会,新人,59,1,比例,ok
+candidate-141,北神圭朗,candidate,きたがみけいろう,京都4区 / 自由民主党 / 前職 / 当選6回 / 59歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-141.png,京都4区,自由民主党,前職,59,6,小選挙区,ok
+candidate-142,黄川田 仁志,candidate,きかわだひとし,埼玉3区 / 自由民主党 / 前職 / 当選6回 / 55歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-142.png,埼玉3区,自由民主党,前職,55,6,小選挙区,ok
+candidate-143,菊田真紀子,candidate,きくたまきこ,比北信越 / 立憲民主党 / 前職 / 当選9回 / 56歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-143.png,比北信越,立憲民主党,前職,56,9,比例,ok
+candidate-144,岸信千世,candidate,きしのぶちよ,山口2区 / 自由民主党 / 前職 / 当選3回 / 34歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-144.png,山口2区,自由民主党,前職,34,3,小選挙区,ok
+candidate-145,木村次郎,candidate,きむらじろう,青森3区 / 自由民主党 / 元職 / 当選3回 / 58歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-145.png,青森3区,自由民主党,元職,58,3,小選挙区,ok
+candidate-146,金城泰邦,candidate,きんじょうやすくに,比九州 / 公明党 / 前職 / 当選3回 / 56歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-146.png,比九州,公明党,前職,56,3,比例,ok
+candidate-147,草間 剛,candidate,くさまつよし,神奈川19区 / 自由民主党 / 前職 / 当選2回 / 44歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-147.png,神奈川19区,自由民主党,前職,44,2,小選挙区,ok
+candidate-148,木下敏之,candidate,きのしたとしゆき,比九州 / 参政党 / 新人 / 当選1回 / 65歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-148.png,比九州,参政党,新人,65,1,比例,ok
+candidate-149,木原誠二,candidate,きはらせいじ,東京20区 / 自由民主党 / 前職 / 当選7回 / 55歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-149.png,東京20区,自由民主党,前職,55,7,小選挙区,ok
+candidate-150,木原 稔,candidate,きはらみのる,熊本1区 / 自由民主党 / 前職 / 当選7回 / 56歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-150.png,熊本1区,自由民主党,前職,56,7,小選挙区,ok
+candidate-151,国重 徹,candidate,くにしげとおる,比近畿 / 公明党 / 元職 / 当選5回 / 51歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-151.png,比近畿,公明党,元職,51,5,比例,ok
+candidate-152,国光文乃,candidate,くにみつあやの,茨城6区 / 自由民主党 / 前職 / 当選4回 / 46歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-152.png,茨城6区,自由民主党,前職,46,4,小選挙区,ok
+candidate-153,熊田裕通,candidate,くまだひろみち,比東海 / 自由民主党 / 元職 / 当選5回 / 61歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-153.png,比東海,自由民主党,元職,61,5,比例,ok
+candidate-154,工藤彰三,candidate,くどうしょうぞう,愛知4区 / 自由民主党 / 前職 / 当選6回 / 61歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-154.png,愛知4区,自由民主党,前職,61,6,小選挙区,ok
+candidate-155,工藤聖子,candidate,くどうせいこ,比南関東 / 参政党 / 新人 / 当選1回 / 46歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-155.png,比南関東,参政党,新人,46,1,比例,ok
+candidate-156,国定勇人,candidate,くにさだいさと,新潟2区 / 自由民主党 / 前職 / 当選3回 / 53歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-156.png,新潟2区,自由民主党,前職,53,3,小選挙区,ok
+candidate-157,小池正昭,candidate,こいけまさあき,千葉10区 / 自由民主党 / 前職 / 当選2回 / 59歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-157.png,千葉10区,自由民主党,前職,59,2,小選挙区,ok
+candidate-158,小泉進次郎,candidate,こいずみしんじろう,神奈川11区 / 自由民主党 / 前職 / 当選7回 / 44歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-158.png,神奈川11区,自由民主党,前職,44,7,小選挙区,ok
+candidate-159,小泉龍司,candidate,こいずみりゅうじ,埼玉11区 / 自由民主党 / 前職 / 当選9回 / 73歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-159.png,埼玉11区,自由民主党,前職,73,9,小選挙区,ok
+candidate-160,栗原渉,candidate,くりはらわたる,福岡5区 / 自由民主党 / 前職 / 当選2回 / 60歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-160.png,福岡5区,自由民主党,前職,60,2,小選挙区,ok
+candidate-161,黒崎祐一,candidate,くろさきゆういち,東京27区 / 自由民主党 / 新人 / 当選1回 / 49歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-161.png,東京27区,自由民主党,新人,49,1,小選挙区,ok
+candidate-162,黒田征樹,candidate,くろだまさき,福岡5区 / 日本維新の会 / 前職 / 当選2回 / 46歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-162.png,福岡5区,日本維新の会,前職,46,2,小選挙区,ok
+candidate-163,古賀篤,candidate,こがあつし,福岡3区 / 自由民主党 / 前職 / 当選6回 / 53歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-163.png,福岡3区,自由民主党,前職,53,6,小選挙区,ok
+candidate-164,国場幸之助,candidate,こくばこうのすけ,沖縄1区 / 自由民主党 / 前職 / 当選6回 / 53歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-164.png,沖縄1区,自由民主党,前職,53,6,小選挙区,ok
+candidate-165,輿水恵一,candidate,こしみずけいいち,比北関東 / 公明党 / 前職 / 当選5回 / 64歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-165.png,比北関東,公明党,前職,64,5,比例,ok
+candidate-166,河野太郎,candidate,こうのたろう,神奈川15区 / 自由民主党 / 前職 / 当選11回 / 63歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-166.png,神奈川15区,自由民主党,前職,63,11,小選挙区,ok
+candidate-167,高村正大,candidate,こうむらまさひろ,山口1区 / 自由民主党 / 前職 / 当選4回 / 55歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-167.png,山口1区,自由民主党,前職,55,4,小選挙区,ok
+candidate-168,高麗啓一郎,candidate,こうらいけいいちろう,比近畿 / 自由民主党 / 新人 / 当選1回 / 45歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-168.png,比近畿,自由民主党,新人,45,1,比例,ok
+candidate-169,許斐亮太郎,candidate,このみりょうたろう,比九州 / 国民民主党 / 前職 / 当選2回 / 52歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-169.png,比九州,国民民主党,前職,52,2,比例,ok
+candidate-170,小林茂樹,candidate,こばやししげき,奈良1区 / 自由民主党 / 前職 / 当選5回 / 61歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-170.png,奈良1区,自由民主党,前職,61,5,小選挙区,ok
+candidate-171,小林修平,candidate,こばやししゅうへい,比南関東 / みらい / 新人 / 当選1回 / 35歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-171.png,比南関東,みらい,新人,35,1,比例,ok
+candidate-172,小寺裕雄,candidate,こてらひろお,比近畿 / 自由民主党 / 前職 / 当選4回 / 65歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-172.png,比近畿,自由民主党,前職,65,4,比例,ok
+candidate-173,後藤茂之,candidate,ごとうしげゆき,長野4区 / 自由民主党 / 前職 / 当選9回 / 70歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-173.png,長野4区,自由民主党,前職,70,9,小選挙区,ok
+candidate-174,後藤祐一,candidate,ごとうゆういち,比南関東 / 立憲民主党 / 前職 / 当選7回 / 56歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-174.png,比南関東,立憲民主党,前職,56,7,比例,ok
+candidate-175,今元 洋佑,candidate,こんもとようすけ,比北信越 / 自由民主党 / 新人 / 当選1回 / 43歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-175.png,比北信越,自由民主党,新人,43,1,比例,ok
+candidate-176,近藤和也,candidate,こんどうかずや,比北信越 / 立憲民主党 / 前職 / 当選5回 / 52歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-176.png,比北信越,立憲民主党,前職,52,5,比例,ok
+candidate-177,近藤雅彦,candidate,こんどうまさひこ,比九州 / 国民民主党 / 新人 / 当選1回 / 51歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-177.png,比九州,国民民主党,新人,51,1,比例,ok
+candidate-178,小林鷹之,candidate,こばやしたかゆき,千葉2区 / 自由民主党 / 前職 / 当選6回 / 51歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-178.png,千葉2区,自由民主党,前職,51,6,小選挙区,ok
+candidate-179,小林史明,candidate,こばやしふみあき,広島6区 / 自由民主党 / 前職 / 当選6回 / 42歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-179.png,広島6区,自由民主党,前職,42,6,小選挙区,ok
+candidate-180,小森卓郎,candidate,こもりたくお,石川1区 / 自由民主党 / 前職 / 当選3回 / 55歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-180.png,石川1区,自由民主党,前職,55,3,小選挙区,ok
+candidate-181,斎藤健,candidate,さいとうけん,千葉7区 / 自由民主党 / 前職 / 当選7回 / 66歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-181.png,千葉7区,自由民主党,前職,66,7,小選挙区,ok
+candidate-182,斉藤 鉄夫,candidate,さいとうてつお,比中国 / 公明党 / 前職 / 当選12回 / 74歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-182.png,比中国,公明党,前職,74,12,比例,ok
+candidate-183,斎藤洋明,candidate,さいとう ひろあき,新潟3区 / 自由民主党 / 前職 / 当選6回 / 49歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-183.png,新潟3区,自由民主党,前職,49,6,小選挙区,ok
+candidate-184,斉木武志,candidate,さいきたけし,福井2区 / 自由民主党 / 前職 / 当選4回 / 51歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-184.png,福井2区,自由民主党,前職,51,4,小選挙区,ok
+candidate-185,西條昌良,candidate,さいじょうまさよし,比北関東 / 自由民主党 / 新人 / 当選1回 / 71歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-185.png,比北関東,自由民主党,新人,71,1,比例,ok
+candidate-186,斎藤アレックス,candidate,さいとうあれっくす,比近畿 / 日本維新の会 / 前職 / 当選3回 / 40歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-186.png,比近畿,日本維新の会,前職,40,3,比例,ok
+candidate-187,坂本竜太郎,candidate,さかもとりゅうたろう,福島4区 / 自由民主党 / 前職 / 当選2回 / 45歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-187.png,福島4区,自由民主党,前職,45,2,小選挙区,ok
+candidate-188,笹川博義,candidate,ささがわひろよし,群馬3区 / 自由民主党 / 前職 / 当選6回 / 59歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-188.png,群馬3区,自由民主党,前職,59,6,小選挙区,ok
+candidate-189,佐々木紀,candidate,ささきはじめ,石川2区 / 自由民主党 / 前職 / 当選6回 / 51歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-189.png,石川2区,自由民主党,前職,51,6,小選挙区,ok
+candidate-190,斉藤 里恵,candidate,さいとうりえ,比東海 / 自由民主党 / 新人 / 当選1回 / 42歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-190.png,比東海,自由民主党,新人,42,1,比例,ok
+candidate-191,坂井学,candidate,さかい まなぶ,神奈川5区 / 自由民主党 / 前職 / 当選7回 / 60歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-191.png,神奈川5区,自由民主党,前職,60,7,小選挙区,ok
+candidate-192,坂本哲志,candidate,さかもとてつし,神奈川5区 / 自由民主党 / 前職 / 当選9回 / 75歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-192.png,神奈川5区,自由民主党,前職,75,9,小選挙区,ok
+candidate-193,塩川鉄也,candidate,しおかわてつや,比北関東 / 日本共産党 / 前職 / 当選10回 / 64歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-193.png,比北関東,日本共産党,前職,64,10,比例,ok
+candidate-194,塩崎 彰久,candidate,しおざきあきひさ,愛媛1区 / 自由民主党 / 前職 / 当選3回 / 49歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-194.png,愛媛1区,自由民主党,前職,49,3,小選挙区,ok
+candidate-195,重徳和彦,candidate,しげとくかずひこ,比東海 / 立憲民主党 / 前職 / 当選6回 / 55歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-195.png,比東海,立憲民主党,前職,55,6,比例,ok
+candidate-196,佐々木真琴,candidate,ささきまこと,比東北 / 国民民主党 / 新人 / 当選1回 / 29歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-196.png,比東北,国民民主党,新人,29,1,比例,ok
+candidate-197,佐藤英道,candidate,さとうひでみち,比北海道 / 公明党 / 前職 / 当選6回 / 65歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-197.png,比北海道,公明党,前職,65,6,比例,ok
+candidate-198,佐藤主迪,candidate,さとうまさし,神奈川16区 / 自由民主党 / 新人 / 当選1回 / 31歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-198.png,神奈川16区,自由民主党,新人,31,1,小選挙区,ok
+candidate-199,島尻 安伊子,candidate,しまじりあいこ,沖縄3区 / 自由民主党 / 前職 / 当選3回 / 60歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-199.png,沖縄3区,自由民主党,前職,60,3,小選挙区,ok
+candidate-200,島田智明,candidate,しまだともあき,比近畿 / 自由民主党 / 前職 / 当選2回 / 56歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-200.png,比近畿,自由民主党,前職,56,2,比例,ok
+candidate-201,島村薫,candidate,しまむらかおる,比中国 / 参政党 / 新人 / 当選1回 / 50歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-201.png,比中国,参政党,新人,50,1,比例,ok
+candidate-202,重本護,candidate,しげもとまもる,比近畿 / 自由民主党 / 元職 / 当選2回 / 53歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-202.png,比近畿,自由民主党,元職,53,2,比例,ok
+candidate-203,階 猛,candidate,しなたけし,岩手1区 / 立憲民主党 / 前職 / 当選8回 / 59歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-203.png,岩手1区,立憲民主党,前職,59,8,小選挙区,ok
+candidate-204,柴山昌彦,candidate,しばやままさひこ,埼玉8区 / 自由民主党 / 前職 / 当選9回 / 60歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-204.png,埼玉8区,自由民主党,前職,60,9,小選挙区,ok
+candidate-205,新谷正義,candidate,しんたにまさよし,広島4区 / 自由民主党 / 前職 / 当選6回 / 50歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-205.png,広島4区,自由民主党,前職,50,6,小選挙区,ok
+candidate-206,新藤義孝,candidate,しんどう よしたか,埼玉2区 / 自由民主党 / 前職 / 当選10回 / 68歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-206.png,埼玉2区,自由民主党,前職,68,10,小選挙区,ok
+candidate-207,菅原一秀,candidate,すがわらいっしゅう,埼玉2区 / 自由民主党 / 元職 / 当選7回 / 64歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-207.png,埼玉2区,自由民主党,元職,64,7,小選挙区,ok
+candidate-208,下村博文,candidate,しもむらはくぶん,東京11区 / 自由民主党 / 元職 / 当選10回 / 71歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-208.png,東京11区,自由民主党,元職,71,10,小選挙区,ok
+candidate-209,庄子賢一,candidate,しょうじけんいち,比東北 / 公明党 / 前職 / 当選3回 / 63歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-209.png,比東北,公明党,前職,63,3,比例,ok
+candidate-210,白坂亜紀,candidate,しらさかあき,比九州 / 自由民主党 / 新人 / 当選1回 / 59歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-210.png,比九州,自由民主党,新人,59,1,比例,ok
+candidate-211,鈴木 淳司,candidate,すずきじゅんじ,比東海 / 自由民主党 / 元職 / 当選7回 / 67歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-211.png,比東海,自由民主党,元職,67,7,比例,ok
+candidate-212,鈴木貴子,candidate,すずきたかこ,北海道7区 / 自由民主党 / 前職 / 当選6回 / 40歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-212.png,北海道7区,自由民主党,前職,40,6,小選挙区,ok
+candidate-213,鈴木拓海,candidate,すずきたくみ,比北関東 / 自由民主党 / 新人 / 当選1回 / 46歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-213.png,比北関東,自由民主党,新人,46,1,比例,ok
+candidate-214,鈴木英敬,candidate,すずきえいけい,三重4区 / 自由民主党 / 前職 / 当選3回 / 51歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-214.png,三重4区,自由民主党,前職,51,3,小選挙区,ok
+candidate-215,鈴木馨祐,candidate,すずきけいすけ,神奈川7区 / 自由民主党 / 前職 / 当選7回 / 49歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-215.png,神奈川7区,自由民主党,前職,49,7,小選挙区,ok
+candidate-216,鈴木俊一,candidate,すずきしゅんいち,岩手2区 / 自由民主党 / 前職 / 当選12回 / 72歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-216.png,岩手2区,自由民主党,前職,72,12,小選挙区,ok
+candidate-217,鈴木義弘,candidate,すずきよしひろ,比北関東 / 国民民主党 / 前職 / 当選5回 / 63歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-217.png,比北関東,国民民主党,前職,63,5,比例,ok
+candidate-218,須田英太郎,candidate,すだえいたろう,比東海 / みらい / 新人 / 当選1回 / 35歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-218.png,比東海,みらい,新人,35,1,比例,ok
+candidate-219,住吉寛紀,candidate,すみよしひろき,比近畿 / 日本維新の会 / 元職 / 当選2回 / 41歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-219.png,比近畿,日本維新の会,元職,41,2,比例,ok
+candidate-220,鈴木憲和,candidate,すずきのりかず,山形2区 / 自由民主党 / 前職 / 当選6回 / 44歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-220.png,山形2区,自由民主党,前職,44,6,小選挙区,ok
+candidate-221,鈴木隼人,candidate,すずきはやと,東京10区 / 自由民主党 / 前職 / 当選5回 / 48歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-221.png,東京10区,自由民主党,前職,48,5,小選挙区,ok
+candidate-222,鈴木美香,candidate,すずきみか,比東京 / 参政党 / 新人 / 当選1回 / 61歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-222.png,比東京,参政党,新人,61,1,比例,ok
+candidate-223,世耕弘成,candidate,せこうひろしげ,和歌山2区 / 無所属 / 前職 / 当選2回 / 63歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-223.png,和歌山2区,無所属,前職,63,2,小選挙区,ok
+candidate-224,瀬戸隆一,candidate,せとたかかず,比四国 / 自由民主党 / 前職 / 当選5回 / 60歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-224.png,比四国,自由民主党,前職,60,5,比例,ok
+candidate-225,園崎弘道,candidate,そのさきひろみち,京都6区 / 自由民主党 / 新人 / 当選1回 / 45歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-225.png,京都6区,自由民主党,新人,45,1,小選挙区,ok
+candidate-226,関健一郎,candidate,せきけんいちろう,比東海 / 日本維新の会 / 元職 / 当選2回 / 47歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-226.png,比東海,日本維新の会,元職,47,2,比例,ok
+candidate-227,関芳弘,candidate,せき よしひろ,兵庫3区 / 自由民主党 / 前職 / 当選7回 / 60歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-227.png,兵庫3区,自由民主党,前職,60,7,小選挙区,ok
+candidate-228,世古万美子,candidate,せこまみこ,比東海 / 自由民主党 / 新人 / 当選1回 / 51歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-228.png,比東海,自由民主党,新人,51,1,比例,ok
+candidate-229,高木 啓,candidate,たかぎけい,東京12区 / 自由民主党 / 前職 / 当選4回 / 60歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-229.png,東京12区,自由民主党,前職,60,4,小選挙区,ok
+candidate-230,高木宏寿,candidate,たかぎひろひさ,北海道3区 / 自由民主党 / 元職 / 当選4回 / 65歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-230.png,北海道3区,自由民主党,元職,65,4,小選挙区,ok
+candidate-231,高沢一基,candidate,たかざわかずもと,比東京 / 国民民主党 / 新人 / 当選1回 / 51歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-231.png,比東京,国民民主党,新人,51,1,比例,ok
+candidate-232,平将明,candidate,たいら まさあき,東京4区 / 自由民主党 / 前職 / 当選8回 / 58歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-232.png,東京4区,自由民主党,前職,58,8,小選挙区,ok
+candidate-233,高市早苗,candidate,たかいちさなえ,奈良2区 / 自由民主党 / 前職 / 当選11回 / 64歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-233.png,奈良2区,自由民主党,前職,64,11,小選挙区,ok
+candidate-234,高階恵美子,candidate,たかがいえみこ,東京4区 / 自由民主党 / 元職 / 当選2回 / 62歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-234.png,東京4区,自由民主党,元職,62,2,小選挙区,ok
+candidate-235,高見亮,candidate,たかみりょう,大阪2区 / 日本維新の会 / 新人 / 当選1回 / 47歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-235.png,大阪2区,日本維新の会,新人,47,1,小選挙区,ok
+candidate-236,高山聡史,candidate,たかやまさとし,比東京 / みらい / 新人 / 当選1回 / 39歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-236.png,比東京,みらい,新人,39,1,比例,ok
+candidate-237,武井俊輔,candidate,たけいしゅんすけ,比九州 / 自由民主党 / 元職 / 当選5回 / 50歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-237.png,比九州,自由民主党,元職,50,5,比例,ok
+candidate-238,高鳥 修一,candidate,たかとりしゅういち,新潟5区 / 自由民主党 / 元職 / 当選6回 / 65歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-238.png,新潟5区,自由民主党,元職,65,6,小選挙区,ok
+candidate-239,高橋祐介,candidate,たかはしゆうすけ,北海道2区 / 自由民主党 / 元職 / 当選2回 / 45歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-239.png,北海道2区,自由民主党,元職,45,2,小選挙区,ok
+candidate-240,高見康裕,candidate,たかみやすひろ,島根2区 / 自由民主党 / 前職 / 当選3回 / 45歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-240.png,島根2区,自由民主党,前職,45,3,小選挙区,ok
+candidate-241,田嶋要,candidate,たじまかなめ,比南関東 / 立憲民主党 / 前職 / 当選9回 / 64歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-241.png,比南関東,立憲民主党,前職,64,9,比例,ok
+candidate-242,橘慶一郎,candidate,たちばな けいいちろう,富山3区 / 自由民主党 / 前職 / 当選7回 / 65歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-242.png,富山3区,自由民主党,前職,65,7,小選挙区,ok
+candidate-243,辰巳孝太郎,candidate,たつみこうたろう,比近畿 / 日本共産党 / 前職 / 当選2回 / 49歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-243.png,比近畿,日本共産党,前職,49,2,比例,ok
+candidate-244,武田良太,candidate,たけだりょうた,福岡11区 / 自由民主党 / 元職 / 当選8回 / 57歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-244.png,福岡11区,自由民主党,元職,57,8,小選挙区,ok
+candidate-245,武部 新,candidate,たけべあらた,北海道12区 / 自由民主党 / 前職 / 当選6回 / 55歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-245.png,北海道12区,自由民主党,前職,55,6,小選挙区,ok
+candidate-246,武村展英,candidate,たけむらのぶひで,北海道12区 / 自由民主党 / 前職 / 当選6回 / 54歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-246.png,北海道12区,自由民主党,前職,54,6,小選挙区,ok
+candidate-247,田中昌史,candidate,たなかまさし,比東京 / 自由民主党 / 新人 / 当選1回 / 60歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-247.png,比東京,自由民主党,新人,60,1,比例,ok
+candidate-248,田中良生,candidate,たなかりょうせい,埼玉15区 / 自由民主党 / 前職 / 当選7回 / 62歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-248.png,埼玉15区,自由民主党,前職,62,7,小選挙区,ok
+candidate-249,棚橋泰文,candidate,たなはしやすふみ,岐阜2区 / 自由民主党 / 前職 / 当選11回 / 62歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-249.png,岐阜2区,自由民主党,前職,62,11,小選挙区,ok
+candidate-250,田所嘉徳,candidate,たどころよしのり,茨城1区 / 自由民主党 / 前職 / 当選6回 / 72歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-250.png,茨城1区,自由民主党,前職,72,6,小選挙区,ok
+candidate-251,田中和徳,candidate,たなかかずのり,神奈川10区 / 自由民主党 / 前職 / 当選11回 / 77歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-251.png,神奈川10区,自由民主党,前職,77,11,小選挙区,ok
+candidate-252,田中健,candidate,たなかけん,比東海 / 国民民主党 / 前職 / 当選3回 / 48歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-252.png,比東海,国民民主党,前職,48,3,比例,ok
+candidate-253,田野瀬太道,candidate,たのせたいどう,奈良3区 / 自由民主党 / 前職 / 当選6回 / 51歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-253.png,奈良3区,自由民主党,前職,51,6,小選挙区,ok
+candidate-254,田畑裕明,candidate,たばたひろあき,比北信越 / 自由民主党 / 前職 / 当選6回 / 53歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-254.png,比北信越,自由民主党,前職,53,6,比例,ok
+candidate-255,玉木雄一郎,candidate,たまきゆういちろう,香川2区 / 国民民主党 / 前職 / 当選7回 / 56歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-255.png,香川2区,国民民主党,前職,56,7,小選挙区,ok
+candidate-256,谷公一,candidate,たにこういち,兵庫5区 / 自由民主党 / 前職 / 当選9回 / 74歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-256.png,兵庫5区,自由民主党,前職,74,9,小選挙区,ok
+candidate-257,谷 浩一郎,candidate,たにこういちろう,比近畿 / 参政党 / 新人 / 当選1回 / 44歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-257.png,比近畿,参政党,新人,44,1,比例,ok
+candidate-258,谷川 とむ,candidate,たにがわとむ,比近畿 / 自由民主党 / 元職 / 当選4回 / 49歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-258.png,比近畿,自由民主党,元職,49,4,比例,ok
+candidate-259,俵田祐児,candidate,たわらだゆうじ,比中国 / 自由民主党 / 新人 / 当選1回 / 54歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-259.png,比中国,自由民主党,新人,54,1,比例,ok
+candidate-260,丹野 みどり,candidate,たんのみどり,比中国 / 国民民主党 / 前職 / 当選2回 / 52歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-260.png,比中国,国民民主党,前職,52,2,比例,ok
+candidate-261,辻 清人,candidate,つじきよと,東京2区 / 自由民主党 / 前職 / 当選6回 / 46歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-261.png,東京2区,自由民主党,前職,46,6,小選挙区,ok
+candidate-262,田宮寿人,candidate,たみやひさと,千葉9区 / 自由民主党 / 新人 / 当選1回 / 36歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-262.png,千葉9区,自由民主党,新人,36,1,小選挙区,ok
+candidate-263,田村智子,candidate,たむらともこ,比東京 / 日本共産党 / 前職 / 当選2回 / 60歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-263.png,比東京,日本共産党,前職,60,2,比例,ok
+candidate-264,田村憲久,candidate,たむらのりひさ,三重1区 / 自由民主党 / 前職 / 当選11回 / 61歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-264.png,三重1区,自由民主党,前職,61,11,小選挙区,ok
+candidate-265,土田慎,candidate,つちだしん,東京13区 / 自由民主党 / 前職 / 当選3回 / 35歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-265.png,東京13区,自由民主党,前職,35,3,小選挙区,ok
+candidate-266,土屋品子,candidate,つちやしなこ,埼玉16区 / 自由民主党 / 前職 / 当選10回 / 74歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-266.png,埼玉16区,自由民主党,前職,74,10,小選挙区,ok
+candidate-267,角田秀穂,candidate,つのだひでお,比南関東 / 公明党 / 前職 / 当選4回 / 64歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-267.png,比南関東,公明党,前職,64,4,比例,ok
+candidate-268,辻秀樹,candidate,つじひでき,比東海 / 自由民主党 / 新人 / 当選1回 / 50歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-268.png,比東海,自由民主党,新人,50,1,比例,ok
+candidate-269,辻由布子,candidate,つじ ゆうこ,比東京 / 自由民主党 / 新人 / 当選1回 / 43歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-269.png,比東京,自由民主党,新人,43,1,比例,ok
+candidate-270,津島 淳,candidate,つしまじゅん,青森1区 / 自由民主党 / 前職 / 当選6回 / 59歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-270.png,青森1区,自由民主党,前職,59,6,小選挙区,ok
+candidate-271,冨樫博之,candidate,とがしひろゆき,秋田1区 / 自由民主党 / 前職 / 当選6回 / 70歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-271.png,秋田1区,自由民主党,前職,70,6,小選挙区,ok
+candidate-272,渡嘉敷奈緒美,candidate,とかしきなおみ,比近畿 / 自由民主党 / 元職 / 当選5回 / 63歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-272.png,比近畿,自由民主党,元職,63,5,比例,ok
+candidate-273,土橋章宏,candidate,どばしあきひろ,比東京 / みらい / 新人 / 当選1回 / 56歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-273.png,比東京,みらい,新人,56,1,比例,ok
+candidate-274,寺田 稔,candidate,てらだみのる,比中国 / 自由民主党 / 前職 / 当選8回 / 68歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-274.png,比中国,自由民主党,前職,68,8,比例,ok
+candidate-275,土井 亨,candidate,どいとおる,宮城1区 / 自由民主党 / 元職 / 当選6回 / 67歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-275.png,宮城1区,自由民主党,元職,67,6,小選挙区,ok
+candidate-276,渡海紀三朗,candidate,とかいきさぶろう,宮城1区 / 自由民主党 / 前職 / 当選12回 / 77歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-276.png,宮城1区,自由民主党,前職,77,12,小選挙区,ok
+candidate-277,中川貴元,candidate,なかがわたかもと,比東海 / 自由民主党 / 元職 / 当選2回 / 58歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-277.png,比東海,自由民主党,元職,58,2,比例,ok
+candidate-278,中川宏昌,candidate,なかがわ ひろまさ,比北信越 / 公明党 / 前職 / 当選3回 / 55歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-278.png,比北信越,公明党,前職,55,3,比例,ok
+candidate-279,中川康洋,candidate,なかがわやすひろ,比東海 / 公明党 / 前職 / 当選4回 / 57歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-279.png,比東海,公明党,前職,57,4,比例,ok
+candidate-280,豊田真由子,candidate,とよた まゆこ,比北関東 / 参政党 / 元職 / 当選3回 / 51歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-280.png,比北関東,参政党,元職,51,3,比例,ok
+candidate-281,永岡 桂子,candidate,ながおかけいこ,比北関東 / 自由民主党 / 前職 / 当選8回 / 72歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-281.png,比北関東,自由民主党,前職,72,8,比例,ok
+candidate-282,中川 紘一,candidate,なかがわこういち,北海道11区 / 自由民主党 / 新人 / 当選1回 / 35歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-282.png,北海道11区,自由民主党,新人,35,1,小選挙区,ok
+candidate-283,中曽根康隆,candidate,なかそねやすたか,群馬1区 / 自由民主党 / 前職 / 当選4回 / 44歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-283.png,群馬1区,自由民主党,前職,44,4,小選挙区,ok
+candidate-284,中田 宏,candidate,なかだひろし,富山1区 / 自由民主党 / 元職 / 当選5回 / 61歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-284.png,富山1区,自由民主党,元職,61,5,小選挙区,ok
+candidate-285,永田磨梨奈,candidate,ながたまりな,富山1区 / 自由民主党 / 新人 / 当選1回 / 42歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-285.png,富山1区,自由民主党,新人,42,1,小選挙区,ok
+candidate-286,長坂 康正,candidate,ながさかやすまさ,愛知9区 / 自由民主党 / 前職 / 当選6回 / 68歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-286.png,愛知9区,自由民主党,前職,68,6,小選挙区,ok
+candidate-287,長沢興祐,candidate,ながさわこうすけ,東京29区 / 自由民主党 / 新人 / 当選1回 / 44歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-287.png,東京29区,自由民主党,新人,44,1,小選挙区,ok
+candidate-288,長島昭久,candidate,ながしまあきひさ,東京30区 / 自由民主党 / 前職 / 当選9回 / 63歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-288.png,東京30区,自由民主党,前職,63,9,小選挙区,ok
+candidate-289,長妻昭,candidate,ながつまあきら,比東京 / 立憲民主党 / 前職 / 当選10回 / 65歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-289.png,比東京,立憲民主党,前職,65,10,比例,ok
+candidate-290,長友慎治,candidate,ながともしんじ,宮崎2区 / 国民民主党 / 前職 / 当選3回 / 48歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-290.png,宮崎2区,国民民主党,前職,48,3,小選挙区,ok
+candidate-291,中西健治,candidate,なかにしけんじ,比東京 / 自由民主党 / 前職 / 当選3回 / 62歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-291.png,比東京,自由民主党,前職,62,3,比例,ok
+candidate-292,中谷元,candidate,なかたにげん,高知1区 / 自由民主党 / 前職 / 当選13回 / 68歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-292.png,高知1区,自由民主党,前職,68,13,小選挙区,ok
+candidate-293,中谷真一,candidate,なかたにしんいち,高知1区 / 自由民主党 / 前職 / 当選6回 / 49歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-293.png,高知1区,自由民主党,前職,49,6,小選挙区,ok
+candidate-294,中司宏,candidate,なかつかひろし,大阪11区 / 日本維新の会 / 前職 / 当選3回 / 69歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-294.png,大阪11区,日本維新の会,前職,69,3,小選挙区,ok
+candidate-295,中野洋昌,candidate,なかのひろまさ,比近畿 / 公明党 / 前職 / 当選6回 / 48歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-295.png,比近畿,公明党,前職,48,6,比例,ok
+candidate-296,中村勇太,candidate,なかむらはやと,茨城7区 / 無所属 / 前職 / 当選2回 / 39歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-296.png,茨城7区,無所属,前職,39,2,小選挙区,ok
+candidate-297,中村裕之,candidate,なかむらひろゆき,北海道4区 / 自由民主党 / 前職 / 当選6回 / 64歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-297.png,北海道4区,自由民主党,前職,64,6,小選挙区,ok
+candidate-298,中根一幸,candidate,なかねかずゆき,比北関東 / 自由民主党 / 元職 / 当選6回 / 56歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-298.png,比北関東,自由民主党,元職,56,6,比例,ok
+candidate-299,長野春信,candidate,ながのはるのぶ,比南関東 / 自由民主党 / 新人 / 当選1回 / 53歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-299.png,比南関東,自由民主党,新人,53,1,比例,ok
+candidate-300,中野英幸,candidate,なかのひでゆき,埼玉7区 / 自由民主党 / 前職 / 当選3回 / 64歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-300.png,埼玉7区,自由民主党,前職,64,3,小選挙区,ok
+candidate-301,鍋島勢理,candidate,なべしませり,比中国 / 国民民主党 / 新人 / 当選1回 / 34歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-301.png,比中国,国民民主党,新人,34,1,比例,ok
+candidate-302,仁木博文,candidate,にきひろぶみ,徳島1区 / 自由民主党 / 前職 / 当選4回 / 59歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-302.png,徳島1区,自由民主党,前職,59,4,小選挙区,ok
+candidate-303,西岡秀子,candidate,にしおかひでこ,長崎1区 / 国民民主党 / 前職 / 当選4回 / 61歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-303.png,長崎1区,国民民主党,前職,61,4,小選挙区,ok
+candidate-304,中谷 めぐ,candidate,なかやめぐ,比南関東 / 参政党 / 新人 / 当選1回 / 44歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-304.png,比南関東,参政党,新人,44,1,比例,ok
+candidate-305,中山展宏,candidate,なかやまのりひろ,比四国 / 自由民主党 / 元職 / 当選5回 / 57歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-305.png,比四国,自由民主党,元職,57,5,比例,ok
+candidate-306,中山泰秀,candidate,なかやまやすひで,比近畿 / 自由民主党 / 元職 / 当選6回 / 55歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-306.png,比近畿,自由民主党,元職,55,6,比例,ok
+candidate-307,西田昭二,candidate,にしだしょうじ,石川3区 / 自由民主党 / 前職 / 当選4回 / 56歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-307.png,石川3区,自由民主党,前職,56,4,小選挙区,ok
+candidate-308,西野太亮,candidate,にしのだいすけ,熊本2区 / 自由民主党 / 前職 / 当選3回 / 47歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-308.png,熊本2区,自由民主党,前職,47,3,小選挙区,ok
+candidate-309,西村明宏,candidate,にしむらあきひろ,宮城3区 / 自由民主党 / 元職 / 当選7回 / 65歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-309.png,宮城3区,自由民主党,元職,65,7,小選挙区,ok
+candidate-310,西岡義高,candidate,にしおかよしたか,比南関東 / 国民民主党 / 前職 / 当選2回 / 48歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-310.png,比南関東,国民民主党,前職,48,2,比例,ok
+candidate-311,西園勝秀,candidate,にしぞのかつひで,比東海 / 公明党 / 前職 / 当選2回 / 58歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-311.png,比東海,公明党,前職,58,2,比例,ok
+candidate-312,西田 薫,candidate,にしだかおる,大阪6区 / 日本維新の会 / 前職 / 当選2回 / 58歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-312.png,大阪6区,日本維新の会,前職,58,2,小選挙区,ok
+candidate-313,西山 尚利,candidate,にしやまなおとし,福島1区 / 自由民主党 / 新人 / 当選1回 / 60歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-313.png,福島1区,自由民主党,新人,60,1,小選挙区,ok
+candidate-314,新田章文,candidate,にったしょうぶん,神奈川2区 / 自由民主党 / 新人 / 当選1回 / 44歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-314.png,神奈川2区,自由民主党,新人,44,1,小選挙区,ok
+candidate-315,丹羽秀樹,candidate,にわひでき,愛知6区 / 自由民主党 / 前職 / 当選8回 / 53歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-315.png,愛知6区,自由民主党,前職,53,8,小選挙区,ok
+candidate-316,西村智奈美,candidate,にしむらちなみ,比北信越 / 立憲民主党 / 前職 / 当選8回 / 59歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-316.png,比北信越,立憲民主党,前職,59,8,比例,ok
+candidate-317,西村康稔,candidate,にしむらやすとし,兵庫9区 / 自由民主党 / 前職 / 当選9回 / 63歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-317.png,兵庫9区,自由民主党,前職,63,9,小選挙区,ok
+candidate-318,西銘恒三郎,candidate,にしめこうさぶろう,沖縄4区 / 自由民主党 / 前職 / 当選8回 / 71歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-318.png,沖縄4区,自由民主党,前職,71,8,小選挙区,ok
+candidate-319,根本幸典,candidate,ねもとゆきのり,愛知15区 / 自由民主党 / 前職 / 当選6回 / 60歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-319.png,愛知15区,自由民主党,前職,60,6,小選挙区,ok
+candidate-320,野田聖子,candidate,のだせいこ,岐阜1区 / 自由民主党 / 前職 / 当選12回 / 65歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-320.png,岐阜1区,自由民主党,前職,65,12,小選挙区,ok
+candidate-321,野田佳彦,candidate,のだよしひこ,千葉14区 / 立憲民主党 / 前職 / 当選11回 / 68歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-321.png,千葉14区,立憲民主党,前職,68,11,小選挙区,ok
+candidate-322,額賀 福志郎,candidate,ぬかがふくしろう,茨城2区 / 自由民主党 / 前職 / 当選15回 / 82歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-322.png,茨城2区,自由民主党,前職,82,15,小選挙区,ok
+candidate-323,沼崎満子,candidate,ぬまざきみつこ,比南関東 / 立憲民主党 / 前職 / 当選2回 / 52歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-323.png,比南関東,立憲民主党,前職,52,2,比例,ok
+candidate-324,根本 拓,candidate,ねもとたく,福島2区 / 自由民主党 / 前職 / 当選2回 / 39歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-324.png,福島2区,自由民主党,前職,39,2,小選挙区,ok
+candidate-325,萩生田 光一,candidate,はぎうだこういち,東京24区 / 自由民主党 / 前職 / 当選8回 / 62歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-325.png,東京24区,自由民主党,前職,62,8,小選挙区,ok
+candidate-326,萩原佳,candidate,はぎはらけい,大阪9区 / 日本維新の会 / 前職 / 当選2回 / 48歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-326.png,大阪9区,日本維新の会,前職,48,2,小選挙区,ok
+candidate-327,橋本岳,candidate,はしもとがく,大阪9区 / 自由民主党 / 元職 / 当選6回 / 52歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-327.png,大阪9区,自由民主党,元職,52,6,小選挙区,ok
+candidate-328,野中 厚,candidate,のなかあつし,埼玉12区 / 自由民主党 / 前職 / 当選6回 / 49歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-328.png,埼玉12区,自由民主党,前職,49,6,小選挙区,ok
+candidate-329,野間 健,candidate,のまたけし,鹿児島3区 / 立憲民主党 / 前職 / 当選5回 / 67歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-329.png,鹿児島3区,立憲民主党,前職,67,5,小選挙区,ok
+candidate-330,野村美穂,candidate,のむらみほ,比東海 / 国民民主党 / 新人 / 当選1回 / 56歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-330.png,比東海,国民民主党,新人,56,1,比例,ok
+candidate-331,鳩山二郎,candidate,はとやまじろう,福岡6区 / 自由民主党 / 前職 / 当選5回 / 47歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-331.png,福岡6区,自由民主党,前職,47,5,小選挙区,ok
+candidate-332,葉梨康弘,candidate,はなしやすひろ,茨城3区 / 自由民主党 / 前職 / 当選8回 / 66歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-332.png,茨城3区,自由民主党,前職,66,8,小選挙区,ok
+candidate-333,馬場伸幸,candidate,ばばのぶゆき,大阪17区 / 日本維新の会 / 前職 / 当選6回 / 61歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-333.png,大阪17区,日本維新の会,前職,61,6,小選挙区,ok
+candidate-334,橋本 幹彦,candidate,はしもとみきひこ,比北関東 / 国民民主党 / 前職 / 当選2回 / 30歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-334.png,比北関東,国民民主党,前職,30,2,比例,ok
+candidate-335,長谷川淳二,candidate,はせがわじゅんじ,愛媛3区 / 自由民主党 / 前職 / 当選3回 / 57歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-335.png,愛媛3区,自由民主党,前職,57,3,小選挙区,ok
+candidate-336,畑野君枝,candidate,はたのきみえ,比南関東 / 日本共産党 / 元職 / 当選3回 / 69歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-336.png,比南関東,日本共産党,元職,69,3,比例,ok
+candidate-337,林 芳正,candidate,はやしよしまさ,山口3区 / 自由民主党 / 前職 / 当選3回 / 65歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-337.png,山口3区,自由民主党,前職,65,3,小選挙区,ok
+candidate-338,原田直樹,candidate,はらだなおき,比南関東 / 立憲民主党 / 新人 / 当選1回 / 35歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-338.png,比南関東,立憲民主党,新人,35,1,比例,ok
+candidate-339,原山大亮,candidate,はらやまだいすけ,比近畿 / 日本維新の会 / 新人 / 当選1回 / 49歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-339.png,比近畿,日本維新の会,新人,49,1,比例,ok
+candidate-340,浜田 靖一,candidate,はまだやすかず,千葉12区 / 自由民主党 / 前職 / 当選12回 / 70歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-340.png,千葉12区,自由民主党,前職,70,12,小選挙区,ok
+candidate-341,浜地雅一,candidate,はまちまさかず,比九州 / 公明党 / 前職 / 当選6回 / 55歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-341.png,比九州,公明党,前職,55,6,比例,ok
+candidate-342,林拓海,candidate,はやしたく,比東北 / みらい / 新人 / 当選1回 / 28歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-342.png,比東北,みらい,新人,28,1,比例,ok
+candidate-343,平口洋,candidate,ひらぐちひろし,広島2区 / 自由民主党 / 前職 / 当選7回 / 77歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-343.png,広島2区,自由民主党,前職,77,7,小選挙区,ok
+candidate-344,平沢勝栄,candidate,ひらさわかつえい,東京17区 / 自由民主党 / 前職 / 当選11回 / 80歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-344.png,東京17区,自由民主党,前職,80,11,小選挙区,ok
+candidate-345,平沼正二郎,candidate,ひらぬましょうじろう,比中国 / 自由民主党 / 前職 / 当選3回 / 46歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-345.png,比中国,自由民主党,前職,46,3,比例,ok
+candidate-346,東田 淳平,candidate,ひがしだじゅんぺい,比近畿 / 自由民主党 / 新人 / 当選1回 / 43歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-346.png,比近畿,自由民主党,新人,43,1,比例,ok
+candidate-347,日野紗里亜,candidate,ひのさりあ,愛知7区 / 国民民主党 / 前職 / 当選2回 / 38歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-347.png,愛知7区,国民民主党,前職,38,2,小選挙区,ok
+candidate-348,平井卓也,candidate,ひらいたくや,比四国 / 自由民主党 / 前職 / 当選10回 / 68歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-348.png,比四国,自由民主党,前職,68,10,比例,ok
+candidate-349,深沢陽一,candidate,ふかざわよういち,静岡4区 / 自由民主党 / 前職 / 当選4回 / 49歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-349.png,静岡4区,自由民主党,前職,49,4,小選挙区,ok
+candidate-350,福重隆浩,candidate,ふくしげたかひろ,比北関東 / 公明党 / 前職 / 当選3回 / 63歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-350.png,比北関東,公明党,前職,63,3,比例,ok
+candidate-351,福田 かおる,candidate,ふくだかおる,比北関東 / 自由民主党 / 前職 / 当選2回 / 40歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-351.png,比北関東,自由民主党,前職,40,2,比例,ok
+candidate-352,平林晃,candidate,ひらばやし あきら,比中国 / 公明党 / 前職 / 当選3回 / 55歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-352.png,比中国,公明党,前職,55,3,比例,ok
+candidate-353,広瀬 建,candidate,ひろせけん,大分2区 / 自由民主党 / 前職 / 当選2回 / 52歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-353.png,大分2区,自由民主党,前職,52,2,小選挙区,ok
+candidate-354,深作 ヘスス,candidate,ふかさくへすす,比南関東 / 国民民主党 / 前職 / 当選2回 / 41歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-354.png,比南関東,国民民主党,前職,41,2,比例,ok
+candidate-355,藤井比早之,candidate,ふじいひさゆき,兵庫4区 / 自由民主党 / 前職 / 当選6回 / 54歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-355.png,兵庫4区,自由民主党,前職,54,6,小選挙区,ok
+candidate-356,藤沢忠盛,candidate,ふじさわただもり,比東海 / 自由民主党 / 新人 / 当選1回 / 54歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-356.png,比東海,自由民主党,新人,54,1,比例,ok
+candidate-357,藤田 ひかる,candidate,ふじたひかる,比東海 / 自由民主党 / 新人 / 当選1回 / 35歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-357.png,比東海,自由民主党,新人,35,1,比例,ok
+candidate-358,福田 達夫,candidate,ふくだたつお,群馬4区 / 自由民主党 / 前職 / 当選6回 / 58歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-358.png,群馬4区,自由民主党,前職,58,6,小選挙区,ok
+candidate-359,福田徹,candidate,ふくだとおる,比東海 / 国民民主党 / 前職 / 当選2回 / 43歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-359.png,比東海,国民民主党,前職,43,2,比例,ok
+candidate-360,福原淳嗣,candidate,ふくはらじゅんじ,比東海 / 自由民主党 / 前職 / 当選2回 / 58歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-360.png,比東海,自由民主党,前職,58,2,比例,ok
+candidate-361,藤丸敏,candidate,ふじまるさとし,福岡7区 / 自由民主党 / 前職 / 当選6回 / 66歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-361.png,福岡7区,自由民主党,前職,66,6,小選挙区,ok
+candidate-362,藤原 崇,candidate,ふじわらたかし,岩手3区 / 自由民主党 / 元職 / 当選5回 / 42歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-362.png,岩手3区,自由民主党,元職,42,5,小選挙区,ok
+candidate-363,文月涼,candidate,ふづきりょう,比南関東 / 自由民主党 / 新人 / 当選1回 / 58歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-363.png,比南関東,自由民主党,新人,58,1,比例,ok
+candidate-364,藤田文武,candidate,ふじたふみたけ,大阪12区 / 日本維新の会 / 前職 / 当選4回 / 45歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-364.png,大阪12区,日本維新の会,前職,45,4,小選挙区,ok
+candidate-365,藤田 誠,candidate,ふじたまこと,埼玉14区 / 自由民主党 / 新人 / 当選1回 / 52歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-365.png,埼玉14区,自由民主党,新人,52,1,小選挙区,ok
+candidate-366,藤田洋司,candidate,ふじたようじ,比近畿 / 自由民主党 / 新人 / 当選1回 / 46歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-366.png,比近畿,自由民主党,新人,46,1,比例,ok
+candidate-367,古川直季,candidate,ふるかわなおき,神奈川6区 / 自由民主党 / 前職 / 当選3回 / 57歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-367.png,神奈川6区,自由民主党,前職,57,3,小選挙区,ok
+candidate-368,古川元久,candidate,ふるかわもとひさ,愛知2区 / 国民民主党 / 前職 / 当選11回 / 60歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-368.png,愛知2区,国民民主党,前職,60,11,小選挙区,ok
+candidate-369,古川康,candidate,ふるかわやすし,佐賀2区 / 自由民主党 / 前職 / 当選5回 / 67歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-369.png,佐賀2区,自由民主党,前職,67,5,小選挙区,ok
+candidate-370,船田 元,candidate,ふなだはじめ,栃木1区 / 自由民主党 / 前職 / 当選15回 / 72歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-370.png,栃木1区,自由民主党,前職,72,15,小選挙区,ok
+candidate-371,古井康介,candidate,ふるいこうすけ,比北信越 / 自由民主党 / 新人 / 当選1回 / 30歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-371.png,比北信越,自由民主党,新人,30,1,比例,ok
+candidate-372,古川 あおい,candidate,ふるかわあおい,比九州 / みらい / 新人 / 当選1回 / 34歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-372.png,比九州,みらい,新人,34,1,比例,ok
+candidate-373,星野剛士,candidate,ほしのつよし,神奈川12区 / 自由民主党 / 前職 / 当選6回 / 62歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-373.png,神奈川12区,自由民主党,前職,62,6,小選挙区,ok
+candidate-374,細田健一,candidate,ほそだけんいち,比東海 / 自由民主党 / 元職 / 当選5回 / 61歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-374.png,比東海,自由民主党,元職,61,5,比例,ok
+candidate-375,細野豪志,candidate,ほそのごうし,静岡5区 / 自由民主党 / 前職 / 当選10回 / 54歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-375.png,静岡5区,自由民主党,前職,54,10,小選挙区,ok
+candidate-376,古川禎久,candidate,ふるかわよしひさ,宮崎3区 / 自由民主党 / 前職 / 当選9回 / 60歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-376.png,宮崎3区,自由民主党,前職,60,9,小選挙区,ok
+candidate-377,古屋圭司,candidate,ふるやけいじ,岐阜5区 / 自由民主党 / 前職 / 当選13回 / 73歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-377.png,岐阜5区,自由民主党,前職,73,13,小選挙区,ok
+candidate-378,保坂 泰,candidate,ほさかやすし,埼玉4区 / 自由民主党 / 前職 / 当選4回 / 51歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-378.png,埼玉4区,自由民主党,前職,51,4,小選挙区,ok
+candidate-379,前原誠司,candidate,まえはらせいじ,京都2区 / 日本維新の会 / 前職 / 当選12回 / 63歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-379.png,京都2区,日本維新の会,前職,63,12,小選挙区,ok
+candidate-380,牧島 かれん,candidate,まきしまかれん,神奈川17区 / 自由民主党 / 前職 / 当選6回 / 49歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-380.png,神奈川17区,自由民主党,前職,49,6,小選挙区,ok
+candidate-381,牧野俊一,candidate,まきのしゅんいち,比九州 / 参政党 / 新人 / 当選1回 / 40歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-381.png,比九州,参政党,新人,40,1,比例,ok
+candidate-382,堀内詔子,candidate,ほりうちのりこ,山梨2区 / 自由民主党 / 前職 / 当選6回 / 60歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-382.png,山梨2区,自由民主党,前職,60,6,小選挙区,ok
+candidate-383,本田太郎,candidate,ほんだたろう,京都5区 / 自由民主党 / 前職 / 当選4回 / 52歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-383.png,京都5区,自由民主党,前職,52,4,小選挙区,ok
+candidate-384,前川恵,candidate,まえかわ めぐみ,比北関東 / 自由民主党 / 元職 / 当選2回 / 50歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-384.png,比北関東,自由民主党,元職,50,2,比例,ok
+candidate-385,松本泉,candidate,まつもと いずみ,千葉8区 / 自由民主党 / 新人 / 当選1回 / 44歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-385.png,千葉8区,自由民主党,新人,44,1,小選挙区,ok
+candidate-386,松下英樹,candidate,まつしたひでき,北海道9区 / 自由民主党 / 新人 / 当選1回 / 35歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-386.png,北海道9区,自由民主党,新人,35,1,小選挙区,ok
+candidate-387,松島 みどり,candidate,まつしまみどり,東京14区 / 自由民主党 / 前職 / 当選9回 / 69歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-387.png,東京14区,自由民主党,前職,69,9,小選挙区,ok
+candidate-388,松野博一,candidate,まつのひろかず,千葉3区 / 自由民主党 / 前職 / 当選10回 / 63歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-388.png,千葉3区,自由民主党,前職,63,10,小選挙区,ok
+candidate-389,松本 尚,candidate,まつもとひさし,千葉13区 / 自由民主党 / 前職 / 当選3回 / 63歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-389.png,千葉13区,自由民主党,前職,63,3,小選挙区,ok
+candidate-390,松本 洋平,candidate,まつもとようへい,東京19区 / 自由民主党 / 前職 / 当選7回 / 52歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-390.png,東京19区,自由民主党,前職,52,7,小選挙区,ok
+candidate-391,三木圭恵,candidate,みき けえ,比近畿 / 日本維新の会 / 前職 / 当選4回 / 59歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-391.png,比近畿,日本維新の会,前職,59,4,比例,ok
+candidate-392,水野良彦,candidate,みずのよしひこ,愛知3区 / 自由民主党 / 新人 / 当選1回 / 52歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-392.png,愛知3区,自由民主党,新人,52,1,小選挙区,ok
+candidate-393,三反園 訓,candidate,みたぞのさとし,鹿児島2区 / 自由民主党 / 前職 / 当選3回 / 67歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-393.png,鹿児島2区,自由民主党,前職,67,3,小選挙区,ok
+candidate-394,丸尾南都子,candidate,まるおなつこ,神奈川1区 / 自由民主党 / 新人 / 当選1回 / 43歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-394.png,神奈川1区,自由民主党,新人,43,1,小選挙区,ok
+candidate-395,丸川珠代,candidate,まるかわたまよ,東京7区 / 自由民主党 / 新人 / 当選1回 / 55歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-395.png,東京7区,自由民主党,新人,55,1,小選挙区,ok
+candidate-396,丸田康一郎,candidate,まるたこういちろう,神奈川13区 / 自由民主党 / 新人 / 当選1回 / 40歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-396.png,神奈川13区,自由民主党,新人,40,1,小選挙区,ok
+candidate-397,美延 映夫,candidate,みのべてるお,大阪4区 / 日本維新の会 / 前職 / 当選4回 / 64歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-397.png,大阪4区,日本維新の会,前職,64,4,小選挙区,ok
+candidate-398,御法川信英,candidate,みのりかわのぶひで,比東北 / 自由民主党 / 前職 / 当選8回 / 61歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-398.png,比東北,自由民主党,前職,61,8,比例,ok
+candidate-399,三原朝利,candidate,みはらあさと,比九州 / 自由民主党 / 新人 / 当選1回 / 48歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-399.png,比九州,自由民主党,新人,48,1,比例,ok
+candidate-400,三谷 英弘,candidate,みたにひでひろ,神奈川8区 / 自由民主党 / 前職 / 当選5回 / 49歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-400.png,神奈川8区,自由民主党,前職,49,5,小選挙区,ok
+candidate-401,三林裕巳,candidate,みつばやしひろみ,埼玉13区 / 自由民主党 / 元職 / 当選5回 / 70歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-401.png,埼玉13区,自由民主党,元職,70,5,小選挙区,ok
+candidate-402,峰島侑也,candidate,みねしまゆうや,比東京 / みらい / 新人 / 当選1回 / 35歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-402.png,比東京,みらい,新人,35,1,比例,ok
+candidate-403,宮下一郎,candidate,みやしたいちろう,長野5区 / 自由民主党 / 前職 / 当選8回 / 67歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-403.png,長野5区,自由民主党,前職,67,8,小選挙区,ok
+candidate-404,向山 淳,candidate,むこうやまじゅん,北海道8区 / 自由民主党 / 前職 / 当選2回 / 42歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-404.png,北海道8区,自由民主党,前職,42,2,小選挙区,ok
+candidate-405,向山好一,candidate,むこやまこういち,比近畿 / 国民民主党 / 前職 / 当選3回 / 68歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-405.png,比近畿,国民民主党,前職,68,3,比例,ok
+candidate-406,宮内秀樹,candidate,みやうちひでき,福岡4区 / 自由民主党 / 前職 / 当選6回 / 63歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-406.png,福岡4区,自由民主党,前職,63,6,小選挙区,ok
+candidate-407,宮崎政久,candidate,みやざきまさひさ,沖縄2区 / 自由民主党 / 前職 / 当選6回 / 60歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-407.png,沖縄2区,自由民主党,前職,60,6,小選挙区,ok
+candidate-408,宮路拓馬,candidate,みやじたくま,鹿児島1区 / 自由民主党 / 前職 / 当選5回 / 46歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-408.png,鹿児島1区,自由民主党,前職,46,5,小選挙区,ok
+candidate-409,村井英樹,candidate,むらいひでき,埼玉1区 / 自由民主党 / 前職 / 当選6回 / 45歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-409.png,埼玉1区,自由民主党,前職,45,6,小選挙区,ok
+candidate-410,村岡 敏英,candidate,むらおかとし,秋田3区 / 国民民主党 / 前職 / 当選4回 / 65歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-410.png,秋田3区,国民民主党,前職,65,4,小選挙区,ok
+candidate-411,村上誠一郎,candidate,むらかみせいいちろう,比四国 / 自由民主党 / 前職 / 当選14回 / 73歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-411.png,比四国,自由民主党,前職,73,14,比例,ok
+candidate-412,武藤 かず子,candidate,むとうかずこ,比北関東 / みらい / 新人 / 当選1回 / 44歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-412.png,比北関東,みらい,新人,44,1,比例,ok
+candidate-413,武藤容治,candidate,むとうようじ,岐阜3区 / 自由民主党 / 前職 / 当選7回 / 70歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-413.png,岐阜3区,自由民主党,前職,70,7,小選挙区,ok
+candidate-414,宗清 皇一,candidate,むねきよこういち,比近畿 / 自由民主党 / 元職 / 当選4回 / 55歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-414.png,比近畿,自由民主党,元職,55,4,比例,ok
+candidate-415,森 英介,candidate,もりえいすけ,千葉11区 / 自由民主党 / 前職 / 当選13回 / 77歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-415.png,千葉11区,自由民主党,前職,77,13,小選挙区,ok
+candidate-416,森 洋介,candidate,もりようすけ,比東京 / 国民民主党 / 前職 / 当選2回 / 31歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-416.png,比東京,国民民主党,前職,31,2,比例,ok
+candidate-417,森下千里,candidate,もりしたちさと,宮城4区 / 自由民主党 / 前職 / 当選2回 / 44歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-417.png,宮城4区,自由民主党,前職,44,2,小選挙区,ok
+candidate-418,村上智信,candidate,むらかみとものぶ,比九州 / 日本維新の会 / 前職 / 当選2回 / 56歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-418.png,比九州,日本維新の会,前職,56,2,比例,ok
+candidate-419,村木汀,candidate,むらき なぎさ,比北海道 / 自由民主党 / 新人 / 当選1回 / 25歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-419.png,比北海道,自由民主党,新人,25,1,比例,ok
+candidate-420,茂木敏充,candidate,もてぎとしみつ,比北海道 / 自由民主党 / 前職 / 当選12回 / 70歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-420.png,比北海道,自由民主党,前職,70,12,比例,ok
+candidate-421,保岡宏武,candidate,やすおかひろたけ,比九州 / 自由民主党 / 元職 / 当選2回 / 52歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-421.png,比九州,自由民主党,元職,52,2,比例,ok
+candidate-422,簗和生,candidate,やな かずお,比北関東 / 自由民主党 / 前職 / 当選6回 / 46歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-422.png,比北関東,自由民主党,前職,46,6,比例,ok
+candidate-423,山岡達丸,candidate,やまおかたつまる,比北海道 / 立憲民主党 / 前職 / 当選5回 / 46歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-423.png,比北海道,立憲民主党,前職,46,5,比例,ok
+candidate-424,森原 紀代子,candidate,もりはらきよこ,比東京 / 自由民主党 / 新人 / 当選1回 / 45歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-424.png,比東京,自由民主党,新人,45,1,比例,ok
+candidate-425,森山裕,candidate,もりやまひろし,鹿児島4区 / 自由民主党 / 前職 / 当選9回 / 80歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-425.png,鹿児島4区,自由民主党,前職,80,9,小選挙区,ok
+candidate-426,盛山正仁,candidate,もりやままさひと,兵庫1区 / 自由民主党 / 元職 / 当選6回 / 72歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-426.png,兵庫1区,自由民主党,元職,72,6,小選挙区,ok
+candidate-427,山口壮,candidate,やまぐちつよし,兵庫12区 / 自由民主党 / 前職 / 当選9回 / 71歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-427.png,兵庫12区,自由民主党,前職,71,9,小選挙区,ok
+candidate-428,山崎正恭,candidate,やまさきまさやす,比四国 / 立憲民主党 / 前職 / 当選3回 / 54歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-428.png,比四国,立憲民主党,前職,54,3,比例,ok
+candidate-429,山下史守朗,candidate,やましたしずお,愛知16区 / 自由民主党 / 新人 / 当選1回 / 50歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-429.png,愛知16区,自由民主党,新人,50,1,小選挙区,ok
+candidate-430,山際大志郎,candidate,やまぎわだいしろう,神奈川18区 / 自由民主党 / 前職 / 当選8回 / 57歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-430.png,神奈川18区,自由民主党,前職,57,8,小選挙区,ok
+candidate-431,山口俊一,candidate,やまぐちしゅんいち,徳島2区 / 自由民主党 / 前職 / 当選13回 / 75歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-431.png,徳島2区,自由民主党,前職,75,13,小選挙区,ok
+candidate-432,山口晋,candidate,やまぐち すすむ,埼玉10区 / 自由民主党 / 元職 / 当選2回 / 42歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-432.png,埼玉10区,自由民主党,元職,42,2,小選挙区,ok
+candidate-433,山田美樹,candidate,やまだみき,東京1区 / 自由民主党 / 元職 / 当選5回 / 51歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-433.png,東京1区,自由民主党,元職,51,5,小選挙区,ok
+candidate-434,山田基靖,candidate,やまだもとやす,兵庫11区 / 自由民主党 / 新人 / 当選1回 / 43歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-434.png,兵庫11区,自由民主党,新人,43,1,小選挙区,ok
+candidate-435,山本香苗,candidate,やまもとかなえ,比近畿 / 公明党 / 新人 / 当選1回 / 54歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-435.png,比近畿,公明党,新人,54,1,比例,ok
+candidate-436,山下貴司,candidate,やましたたかし,岡山2区 / 自由民主党 / 前職 / 当選6回 / 60歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-436.png,岡山2区,自由民主党,前職,60,6,小選挙区,ok
+candidate-437,山田瑛理,candidate,やまだえり,比南関東 / みらい / 新人 / 当選1回 / 43歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-437.png,比南関東,みらい,新人,43,1,比例,ok
+candidate-438,山田賢司,candidate,やまだけんじ,兵庫7区 / 自由民主党 / 前職 / 当選6回 / 59歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-438.png,兵庫7区,自由民主党,前職,59,6,小選挙区,ok
+candidate-439,山本大地,candidate,やまもとだいち,和歌山1区 / 自由民主党 / 前職 / 当選2回 / 34歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-439.png,和歌山1区,自由民主党,前職,34,2,小選挙区,ok
+candidate-440,山本裕三,candidate,やまもとゆうぞう,静岡3区 / 自由民主党 / 新人 / 当選1回 / 43歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-440.png,静岡3区,自由民主党,新人,43,1,小選挙区,ok
+candidate-441,横田光弘,candidate,よこたみつひろ,比南関東 / 日本維新の会 / 新人 / 当選1回 / 68歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-441.png,比南関東,日本維新の会,新人,68,1,比例,ok
+candidate-442,山本 左近,candidate,やまもとさこん,比東海 / 自由民主党 / 元職 / 当選2回 / 43歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-442.png,比東海,自由民主党,元職,43,2,比例,ok
+candidate-443,山本譲司,candidate,やまもとじょうじ,比南関東 / れいわ新選組 / 元職 / 当選3回 / 63歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-443.png,比南関東,れいわ新選組,元職,63,3,比例,ok
+candidate-444,山本深,candidate,やまもとしん,広島5区 / 自由民主党 / 新人 / 当選1回 / 40歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-444.png,広島5区,自由民主党,新人,40,1,小選挙区,ok
+candidate-445,吉田有理,candidate,よしだゆうり,比北海道 / 自由民主党 / 新人 / 当選1回 / 39歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-445.png,比北海道,自由民主党,新人,39,1,比例,ok
+candidate-446,吉村 悠,candidate,よしむらはるか,福岡10区 / 自由民主党 / 新人 / 当選1回 / 40歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-446.png,福岡10区,自由民主党,新人,40,1,小選挙区,ok
+candidate-447,米内紘正,candidate,よないひろまさ,比東北 / 自由民主党 / 新人 / 当選1回 / 38歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-447.png,比東北,自由民主党,新人,38,1,比例,ok
+candidate-448,吉川里奈,candidate,よしかわりな,比東京 / 参政党 / 前職 / 当選2回 / 38歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-448.png,比東京,参政党,前職,38,2,比例,ok
+candidate-449,吉田真次,candidate,よしだしんじ,比中国 / 自由民主党 / 前職 / 当選3回 / 41歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-449.png,比中国,自由民主党,前職,41,3,比例,ok
+candidate-450,吉田宣弘,candidate,よしだのぶひろ,比九州 / 公明党 / 前職 / 当選5回 / 58歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-450.png,比九州,公明党,前職,58,5,比例,ok
+candidate-451,若宮健嗣,candidate,わかみやけんじ,東京5区 / 自由民主党 / 元職 / 当選6回 / 64歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-451.png,東京5区,自由民主党,元職,64,6,小選挙区,ok
+candidate-452,若山慎司,candidate,わかやましんじ,愛知10区 / 自由民主党 / 前職 / 当選2回 / 52歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-452.png,愛知10区,自由民主党,前職,52,2,小選挙区,ok
+candidate-453,鷲尾英一郎,candidate,わしおえいいちろう,新潟4区 / 自由民主党 / 元職 / 当選7回 / 49歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-453.png,新潟4区,自由民主党,元職,49,7,小選挙区,ok
+candidate-454,笠浩史,candidate,りゅうひろふみ,比南関東 / 立憲民主党 / 前職 / 当選9回 / 61歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-454.png,比南関東,立憲民主党,前職,61,9,比例,ok
+candidate-455,若狭清史,candidate,わかさきよし,比北信越 / 日本維新の会 / 新人 / 当選1回 / 45歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-455.png,比北信越,日本維新の会,新人,45,1,比例,ok
+candidate-456,若林健太,candidate,わかばやし けんた,長野1区 / 自由民主党 / 元職 / 当選2回 / 62歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-456.png,長野1区,自由民主党,元職,62,2,小選挙区,ok
+candidate-457,渡辺 藍理,candidate,わたなべあいり,比東海 / 参政党 / 新人 / 当選1回 / 43歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-457.png,比東海,参政党,新人,43,1,比例,ok
+candidate-458,渡辺勝幸,candidate,わたなべかつゆき,宮城2区 / 自由民主党 / 新人 / 当選1回 / 50歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-458.png,宮城2区,自由民主党,新人,50,1,小選挙区,ok
+candidate-459,渡辺孝一,candidate,わたなべこういち,比北海道 / 自由民主党 / 元職 / 当選5回 / 68歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-459.png,比北海道,自由民主党,元職,68,5,比例,ok
+candidate-460,早稲田 夕季,candidate,わせだゆき,比南関東 / 立憲民主党 / 前職 / 当選4回 / 67歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-460.png,比南関東,立憲民主党,前職,67,4,比例,ok
+candidate-461,和田政宗,candidate,わだまさむね,比東北 / 参政党 / 新人 / 当選1回 / 51歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-461.png,比東北,参政党,新人,51,1,比例,ok
+candidate-462,和田義明,candidate,わだよしあき,北海道5区 / 自由民主党 / 元職 / 当選4回 / 54歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-462.png,北海道5区,自由民主党,元職,54,4,小選挙区,ok
+candidate-463,渡辺 真太朗,candidate,わたなべ しんたろう,栃木3区 / 無所属 / 新人 / 当選1回 / 33歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-463.png,栃木3区,無所属,新人,33,1,小選挙区,ok
+candidate-464,渡辺 創,candidate,わたなべ そう,宮崎1区 / 立憲民主党 / 前職 / 当選3回 / 48歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-464.png,宮崎1区,立憲民主党,前職,48,3,小選挙区,ok
+candidate-465,渡辺 博道,candidate,わたなべ ひろみち,千葉6区 / 自由民主党 / 元職 / 当選9回 / 75歳,shugiin-51st,,/data/glossary/photos/shugiin-51st/candidate-465.png,千葉6区,自由民主党,元職,75,9,小選挙区,ok

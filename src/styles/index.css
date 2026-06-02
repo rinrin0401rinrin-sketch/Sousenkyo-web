@@ -23,7 +23,7 @@ a {
 
 @layer components {
   .glass-panel {
-    @apply rounded-[2rem] border border-white/60 bg-white/55 shadow-panel backdrop-blur-2xl ring-1 ring-white/40;
+    @apply rounded-[2rem] border border-white/60 bg-white/55 shadow-panel backdrop-blur-2xl ring-1 ring-white/40 max-sm:rounded-3xl;
   }
 
   .glass-card {
@@ -36,5 +36,156 @@ a {
 
   .glass-gallery-card {
     @apply glass-card overflow-hidden p-2 transition hover:-translate-y-0.5 hover:bg-white/70;
+  }
+
+  .glass-surface-rich {
+    @apply relative overflow-hidden rounded-[2rem] border border-white/70 bg-white/60 shadow-panel backdrop-blur-2xl ring-1 ring-white/40 max-sm:rounded-3xl;
+    box-shadow:
+      0 28px 90px rgba(15, 23, 42, 0.08),
+      0 18px 42px rgba(56, 189, 248, 0.12),
+      inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  }
+
+  .glass-surface-rich::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background:
+      linear-gradient(115deg, rgba(255, 255, 255, 0.72), transparent 28%),
+      radial-gradient(circle at 80% 12%, rgba(125, 211, 252, 0.2), transparent 30%);
+  }
+
+  .glass-surface-rich > * {
+    position: relative;
+    z-index: 1;
+  }
+
+  .special-hero {
+    @apply relative rounded-[2.5rem] border border-white/75 bg-white/55 shadow-panel backdrop-blur-2xl ring-1 ring-white/50 max-sm:rounded-3xl;
+    box-shadow:
+      0 34px 100px rgba(15, 23, 42, 0.1),
+      0 22px 70px rgba(14, 165, 233, 0.14),
+      inset 0 1px 0 rgba(255, 255, 255, 0.94);
+  }
+
+  .special-hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background:
+      radial-gradient(circle at 73% 17%, rgba(125, 211, 252, 0.26), transparent 30%),
+      linear-gradient(125deg, rgba(255, 255, 255, 0.9), transparent 42%);
+  }
+
+  .visual-stage {
+    @apply relative aspect-[16/9] overflow-hidden rounded-[2rem] border border-white/80 bg-white/70 shadow-panel ring-1 ring-white/50 max-sm:rounded-3xl;
+  }
+
+  .visual-stage::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: linear-gradient(180deg, transparent 55%, rgba(248, 250, 252, 0.84));
+  }
+
+  .visual-caption {
+    @apply absolute inset-x-4 bottom-4 z-10 rounded-3xl border border-white/70 bg-white/80 p-4 shadow-sm backdrop-blur-2xl;
+  }
+
+  .shine-sweep {
+    @apply relative;
+  }
+
+  .shine-sweep::after {
+    content: "";
+    position: absolute;
+    top: -40%;
+    bottom: -40%;
+    left: -45%;
+    width: 38%;
+    pointer-events: none;
+    opacity: 0;
+    transform: translateX(-120%) skewX(-18deg);
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.64), transparent);
+  }
+
+  .shine-sweep:hover::after,
+  .shine-sweep:focus-within::after {
+    animation: shineSweep 950ms ease;
+    opacity: 1;
+  }
+
+  .reveal-up {
+    animation: revealUp 640ms ease both;
+  }
+
+  .float-soft {
+    animation: floatSoft 5.4s ease-in-out infinite;
+  }
+
+  .pulse-dot-rich {
+    animation: softPulseRing 1.8s ease-in-out infinite;
+    box-shadow: 0 0 20px rgba(14, 165, 233, 0.3);
+  }
+
+  .overflow-wrap-anywhere {
+    overflow-wrap: anywhere;
+    word-break: normal;
+  }
+}
+
+@keyframes revealUp {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+    filter: blur(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+}
+
+@keyframes shineSweep {
+  from {
+    transform: translateX(-140%) skewX(-18deg);
+  }
+  to {
+    transform: translateX(360%) skewX(-18deg);
+  }
+}
+
+@keyframes softPulseRing {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(56, 189, 248, 0.25), 0 0 18px rgba(14, 165, 233, 0.22);
+  }
+  50% {
+    box-shadow: 0 0 0 10px rgba(56, 189, 248, 0), 0 0 26px rgba(14, 165, 233, 0.34);
+  }
+}
+
+@keyframes floatSoft {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(0, -6px, 0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }

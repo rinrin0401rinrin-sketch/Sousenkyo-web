@@ -1,0 +1,193 @@
+import { Link } from 'react-router-dom';
+import { AppShell } from '../components/AppShell';
+import { EmptyState } from '../components/EmptyState';
+import { ErrorScreen } from '../components/ErrorScreen';
+import { LoadingScreen } from '../components/LoadingScreen';
+import { PartyBadge } from '../components/PartyBadge';
+import { StatCard } from '../components/StatCard';
+import { getSpecialPage, type SpecialPageId } from '../data/specialPages';
+import { useAsyncData } from '../hooks/useAsyncData';
+import { loadActiveElection, loadElectionBundle, loadElectionsIndex } from '../utils/dataLoader';
+import { getPartySeats, getUndecidedDistrictCount } from '../utils/electionHelpers';
+import { publicPath } from '../utils/publicPath';
+
+type SpecialFeaturePageProps = {
+  pageId: SpecialPageId;
+};
+
+export function SpecialFeaturePage({ pageId }: SpecialFeaturePageProps) {
+  const page = getSpecialPage(pageId);
+  const state = useAsyncData(async () => {
+    const [active, index] = await Promise.all([loadActiveElection(), loadElectionsIndex()]);
+    const bundle = await loadElectionBundle(active.currentId);
+    return { active, index, bundle };
+  }, []);
+
+  if (state.status === 'loading') return <LoadingScreen />;
+  if (state.status === 'error') return <ErrorScreen message={state.error.message} />;
+
+  const { active, index, bundle } = state.data;
+  const partySeats = getPartySeats(bundle);
+  const undecidedDistrictCount = getUndecidedDistrictCount(bundle);
+  const proportionalBlocks = bundle.proportionalBlocks.slice(0, 11);
+  const visualUrl = publicPath(page.imageUrl);
+
+  return (
+    <AppShell>
+      <div className="space-y-6 sm:space-y-8">
+        <section className="special-hero reveal-up overflow-hidden p-4 sm:p-6 lg:p-8">
+          <div className="grid gap-6 lg:grid-cols-[0.92fr_1.08fr] lg:items-center">
+            <div className="relative z-10">
+              <Link to="/" className="glass-chip text-slate-600 transition hover:bg-white/80">
+                トップへ戻る
+              </Link>
+              <p className="mt-6 text-xs font-black uppercase tracking-[0.28em] text-slate-500">{page.eyebrow}</p>
+              <h1 className="mt-3 text-4xl font-black tracking-tight text-slate-950 sm:text-6xl lg:text-7xl">{page.title}</h1>
+              <p className="mt-5 max-w-xl text-base leading-8 text-slate-600 sm:text-lg">{page.subtitle}</p>
+              <div className="mt-6 flex flex-wrap gap-2">
+                <span className="glass-chip text-slate-600">現在表示: {bundle.meta.shortName ?? bundle.meta.name}</span>
+                <span className="glass-chip text-slate-600">開票率 {bundle.summary.reportingRate ?? 0}%</span>
+                <span className="glass-chip text-slate-600">未確定 {undecidedDistrictCount}</span>
+              </div>
+            </div>
+
+            <div className="visual-stage float-soft">
+              <img src={visualUrl} alt={`${page.title} UIモック`} className="h-full w-full object-cover" />
+              <div className="visual-caption">
+                <p className="text-xs font-black uppercase tracking-[0.24em] text-slate-500">UI PREVIEW</p>
+                <p className="mt-1 text-lg font-black text-slate-950">{page.title}</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="grid gap-3 sm:grid-cols-3">
+          {page.metrics.map((metric, index) => (
+            <div key={metric.label} className="reveal-up" style={{ animationDelay: `${index * 80}ms` }}>
+              <StatCard label={metric.label} value={metric.value} detail={metric.detail} />
+            </div>
+          ))}
+        </section>
+
+        <section className="grid gap-5 lg:grid-cols-[1fr_0.9fr]">
+          <div className="glass-surface-rich p-5 sm:p-6">
+            <div className="mb-5 flex items-end justify-between gap-4">
+              <div>
+                <p className="text-xs font-black uppercase tracking-[0.18em] text-slate-500">Feature Layout</p>
+                <h2 className="mt-1 text-2xl font-black text-slate-950">ページ内セクション</h2>
+              </div>
+              <span className="pulse-dot-rich h-3 w-3 rounded-full" style={{ backgroundColor: page.accent }} />
+            </div>
+            <div className="grid gap-3">
+              {page.panels.map((panel) => (
+                <article key={panel.title} className="glass-card shine-sweep overflow-hidden p-4">
+                  <h3 className="text-lg font-black text-slate-950">{panel.title}</h3>
+                  <p className="mt-2 text-sm leading-6 text-slate-600">{panel.description}</p>
+                  <div className="mt-4 flex flex-wrap gap-2">
+                    {panel.tags.map((tag) => (
+                      <span key={tag} className="glass-chip text-slate-600">
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                </article>
+              ))}
+            </div>
+          </div>
+
+          <ContextPanel pageId={pageId} activeId={active.currentId} partySeats={partySeats} elections={index.elections} blocks={proportionalBlocks} />
+        </section>
+      </div>
+    </AppShell>
+  );
+}
+
+function ContextPanel({
+  pageId,
+  activeId,
+  partySeats,
+  elections,
+  blocks,
+}: {
+  pageId: SpecialPageId;
+  activeId: string;
+  partySeats: ReturnType<typeof getPartySeats>;
+  elections: Awaited<ReturnType<typeof loadElectionsIndex>>['elections'];
+  blocks: Awaited<ReturnType<typeof loadElectionBundle>>['proportionalBlocks'];
+}) {
+  if (pageId === 'archive') {
+    return (
+      <aside className="glass-surface-rich p-5 sm:p-6">
+        <p className="text-xs font-black uppercase tracking-[0.18em] text-slate-500">Election Archive</p>
+        <h2 className="mt-1 text-2xl font-black text-slate-950">選挙回次</h2>
+        <div className="mt-5 grid gap-3">
+          {elections.map((election) => (
+            <Link
+              key={election.id}
+              to={election.isDataReady === false ? '/archive' : `/elections/${election.id}`}
+              className={`rounded-3xl border p-4 transition hover:-translate-y-0.5 ${
+                election.id === activeId ? 'border-sky-200 bg-sky-50/70' : 'border-white/70 bg-white/55'
+              }`}
+            >
+              <div className="flex items-center justify-between gap-3">
+                <p className="text-xs font-bold text-slate-500">{election.type}</p>
+                <span className="rounded-full bg-white/70 px-2 py-1 text-[0.65rem] font-black text-slate-500">
+                  {election.isDataReady === false ? '準備中' : '表示可'}
+                </span>
+              </div>
+              <p className="mt-1 text-lg font-black text-slate-950">{election.name}</p>
+              <p className="mt-3 text-xs font-bold text-slate-500">
+                {election.status === 'current' ? '現在表示中' : election.status === 'past' ? '過去選挙' : '今後の選挙'}
+              </p>
+            </Link>
+          ))}
+        </div>
+        <Link to="/glossary" className="mt-4 inline-flex min-h-11 items-center justify-center rounded-full bg-slate-950 px-5 text-sm font-black text-white">
+          単語帳で用語を確認
+        </Link>
+      </aside>
+    );
+  }
+
+  if (pageId === 'proportional') {
+    return (
+      <aside className="glass-surface-rich p-5 sm:p-6">
+        <p className="text-xs font-black uppercase tracking-[0.18em] text-slate-500">Blocks</p>
+        <h2 className="mt-1 text-2xl font-black text-slate-950">比例ブロック</h2>
+        {blocks.length > 0 ? (
+          <div className="mt-5 grid grid-cols-2 gap-2">
+            {blocks.map((block) => (
+              <span key={block.id} className="glass-chip justify-between text-slate-700">
+                {block.name}
+                <b>{block.seats ?? '-'}</b>
+              </span>
+            ))}
+          </div>
+        ) : (
+          <EmptyState title="比例ブロックがありません" message="proportional-blocks.json を確認してください。" />
+        )}
+      </aside>
+    );
+  }
+
+  return (
+    <aside className="glass-surface-rich p-5 sm:p-6">
+      <p className="text-xs font-black uppercase tracking-[0.18em] text-slate-500">Party Seats</p>
+      <h2 className="mt-1 text-2xl font-black text-slate-950">政党別議席</h2>
+      {partySeats.length > 0 ? (
+        <div className="mt-5 space-y-3">
+          {partySeats.map(({ partyId, seats, party }) => (
+            <div key={partyId} className="rounded-3xl border border-white/70 bg-white/60 p-4">
+              <div className="flex items-center justify-between gap-4">
+                <PartyBadge party={party} />
+                <span className="text-xl font-black text-slate-950">{seats}</span>
+              </div>
+            </div>
+          ))}
+        </div>
+      ) : (
+        <EmptyState title="政党別データがありません" message="summary.json の partySeats を確認してください。" />
+      )}
+    </aside>
+  );
+}

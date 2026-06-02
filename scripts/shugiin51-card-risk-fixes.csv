@@ -1,0 +1,119 @@
+id,correct_label,correct_reading,correct_district,evidence_page,confidence,note,correct_party,correct_status,correct_age,correct_wins
+candidate-021,池下卓,いけした たく,大阪10区,7,high,PDFKit page 7 slot 2
+candidate-030,石井啓一,いしい けいいち,比北関東,8,high,PDFKit page 8 slot 5
+candidate-033,石原正敬,いしはら まさたか,三重3区,9,high,PDFKit page 9 slot 2
+candidate-035,石田真敏,いしだ まさとし,比近畿,9,high,PDFKit page 9
+candidate-036,石破茂,いしば しげる,鳥取1区,9,high,PDFKit page 9
+candidate-039,伊藤恵介,いとう けいすけ,比東海,10,high,PDFKit page 10 slot 2
+candidate-040,泉健太,いずみ けんた,京都3区,10,high,PDFKit page 10; user reported reading truncation
+candidate-042,市村浩一郎,いちむら こういちろう,比近畿,10,high,PDFKit page 10 slot 5
+candidate-057,今岡植,いまおか うえき,東京26区,13,high,PDFKit page 13 slot 2
+candidate-066,岩谷良平,いわたに りょうへい,大阪13区,14,high,PDFKit page 14 slot 5
+candidate-072,上原正裕,うえはら まさひろ,神奈川9区,15,high,PDFKit page 15 slot 5
+candidate-074,江渡聡徳,えと あきのり,比東北,16,high,PDFKit page 16 slot 1
+candidate-075,江藤拓,えとう たく,比九州,16,high,PDFKit page 16
+candidate-076,内山航,うちやま こう,新潟1区,16,high,PDFKit page 16 slot 3
+candidate-077,梅村聡,うめむら さとし,大阪5区,16,high,PDFKit page 16 slot 4
+candidate-081,大串正樹,おおぐし まさき,兵庫6区,17,high,PDFKit page 17 slot 2
+candidate-083,英利アルフィヤ,えり あるふぃや,千葉5区,17,high,PDFKit page 17 slot 4
+candidate-084,遠藤敬,えんどう たかし,大阪18区,17,high,PDFKit page 17; OCR reading mixed
+candidate-087,大森江里子,おおもり えりこ,比東京,18,high,PDFKit page 18 slot 2
+candidate-088,大島敦,おおしま あつし,比北関東,18,high,PDFKit page 18 slot 3
+candidate-090,大塚拓,おおつか たく,埼玉9区,18,high,PDFKit page 18 slot 5
+candidate-093,奥下剛光,おくした たけみつ,大阪7区,19,high,PDFKit page 19 slot 2
+candidate-096,岡本三成,おかもと みつなり,比東京,19,high,PDFKit page 19 slot 5
+candidate-098,小田原潔,おだわら きよし,東京21区,20,high,PDFKit page 20; user reported previous-name reading mixed
+candidate-102,小里泰弘,おざと やすひろ,比九州,20,high,PDFKit page 20 slot 5
+candidate-105,河西宏一,かさい こういち,比東京,21,high,PDFKit page 21 slot 2
+candidate-117,門山宏哲,かどやま ひろあき,千葉1区,23,high,PDFKit page 23 slot 2
+candidate-120,加藤貴弘,かとう たかひろ,北海道1区,23,high,PDFKit page 23 slot 5
+candidate-123,上川陽子,かみかわ ようこ,静岡1区,24,high,PDFKit page 24 slot 2
+candidate-126,金子恭之,かねこ やすし,熊本4区,24,high,PDFKit page 24 slot 5
+candidate-129,河野正美,かわの まさみ,比九州,25,high,PDFKit page 25 slot 2
+candidate-132,河井昭成,かわいあきなり,比近畿,25,high,PDFKit page 25
+candidate-141,北神圭朗,きたがみけいろう,京都4区,27,high,PDFKit page 27
+candidate-144,岸信千世,きしのぶちよ,山口2区,27,high,PDFKit page 27
+candidate-146,金城泰邦,きんじょうやすくに,比九州,28,high,PDFKit page 28
+candidate-149,木原誠二,きはらせいじ,東京20区,28,high,PDFKit page 28
+candidate-153,熊田裕通,くまだひろみち,比東海,29,high,PDFKit page 29
+candidate-156,国定勇人,くにさだいさと,新潟2区,29,high,PDFKit page 29
+candidate-159,小泉龍司,こいずみりゅうじ,埼玉11区,30,high,PDFKit page 30
+candidate-160,栗原渉,くりはらわたる,福岡5区,30,high,PDFKit page 30
+candidate-165,輿水恵一,こしみずけいいち,比北関東,31,high,PDFKit page 31
+candidate-174,後藤祐一,ごとうゆういち,比南関東,32,high,PDFKit page 32
+candidate-181,斎藤健,さいとうけん,千葉7区,34,high,PDFKit page 34
+candidate-183,斎藤洋明,さいとう ひろあき,新潟3区,34,high,PDFKit page 34; previous-candidate reading mixed
+candidate-186,斎藤アレックス,さいとうあれっくす,比近畿,34,high,PDFKit page 34
+candidate-189,佐々木紀,ささきはじめ,石川2区,35,high,PDFKit page 35
+candidate-191,坂井学,さかい まなぶ,神奈川5区,35,high,PDFKit page 35
+candidate-198,佐藤主迪,さとうまさし,神奈川16区,36,high,PDFKit page 36
+candidate-200,島田智明,しまだともあき,比近畿,37,high,PDFKit page 37
+candidate-201,島村薫,しまむらかおる,比中国,37,high,PDFKit page 37
+candidate-202,重本護,しげもとまもる,比近畿,37,high,PDFKit page 37
+candidate-206,新藤義孝,しんどう よしたか,埼玉2区,38,high,PDFKit page 38; given-name tail dropped
+candidate-210,白坂亜紀,しらさかあき,比九州,38,high,PDFKit page 38
+candidate-213,鈴木拓海,すずきたくみ,比北関東,39,high,PDFKit page 39
+candidate-216,鈴木俊一,すずきしゅんいち,岩手2区,39,high,PDFKit page 39
+candidate-219,住吉寛紀,すみよしひろき,比近畿,40,high,PDFKit page 40
+candidate-222,鈴木美香,すずきみか,比東京,40,high,PDFKit page 40
+candidate-225,園崎弘道,そのさきひろみち,京都6区,41,high,PDFKit page 41
+candidate-227,関芳弘,せき よしひろ,兵庫3区,41,high,PDFKit page 41; previous-candidate reading mixed
+candidate-232,平将明,たいら まさあき,東京4区,42,high,PDFKit page 42; given-name tail dropped
+candidate-237,武井俊輔,たけいしゅんすけ,比九州,43,high,PDFKit page 43
+candidate-240,高見康裕,たかみやすひろ,島根2区,43,high,PDFKit page 43
+candidate-242,橘慶一郎,たちばな けいいちろう,富山3区,44,high,PDFKit page 44; surname missing and previous reading mixed
+candidate-251,田中和徳,たなかかずのり,神奈川10区,45,high,PDFKit page 45
+candidate-252,田中健,たなかけん,比東海,45,high,PDFKit page 45
+candidate-255,玉木雄一郎,たまきゆういちろう,香川2区,46,high,PDFKit page 46
+candidate-256,谷公一,たにこういち,兵庫5区,46,high,PDFKit page 46
+candidate-264,田村憲久,たむらのりひさ,三重1区,47,high,PDFKit page 47
+candidate-269,辻由布子,つじ ゆうこ,比東京,48,high,PDFKit page 48; surname missing and previous reading mixed
+candidate-273,土橋章宏,どばしあきひろ,比東京,49,high,PDFKit page 49
+candidate-278,中川宏昌,なかがわ ひろまさ,比北信越,50,high,PDFKit page 50; previous candidate reading mixed
+candidate-280,豊田真由子,とよた まゆこ,比北関東,50,medium,PDFKit page 50; label missing first kanji
+candidate-288,長島昭久,ながしまあきひさ,東京30区,51,high,PDFKit page 51
+candidate-289,長妻昭,ながつまあきら,比東京,52,high,PDFKit page 52
+candidate-292,中谷元,なかたにげん,高知1区,52,high,PDFKit page 52
+candidate-294,中司宏,なかつかひろし,大阪11区,52,high,PDFKit page 52
+candidate-297,中村裕之,なかむらひろゆき,北海道4区,53,high,PDFKit page 53
+candidate-300,中野英幸,なかのひでゆき,埼玉7区,53,high,PDFKit page 53
+candidate-303,西岡秀子,にしおかひでこ,長崎1区,54,high,PDFKit page 54
+candidate-306,中山泰秀,なかやまやすひで,比近畿,54,high,PDFKit page 54
+candidate-309,西村明宏,にしむらあきひろ,宮城3区,55,high,PDFKit page 55
+candidate-315,丹羽秀樹,にわひでき,愛知6区,56,high,PDFKit page 56
+candidate-317,西村康稔,にしむらやすとし,兵庫9区,56,high,PDFKit page 56
+candidate-318,西銘恒三郎,にしめこうさぶろう,沖縄4区,56,high,PDFKit page 56
+candidate-321,野田佳彦,のだよしひこ,千葉14区,57,high,PDFKit page 57
+candidate-323,沼崎満子,ぬまざきみつこ,比南関東,57,high,PDFKit page 57
+candidate-326,萩原佳,はぎはらけい,大阪9区,58,high,PDFKit page 58
+candidate-333,馬場伸幸,ばばのぶゆき,大阪17区,59,high,PDFKit page 59
+candidate-339,原山大亮,はらやまだいすけ,比近畿,60,high,PDFKit page 60
+candidate-343,平口洋,ひらぐちひろし,広島2区,61,high,PDFKit page 61
+candidate-348,平井卓也,ひらいたくや,比四国,61,high,PDFKit page 61
+candidate-352,平林晃,ひらばやし あきら,比中国,62,high,PDFKit page 62; given-name reading dropped
+candidate-359,福田徹,ふくだとおる,比東海,63,high,PDFKit page 63
+candidate-369,古川康,ふるかわやすし,佐賀2区,65,high,PDFKit page 65
+candidate-375,細野豪志,ほそのごうし,静岡5区,66,high,PDFKit page 66
+candidate-377,古屋圭司,ふるやけいじ,岐阜5区,66,high,PDFKit page 66
+candidate-383,本田太郎,ほんだたろう,京都5区,67,high,PDFKit page 67
+candidate-384,前川恵,まえかわ めぐみ,比北関東,67,high,PDFKit page 67; reading split by layout
+candidate-385,松本泉,まつもと いずみ,千葉8区,68,high,PDFKit page 68 slot 0,自民,新人,44,1
+candidate-388,松野博一,まつのひろかず,千葉3区,68,high,PDFKit page 68
+candidate-391,三木圭恵,みき けえ,比近畿,69,high,PDFKit page 69 row already correct
+candidate-396,丸田康一郎,まるたこういちろう,神奈川13区,69,high,PDFKit page 69
+candidate-408,宮路拓馬,みやじたくま,鹿児島1区,71,high,PDFKit page 71
+candidate-413,武藤容治,むとうようじ,岐阜3区,72,high,PDFKit page 72
+candidate-417,森下千里,もりしたちさと,宮城4区,73,high,PDFKit page 73
+candidate-419,村木汀,むらき なぎさ,比北海道,73,high,PDFKit page 73; previous-candidate reading mixed
+candidate-422,簗和生,やな かずお,比北関東,74,high,PDFKit page 74; previous-candidate reading mixed
+candidate-426,盛山正仁,もりやままさひと,兵庫1区,74,high,PDFKit page 74
+candidate-429,山下史守朗,やましたしずお,愛知16区,75,high,PDFKit page 75
+candidate-431,山口俊一,やまぐちしゅんいち,徳島2区,75,high,PDFKit page 75
+candidate-432,山口晋,やまぐち すすむ,埼玉10区,75,high,PDFKit page 75; given-name reading dropped
+candidate-435,山本香苗,やまもとかなえ,比近畿,76,high,PDFKit page 76
+candidate-438,山田賢司,やまだけんじ,兵庫7区,76,high,PDFKit page 76
+candidate-444,山本深,やまもとしん,広島5区,77,high,PDFKit page 77
+candidate-450,吉田宣弘,よしだのぶひろ,比九州,78,high,PDFKit page 78
+candidate-453,鷲尾英一郎,わしおえいいちろう,新潟4区,79,high,PDFKit page 79
+candidate-456,若林健太,わかばやし けんた,長野1区,79,medium,PDFKit page 79; label had proportional block token
+candidate-462,和田義明,わだよしあき,北海道5区,80,high,PDFKit page 80

@@ -1,0 +1,45 @@
+{
+  "entries": [
+    {
+      "category": "term",
+      "description": "1つの選挙区から代表者を選ぶ制度上の区分です。",
+      "electionIds": [
+        "shugiin-50th"
+      ],
+      "id": "term-single-member-district",
+      "label": "小選挙区",
+      "reading": "しょうせんきょく",
+      "relatedIds": [
+        "district-tokyo-1",
+        "district-osaka-1"
+      ]
+    },
+    {
+      "category": "term",
+      "description": "政党ごとの得票に応じて議席を配分する制度上の区分です。",
+      "electionIds": [
+        "shugiin-50th"
+      ],
+      "id": "term-proportional-representation",
+      "label": "比例代表",
+      "reading": "ひれいだいひょう",
+      "relatedIds": [
+        "proportional-tokyo",
+        "proportional-kinki"
+      ]
+    },
+    {
+      "category": "term",
+      "description": "小選挙区で敗れた候補者が比例代表で当選する場合に使う表現です。",
+      "electionIds": [
+        "shugiin-50th"
+      ],
+      "id": "term-proportional-revival",
+      "label": "比例復活",
+      "reading": "ひれいふっかつ",
+      "relatedIds": [
+        "term-proportional-representation"
+      ]
+    }
+  ]
+}

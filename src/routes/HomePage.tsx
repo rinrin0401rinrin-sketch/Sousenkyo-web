@@ -8,6 +8,7 @@ import { LoadingScreen } from '../components/LoadingScreen';
 import { Panel } from '../components/Panel';
 import { PartyBadge } from '../components/PartyBadge';
 import { StatCard } from '../components/StatCard';
+import { specialPages } from '../data/specialPages';
 import { useAsyncData } from '../hooks/useAsyncData';
 import { loadActiveElection, loadElectionBundle, loadElectionsIndex } from '../utils/dataLoader';
 import { getPartySeats, getUndecidedDistrictCount } from '../utils/electionHelpers';
@@ -39,13 +40,15 @@ export function HomePage() {
       <div className="space-y-5 sm:space-y-7">
         <section className="glass-panel overflow-hidden p-5 sm:p-8">
           <div className="grid gap-6 lg:grid-cols-[1.05fr_0.95fr] lg:items-stretch">
-            <div>
+            <div className="lg:col-span-2">
               <p className="mb-3 inline-flex rounded-full bg-slate-100 px-3 py-1 text-xs font-bold text-slate-600">
                 {bundle.meta.type} / {bundle.meta.status}
               </p>
-              <h1 className="text-4xl font-black tracking-tight text-slate-950 sm:text-6xl">
+              <h1 className="whitespace-nowrap text-[clamp(3rem,6.4vw,5.9rem)] font-black leading-[0.94] tracking-tight text-slate-950 max-sm:text-[clamp(2.4rem,12vw,3.4rem)]">
                 {bundle.meta.name}
               </h1>
+            </div>
+            <div>
               <p className="mt-4 max-w-2xl text-base leading-7 text-slate-600">{bundle.meta.description}</p>
               <div className="mt-6">
                 <Link
@@ -73,6 +76,37 @@ export function HomePage() {
                 <StatCard label="未確定選挙区" value={undecidedDistrictCount} detail="総数" />
               </div>
             </div>
+          </div>
+        </section>
+
+        <section className="glass-surface-rich p-5 sm:p-6">
+          <div className="mb-5 flex flex-wrap items-end justify-between gap-4">
+            <div>
+              <p className="text-xs font-black uppercase tracking-[0.18em] text-slate-500">Special Pages</p>
+              <h2 className="mt-1 text-2xl font-black text-slate-950">選挙特番ページ</h2>
+            </div>
+            <Link to="/glossary" className="glass-chip text-slate-600 transition hover:bg-white/80">
+              単語帳
+            </Link>
+          </div>
+          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
+            {specialPages.map((page, index) => (
+              <Link
+                key={page.id}
+                to={page.path}
+                className="glass-card shine-sweep reveal-up overflow-hidden p-2 transition hover:-translate-y-1 hover:bg-white/75"
+                style={{ animationDelay: `${index * 70}ms` }}
+              >
+                <div className="aspect-[16/10] overflow-hidden rounded-[1.25rem] bg-slate-100">
+                  <img src={publicPath(page.imageUrl)} alt={`${page.title} UI`} className="h-full w-full object-cover" />
+                </div>
+                <div className="p-3">
+                  <p className="text-[0.65rem] font-black uppercase tracking-[0.18em] text-slate-500">{page.eyebrow}</p>
+                  <p className="mt-1 text-base font-black text-slate-950">{page.title}</p>
+                  <p className="mt-2 line-clamp-2 text-xs leading-5 text-slate-500">{page.subtitle}</p>
+                </div>
+              </Link>
+            ))}
           </div>
         </section>
 

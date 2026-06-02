@@ -1,0 +1,182 @@
+{
+  "entries": [
+    {
+      "category": "party",
+      "description": "政党名を短く検索できるようにするための確認用項目です。",
+      "electionIds": [
+        "shugiin-50th"
+      ],
+      "id": "party-future",
+      "label": "未来",
+      "reading": "みらい",
+      "relatedIds": []
+    },
+    {
+      "category": "party",
+      "description": "政党別ページや候補者検索と関連付けるための単語帳項目です。",
+      "electionIds": [
+        "shugiin-50th"
+      ],
+      "id": "party-reform",
+      "label": "改革",
+      "reading": "かいかく",
+      "relatedIds": []
+    },
+    {
+      "category": "party",
+      "description": "第51回単語帳で使用する政党名です。",
+      "electionIds": [
+        "shugiin-51st"
+      ],
+      "id": "party-ldp",
+      "label": "自由民主党",
+      "reading": "じゆうみんしゅとう",
+      "relatedIds": [],
+      "reviewStatus": "ok"
+    },
+    {
+      "category": "party",
+      "description": "第51回単語帳で使用する政党名です。",
+      "electionIds": [
+        "shugiin-51st"
+      ],
+      "id": "party-cdp",
+      "label": "立憲民主党",
+      "reading": "りっけんみんしゅとう",
+      "relatedIds": [],
+      "reviewStatus": "ok"
+    },
+    {
+      "category": "party",
+      "description": "第51回単語帳で使用する政党名です。",
+      "electionIds": [
+        "shugiin-51st"
+      ],
+      "id": "party-komeito",
+      "label": "公明党",
+      "reading": "こうめいとう",
+      "relatedIds": [],
+      "reviewStatus": "ok"
+    },
+    {
+      "category": "party",
+      "description": "第51回単語帳で使用する政党名です。",
+      "electionIds": [
+        "shugiin-51st"
+      ],
+      "id": "party-ishin",
+      "label": "日本維新の会",
+      "reading": "にっぽんいしんのかい",
+      "relatedIds": [],
+      "reviewStatus": "ok"
+    },
+    {
+      "category": "party",
+      "description": "第51回単語帳で使用する政党名です。",
+      "electionIds": [
+        "shugiin-51st"
+      ],
+      "id": "party-dpfp",
+      "label": "国民民主党",
+      "reading": "こくみんみんしゅとう",
+      "relatedIds": [],
+      "reviewStatus": "ok"
+    },
+    {
+      "category": "party",
+      "description": "第51回単語帳で使用する政党名です。",
+      "electionIds": [
+        "shugiin-51st"
+      ],
+      "id": "party-jcp",
+      "label": "日本共産党",
+      "reading": "にほんきょうさんとう",
+      "relatedIds": [],
+      "reviewStatus": "ok"
+    },
+    {
+      "category": "party",
+      "description": "第51回単語帳で使用する政党名です。",
+      "electionIds": [
+        "shugiin-51st"
+      ],
+      "id": "party-reiwa",
+      "label": "れいわ新選組",
+      "reading": "れいわしんせんぐみ",
+      "relatedIds": [],
+      "reviewStatus": "ok"
+    },
+    {
+      "category": "party",
+      "description": "第51回単語帳で使用する政党名です。",
+      "electionIds": [
+        "shugiin-51st"
+      ],
+      "id": "party-sanseito",
+      "label": "参政党",
+      "reading": "さんせいとう",
+      "relatedIds": [],
+      "reviewStatus": "ok"
+    },
+    {
+      "category": "party",
+      "description": "第51回単語帳で使用する政党名です。",
+      "electionIds": [
+        "shugiin-51st"
+      ],
+      "id": "party-conservative",
+      "label": "日本保守党",
+      "reading": "にほんほしゅとう",
+      "relatedIds": [],
+      "reviewStatus": "ok"
+    },
+    {
+      "category": "party",
+      "description": "第51回単語帳で使用する政党名です。",
+      "electionIds": [
+        "shugiin-51st"
+      ],
+      "id": "party-sdp",
+      "label": "社会民主党",
+      "reading": "しゃかいみんしゅとう",
+      "relatedIds": [],
+      "reviewStatus": "ok"
+    },
+    {
+      "category": "party",
+      "description": "第51回単語帳で使用する政党名です。",
+      "electionIds": [
+        "shugiin-51st"
+      ],
+      "id": "party-independent",
+      "label": "無所属",
+      "reading": "むしょぞく",
+      "relatedIds": [],
+      "reviewStatus": "ok"
+    },
+    {
+      "category": "party",
+      "description": "第51回単語帳で使用する政党名です。",
+      "electionIds": [
+        "shugiin-51st"
+      ],
+      "id": "party-mirai",
+      "label": "みらい",
+      "reading": "みらい",
+      "relatedIds": [],
+      "reviewStatus": "ok"
+    },
+    {
+      "category": "party",
+      "description": "第51回単語帳で使用する政党名です。",
+      "electionIds": [
+        "shugiin-51st"
+      ],
+      "id": "party-yuukoku",
+      "label": "ゆうこく",
+      "reading": "ゆうこく",
+      "relatedIds": [],
+      "reviewStatus": "ok"
+    }
+  ]
+}

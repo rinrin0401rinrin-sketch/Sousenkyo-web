@@ -1,0 +1,4 @@
+id,label,category,reading,description,electionIds,relatedIds,photoUrl,districtLabel,partyLabel,statusLabel,age,wins,seatType,reviewStatus
+term-single-member-district,小選挙区,term,しょうせんきょく,1つの選挙区から代表者を選ぶ制度上の区分です。,shugiin-50th,district-tokyo-1|district-osaka-1,,,,,,,,
+term-proportional-representation,比例代表,term,ひれいだいひょう,政党ごとの得票に応じて議席を配分する制度上の区分です。,shugiin-50th,proportional-tokyo|proportional-kinki,,,,,,,,
+term-proportional-revival,比例復活,term,ひれいふっかつ,小選挙区で敗れた候補者が比例代表で当選する場合に使う表現です。,shugiin-50th,term-proportional-representation,,,,,,,,

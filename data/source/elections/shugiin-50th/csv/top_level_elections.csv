@@ -1,4 +1,5 @@
 id,type,name,status,year,isDataReady
 shugiin-50th,衆議院,第50回 衆議院総選挙,current,2024,true
+shugiin-51st,衆議院,第51回 衆議院総選挙,upcoming,2028,false
 shugiin-49th,衆議院,第49回 衆議院総選挙,past,2021,false
 sangiin-27th,参議院,第27回 参議院通常選挙,upcoming,2025,false

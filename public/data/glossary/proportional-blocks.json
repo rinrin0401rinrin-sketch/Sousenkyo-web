@@ -1,0 +1,26 @@
+{
+  "entries": [
+    {
+      "category": "proportional",
+      "description": "比例代表ブロックを検索・カード表示するための確認用項目です。",
+      "electionIds": [
+        "shugiin-50th"
+      ],
+      "id": "proportional-tokyo",
+      "label": "東京ブロック",
+      "reading": "とうきょうぶろっく",
+      "relatedIds": []
+    },
+    {
+      "category": "proportional",
+      "description": "比例区分を単語帳で扱うための確認用項目です。",
+      "electionIds": [
+        "shugiin-50th"
+      ],
+      "id": "proportional-kinki",
+      "label": "近畿ブロック",
+      "reading": "きんきぶろっく",
+      "relatedIds": []
+    }
+  ]
+}

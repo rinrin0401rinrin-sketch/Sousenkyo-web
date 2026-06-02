@@ -1,0 +1,61 @@
+{
+  "electionId": "shugiin-50th",
+  "files": [
+    {
+      "name": "top_level_active.csv",
+      "path": "../source/elections/shugiin-50th/csv/top_level_active.csv"
+    },
+    {
+      "name": "top_level_elections.csv",
+      "path": "../source/elections/shugiin-50th/csv/top_level_elections.csv"
+    },
+    {
+      "name": "election_meta.csv",
+      "path": "../source/elections/shugiin-50th/csv/election_meta.csv"
+    },
+    {
+      "name": "election_visuals.csv",
+      "path": "../source/elections/shugiin-50th/csv/election_visuals.csv"
+    },
+    {
+      "name": "parties.csv",
+      "path": "../source/elections/shugiin-50th/csv/parties.csv"
+    },
+    {
+      "name": "prefectures.csv",
+      "path": "../source/elections/shugiin-50th/csv/prefectures.csv"
+    },
+    {
+      "name": "proportional_blocks.csv",
+      "path": "../source/elections/shugiin-50th/csv/proportional_blocks.csv"
+    },
+    {
+      "name": "districts.csv",
+      "path": "../source/elections/shugiin-50th/csv/districts.csv"
+    },
+    {
+      "name": "candidates.csv",
+      "path": "../source/elections/shugiin-50th/csv/candidates.csv"
+    },
+    {
+      "name": "members.csv",
+      "path": "../source/elections/shugiin-50th/csv/members.csv"
+    },
+    {
+      "name": "single_member_district_results.csv",
+      "path": "../source/elections/shugiin-50th/csv/single_member_district_results.csv"
+    },
+    {
+      "name": "proportional_results.csv",
+      "path": "../source/elections/shugiin-50th/csv/proportional_results.csv"
+    },
+    {
+      "name": "summary.csv",
+      "path": "../source/elections/shugiin-50th/csv/summary.csv"
+    },
+    {
+      "name": "summary_party_seats.csv",
+      "path": "../source/elections/shugiin-50th/csv/summary_party_seats.csv"
+    }
+  ]
+}

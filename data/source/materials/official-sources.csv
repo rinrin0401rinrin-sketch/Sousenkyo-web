@@ -1,0 +1,2 @@
+id,electionId,publisher,sourceType,format,title,url,retrievedAt,publishedAt,licenseStatus,notes
+shugiin-50th-rehearsal-csv,shugiin-50th,project-local,other,csv,第50回衆議院総選挙 CSVリハーサル一式,data/source/elections/shugiin-50th/csv,2026-05-25,,confirmed,受け入れ手順と台帳検証のリハーサル用ローカルデータパッケージ

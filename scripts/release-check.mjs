@@ -19,6 +19,9 @@ try {
 const steps = [
   ['npm', ['run', 'scan:secrets']],
   ['npm', ['run', 'scan:release-text', '--', electionId]],
+  ['npm', ['run', 'gen:data:dry', '--', electionId]],
+  ['npm', ['run', 'gen:glossary:dry']],
+  ['npm', ['run', 'validate:materials:strict']],
   ['npm', ['run', 'validate:data:strict']],
   ['npm', ['run', 'report:data:check', '--', electionId]],
   ['npm', ['run', 'build']],

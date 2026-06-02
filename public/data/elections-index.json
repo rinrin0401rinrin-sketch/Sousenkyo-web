@@ -9,6 +9,14 @@
       "year": 2024
     },
     {
+      "id": "shugiin-51st",
+      "isDataReady": false,
+      "name": "第51回 衆議院総選挙",
+      "status": "upcoming",
+      "type": "衆議院",
+      "year": 2028
+    },
+    {
       "id": "shugiin-49th",
       "isDataReady": false,
       "name": "第49回 衆議院総選挙",

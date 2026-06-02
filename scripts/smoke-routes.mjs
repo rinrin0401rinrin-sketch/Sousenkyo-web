@@ -29,6 +29,30 @@ const routes = [
     includes: ['データ準備中', '第49回 衆議院総選挙', 'トップへ戻る'],
   },
   {
+    path: '/live',
+    includes: ['開票速報', '速報タイムライン', '確定状況'],
+  },
+  {
+    path: '/map',
+    includes: ['全国マップ', '地図レイヤー', 'フィルター'],
+  },
+  {
+    path: '/parties',
+    includes: ['政党別データ', '政党別議席表', '小選挙区 / 比例内訳'],
+  },
+  {
+    path: '/proportional',
+    includes: ['比例代表', '比例ブロック', '比例復活'],
+  },
+  {
+    path: '/archive',
+    includes: ['過去選挙アーカイブ', '選挙回次', '単語帳で用語を確認'],
+  },
+  {
+    path: '/glossary',
+    includes: ['選挙単語帳', '検索辞書', '候補者名・選挙区・政党名で検索'],
+  },
+  {
     path: '/unknown-route',
     includes: ['ページが見つかりません'],
   },

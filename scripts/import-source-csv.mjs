@@ -1,18 +1,19 @@
-import { join } from 'node:path';
+import { join, resolve } from 'node:path';
 import { ensureSourceShape, sourceFileFor, sourceRoot, toDisplayPath, writeJson } from './data-utils.mjs';
 import { omitEmpty, readCsv, toBoolean, toNumber, validateCsvHeaders } from './csv-utils.mjs';
 import { csvTemplates } from './csv-schema.mjs';
 
 const args = process.argv.slice(2);
 const dryRun = args.includes('--dry-run');
+const csvDirArg = readOption('--csv-dir');
 const electionId = args.find((arg) => !arg.startsWith('--'));
 
 if (!electionId) {
-  console.error('Usage: node scripts/import-source-csv.mjs [--dry-run] <electionId>');
+  console.error('Usage: node scripts/import-source-csv.mjs [--dry-run] [--csv-dir=<path>] <electionId>');
   process.exit(1);
 }
 
-const csvDir = join(sourceRoot, electionId, 'csv');
+const csvDir = csvDirArg ? resolve(csvDirArg) : resolve(sourceRoot, electionId, 'csv');
 const sourcePath = sourceFileFor(electionId);
 
 const active = firstRow('top_level_active.csv', { currentId: electionId });
@@ -112,4 +113,13 @@ function normalizeResult(row, numberKeys) {
       z: mapZ,
     }),
   });
+}
+
+function readOption(name) {
+  const exact = args.indexOf(name);
+  if (exact >= 0) return args[exact + 1];
+
+  const prefix = `${name}=`;
+  const option = args.find((arg) => arg.startsWith(prefix));
+  return option ? option.slice(prefix.length) : undefined;
 }

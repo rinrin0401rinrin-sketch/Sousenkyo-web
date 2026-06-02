@@ -12,6 +12,7 @@ import type {
   Prefecture,
   ProportionalBlock,
 } from '../types/election';
+import type { GlossaryBundle, GlossaryFile } from '../types/glossary';
 import { publicPath } from './publicPath';
 
 type ElectionBundleJson = {
@@ -97,6 +98,18 @@ export function loadActiveElection(): Promise<ActiveElection> {
 
 export function loadElectionsIndex(): Promise<ElectionsIndex> {
   return loadJson<ElectionsIndex>('/data/elections-index.json');
+}
+
+export async function loadGlossaryBundle(): Promise<GlossaryBundle> {
+  const [candidates, parties, districts, proportionalBlocks, terms] = await Promise.all([
+    loadGlossaryFile('/data/glossary/candidates.json'),
+    loadGlossaryFile('/data/glossary/parties.json'),
+    loadGlossaryFile('/data/glossary/districts.json'),
+    loadGlossaryFile('/data/glossary/proportional-blocks.json'),
+    loadGlossaryFile('/data/glossary/terms.json'),
+  ]);
+
+  return { candidates, parties, districts, proportionalBlocks, terms };
 }
 
 export async function loadElectionBundle(electionId: string): Promise<ElectionBundle> {
@@ -187,6 +200,11 @@ function normalizeElectionBundle({
 
 function asArray<T>(value: T[] | undefined): T[] {
   return Array.isArray(value) ? value : [];
+}
+
+async function loadGlossaryFile(path: string) {
+  const file = await loadFirstAvailableJson<GlossaryFile>([path]);
+  return asArray(file.entries);
 }
 
 function safeNumber(value: unknown): number {

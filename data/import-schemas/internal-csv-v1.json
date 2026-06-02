@@ -1,0 +1,20 @@
+{
+  "id": "internal-csv-v1",
+  "description": "Identity mapping for official/staged CSV files that already use this project's standard CSV templates. Copy this file and change source/columns when an official CSV uses different column names.",
+  "files": {
+    "top_level_active.csv": { "source": "top_level_active.csv" },
+    "top_level_elections.csv": { "source": "top_level_elections.csv" },
+    "election_meta.csv": { "source": "election_meta.csv" },
+    "election_visuals.csv": { "source": "election_visuals.csv" },
+    "parties.csv": { "source": "parties.csv" },
+    "prefectures.csv": { "source": "prefectures.csv" },
+    "proportional_blocks.csv": { "source": "proportional_blocks.csv" },
+    "districts.csv": { "source": "districts.csv" },
+    "candidates.csv": { "source": "candidates.csv" },
+    "members.csv": { "source": "members.csv" },
+    "single_member_district_results.csv": { "source": "single_member_district_results.csv" },
+    "proportional_results.csv": { "source": "proportional_results.csv" },
+    "summary.csv": { "source": "summary.csv" },
+    "summary_party_seats.csv": { "source": "summary_party_seats.csv" }
+  }
+}
