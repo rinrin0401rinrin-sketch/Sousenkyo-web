@@ -1,0 +1,36 @@
+{
+  "description": "第51回衆議院総選挙の当選者一覧をもとに、候補者名、政党、選挙区、比例区分、写真をJSONで差し替えられる選挙特番風ダッシュボードです。",
+  "id": "shugiin-51st",
+  "isDataReady": true,
+  "name": "第51回 衆議院総選挙",
+  "shortName": "衆院選 第51回",
+  "status": "current",
+  "type": "衆議院",
+  "visuals": [
+    {
+      "alt": "透明な投票箱と投票用紙を中心にした衆議院総選挙のヒーロービジュアル",
+      "description": "総選挙サイトのファーストビューに使う、投票箱と投票用紙の高級感あるビジュアル。",
+      "id": "main-hero-ballot",
+      "imageUrl": "/data/shugiin-50th/visuals/election-main-hero-ballot.png",
+      "role": "hero",
+      "title": "未来の一票を預かる透明な投票箱"
+    },
+    {
+      "alt": "議席や投票率の分析を表すガラスUIの選挙データダッシュボード",
+      "description": "議席、投票率、開票率などを扱う分析セクション向けのガラスUIビジュアル。",
+      "id": "data-dashboard",
+      "imageUrl": "/data/shugiin-50th/visuals/election-data-dashboard-hero.png",
+      "role": "analytics",
+      "title": "データで見る選挙"
+    },
+    {
+      "alt": "衆議院総選挙サイトのトップページを表す白基調のWeb UI",
+      "description": "トップページの構成や主要カードを示すWeb UIモックアップ。",
+      "id": "homepage-ui",
+      "imageUrl": "/data/shugiin-50th/visuals/election-homepage-ui-wide.png",
+      "role": "overview",
+      "title": "選挙ポータル全体像"
+    }
+  ],
+  "year": 2028
+}

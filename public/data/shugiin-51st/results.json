@@ -1,0 +1,1160 @@
+{
+  "proportionalSeats": [
+    {
+      "blockId": "chugoku-block",
+      "blockName": "中国",
+      "electionId": "shugiin-51st",
+      "id": "chugoku-block-party-dpfp",
+      "mapPoint": {
+        "x": 29,
+        "y": 77,
+        "z": 1
+      },
+      "partyId": "party-dpfp",
+      "partyName": "国民民主党",
+      "seats": 2,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "chugoku-block",
+      "blockName": "中国",
+      "electionId": "shugiin-51st",
+      "id": "chugoku-block-party-ishin",
+      "mapPoint": {
+        "x": 28.5,
+        "y": 75,
+        "z": 1
+      },
+      "partyId": "party-ishin",
+      "partyName": "日本維新の会",
+      "seats": 1,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "chugoku-block",
+      "blockName": "中国",
+      "electionId": "shugiin-51st",
+      "id": "chugoku-block-party-komeito",
+      "mapPoint": {
+        "x": 27,
+        "y": 76,
+        "z": 1
+      },
+      "partyId": "party-komeito",
+      "partyName": "公明党",
+      "seats": 2,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "chugoku-block",
+      "blockName": "中国",
+      "electionId": "shugiin-51st",
+      "id": "chugoku-block-party-ldp",
+      "mapPoint": {
+        "x": 27,
+        "y": 72.5,
+        "z": 1
+      },
+      "partyId": "party-ldp",
+      "partyName": "自由民主党",
+      "seats": 5,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "chugoku-block",
+      "blockName": "中国",
+      "electionId": "shugiin-51st",
+      "id": "chugoku-block-party-sanseito",
+      "mapPoint": {
+        "x": 29,
+        "y": 76,
+        "z": 1
+      },
+      "partyId": "party-sanseito",
+      "partyName": "参政党",
+      "seats": 1,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "hokkaido-block",
+      "blockName": "北海道",
+      "electionId": "shugiin-51st",
+      "id": "hokkaido-block-party-cdp",
+      "mapPoint": {
+        "x": 73.5,
+        "y": 19,
+        "z": 1
+      },
+      "partyId": "party-cdp",
+      "partyName": "立憲民主党",
+      "seats": 1,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "hokkaido-block",
+      "blockName": "北海道",
+      "electionId": "shugiin-51st",
+      "id": "hokkaido-block-party-komeito",
+      "mapPoint": {
+        "x": 73.5,
+        "y": 14.5,
+        "z": 1
+      },
+      "partyId": "party-komeito",
+      "partyName": "公明党",
+      "seats": 2,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "hokkaido-block",
+      "blockName": "北海道",
+      "electionId": "shugiin-51st",
+      "id": "hokkaido-block-party-ldp",
+      "mapPoint": {
+        "x": 72,
+        "y": 14.5,
+        "z": 1
+      },
+      "partyId": "party-ldp",
+      "partyName": "自由民主党",
+      "seats": 5,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "hokuriku-shinetsu-block",
+      "blockName": "北陸信越",
+      "electionId": "shugiin-51st",
+      "id": "hokuriku-shinetsu-block-party-cdp",
+      "mapPoint": {
+        "x": 57,
+        "y": 53,
+        "z": 1
+      },
+      "partyId": "party-cdp",
+      "partyName": "立憲民主党",
+      "seats": 3,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "hokuriku-shinetsu-block",
+      "blockName": "北陸信越",
+      "electionId": "shugiin-51st",
+      "id": "hokuriku-shinetsu-block-party-dpfp",
+      "mapPoint": {
+        "x": 57,
+        "y": 52,
+        "z": 1
+      },
+      "partyId": "party-dpfp",
+      "partyName": "国民民主党",
+      "seats": 1,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "hokuriku-shinetsu-block",
+      "blockName": "北陸信越",
+      "electionId": "shugiin-51st",
+      "id": "hokuriku-shinetsu-block-party-ishin",
+      "mapPoint": {
+        "x": 55.5,
+        "y": 56.5,
+        "z": 1
+      },
+      "partyId": "party-ishin",
+      "partyName": "日本維新の会",
+      "seats": 1,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "hokuriku-shinetsu-block",
+      "blockName": "北陸信越",
+      "electionId": "shugiin-51st",
+      "id": "hokuriku-shinetsu-block-party-komeito",
+      "mapPoint": {
+        "x": 56,
+        "y": 55.5,
+        "z": 1
+      },
+      "partyId": "party-komeito",
+      "partyName": "公明党",
+      "seats": 1,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "hokuriku-shinetsu-block",
+      "blockName": "北陸信越",
+      "electionId": "shugiin-51st",
+      "id": "hokuriku-shinetsu-block-party-ldp",
+      "mapPoint": {
+        "x": 57,
+        "y": 53.5,
+        "z": 1
+      },
+      "partyId": "party-ldp",
+      "partyName": "自由民主党",
+      "seats": 3,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "hokuriku-shinetsu-block",
+      "blockName": "北陸信越",
+      "electionId": "shugiin-51st",
+      "id": "hokuriku-shinetsu-block-party-sanseito",
+      "mapPoint": {
+        "x": 57,
+        "y": 52.5,
+        "z": 1
+      },
+      "partyId": "party-sanseito",
+      "partyName": "参政党",
+      "seats": 1,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "kinki-block",
+      "blockName": "近畿",
+      "electionId": "shugiin-51st",
+      "id": "kinki-block-party-dpfp",
+      "mapPoint": {
+        "x": 38,
+        "y": 78,
+        "z": 1
+      },
+      "partyId": "party-dpfp",
+      "partyName": "国民民主党",
+      "seats": 2,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "kinki-block",
+      "blockName": "近畿",
+      "electionId": "shugiin-51st",
+      "id": "kinki-block-party-ishin",
+      "mapPoint": {
+        "x": 38,
+        "y": 76,
+        "z": 1
+      },
+      "partyId": "party-ishin",
+      "partyName": "日本維新の会",
+      "seats": 8,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "kinki-block",
+      "blockName": "近畿",
+      "electionId": "shugiin-51st",
+      "id": "kinki-block-party-jcp",
+      "mapPoint": {
+        "x": 38.5,
+        "y": 80,
+        "z": 1
+      },
+      "partyId": "party-jcp",
+      "partyName": "日本共産党",
+      "seats": 1,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "kinki-block",
+      "blockName": "近畿",
+      "electionId": "shugiin-51st",
+      "id": "kinki-block-party-komeito",
+      "mapPoint": {
+        "x": 39,
+        "y": 75,
+        "z": 1
+      },
+      "partyId": "party-komeito",
+      "partyName": "公明党",
+      "seats": 5,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "kinki-block",
+      "blockName": "近畿",
+      "electionId": "shugiin-51st",
+      "id": "kinki-block-party-ldp",
+      "mapPoint": {
+        "x": 39,
+        "y": 76,
+        "z": 1
+      },
+      "partyId": "party-ldp",
+      "partyName": "自由民主党",
+      "seats": 11,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "kinki-block",
+      "blockName": "近畿",
+      "electionId": "shugiin-51st",
+      "id": "kinki-block-party-sanseito",
+      "mapPoint": {
+        "x": 40,
+        "y": 75.5,
+        "z": 1
+      },
+      "partyId": "party-sanseito",
+      "partyName": "参政党",
+      "seats": 2,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "kitakanto-block",
+      "blockName": "北関東",
+      "electionId": "shugiin-51st",
+      "id": "kitakanto-block-party-cdp",
+      "mapPoint": {
+        "x": 65.5,
+        "y": 59,
+        "z": 1
+      },
+      "partyId": "party-cdp",
+      "partyName": "立憲民主党",
+      "seats": 1,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "kitakanto-block",
+      "blockName": "北関東",
+      "electionId": "shugiin-51st",
+      "id": "kitakanto-block-party-dpfp",
+      "mapPoint": {
+        "x": 65.5,
+        "y": 61.5,
+        "z": 1
+      },
+      "partyId": "party-dpfp",
+      "partyName": "国民民主党",
+      "seats": 2,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "kitakanto-block",
+      "blockName": "北関東",
+      "electionId": "shugiin-51st",
+      "id": "kitakanto-block-party-ishin",
+      "mapPoint": {
+        "x": 65.5,
+        "y": 59.5,
+        "z": 1
+      },
+      "partyId": "party-ishin",
+      "partyName": "日本維新の会",
+      "seats": 1,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "kitakanto-block",
+      "blockName": "北関東",
+      "electionId": "shugiin-51st",
+      "id": "kitakanto-block-party-jcp",
+      "mapPoint": {
+        "x": 65.5,
+        "y": 61,
+        "z": 1
+      },
+      "partyId": "party-jcp",
+      "partyName": "日本共産党",
+      "seats": 1,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "kitakanto-block",
+      "blockName": "北関東",
+      "electionId": "shugiin-51st",
+      "id": "kitakanto-block-party-komeito",
+      "mapPoint": {
+        "x": 65.5,
+        "y": 58,
+        "z": 1
+      },
+      "partyId": "party-komeito",
+      "partyName": "公明党",
+      "seats": 3,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "kitakanto-block",
+      "blockName": "北関東",
+      "electionId": "shugiin-51st",
+      "id": "kitakanto-block-party-ldp",
+      "mapPoint": {
+        "x": 66.5,
+        "y": 57.5,
+        "z": 1
+      },
+      "partyId": "party-ldp",
+      "partyName": "自由民主党",
+      "seats": 9,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "kitakanto-block",
+      "blockName": "北関東",
+      "electionId": "shugiin-51st",
+      "id": "kitakanto-block-party-mirai",
+      "mapPoint": {
+        "x": 65.5,
+        "y": 63,
+        "z": 1
+      },
+      "partyId": "party-mirai",
+      "partyName": "みらい",
+      "seats": 1,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "kitakanto-block",
+      "blockName": "北関東",
+      "electionId": "shugiin-51st",
+      "id": "kitakanto-block-party-sanseito",
+      "mapPoint": {
+        "x": 65,
+        "y": 57,
+        "z": 1
+      },
+      "partyId": "party-sanseito",
+      "partyName": "参政党",
+      "seats": 2,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "kyushu-block",
+      "blockName": "九州",
+      "electionId": "shugiin-51st",
+      "id": "kyushu-block-party-dpfp",
+      "mapPoint": {
+        "x": 22,
+        "y": 87.5,
+        "z": 1
+      },
+      "partyId": "party-dpfp",
+      "partyName": "国民民主党",
+      "seats": 2,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "kyushu-block",
+      "blockName": "九州",
+      "electionId": "shugiin-51st",
+      "id": "kyushu-block-party-ishin",
+      "mapPoint": {
+        "x": 22,
+        "y": 90,
+        "z": 1
+      },
+      "partyId": "party-ishin",
+      "partyName": "日本維新の会",
+      "seats": 1,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "kyushu-block",
+      "blockName": "九州",
+      "electionId": "shugiin-51st",
+      "id": "kyushu-block-party-komeito",
+      "mapPoint": {
+        "x": 21.5,
+        "y": 87,
+        "z": 1
+      },
+      "partyId": "party-komeito",
+      "partyName": "公明党",
+      "seats": 4,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "kyushu-block",
+      "blockName": "九州",
+      "electionId": "shugiin-51st",
+      "id": "kyushu-block-party-ldp",
+      "mapPoint": {
+        "x": 21.5,
+        "y": 84,
+        "z": 1
+      },
+      "partyId": "party-ldp",
+      "partyName": "自由民主党",
+      "seats": 10,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "kyushu-block",
+      "blockName": "九州",
+      "electionId": "shugiin-51st",
+      "id": "kyushu-block-party-mirai",
+      "mapPoint": {
+        "x": 21,
+        "y": 90,
+        "z": 1
+      },
+      "partyId": "party-mirai",
+      "partyName": "みらい",
+      "seats": 1,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "kyushu-block",
+      "blockName": "九州",
+      "electionId": "shugiin-51st",
+      "id": "kyushu-block-party-sanseito",
+      "mapPoint": {
+        "x": 21,
+        "y": 87.5,
+        "z": 1
+      },
+      "partyId": "party-sanseito",
+      "partyName": "参政党",
+      "seats": 2,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "kyushu-block",
+      "blockName": "九州",
+      "electionId": "shugiin-51st",
+      "id": "kyushu-block-party-yuukoku",
+      "mapPoint": {
+        "x": 22,
+        "y": 87,
+        "z": 1
+      },
+      "partyId": "party-yuukoku",
+      "partyName": "ゆうこく",
+      "seats": 1,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "minamikanto-block",
+      "blockName": "南関東",
+      "electionId": "shugiin-51st",
+      "id": "minamikanto-block-party-cdp",
+      "mapPoint": {
+        "x": 67.5,
+        "y": 75.5,
+        "z": 1
+      },
+      "partyId": "party-cdp",
+      "partyName": "立憲民主党",
+      "seats": 6,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "minamikanto-block",
+      "blockName": "南関東",
+      "electionId": "shugiin-51st",
+      "id": "minamikanto-block-party-dpfp",
+      "mapPoint": {
+        "x": 67,
+        "y": 74,
+        "z": 1
+      },
+      "partyId": "party-dpfp",
+      "partyName": "国民民主党",
+      "seats": 3,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "minamikanto-block",
+      "blockName": "南関東",
+      "electionId": "shugiin-51st",
+      "id": "minamikanto-block-party-ishin",
+      "mapPoint": {
+        "x": 67,
+        "y": 74.5,
+        "z": 1
+      },
+      "partyId": "party-ishin",
+      "partyName": "日本維新の会",
+      "seats": 2,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "minamikanto-block",
+      "blockName": "南関東",
+      "electionId": "shugiin-51st",
+      "id": "minamikanto-block-party-jcp",
+      "mapPoint": {
+        "x": 67.5,
+        "y": 77.5,
+        "z": 1
+      },
+      "partyId": "party-jcp",
+      "partyName": "日本共産党",
+      "seats": 1,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "minamikanto-block",
+      "blockName": "南関東",
+      "electionId": "shugiin-51st",
+      "id": "minamikanto-block-party-komeito",
+      "mapPoint": {
+        "x": 66.5,
+        "y": 77.5,
+        "z": 1
+      },
+      "partyId": "party-komeito",
+      "partyName": "公明党",
+      "seats": 1,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "minamikanto-block",
+      "blockName": "南関東",
+      "electionId": "shugiin-51st",
+      "id": "minamikanto-block-party-ldp",
+      "mapPoint": {
+        "x": 66.5,
+        "y": 73.5,
+        "z": 1
+      },
+      "partyId": "party-ldp",
+      "partyName": "自由民主党",
+      "seats": 5,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "minamikanto-block",
+      "blockName": "南関東",
+      "electionId": "shugiin-51st",
+      "id": "minamikanto-block-party-mirai",
+      "mapPoint": {
+        "x": 67.5,
+        "y": 74.5,
+        "z": 1
+      },
+      "partyId": "party-mirai",
+      "partyName": "みらい",
+      "seats": 3,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "minamikanto-block",
+      "blockName": "南関東",
+      "electionId": "shugiin-51st",
+      "id": "minamikanto-block-party-reiwa",
+      "mapPoint": {
+        "x": 66,
+        "y": 78.5,
+        "z": 1
+      },
+      "partyId": "party-reiwa",
+      "partyName": "れいわ新選組",
+      "seats": 1,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "minamikanto-block",
+      "blockName": "南関東",
+      "electionId": "shugiin-51st",
+      "id": "minamikanto-block-party-sanseito",
+      "mapPoint": {
+        "x": 66.5,
+        "y": 75.5,
+        "z": 1
+      },
+      "partyId": "party-sanseito",
+      "partyName": "参政党",
+      "seats": 2,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "shikoku-block",
+      "blockName": "四国",
+      "electionId": "shugiin-51st",
+      "id": "shikoku-block-party-cdp",
+      "mapPoint": {
+        "x": 33,
+        "y": 90,
+        "z": 1
+      },
+      "partyId": "party-cdp",
+      "partyName": "立憲民主党",
+      "seats": 1,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "shikoku-block",
+      "blockName": "四国",
+      "electionId": "shugiin-51st",
+      "id": "shikoku-block-party-dpfp",
+      "mapPoint": {
+        "x": 31.5,
+        "y": 84.5,
+        "z": 1
+      },
+      "partyId": "party-dpfp",
+      "partyName": "国民民主党",
+      "seats": 1,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "shikoku-block",
+      "blockName": "四国",
+      "electionId": "shugiin-51st",
+      "id": "shikoku-block-party-ldp",
+      "mapPoint": {
+        "x": 33,
+        "y": 88.5,
+        "z": 1
+      },
+      "partyId": "party-ldp",
+      "partyName": "自由民主党",
+      "seats": 4,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "tohoku-block",
+      "blockName": "東北",
+      "electionId": "shugiin-51st",
+      "id": "tohoku-block-party-cdp",
+      "mapPoint": {
+        "x": 71,
+        "y": 32.5,
+        "z": 1
+      },
+      "partyId": "party-cdp",
+      "partyName": "立憲民主党",
+      "seats": 2,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "tohoku-block",
+      "blockName": "東北",
+      "electionId": "shugiin-51st",
+      "id": "tohoku-block-party-dpfp",
+      "mapPoint": {
+        "x": 71.5,
+        "y": 36,
+        "z": 1
+      },
+      "partyId": "party-dpfp",
+      "partyName": "国民民主党",
+      "seats": 1,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "tohoku-block",
+      "blockName": "東北",
+      "electionId": "shugiin-51st",
+      "id": "tohoku-block-party-komeito",
+      "mapPoint": {
+        "x": 70,
+        "y": 36.5,
+        "z": 1
+      },
+      "partyId": "party-komeito",
+      "partyName": "公明党",
+      "seats": 1,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "tohoku-block",
+      "blockName": "東北",
+      "electionId": "shugiin-51st",
+      "id": "tohoku-block-party-ldp",
+      "mapPoint": {
+        "x": 71.5,
+        "y": 32,
+        "z": 1
+      },
+      "partyId": "party-ldp",
+      "partyName": "自由民主党",
+      "seats": 6,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "tohoku-block",
+      "blockName": "東北",
+      "electionId": "shugiin-51st",
+      "id": "tohoku-block-party-mirai",
+      "mapPoint": {
+        "x": 72,
+        "y": 37.5,
+        "z": 1
+      },
+      "partyId": "party-mirai",
+      "partyName": "みらい",
+      "seats": 1,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "tohoku-block",
+      "blockName": "東北",
+      "electionId": "shugiin-51st",
+      "id": "tohoku-block-party-sanseito",
+      "mapPoint": {
+        "x": 71,
+        "y": 38.5,
+        "z": 1
+      },
+      "partyId": "party-sanseito",
+      "partyName": "参政党",
+      "seats": 1,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "tokai-block",
+      "blockName": "東海",
+      "electionId": "shugiin-51st",
+      "id": "tokai-block-party-cdp",
+      "mapPoint": {
+        "x": 51,
+        "y": 76,
+        "z": 1
+      },
+      "partyId": "party-cdp",
+      "partyName": "立憲民主党",
+      "seats": 1,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "tokai-block",
+      "blockName": "東海",
+      "electionId": "shugiin-51st",
+      "id": "tokai-block-party-dpfp",
+      "mapPoint": {
+        "x": 51.5,
+        "y": 77,
+        "z": 1
+      },
+      "partyId": "party-dpfp",
+      "partyName": "国民民主党",
+      "seats": 3,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "tokai-block",
+      "blockName": "東海",
+      "electionId": "shugiin-51st",
+      "id": "tokai-block-party-ishin",
+      "mapPoint": {
+        "x": 50,
+        "y": 77,
+        "z": 1
+      },
+      "partyId": "party-ishin",
+      "partyName": "日本維新の会",
+      "seats": 1,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "tokai-block",
+      "blockName": "東海",
+      "electionId": "shugiin-51st",
+      "id": "tokai-block-party-komeito",
+      "mapPoint": {
+        "x": 51,
+        "y": 73.5,
+        "z": 1
+      },
+      "partyId": "party-komeito",
+      "partyName": "公明党",
+      "seats": 3,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "tokai-block",
+      "blockName": "東海",
+      "electionId": "shugiin-51st",
+      "id": "tokai-block-party-ldp",
+      "mapPoint": {
+        "x": 50,
+        "y": 74.5,
+        "z": 1
+      },
+      "partyId": "party-ldp",
+      "partyName": "自由民主党",
+      "seats": 12,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "tokai-block",
+      "blockName": "東海",
+      "electionId": "shugiin-51st",
+      "id": "tokai-block-party-mirai",
+      "mapPoint": {
+        "x": 51,
+        "y": 76.5,
+        "z": 1
+      },
+      "partyId": "party-mirai",
+      "partyName": "みらい",
+      "seats": 1,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "tokai-block",
+      "blockName": "東海",
+      "electionId": "shugiin-51st",
+      "id": "tokai-block-party-sanseito",
+      "mapPoint": {
+        "x": 52,
+        "y": 73,
+        "z": 1
+      },
+      "partyId": "party-sanseito",
+      "partyName": "参政党",
+      "seats": 2,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "tokyo-block",
+      "blockName": "東京",
+      "electionId": "shugiin-51st",
+      "id": "tokyo-block-party-cdp",
+      "mapPoint": {
+        "x": 67,
+        "y": 70,
+        "z": 1
+      },
+      "partyId": "party-cdp",
+      "partyName": "立憲民主党",
+      "seats": 3,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "tokyo-block",
+      "blockName": "東京",
+      "electionId": "shugiin-51st",
+      "id": "tokyo-block-party-dpfp",
+      "mapPoint": {
+        "x": 68.5,
+        "y": 69,
+        "z": 1
+      },
+      "partyId": "party-dpfp",
+      "partyName": "国民民主党",
+      "seats": 4,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "tokyo-block",
+      "blockName": "東京",
+      "electionId": "shugiin-51st",
+      "id": "tokyo-block-party-ishin",
+      "mapPoint": {
+        "x": 69,
+        "y": 68,
+        "z": 1
+      },
+      "partyId": "party-ishin",
+      "partyName": "日本維新の会",
+      "seats": 1,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "tokyo-block",
+      "blockName": "東京",
+      "electionId": "shugiin-51st",
+      "id": "tokyo-block-party-jcp",
+      "mapPoint": {
+        "x": 67,
+        "y": 73.5,
+        "z": 1
+      },
+      "partyId": "party-jcp",
+      "partyName": "日本共産党",
+      "seats": 1,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "tokyo-block",
+      "blockName": "東京",
+      "electionId": "shugiin-51st",
+      "id": "tokyo-block-party-komeito",
+      "mapPoint": {
+        "x": 68.5,
+        "y": 70,
+        "z": 1
+      },
+      "partyId": "party-komeito",
+      "partyName": "公明党",
+      "seats": 2,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "tokyo-block",
+      "blockName": "東京",
+      "electionId": "shugiin-51st",
+      "id": "tokyo-block-party-ldp",
+      "mapPoint": {
+        "x": 68,
+        "y": 73,
+        "z": 1
+      },
+      "partyId": "party-ldp",
+      "partyName": "自由民主党",
+      "seats": 4,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "tokyo-block",
+      "blockName": "東京",
+      "electionId": "shugiin-51st",
+      "id": "tokyo-block-party-mirai",
+      "mapPoint": {
+        "x": 69,
+        "y": 69.5,
+        "z": 1
+      },
+      "partyId": "party-mirai",
+      "partyName": "みらい",
+      "seats": 4,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    },
+    {
+      "blockId": "tokyo-block",
+      "blockName": "東京",
+      "electionId": "shugiin-51st",
+      "id": "tokyo-block-party-sanseito",
+      "mapPoint": {
+        "x": 68.5,
+        "y": 72.5,
+        "z": 1
+      },
+      "partyId": "party-sanseito",
+      "partyName": "参政党",
+      "seats": 2,
+      "status": "pending",
+      "turnout": 0,
+      "voteRate": 0
+    }
+  ]
+}

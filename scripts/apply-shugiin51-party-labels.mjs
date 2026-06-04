@@ -7,6 +7,7 @@ const dryRun = process.argv.includes('--dry-run');
 const csvDir = join(root, 'data', 'source', 'glossary', 'csv');
 const candidatesPath = join(csvDir, 'candidates.csv');
 const partiesPath = join(csvDir, 'parties.csv');
+const partyOverridesPath = join(csvDir, 'shugiin-51st-party-affiliation-overrides.csv');
 
 const partyNames = new Map([
   ['自民', '自由民主党'],
@@ -22,33 +23,6 @@ const partyNames = new Map([
   ['無所属', '無所属'],
   ['みらい', 'みらい'],
   ['ゆうこく', 'ゆうこく'],
-]);
-
-const partyNameById = new Map([
-  ['akaba-kazuyoshi', '公明党'],
-  ['candidate-029', '公明党'],
-  ['candidate-030', '公明党'],
-  ['candidate-054', '公明党'],
-  ['candidate-067', '公明党'],
-  ['candidate-096', '公明党'],
-  ['candidate-105', '公明党'],
-  ['candidate-136', '公明党'],
-  ['candidate-146', '公明党'],
-  ['candidate-151', '公明党'],
-  ['candidate-165', '公明党'],
-  ['candidate-182', '公明党'],
-  ['candidate-197', '公明党'],
-  ['candidate-209', '公明党'],
-  ['candidate-267', '公明党'],
-  ['candidate-278', '公明党'],
-  ['candidate-279', '公明党'],
-  ['candidate-295', '公明党'],
-  ['candidate-311', '公明党'],
-  ['candidate-341', '公明党'],
-  ['candidate-350', '公明党'],
-  ['candidate-352', '公明党'],
-  ['candidate-435', '公明党'],
-  ['candidate-450', '公明党'],
 ]);
 
 const partyRows = [
@@ -84,14 +58,14 @@ const partyRows = [
 }));
 
 const candidates = readCsv(candidatesPath);
+const partyOverrides = loadPartyOverrides();
 let changed = 0;
 const unknown = new Set();
 const knownPartyNames = new Set([...partyNames.values(), '立憲民主党', '公明党']);
 
 for (const row of candidates) {
   const before = row.partyLabel;
-  row.partyLabel = partyNameById.get(row.id) ?? partyNames.get(row.partyLabel) ?? row.partyLabel;
-  if (row.partyLabel === '中道') row.partyLabel = '立憲民主党';
+  row.partyLabel = partyOverrides.get(row.id)?.expectedPartyLabel ?? partyNames.get(row.partyLabel) ?? row.partyLabel;
   if (!knownPartyNames.has(row.partyLabel)) unknown.add(row.partyLabel);
   row.description = buildDescription(row);
   if (before !== row.partyLabel) changed += 1;
@@ -125,4 +99,18 @@ function buildDescription(row) {
     row.wins ? `当選${row.wins}回` : '',
     row.age ? `${row.age}歳` : '',
   ].filter(Boolean).join(' / ');
+}
+
+function loadPartyOverrides() {
+  const rows = readCsv(partyOverridesPath);
+  const byId = new Map();
+
+  for (const row of rows) {
+    if (!row.id) throw new Error(`${partyOverridesPath}: id は必須です`);
+    if (!row.expectedPartyLabel) throw new Error(`${partyOverridesPath}: ${row.id} expectedPartyLabel は必須です`);
+    if (byId.has(row.id)) throw new Error(`${partyOverridesPath}: ${row.id} が重複しています`);
+    byId.set(row.id, row);
+  }
+
+  return byId;
 }
