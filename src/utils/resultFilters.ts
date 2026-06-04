@@ -85,7 +85,7 @@ export function buildMapItems(bundle: ElectionBundle): ElectionMapItem[] {
     layer: 'proportional',
     id: result.id,
     label: result.blockName,
-    subLabel: `${result.seats}議席`,
+    subLabel: result.status === 'pending' || result.status === 'counting' ? '結果未反映' : `${result.seats}議席`,
     partyId: result.partyId,
     partyName: result.partyName,
     prefectureId: result.blockId,

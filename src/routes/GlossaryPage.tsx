@@ -1,5 +1,6 @@
 import { useDeferredValue, useEffect, useMemo, useRef, useState } from 'react';
 import type { ReactNode, TouchEvent } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { AppShell } from '../components/AppShell';
 import { EmptyState } from '../components/EmptyState';
 import { ErrorScreen } from '../components/ErrorScreen';
@@ -150,16 +151,33 @@ const categoryOptions: Array<{ id: CategoryFilter; label: string }> = [
 ];
 
 export function GlossaryPage() {
-  const [mode, setMode] = useState<GlossaryMode>('search');
-  const [query, setQuery] = useState('');
-  const [category, setCategory] = useState<CategoryFilter>('candidate');
-  const [electionId, setElectionId] = useState(preferredElectionId);
-  const [seatScope, setSeatScope] = useState<SeatScopeFilter>('all');
-  const [prefecture, setPrefecture] = useState(allPrefecturesValue);
+  const [searchParams] = useSearchParams();
+  const initialMode = readModeParam(searchParams.get('mode'));
+  const initialCategory = readCategoryParam(searchParams.get('category'));
+  const initialSeatScope = readSeatScopeParam(searchParams.get('seat'));
+  const initialPrefecture = readPrefectureParam(searchParams.get('prefecture'));
+  const [mode, setMode] = useState<GlossaryMode>(initialMode);
+  const [query, setQuery] = useState(searchParams.get('q') ?? '');
+  const [category, setCategory] = useState<CategoryFilter>(initialCategory);
+  const [electionId, setElectionId] = useState(searchParams.get('election') ?? preferredElectionId);
+  const [seatScope, setSeatScope] = useState<SeatScopeFilter>(initialSeatScope);
+  const [prefecture, setPrefecture] = useState(initialPrefecture);
   const [districtKey, setDistrictKey] = useState(allDistrictsValue);
   const [cardIndex, setCardIndex] = useState(0);
   const [visibleLimit, setVisibleLimit] = useState(searchResultLimit);
   const deferredQuery = useDeferredValue(query);
+
+  useEffect(() => {
+    setMode(readModeParam(searchParams.get('mode')));
+    setQuery(searchParams.get('q') ?? '');
+    setCategory(readCategoryParam(searchParams.get('category')));
+    setElectionId(searchParams.get('election') ?? preferredElectionId);
+    setSeatScope(readSeatScopeParam(searchParams.get('seat')));
+    setPrefecture(readPrefectureParam(searchParams.get('prefecture')));
+    setDistrictKey(allDistrictsValue);
+    setCardIndex(0);
+    setVisibleLimit(searchResultLimit);
+  }, [searchParams]);
 
   const state = useAsyncData(async () => {
     const [glossary, electionsIndex] = await Promise.all([loadGlossaryBundle(), loadElectionsIndex()]);
@@ -886,4 +904,24 @@ function searchableEntryText(entry: GlossaryEntry): string {
       entry.seatType,
     ].join(' '),
   );
+}
+
+function readModeParam(value: string | null): GlossaryMode {
+  return value === 'cards' ? 'cards' : 'search';
+}
+
+function readCategoryParam(value: string | null): CategoryFilter {
+  if (!value) return 'candidate';
+  return categoryOptions.some((option) => option.id === value) ? (value as CategoryFilter) : 'candidate';
+}
+
+function readSeatScopeParam(value: string | null): SeatScopeFilter {
+  if (value === 'single' || value === 'proportional' || value === 'female' || value === 'freshman') return value;
+  return 'all';
+}
+
+function readPrefectureParam(value: string | null): string {
+  if (!value) return allPrefecturesValue;
+  if (prefectureSet.has(value) || proportionalBlockOrder.includes(value)) return value;
+  return allPrefecturesValue;
 }

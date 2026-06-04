@@ -27,28 +27,28 @@ export function AppShell({ children }: AppShellProps) {
             <Link className="rounded-full px-3 py-2 hover:bg-slate-100" to="/">
               トップ
             </Link>
+            <Link className="rounded-full px-3 py-2 hover:bg-slate-100" to="/glossary?category=candidate">
+              候補者検索
+            </Link>
             {primaryNav.map((page) => (
               <Link key={page.id} className="rounded-full px-3 py-2 hover:bg-slate-100" to={page.path}>
                 {page.title}
               </Link>
             ))}
-            <Link className="rounded-full px-3 py-2 hover:bg-slate-100" to="/glossary">
-              単語帳
-            </Link>
           </nav>
         </div>
         <nav className="mx-auto flex max-w-6xl gap-2 overflow-x-auto px-4 pb-3 text-sm font-bold text-slate-600 sm:px-6 lg:hidden">
           <Link className="shrink-0 rounded-full bg-white/60 px-3 py-2" to="/">
             トップ
           </Link>
+          <Link className="shrink-0 rounded-full bg-white/60 px-3 py-2" to="/glossary?category=candidate">
+            候補者検索
+          </Link>
           {[...primaryNav, ...secondaryNav].map((page) => (
             <Link key={page.id} className="shrink-0 rounded-full bg-white/60 px-3 py-2" to={page.path}>
               {page.title}
             </Link>
           ))}
-          <Link className="shrink-0 rounded-full bg-white/60 px-3 py-2" to="/glossary">
-            単語帳
-          </Link>
         </nav>
       </header>
       <main className="mx-auto max-w-6xl px-4 py-5 sm:px-6 sm:py-8">{children}</main>

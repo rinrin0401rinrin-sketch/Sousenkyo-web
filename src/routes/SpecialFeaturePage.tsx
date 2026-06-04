@@ -9,6 +9,7 @@ import { getSpecialPage, type SpecialPageId } from '../data/specialPages';
 import { useAsyncData } from '../hooks/useAsyncData';
 import { loadActiveElection, loadElectionBundle, loadElectionsIndex } from '../utils/dataLoader';
 import { getPartySeats, getUndecidedDistrictCount } from '../utils/electionHelpers';
+import { getElectionReadiness } from '../utils/electionReadiness';
 import { publicPath } from '../utils/publicPath';
 
 type SpecialFeaturePageProps = {
@@ -28,6 +29,8 @@ export function SpecialFeaturePage({ pageId }: SpecialFeaturePageProps) {
 
   const { active, index, bundle } = state.data;
   const partySeats = getPartySeats(bundle);
+  const partyCandidateCounts = getPartyCandidateCounts(bundle);
+  const readiness = getElectionReadiness(bundle);
   const undecidedDistrictCount = getUndecidedDistrictCount(bundle);
   const proportionalBlocks = bundle.proportionalBlocks.slice(0, 11);
   const visualUrl = publicPath(page.imageUrl);
@@ -46,9 +49,19 @@ export function SpecialFeaturePage({ pageId }: SpecialFeaturePageProps) {
               <p className="mt-5 max-w-xl text-base leading-8 text-slate-600 sm:text-lg">{page.subtitle}</p>
               <div className="mt-6 flex flex-wrap gap-2">
                 <span className="glass-chip text-slate-600">現在表示: {bundle.meta.shortName ?? bundle.meta.name}</span>
-                <span className="glass-chip text-slate-600">開票率 {bundle.summary.reportingRate ?? 0}%</span>
-                <span className="glass-chip text-slate-600">未確定 {undecidedDistrictCount}</span>
+                <span className="glass-chip text-slate-600">{readiness.modeLabel}</span>
+                <span className="glass-chip text-slate-600">
+                  {readiness.isCandidateRosterMode ? '結果未反映' : `開票率 ${bundle.summary.reportingRate ?? 0}%`}
+                </span>
+                <span className="glass-chip text-slate-600">
+                  {readiness.isCandidateRosterMode ? `確認区分 ${undecidedDistrictCount}` : `未確定 ${undecidedDistrictCount}`}
+                </span>
               </div>
+              {readiness.isCandidateRosterMode ? (
+                <p className="mt-4 max-w-xl rounded-2xl border border-sky-100 bg-sky-50/75 px-4 py-3 text-sm font-bold leading-6 text-sky-900">
+                  {readiness.resultNotice}
+                </p>
+              ) : null}
             </div>
 
             <div className="visual-stage float-soft">
@@ -95,7 +108,15 @@ export function SpecialFeaturePage({ pageId }: SpecialFeaturePageProps) {
             </div>
           </div>
 
-          <ContextPanel pageId={pageId} activeId={active.currentId} partySeats={partySeats} elections={index.elections} blocks={proportionalBlocks} />
+          <ContextPanel
+            pageId={pageId}
+            activeId={active.currentId}
+            partySeats={partySeats}
+            partyCandidateCounts={partyCandidateCounts}
+            isCandidateRosterMode={readiness.isCandidateRosterMode}
+            elections={index.elections}
+            blocks={proportionalBlocks}
+          />
         </section>
       </div>
     </AppShell>
@@ -106,12 +127,16 @@ function ContextPanel({
   pageId,
   activeId,
   partySeats,
+  partyCandidateCounts,
+  isCandidateRosterMode,
   elections,
   blocks,
 }: {
   pageId: SpecialPageId;
   activeId: string;
   partySeats: ReturnType<typeof getPartySeats>;
+  partyCandidateCounts: ReturnType<typeof getPartyCandidateCounts>;
+  isCandidateRosterMode: boolean;
   elections: Awaited<ReturnType<typeof loadElectionsIndex>>['elections'];
   blocks: Awaited<ReturnType<typeof loadElectionBundle>>['proportionalBlocks'];
 }) {
@@ -137,7 +162,13 @@ function ContextPanel({
               </div>
               <p className="mt-1 text-lg font-black text-slate-950">{election.name}</p>
               <p className="mt-3 text-xs font-bold text-slate-500">
-                {election.status === 'current' ? '現在表示中' : election.status === 'past' ? '過去選挙' : '今後の選挙'}
+                {election.status === 'current'
+                  ? isCandidateRosterMode && election.id === activeId
+                    ? '候補者データ公開中'
+                    : '現在表示中'
+                  : election.status === 'past'
+                    ? '過去選挙'
+                    : '今後の選挙'}
               </p>
             </Link>
           ))}
@@ -159,7 +190,7 @@ function ContextPanel({
             {blocks.map((block) => (
               <span key={block.id} className="glass-chip justify-between text-slate-700">
                 {block.name}
-                <b>{block.seats ?? '-'}</b>
+                <b>{isCandidateRosterMode ? '未確定' : block.seats ?? '-'}</b>
               </span>
             ))}
           </div>
@@ -172,9 +203,24 @@ function ContextPanel({
 
   return (
     <aside className="glass-surface-rich p-5 sm:p-6">
-      <p className="text-xs font-black uppercase tracking-[0.18em] text-slate-500">Party Seats</p>
-      <h2 className="mt-1 text-2xl font-black text-slate-950">政党別議席</h2>
-      {partySeats.length > 0 ? (
+      <p className="text-xs font-black uppercase tracking-[0.18em] text-slate-500">
+        {isCandidateRosterMode ? 'Party Roster' : 'Party Seats'}
+      </p>
+      <h2 className="mt-1 text-2xl font-black text-slate-950">
+        {isCandidateRosterMode ? '政党別候補者数' : '政党別議席'}
+      </h2>
+      {isCandidateRosterMode ? (
+        <div className="mt-5 space-y-3">
+          {partyCandidateCounts.map(({ party, count }) => (
+            <div key={party.id} className="rounded-3xl border border-white/70 bg-white/60 p-4">
+              <div className="flex items-center justify-between gap-4">
+                <PartyBadge party={party} />
+                <span className="text-xl font-black text-slate-950">{count}</span>
+              </div>
+            </div>
+          ))}
+        </div>
+      ) : partySeats.length > 0 ? (
         <div className="mt-5 space-y-3">
           {partySeats.map(({ partyId, seats, party }) => (
             <div key={partyId} className="rounded-3xl border border-white/70 bg-white/60 p-4">
@@ -186,8 +232,20 @@ function ContextPanel({
           ))}
         </div>
       ) : (
-        <EmptyState title="政党別データがありません" message="summary.json の partySeats を確認してください。" />
+        <EmptyState title="政党別議席は未反映です" message="公式結果CSV/Excelを確認後、summary.json の partySeats を反映します。" />
       )}
     </aside>
   );
+}
+
+function getPartyCandidateCounts(bundle: Awaited<ReturnType<typeof loadElectionBundle>>) {
+  const counts = new Map<string, number>();
+  for (const member of bundle.members) {
+    counts.set(member.partyId, (counts.get(member.partyId) ?? 0) + 1);
+  }
+
+  return bundle.parties
+    .map((party) => ({ party, count: counts.get(party.id) ?? 0 }))
+    .filter((item) => item.count > 0)
+    .sort((left, right) => right.count - left.count || left.party.name.localeCompare(right.party.name, 'ja'));
 }

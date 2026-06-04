@@ -10,7 +10,19 @@ const chromeBin = process.env.CHROME_BIN ?? findChrome();
 const routes = [
   {
     path: '/',
-    includes: ['第50回 衆議院総選挙', '現在の選挙を見る', '選挙を選択', '政党別議席数'],
+    includes: ['第51回 衆議院総選挙', '候補者を探す', '選挙を選択', '政党別候補者数'],
+  },
+  {
+    path: '/elections/shugiin-51st',
+    includes: ['第51回 衆議院総選挙', '全国ドットマップ', '都道府県リンク', '候補者一覧'],
+  },
+  {
+    path: '/elections/shugiin-51st/prefectures/tokyo',
+    includes: ['東京', '小選挙区と当選者', '選挙詳細へ戻る'],
+  },
+  {
+    path: '/elections/shugiin-51st/members/aoyama-shigeharu',
+    includes: ['青山 繁晴', '自由民主党', '兵庫'],
   },
   {
     path: '/elections/shugiin-50th',

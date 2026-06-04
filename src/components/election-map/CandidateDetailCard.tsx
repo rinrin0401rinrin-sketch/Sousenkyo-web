@@ -1,5 +1,6 @@
 import type { Party } from '../../types/election';
 import { publicPath } from '../../utils/publicPath';
+import { isResultPending } from '../../utils/electionReadiness';
 import type { ElectionMapItem } from '../../utils/resultFilters';
 import { PartyBadge } from '../PartyBadge';
 import { statusLabels } from './statusLabels';
@@ -21,6 +22,7 @@ export function CandidateDetailCard({ item, party }: CandidateDetailCardProps) {
   }
 
   const isSingle = item.layer === 'single';
+  const isPending = isResultPending(item.status);
 
   return (
     <section className="glass-panel p-5">
@@ -47,9 +49,12 @@ export function CandidateDetailCard({ item, party }: CandidateDetailCardProps) {
 
       <dl className="mt-5 grid grid-cols-2 gap-3">
         <Metric label="状態" value={statusLabels[item.status]} />
-        <Metric label={isSingle ? '得票率' : '得票率'} value={`${item.voteRate}%`} />
-        <Metric label={isSingle ? '得票数' : '議席数'} value={isSingle ? item.votes.toLocaleString() : `${item.seats}議席`} />
-        <Metric label="投票率" value={item.turnout ? `${item.turnout}%` : '-'} />
+        <Metric label="得票率" value={isPending ? '未集計' : `${item.voteRate}%`} />
+        <Metric
+          label={isSingle ? '得票数' : isPending ? '配分' : '議席数'}
+          value={isPending ? '結果未反映' : isSingle ? item.votes.toLocaleString() : `${item.seats}議席`}
+        />
+        <Metric label="投票率" value={isPending ? '未集計' : item.turnout ? `${item.turnout}%` : '-'} />
       </dl>
     </section>
   );

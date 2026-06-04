@@ -112,6 +112,15 @@ export async function loadGlossaryBundle(): Promise<GlossaryBundle> {
   return { candidates, parties, districts, proportionalBlocks, terms };
 }
 
+export async function loadGlossaryCandidatesAndParties(): Promise<Pick<GlossaryBundle, 'candidates' | 'parties'>> {
+  const [candidates, parties] = await Promise.all([
+    loadGlossaryFile('/data/glossary/candidates.json'),
+    loadGlossaryFile('/data/glossary/parties.json'),
+  ]);
+
+  return { candidates, parties };
+}
+
 export async function loadElectionBundle(electionId: string): Promise<ElectionBundle> {
   const encodedId = encodeURIComponent(electionId);
   const basePaths = [`/data/elections/${encodedId}`, `/data/${encodedId}`];

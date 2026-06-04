@@ -16,6 +16,7 @@ import { useAsyncData } from '../hooks/useAsyncData';
 import type { ElectionBundle, ElectionIndexItem } from '../types/election';
 import { loadElectionBundle, loadElectionsIndex } from '../utils/dataLoader';
 import { findParty, findPrefecture } from '../utils/electionHelpers';
+import { getElectionReadiness } from '../utils/electionReadiness';
 import {
   buildMapItems,
   defaultElectionFilters,
@@ -76,6 +77,7 @@ function ElectionPreparingPage({ election }: { election?: ElectionIndexItem }) {
 function ElectionDetailContent({ bundle, electionId }: { bundle: ElectionBundle; electionId: string }) {
   const [filters, setFilters] = useState(defaultElectionFilters);
   const [selectedItem, setSelectedItem] = useState<ElectionMapItem | undefined>(undefined);
+  const readiness = getElectionReadiness(bundle);
   const mapItems = useMemo(() => buildMapItems(bundle), [bundle]);
   const filteredMapItems = useMemo(() => filterMapItems(mapItems, filters), [mapItems, filters]);
   const selectedMapItem = selectedItem && filteredMapItems.some((item) => item.id === selectedItem.id)
@@ -101,17 +103,49 @@ function ElectionDetailContent({ bundle, electionId }: { bundle: ElectionBundle;
               <p className="glass-chip text-slate-600">{bundle.meta.shortName ?? bundle.meta.type}</p>
               <h1 className="mt-4 text-4xl font-black tracking-tight text-slate-950 sm:text-6xl">{bundle.meta.name}</h1>
               <p className="mt-4 max-w-2xl text-base leading-7 text-slate-600">
-                小選挙区と比例区を政党カラーの発光ドットで重ね、JSON差し替えで長期運用できる選挙結果マップです。
+                {readiness.isCandidateRosterMode
+                  ? '候補者、選挙区、比例ブロックを政党カラーの発光ドットで重ねる準備データビューです。開票結果は公式データ確認後に反映します。'
+                  : '小選挙区と比例区を政党カラーの発光ドットで重ね、JSON差し替えで長期運用できる選挙結果マップです。'}
               </p>
               <div className="mt-5 flex flex-wrap gap-2">
-                <span className="glass-chip text-slate-600">開票率 {bundle.summary.reportingRate ?? 0}%</span>
+                <span className="glass-chip text-slate-600">{readiness.modeLabel}</span>
+                <span className="glass-chip text-slate-600">
+                  {readiness.isCandidateRosterMode ? '結果未反映' : `開票率 ${bundle.summary.reportingRate ?? 0}%`}
+                </span>
                 <span className="glass-chip text-slate-600">更新 {formatUpdatedAt(bundle.summary.updatedAt)}</span>
+              </div>
+              {readiness.isCandidateRosterMode ? (
+                <p className="mt-4 max-w-2xl rounded-2xl border border-sky-100 bg-sky-50/70 px-4 py-3 text-sm font-bold leading-6 text-sky-900">
+                  {readiness.resultNotice}
+                </p>
+              ) : null}
+              <div className="mt-5 flex flex-wrap gap-2">
+                <Link
+                  to={`/glossary?category=candidate&election=${encodeURIComponent(electionId)}`}
+                  className="inline-flex min-h-11 items-center justify-center rounded-full bg-slate-950 px-5 text-sm font-black text-white shadow-sm"
+                >
+                  候補者を検索
+                </Link>
+                <Link
+                  to={`/glossary?category=candidate&election=${encodeURIComponent(electionId)}&mode=cards`}
+                  className="inline-flex min-h-11 items-center justify-center rounded-full border border-slate-200 bg-white/70 px-5 text-sm font-black text-slate-700 shadow-sm"
+                >
+                  カードで見る
+                </Link>
               </div>
             </div>
             <div className="grid grid-cols-2 gap-3">
               <StatCard label="総議席" value={bundle.summary.totalSeats} />
-              <StatCard label="小選挙区" value={bundle.results.singleMemberDistricts.length} detail="表示データ" />
-              <StatCard label="比例区" value={bundle.results.proportionalSeats.length} detail="表示データ" />
+              <StatCard
+                label="小選挙区"
+                value={bundle.results.singleMemberDistricts.length}
+                detail={readiness.isCandidateRosterMode ? '候補者データ' : '表示データ'}
+              />
+              <StatCard
+                label="比例区"
+                value={bundle.results.proportionalSeats.length}
+                detail={readiness.isCandidateRosterMode ? '名簿データ' : '表示データ'}
+              />
               <StatCard label="表示中" value={filteredMapItems.length} detail="フィルター後" />
             </div>
           </div>
@@ -129,7 +163,14 @@ function ElectionDetailContent({ bundle, electionId }: { bundle: ElectionBundle;
                 onSelect={setSelectedItem}
               />
             ) : (
-              <EmptyState title="表示できる結果がありません" message="フィルター条件を変更するか、results系JSONを確認してください。" />
+              <EmptyState
+                title={readiness.isCandidateRosterMode ? '表示できる候補者データがありません' : '表示できる結果がありません'}
+                message={
+                  readiness.isCandidateRosterMode
+                    ? 'フィルター条件を変更するか、候補者JSONを確認してください。'
+                    : 'フィルター条件を変更するか、results系JSONを確認してください。'
+                }
+              />
             )}
             <StatusLegend />
           </section>
@@ -165,7 +206,9 @@ function ElectionDetailContent({ bundle, electionId }: { bundle: ElectionBundle;
           </Panel>
 
           <Panel>
-            <h2 className="text-2xl font-black text-slate-950">議員一覧</h2>
+            <h2 className="text-2xl font-black text-slate-950">
+              {readiness.isCandidateRosterMode ? '候補者一覧' : '議員一覧'}
+            </h2>
             {filteredMembers.length > 0 ? (
               <div className="mt-4 grid gap-3">
                 {filteredMembers.map((member) => (
@@ -179,7 +222,10 @@ function ElectionDetailContent({ bundle, electionId }: { bundle: ElectionBundle;
                 ))}
               </div>
             ) : (
-              <EmptyState title="議員データがありません" message="members.json を追加するか、フィルター条件を変更してください。" />
+              <EmptyState
+                title={readiness.isCandidateRosterMode ? '候補者データがありません' : '議員データがありません'}
+                message="members.json を追加するか、フィルター条件を変更してください。"
+              />
             )}
           </Panel>
         </div>
