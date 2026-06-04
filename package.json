@@ -69,6 +69,7 @@
     "pages:build": "GITHUB_PAGES=true npm run build && npm run pages:prepare",
     "validate:data:strict": "node scripts/validate-data.mjs --strict",
     "release:check": "node scripts/release-check.mjs",
+    "release:check:final": "node scripts/release-check.mjs --final-results",
     "check": "npm run validate:data && npm run build"
   },
   "dependencies": {

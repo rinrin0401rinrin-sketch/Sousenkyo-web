@@ -35,8 +35,13 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Validate data
-        run: npm run validate:data
+      - name: Syntax check validation scripts
+        run: |
+          node --check scripts/validate-data.mjs
+          node --check scripts/release-check.mjs
+
+      - name: Validate data strictly
+        run: npm run validate:data:strict
 
       - name: Build
         run: npm run build

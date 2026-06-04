@@ -1,0 +1,44 @@
+{
+  "id": "official-csv-v1-example",
+  "description": "公式CSV/TSVを標準CSVへ正規化するための例。ExcelはシートごとにCSV/TSV保存してから取り込みます。",
+  "files": {
+    "single_member_district_results.csv": {
+      "source": {
+        "file": "official-single-member-results.csv",
+        "sheet": "小選挙区"
+      },
+      "requiredColumns": ["id", "candidateName", "partyName", "status"],
+      "columns": {
+        "id": { "value": "{electionId}-single-{rowIndex}" },
+        "electionId": { "value": "{electionId}" },
+        "prefectureId": { "source": "prefectureId", "aliases": ["都道府県ID"] },
+        "prefecture": { "source": "都道府県", "aliases": ["県名"] },
+        "districtName": { "source": "選挙区", "aliases": ["小選挙区名"] },
+        "districtNumber": { "source": "選挙区番号", "normalize": "number", "blankAs": "0" },
+        "candidateId": { "source": "candidateId", "aliases": ["候補者ID"] },
+        "candidateName": { "source": "候補者名", "aliases": ["氏名", "候補者"] },
+        "partyId": { "source": "partyId", "aliases": ["政党ID"] },
+        "partyName": { "source": "政党名", "aliases": ["届出政党", "党派"] },
+        "status": { "source": "当落", "aliases": ["状態", "結果"], "normalize": "status", "default": "pending" },
+        "votes": { "source": "得票数", "aliases": ["票数"], "normalize": "number", "blankAs": "0" },
+        "voteRate": { "source": "得票率", "normalize": "percent", "blankAs": "0" },
+        "turnout": { "source": "投票率", "normalize": "percent", "blankAs": "0" },
+        "photoUrl": { "source": "photoUrl", "aliases": ["写真URL"] },
+        "profileUrl": { "source": "profileUrl", "aliases": ["プロフィールURL"] },
+        "mapX": { "source": "mapX", "default": "50", "normalize": "number" },
+        "mapY": { "source": "mapY", "default": "50", "normalize": "number" },
+        "mapZ": { "source": "mapZ", "default": "1", "normalize": "number" }
+      }
+    },
+    "summary.csv": {
+      "source": "official-summary.csv",
+      "columns": {
+        "totalSeats": { "source": "総議席", "normalize": "number" },
+        "districtSeats": { "source": "小選挙区", "normalize": "number" },
+        "proportionalSeats": { "source": "比例代表", "normalize": "number" },
+        "reportingRate": { "source": "開票率", "normalize": "percent", "blankAs": "0" },
+        "updatedAt": { "source": "更新日時", "default": "{updatedAt}", "normalize": "dateTime" }
+      }
+    }
+  }
+}

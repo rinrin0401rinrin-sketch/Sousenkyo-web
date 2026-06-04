@@ -103,6 +103,51 @@ npm run create:election -- shugiin-51st --name=第51回衆議院総選挙 --type
 
 現在表示する選挙も同時に切り替える場合だけ `--current` を付けます。作成前の確認には `--dry-run` を使います。
 
+## Switch Current Election
+
+`active-election.json` の `currentId` はサイト全体の本番選挙を決めます。単語帳だけを先行して整備している選挙を、選挙結果サイト本体の current にしないでください。
+
+第51回をサイト全体の本番選挙に切り替える場合は、次の順番を固定します。
+
+1. `data/source/elections/shugiin-51st/election.json` またはCSV一式を作成する
+2. source 側の `topLevel` で `active-election.json` 相当の `currentId` を `shugiin-51st` にする
+3. source 側の `topLevel` で `elections-index.json` 相当の `shugiin-51st` を `isDataReady: true`、`status: current` にする
+4. source 側の `topLevel` で旧currentの `shugiin-50th` を `status: past` にする
+5. `npm run gen:data -- shugiin-51st` で `public/data` を生成する
+6. 公開前チェックを通す
+
+`public/data/shugiin-51st/` に最低限必要なJSONは次です。
+
+```text
+election-meta.json
+parties.json
+members.json
+candidates.json
+prefectures.json
+districts.json
+proportional-blocks.json
+summary.json
+single-member-districts.json
+results.json
+```
+
+単語帳用の `public/data/glossary/*.json` と候補者写真だけでは、`/live`、`/map`、`/parties`、`/proportional` の選挙結果ページを本番運用できません。第51回の単語帳を先に公開する場合は、`elections-index.json` では `shugiin-51st` を `isDataReady: false` のままにし、`/glossary` とトップの単語帳枠で扱います。
+
+切替前の確認コマンドは次です。
+
+```bash
+npm run gen:data:dry -- shugiin-51st
+npm run gen:data -- shugiin-51st
+npm run validate:data:strict
+npm run report:data:check -- shugiin-51st
+npm run scan:secrets
+npm run scan:release-text -- shugiin-51st
+npm run build
+npm run smoke:routes
+```
+
+`validate:data:strict` が `active-election.json currentId "shugiin-51st" は elections-index.json で isDataReady:false` を出す状態では、本番切替を完了扱いにしません。
+
 実運用に近い行数でCSV/Excel入力を確認する場合は、大量フィクスチャを使います。既存の `public/data` は変更せず、既定では `data/source/elections/shugiin-large-fixture/` に source JSON とCSVシート群を作ります。
 
 ```bash

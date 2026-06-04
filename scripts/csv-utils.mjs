@@ -57,7 +57,7 @@ export function writeCsvHeaders(path, headers) {
   writeFileSync(path, `${headers.map(escapeCsvCell).join(',')}\n`);
 }
 
-export function parseCsv(text) {
+export function parseCsv(text, delimiter = ',') {
   const rows = [];
   let row = [];
   let cell = '';
@@ -81,7 +81,7 @@ export function parseCsv(text) {
 
     if (char === '"') {
       inQuotes = true;
-    } else if (char === ',') {
+    } else if (char === delimiter) {
       row.push(cell);
       cell = '';
     } else if (char === '\n') {

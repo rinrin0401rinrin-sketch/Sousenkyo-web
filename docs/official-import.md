@@ -68,17 +68,25 @@ npm run release:check -- shugiin-50th
 ## Mapping Schema
 
 公式CSVの列名が違う場合は、`data/import-schemas/internal-csv-v1.json` をコピーして `source` と `columns` を変更します。
+実運用向けの例は `data/import-schemas/official-csv-v1.example.json` にあります。
 
 ```json
 {
   "files": {
     "single_member_district_results.csv": {
-      "source": "official-districts.csv",
+      "source": {
+        "file": "official-districts.csv",
+        "sheet": "小選挙区"
+      },
+      "requiredColumns": ["candidateName", "partyName", "status"],
       "columns": {
         "electionId": { "value": "{electionId}" },
-        "candidateName": "候補者名",
-        "partyName": "届出政党",
-        "votes": "得票数"
+        "candidateName": { "source": "候補者名", "aliases": ["氏名", "候補者"] },
+        "partyName": { "source": "届出政党", "aliases": ["政党名", "党派"] },
+        "status": { "source": "当落", "normalize": "status", "default": "pending" },
+        "votes": { "source": "得票数", "normalize": "number", "blankAs": "0" },
+        "voteRate": { "source": "得票率", "normalize": "percent", "blankAs": "0" },
+        "updatedAt": { "source": "更新日時", "default": "{updatedAt}", "normalize": "dateTime" }
       }
     }
   }
@@ -87,6 +95,36 @@ npm run release:check -- shugiin-50th
 
 指定していない列は同名列から読みます。値がない列は空欄で出力されるため、公式データにない `photoUrl` や `mapX/mapY/mapZ` は後編集または別マスタで補えます。
 
+対応している主な正規化:
+
+- `aliases`: 公式CSVの列名ゆれを配列で指定し、最初に見つかった列を使います。
+- `normalize: "number"`: `120,430票` のようなカンマや単位つき数値を標準CSV向けに正規化します。
+- `normalize: "percent"`: `54.2%` / `54.2％` を数値文字列へ正規化します。
+- `normalize: "status"`: `当選`、`比例復活`、`落選`、`開票中`、`未確定` を内部statusへ寄せます。
+- `normalize: "dateTime"`: 更新日時をISO文字列へ寄せます。解析できない日時は元文字列を残します。
+- `blankAs`: 空欄時に入れる値を指定します。
+- `default`: 公式CSVに列や値がない場合の既定値です。`{electionId}`、`{rowIndex}`、`{updatedAt}` が使えます。
+
+TSVは `.tsv` または `.txt` を `source` に指定するとタブ区切りとして読みます。
+
 ## Excel Files
 
-初期実装では `.xlsx` の直接解析はしません。公式Excelは、シートごとにCSV保存してから `import:official` へ渡してください。直接 `.xlsx` 取り込みが必要になった場合は、依存追加とシート選択ルールを別途決めます。
+初期実装では `.xlsx` の直接解析はしません。公式Excelは、シートごとにCSV/TSV保存してから `import:official` へ渡してください。
+schema の `source.sheet` は、どのシートから書き出したCSVかを記録するメモとして扱います。
+`.xlsx` / `.xls` を直接指定した場合は、取り込みを止めてCSV/TSV化を促します。
+
+## Release Modes
+
+候補者・準備データとして公開する場合:
+
+```bash
+npm run release:check -- shugiin-51st
+```
+
+開票結果を最終結果として公開する場合:
+
+```bash
+npm run release:check:final -- shugiin-51st
+```
+
+`release:check:final` は `pending` / `counting`、開票率100未満、partySeats未反映、確定結果とsummaryのズレを公開前に止めます。
