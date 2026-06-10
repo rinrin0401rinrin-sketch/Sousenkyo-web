@@ -1,0 +1,16 @@
+{
+  "electionId": "shugiin-51st",
+  "description": "第51回衆議院総選挙向け。公式元は衆議院事務局。個別CSV/PDF/Excelの直URLが確定したら files[] に追加します。",
+  "maxBytes": 52428800,
+  "allowedHosts": [
+    "www.shugiin.go.jp",
+    ".shugiin.go.jp"
+  ],
+  "files": [
+    {
+      "name": "shugiin-office-home.html",
+      "url": "https://www.shugiin.go.jp/",
+      "maxBytes": 5242880
+    }
+  ]
+}

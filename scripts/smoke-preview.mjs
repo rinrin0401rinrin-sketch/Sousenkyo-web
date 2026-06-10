@@ -3,10 +3,16 @@ import { spawn } from 'node:child_process';
 const port = process.env.PREVIEW_PORT ?? '4173';
 const host = '127.0.0.1';
 const baseUrl = `http://${host}:${port}`;
+const basePath = process.env.SMOKE_BASE_PATH;
 
-await run('npm', ['run', 'build']);
+if (process.env.SMOKE_SKIP_BUILD !== 'true') {
+  await run('npm', ['run', 'build']);
+}
 
-const preview = spawn('npx', ['vite', 'preview', '--host', host, '--port', port], {
+const previewArgs = ['vite', 'preview', '--host', host, '--port', port, '--strictPort'];
+if (basePath) previewArgs.push('--base', basePath);
+
+const preview = spawn('npx', previewArgs, {
   stdio: ['ignore', 'pipe', 'pipe'],
 });
 

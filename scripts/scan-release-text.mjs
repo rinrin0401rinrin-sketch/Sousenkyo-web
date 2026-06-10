@@ -4,7 +4,12 @@ import { join, relative } from 'node:path';
 const root = process.cwd();
 const args = process.argv.slice(2);
 const electionId = args.find((arg) => !arg.startsWith('--')) ?? readActiveElectionId();
-const dataDir = join(root, 'public', 'data', electionId);
+const scanTargets = [
+  join(root, 'public', 'data', electionId),
+  join(root, 'data', 'source', 'elections', electionId),
+  join(root, 'data', 'source', 'glossary', 'csv'),
+  join(root, 'data', 'source', 'materials'),
+];
 const terms = [
   ['TODO', /\bTODO\b/i],
   ['FIXME', /\bFIXME\b/i],
@@ -12,15 +17,22 @@ const terms = [
   ['dummy', /\bdummy\b/i],
   ['サンプル', /サンプル/],
   ['ダミー', /ダミー/],
+  ['内部メモ', /内部メモ/],
+  ['未許諾', /未許諾/],
+  ['出典不明', /出典不明/],
+];
+const personalInfoPatterns = [
+  ['email', /[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}/i],
+  ['phone-like', /(?:\+81[-\s]?)?0\d{1,4}[-\s]?\d{1,4}[-\s]?\d{3,4}/],
 ];
 
-if (!existsSync(dataDir)) {
+if (!existsSync(scanTargets[0])) {
   console.error(`public/data/${electionId} がありません`);
   process.exit(1);
 }
 
 const findings = [];
-scanPath(dataDir);
+for (const target of scanTargets) scanPath(target);
 
 if (findings.length > 0) {
   for (const finding of findings) {
@@ -44,12 +56,19 @@ function scanPath(path) {
     return;
   }
 
-  if (!stats.isFile() || !path.endsWith('.json')) return;
+  if (!stats.isFile() || !isTextScanTarget(path)) return;
 
   const lines = readFileSync(path, 'utf8').split(/\r?\n/);
   lines.forEach((line, index) => {
     for (const [term, pattern] of terms) {
       if (pattern.test(line)) findings.push({ file: relative(root, path), line: index + 1, term });
     }
+    for (const [term, pattern] of personalInfoPatterns) {
+      if (pattern.test(line)) findings.push({ file: relative(root, path), line: index + 1, term });
+    }
   });
+}
+
+function isTextScanTarget(path) {
+  return ['.json', '.csv', '.md', '.txt'].some((extension) => path.endsWith(extension));
 }

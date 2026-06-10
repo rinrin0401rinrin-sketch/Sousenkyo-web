@@ -2,6 +2,8 @@
 
 このプロジェクトでは、`data/source/elections/{electionId}/election.json` を編集元、`public/data` をアプリ配信用の生成物として扱います。
 
+快適運用の全体像は [operation-roadmap.md](./operation-roadmap.md)、デザイン基準は [design-system.md](./design-system.md)、素材受け入れは [materials.md](./materials.md)、実データリハーサルは [data-rehearsal.md](./data-rehearsal.md)、CSV要件は [csv-requirements.md](./csv-requirements.md) にまとめています。
+
 ## Data Flow
 
 ```text
@@ -101,6 +103,51 @@ npm run create:election -- shugiin-51st --name=第51回衆議院総選挙 --type
 
 現在表示する選挙も同時に切り替える場合だけ `--current` を付けます。作成前の確認には `--dry-run` を使います。
 
+## Switch Current Election
+
+`active-election.json` の `currentId` はサイト全体の本番選挙を決めます。単語帳だけを先行して整備している選挙を、選挙結果サイト本体の current にしないでください。
+
+第51回をサイト全体の本番選挙に切り替える場合は、次の順番を固定します。
+
+1. `data/source/elections/shugiin-51st/election.json` またはCSV一式を作成する
+2. source 側の `topLevel` で `active-election.json` 相当の `currentId` を `shugiin-51st` にする
+3. source 側の `topLevel` で `elections-index.json` 相当の `shugiin-51st` を `isDataReady: true`、`status: current` にする
+4. source 側の `topLevel` で旧currentの `shugiin-50th` を `status: past` にする
+5. `npm run gen:data -- shugiin-51st` で `public/data` を生成する
+6. 公開前チェックを通す
+
+`public/data/shugiin-51st/` に最低限必要なJSONは次です。
+
+```text
+election-meta.json
+parties.json
+members.json
+candidates.json
+prefectures.json
+districts.json
+proportional-blocks.json
+summary.json
+single-member-districts.json
+results.json
+```
+
+単語帳用の `public/data/glossary/*.json` と候補者写真だけでは、`/live`、`/map`、`/parties`、`/proportional` の選挙結果ページを本番運用できません。第51回の単語帳を先に公開する場合は、`elections-index.json` では `shugiin-51st` を `isDataReady: false` のままにし、`/glossary` とトップの単語帳枠で扱います。
+
+切替前の確認コマンドは次です。
+
+```bash
+npm run gen:data:dry -- shugiin-51st
+npm run gen:data -- shugiin-51st
+npm run validate:data:strict
+npm run report:data:check -- shugiin-51st
+npm run scan:secrets
+npm run scan:release-text -- shugiin-51st
+npm run build
+npm run smoke:routes
+```
+
+`validate:data:strict` が `active-election.json currentId "shugiin-51st" は elections-index.json で isDataReady:false` を出す状態では、本番切替を完了扱いにしません。
+
 実運用に近い行数でCSV/Excel入力を確認する場合は、大量フィクスチャを使います。既存の `public/data` は変更せず、既定では `data/source/elections/shugiin-large-fixture/` に source JSON とCSVシート群を作ります。
 
 ```bash
@@ -169,6 +216,51 @@ npm run report:data:check -- shugiin-50th
 npm run validate:data:strict
 ```
 
+## Official CSV Import Gate
+
+公式Excel/CSVを使う場合は、既存のCSV取り込みを直接置き換えず、公式データを標準CSVへ正規化してから `election.json` に戻します。詳しい手順は [official-import.md](./official-import.md) を参照してください。
+
+```bash
+npm run fetch:official:dry -- --manifest=data/import-schemas/official-fetch-manifest.example.json
+npm run import:official:dry -- shugiin-50th --input=data/source/elections/shugiin-50th/csv
+```
+
+反映する場合は source 側まで更新し、差分レポートと strict 検証で止めます。人間が差分を確認するまでは `public/data` を生成しません。
+
+```bash
+npm run import:official -- shugiin-50th --input=data/source/elections/shugiin-50th/csv
+```
+
+確認後に公開JSONと公開前チェックへ進みます。
+
+```bash
+npm run gen:data -- shugiin-50th
+npm run release:check -- shugiin-50th
+```
+
+公式URL、取得日、形式、利用条件は `data/source/materials/official-sources.csv` に記録します。
+
+```bash
+npm run template:data-package -- --dry-run shugiin-50th
+npm run validate:materials
+npm run validate:materials:strict
+```
+
+## Glossary
+
+PDFで受け取る候補者名、選挙区、比例区分、政党名は、単語帳CSVで人間確認してから公開JSONへ生成します。詳しい手順は [glossary.md](./glossary.md) を参照してください。
+
+```bash
+npm run gen:glossary:dry
+npm run gen:glossary
+npm run validate:data:strict
+npm run build
+```
+
+`public/data/glossary/*.json` は生成物です。直接編集せず、`data/source/glossary/csv/*.csv` を正として扱います。
+
+候補者写真を入れる場合は `data/source/materials/photo-rights.csv` に出典と許諾を記録します。出典不明、未許諾、権利不明の人物写真は公開対象へ入れません。
+
 公開対象の秘密情報や仮表記だけを単独で確認する場合は、次を使います。
 
 ```bash
@@ -182,12 +274,14 @@ npm run scan:release-text -- shugiin-50th
 npm run release:check -- shugiin-50th
 ```
 
-`release:check` は指定した `electionId` について、`scan:secrets`、`scan:release-text -- {electionId}`、`validate:data:strict`、`report:data:check -- {electionId}`、`build`、`smoke:preview` を順番に実行します。
+`release:check` は指定した `electionId` について、`scan:secrets`、`scan:release-text -- {electionId}`、`gen:data:dry -- {electionId}`、`gen:glossary:dry`、`validate:materials:strict`、`validate:data:strict`、`report:data:check -- {electionId}`、`build`、`smoke:preview` を順番に実行します。
 `electionId` を省略した場合は `public/data/active-election.json` の `currentId` を使います。
 
 ## Placeholder Data Before Production
 
 本番データ投入前の架空名、仮データ、TODO、サンプル表記は、公開対象の `public/data` に残さないでください。画面検証用の空データやフィクスチャは source 側で検証用と分かる `electionId` に分け、公開対象の `elections-index.json` では `isDataReady: false` にします。
+
+候補者写真が未整備の場合に限り、明示的な `/data/{electionId}/photos/placeholder.svg` はfallbackとして許可します。実人物写真を入れた時点で `photo-rights.csv` の出典・許諾行と `photoUrl` を一致させてください。ヒーロー画像、ページ画像、実データ本文、内部メモの placeholder 表記は公開対象に残しません。
 
 公開対象へ切り替える前に、少なくとも次を通します。
 
@@ -196,7 +290,7 @@ npm run scan:release-text -- {electionId}
 npm run release:check -- {electionId}
 ```
 
-`scan:release-text` が検出する `TODO`、`sample`、`dummy`、`placeholder`、`仮`、`未定` などは、実データへ差し替えるか、公開して問題ない正式文言に直します。空配列で公開する場合も、仕様として空でよい画面かを release checklist で確認してください。
+`scan:release-text` が検出する `TODO`、`sample`、`dummy`、`サンプル`、`ダミー` などは、実データへ差し替えるか、公開して問題ない正式文言に直します。空配列で公開する場合も、仕様として空でよい画面かを release checklist で確認してください。
 
 ## Add A New Election
 

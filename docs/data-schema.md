@@ -8,6 +8,12 @@
 public/data/
   active-election.json
   elections-index.json
+  glossary/
+    candidates.json
+    parties.json
+    districts.json
+    proportional-blocks.json
+    terms.json
   {electionId}/
     election-meta.json
     parties.json
@@ -24,6 +30,36 @@ public/data/
 ```
 
 `electionId` は `shugiin-50th` のような安定IDにします。URL、JSON参照、画像パスで使うため、後から変えない前提です。
+
+## Glossary Files
+
+`public/data/glossary/*.json` は、PDF由来の候補者名、政党名、選挙区、比例ブロック、用語をiPhoneでも軽く検索・カード表示するための単語帳データです。公開JSONは生成物で、正本は `data/source/glossary/csv/*.csv` です。
+
+各ファイルは同じ形です。
+
+```json
+{
+  "entries": [
+    {
+      "id": "term-proportional-representation",
+      "label": "比例代表",
+      "category": "term",
+      "reading": "ひれいだいひょう",
+      "description": "政党ごとの得票に応じて議席を配分する制度上の区分です。",
+      "electionIds": ["shugiin-50th"],
+      "relatedIds": ["proportional-tokyo"]
+    }
+  ]
+}
+```
+
+- `id`: 全単語帳ファイルを通して一意
+- `label`: 画面に表示する名称
+- `category`: `candidate`, `party`, `district`, `proportional`, `term`
+- `reading`: iPhone検索用の読み
+- `description`: 短い説明
+- `electionIds`: 関連する選挙回次ID
+- `relatedIds`: 関連する単語帳ID
 
 ## Source Of Truth
 

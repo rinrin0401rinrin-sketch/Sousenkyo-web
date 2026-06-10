@@ -1,0 +1,1344 @@
+{
+  "districts": [
+    {
+      "id": "hokkaido-1",
+      "name": "北海道1区",
+      "prefectureId": "hokkaido"
+    },
+    {
+      "id": "hokkaido-2",
+      "name": "北海道2区",
+      "prefectureId": "hokkaido"
+    },
+    {
+      "id": "hokkaido-3",
+      "name": "北海道3区",
+      "prefectureId": "hokkaido"
+    },
+    {
+      "id": "hokkaido-4",
+      "name": "北海道4区",
+      "prefectureId": "hokkaido"
+    },
+    {
+      "id": "hokkaido-5",
+      "name": "北海道5区",
+      "prefectureId": "hokkaido"
+    },
+    {
+      "id": "hokkaido-6",
+      "name": "北海道6区",
+      "prefectureId": "hokkaido"
+    },
+    {
+      "id": "hokkaido-7",
+      "name": "北海道7区",
+      "prefectureId": "hokkaido"
+    },
+    {
+      "id": "hokkaido-8",
+      "name": "北海道8区",
+      "prefectureId": "hokkaido"
+    },
+    {
+      "id": "hokkaido-9",
+      "name": "北海道9区",
+      "prefectureId": "hokkaido"
+    },
+    {
+      "id": "hokkaido-10",
+      "name": "北海道10区",
+      "prefectureId": "hokkaido"
+    },
+    {
+      "id": "hokkaido-11",
+      "name": "北海道11区",
+      "prefectureId": "hokkaido"
+    },
+    {
+      "id": "hokkaido-12",
+      "name": "北海道12区",
+      "prefectureId": "hokkaido"
+    },
+    {
+      "id": "aomori-1",
+      "name": "青森1区",
+      "prefectureId": "aomori"
+    },
+    {
+      "id": "aomori-2",
+      "name": "青森2区",
+      "prefectureId": "aomori"
+    },
+    {
+      "id": "aomori-3",
+      "name": "青森3区",
+      "prefectureId": "aomori"
+    },
+    {
+      "id": "iwate-1",
+      "name": "岩手1区",
+      "prefectureId": "iwate"
+    },
+    {
+      "id": "iwate-2",
+      "name": "岩手2区",
+      "prefectureId": "iwate"
+    },
+    {
+      "id": "iwate-3",
+      "name": "岩手3区",
+      "prefectureId": "iwate"
+    },
+    {
+      "id": "miyagi-1",
+      "name": "宮城1区",
+      "prefectureId": "miyagi"
+    },
+    {
+      "id": "miyagi-2",
+      "name": "宮城2区",
+      "prefectureId": "miyagi"
+    },
+    {
+      "id": "miyagi-3",
+      "name": "宮城3区",
+      "prefectureId": "miyagi"
+    },
+    {
+      "id": "miyagi-4",
+      "name": "宮城4区",
+      "prefectureId": "miyagi"
+    },
+    {
+      "id": "miyagi-5",
+      "name": "宮城5区",
+      "prefectureId": "miyagi"
+    },
+    {
+      "id": "akita-1",
+      "name": "秋田1区",
+      "prefectureId": "akita"
+    },
+    {
+      "id": "akita-3",
+      "name": "秋田3区",
+      "prefectureId": "akita"
+    },
+    {
+      "id": "yamagata-1",
+      "name": "山形1区",
+      "prefectureId": "yamagata"
+    },
+    {
+      "id": "yamagata-2",
+      "name": "山形2区",
+      "prefectureId": "yamagata"
+    },
+    {
+      "id": "yamagata-3",
+      "name": "山形3区",
+      "prefectureId": "yamagata"
+    },
+    {
+      "id": "fukushima-1",
+      "name": "福島1区",
+      "prefectureId": "fukushima"
+    },
+    {
+      "id": "fukushima-2",
+      "name": "福島2区",
+      "prefectureId": "fukushima"
+    },
+    {
+      "id": "fukushima-3",
+      "name": "福島3区",
+      "prefectureId": "fukushima"
+    },
+    {
+      "id": "fukushima-4",
+      "name": "福島4区",
+      "prefectureId": "fukushima"
+    },
+    {
+      "id": "ibaraki-1",
+      "name": "茨城1区",
+      "prefectureId": "ibaraki"
+    },
+    {
+      "id": "ibaraki-2",
+      "name": "茨城2区",
+      "prefectureId": "ibaraki"
+    },
+    {
+      "id": "ibaraki-3",
+      "name": "茨城3区",
+      "prefectureId": "ibaraki"
+    },
+    {
+      "id": "ibaraki-4",
+      "name": "茨城4区",
+      "prefectureId": "ibaraki"
+    },
+    {
+      "id": "ibaraki-5",
+      "name": "茨城5区",
+      "prefectureId": "ibaraki"
+    },
+    {
+      "id": "ibaraki-6",
+      "name": "茨城6区",
+      "prefectureId": "ibaraki"
+    },
+    {
+      "id": "ibaraki-7",
+      "name": "茨城7区",
+      "prefectureId": "ibaraki"
+    },
+    {
+      "id": "tochigi-1",
+      "name": "栃木1区",
+      "prefectureId": "tochigi"
+    },
+    {
+      "id": "tochigi-2",
+      "name": "栃木2区",
+      "prefectureId": "tochigi"
+    },
+    {
+      "id": "tochigi-3",
+      "name": "栃木3区",
+      "prefectureId": "tochigi"
+    },
+    {
+      "id": "tochigi-4",
+      "name": "栃木4区",
+      "prefectureId": "tochigi"
+    },
+    {
+      "id": "gunma-1",
+      "name": "群馬1区",
+      "prefectureId": "gunma"
+    },
+    {
+      "id": "gunma-2",
+      "name": "群馬2区",
+      "prefectureId": "gunma"
+    },
+    {
+      "id": "gunma-3",
+      "name": "群馬3区",
+      "prefectureId": "gunma"
+    },
+    {
+      "id": "gunma-4",
+      "name": "群馬4区",
+      "prefectureId": "gunma"
+    },
+    {
+      "id": "gunma-5",
+      "name": "群馬5区",
+      "prefectureId": "gunma"
+    },
+    {
+      "id": "saitama-1",
+      "name": "埼玉1区",
+      "prefectureId": "saitama"
+    },
+    {
+      "id": "saitama-2",
+      "name": "埼玉2区",
+      "prefectureId": "saitama"
+    },
+    {
+      "id": "saitama-3",
+      "name": "埼玉3区",
+      "prefectureId": "saitama"
+    },
+    {
+      "id": "saitama-4",
+      "name": "埼玉4区",
+      "prefectureId": "saitama"
+    },
+    {
+      "id": "saitama-5",
+      "name": "埼玉5区",
+      "prefectureId": "saitama"
+    },
+    {
+      "id": "saitama-7",
+      "name": "埼玉7区",
+      "prefectureId": "saitama"
+    },
+    {
+      "id": "saitama-8",
+      "name": "埼玉8区",
+      "prefectureId": "saitama"
+    },
+    {
+      "id": "saitama-9",
+      "name": "埼玉9区",
+      "prefectureId": "saitama"
+    },
+    {
+      "id": "saitama-10",
+      "name": "埼玉10区",
+      "prefectureId": "saitama"
+    },
+    {
+      "id": "saitama-11",
+      "name": "埼玉11区",
+      "prefectureId": "saitama"
+    },
+    {
+      "id": "saitama-12",
+      "name": "埼玉12区",
+      "prefectureId": "saitama"
+    },
+    {
+      "id": "saitama-13",
+      "name": "埼玉13区",
+      "prefectureId": "saitama"
+    },
+    {
+      "id": "saitama-14",
+      "name": "埼玉14区",
+      "prefectureId": "saitama"
+    },
+    {
+      "id": "saitama-15",
+      "name": "埼玉15区",
+      "prefectureId": "saitama"
+    },
+    {
+      "id": "saitama-16",
+      "name": "埼玉16区",
+      "prefectureId": "saitama"
+    },
+    {
+      "id": "chiba-1",
+      "name": "千葉1区",
+      "prefectureId": "chiba"
+    },
+    {
+      "id": "chiba-2",
+      "name": "千葉2区",
+      "prefectureId": "chiba"
+    },
+    {
+      "id": "chiba-3",
+      "name": "千葉3区",
+      "prefectureId": "chiba"
+    },
+    {
+      "id": "chiba-4",
+      "name": "千葉4区",
+      "prefectureId": "chiba"
+    },
+    {
+      "id": "chiba-5",
+      "name": "千葉5区",
+      "prefectureId": "chiba"
+    },
+    {
+      "id": "chiba-6",
+      "name": "千葉6区",
+      "prefectureId": "chiba"
+    },
+    {
+      "id": "chiba-7",
+      "name": "千葉7区",
+      "prefectureId": "chiba"
+    },
+    {
+      "id": "chiba-8",
+      "name": "千葉8区",
+      "prefectureId": "chiba"
+    },
+    {
+      "id": "chiba-9",
+      "name": "千葉9区",
+      "prefectureId": "chiba"
+    },
+    {
+      "id": "chiba-10",
+      "name": "千葉10区",
+      "prefectureId": "chiba"
+    },
+    {
+      "id": "chiba-11",
+      "name": "千葉11区",
+      "prefectureId": "chiba"
+    },
+    {
+      "id": "chiba-12",
+      "name": "千葉12区",
+      "prefectureId": "chiba"
+    },
+    {
+      "id": "chiba-13",
+      "name": "千葉13区",
+      "prefectureId": "chiba"
+    },
+    {
+      "id": "chiba-14",
+      "name": "千葉14区",
+      "prefectureId": "chiba"
+    },
+    {
+      "id": "tokyo-1",
+      "name": "東京1区",
+      "prefectureId": "tokyo"
+    },
+    {
+      "id": "tokyo-2",
+      "name": "東京2区",
+      "prefectureId": "tokyo"
+    },
+    {
+      "id": "tokyo-3",
+      "name": "東京3区",
+      "prefectureId": "tokyo"
+    },
+    {
+      "id": "tokyo-4",
+      "name": "東京4区",
+      "prefectureId": "tokyo"
+    },
+    {
+      "id": "tokyo-5",
+      "name": "東京5区",
+      "prefectureId": "tokyo"
+    },
+    {
+      "id": "tokyo-6",
+      "name": "東京6区",
+      "prefectureId": "tokyo"
+    },
+    {
+      "id": "tokyo-7",
+      "name": "東京7区",
+      "prefectureId": "tokyo"
+    },
+    {
+      "id": "tokyo-8",
+      "name": "東京8区",
+      "prefectureId": "tokyo"
+    },
+    {
+      "id": "tokyo-10",
+      "name": "東京10区",
+      "prefectureId": "tokyo"
+    },
+    {
+      "id": "tokyo-11",
+      "name": "東京11区",
+      "prefectureId": "tokyo"
+    },
+    {
+      "id": "tokyo-12",
+      "name": "東京12区",
+      "prefectureId": "tokyo"
+    },
+    {
+      "id": "tokyo-13",
+      "name": "東京13区",
+      "prefectureId": "tokyo"
+    },
+    {
+      "id": "tokyo-14",
+      "name": "東京14区",
+      "prefectureId": "tokyo"
+    },
+    {
+      "id": "tokyo-15",
+      "name": "東京15区",
+      "prefectureId": "tokyo"
+    },
+    {
+      "id": "tokyo-16",
+      "name": "東京16区",
+      "prefectureId": "tokyo"
+    },
+    {
+      "id": "tokyo-17",
+      "name": "東京17区",
+      "prefectureId": "tokyo"
+    },
+    {
+      "id": "tokyo-19",
+      "name": "東京19区",
+      "prefectureId": "tokyo"
+    },
+    {
+      "id": "tokyo-20",
+      "name": "東京20区",
+      "prefectureId": "tokyo"
+    },
+    {
+      "id": "tokyo-21",
+      "name": "東京21区",
+      "prefectureId": "tokyo"
+    },
+    {
+      "id": "tokyo-22",
+      "name": "東京22区",
+      "prefectureId": "tokyo"
+    },
+    {
+      "id": "tokyo-23",
+      "name": "東京23区",
+      "prefectureId": "tokyo"
+    },
+    {
+      "id": "tokyo-24",
+      "name": "東京24区",
+      "prefectureId": "tokyo"
+    },
+    {
+      "id": "tokyo-25",
+      "name": "東京25区",
+      "prefectureId": "tokyo"
+    },
+    {
+      "id": "tokyo-26",
+      "name": "東京26区",
+      "prefectureId": "tokyo"
+    },
+    {
+      "id": "tokyo-27",
+      "name": "東京27区",
+      "prefectureId": "tokyo"
+    },
+    {
+      "id": "tokyo-28",
+      "name": "東京28区",
+      "prefectureId": "tokyo"
+    },
+    {
+      "id": "tokyo-29",
+      "name": "東京29区",
+      "prefectureId": "tokyo"
+    },
+    {
+      "id": "tokyo-30",
+      "name": "東京30区",
+      "prefectureId": "tokyo"
+    },
+    {
+      "id": "kanagawa-1",
+      "name": "神奈川1区",
+      "prefectureId": "kanagawa"
+    },
+    {
+      "id": "kanagawa-2",
+      "name": "神奈川2区",
+      "prefectureId": "kanagawa"
+    },
+    {
+      "id": "kanagawa-5",
+      "name": "神奈川5区",
+      "prefectureId": "kanagawa"
+    },
+    {
+      "id": "kanagawa-6",
+      "name": "神奈川6区",
+      "prefectureId": "kanagawa"
+    },
+    {
+      "id": "kanagawa-7",
+      "name": "神奈川7区",
+      "prefectureId": "kanagawa"
+    },
+    {
+      "id": "kanagawa-8",
+      "name": "神奈川8区",
+      "prefectureId": "kanagawa"
+    },
+    {
+      "id": "kanagawa-9",
+      "name": "神奈川9区",
+      "prefectureId": "kanagawa"
+    },
+    {
+      "id": "kanagawa-10",
+      "name": "神奈川10区",
+      "prefectureId": "kanagawa"
+    },
+    {
+      "id": "kanagawa-11",
+      "name": "神奈川11区",
+      "prefectureId": "kanagawa"
+    },
+    {
+      "id": "kanagawa-12",
+      "name": "神奈川12区",
+      "prefectureId": "kanagawa"
+    },
+    {
+      "id": "kanagawa-13",
+      "name": "神奈川13区",
+      "prefectureId": "kanagawa"
+    },
+    {
+      "id": "kanagawa-14",
+      "name": "神奈川14区",
+      "prefectureId": "kanagawa"
+    },
+    {
+      "id": "kanagawa-15",
+      "name": "神奈川15区",
+      "prefectureId": "kanagawa"
+    },
+    {
+      "id": "kanagawa-16",
+      "name": "神奈川16区",
+      "prefectureId": "kanagawa"
+    },
+    {
+      "id": "kanagawa-17",
+      "name": "神奈川17区",
+      "prefectureId": "kanagawa"
+    },
+    {
+      "id": "kanagawa-18",
+      "name": "神奈川18区",
+      "prefectureId": "kanagawa"
+    },
+    {
+      "id": "kanagawa-19",
+      "name": "神奈川19区",
+      "prefectureId": "kanagawa"
+    },
+    {
+      "id": "kanagawa-20",
+      "name": "神奈川20区",
+      "prefectureId": "kanagawa"
+    },
+    {
+      "id": "niigata-1",
+      "name": "新潟1区",
+      "prefectureId": "niigata"
+    },
+    {
+      "id": "niigata-2",
+      "name": "新潟2区",
+      "prefectureId": "niigata"
+    },
+    {
+      "id": "niigata-3",
+      "name": "新潟3区",
+      "prefectureId": "niigata"
+    },
+    {
+      "id": "niigata-4",
+      "name": "新潟4区",
+      "prefectureId": "niigata"
+    },
+    {
+      "id": "niigata-5",
+      "name": "新潟5区",
+      "prefectureId": "niigata"
+    },
+    {
+      "id": "toyama-1",
+      "name": "富山1区",
+      "prefectureId": "toyama"
+    },
+    {
+      "id": "toyama-3",
+      "name": "富山3区",
+      "prefectureId": "toyama"
+    },
+    {
+      "id": "ishikawa-1",
+      "name": "石川1区",
+      "prefectureId": "ishikawa"
+    },
+    {
+      "id": "ishikawa-2",
+      "name": "石川2区",
+      "prefectureId": "ishikawa"
+    },
+    {
+      "id": "ishikawa-3",
+      "name": "石川3区",
+      "prefectureId": "ishikawa"
+    },
+    {
+      "id": "fukui-1",
+      "name": "福井1区",
+      "prefectureId": "fukui"
+    },
+    {
+      "id": "fukui-2",
+      "name": "福井2区",
+      "prefectureId": "fukui"
+    },
+    {
+      "id": "yamanashi-2",
+      "name": "山梨2区",
+      "prefectureId": "yamanashi"
+    },
+    {
+      "id": "nagano-1",
+      "name": "長野1区",
+      "prefectureId": "nagano"
+    },
+    {
+      "id": "nagano-3",
+      "name": "長野3区",
+      "prefectureId": "nagano"
+    },
+    {
+      "id": "nagano-4",
+      "name": "長野4区",
+      "prefectureId": "nagano"
+    },
+    {
+      "id": "nagano-5",
+      "name": "長野5区",
+      "prefectureId": "nagano"
+    },
+    {
+      "id": "gifu-1",
+      "name": "岐阜1区",
+      "prefectureId": "gifu"
+    },
+    {
+      "id": "gifu-2",
+      "name": "岐阜2区",
+      "prefectureId": "gifu"
+    },
+    {
+      "id": "gifu-3",
+      "name": "岐阜3区",
+      "prefectureId": "gifu"
+    },
+    {
+      "id": "gifu-4",
+      "name": "岐阜4区",
+      "prefectureId": "gifu"
+    },
+    {
+      "id": "gifu-5",
+      "name": "岐阜5区",
+      "prefectureId": "gifu"
+    },
+    {
+      "id": "shizuoka-1",
+      "name": "静岡1区",
+      "prefectureId": "shizuoka"
+    },
+    {
+      "id": "shizuoka-2",
+      "name": "静岡2区",
+      "prefectureId": "shizuoka"
+    },
+    {
+      "id": "shizuoka-3",
+      "name": "静岡3区",
+      "prefectureId": "shizuoka"
+    },
+    {
+      "id": "shizuoka-4",
+      "name": "静岡4区",
+      "prefectureId": "shizuoka"
+    },
+    {
+      "id": "shizuoka-5",
+      "name": "静岡5区",
+      "prefectureId": "shizuoka"
+    },
+    {
+      "id": "shizuoka-6",
+      "name": "静岡6区",
+      "prefectureId": "shizuoka"
+    },
+    {
+      "id": "shizuoka-7",
+      "name": "静岡7区",
+      "prefectureId": "shizuoka"
+    },
+    {
+      "id": "shizuoka-8",
+      "name": "静岡8区",
+      "prefectureId": "shizuoka"
+    },
+    {
+      "id": "aichi-2",
+      "name": "愛知2区",
+      "prefectureId": "aichi"
+    },
+    {
+      "id": "aichi-3",
+      "name": "愛知3区",
+      "prefectureId": "aichi"
+    },
+    {
+      "id": "aichi-4",
+      "name": "愛知4区",
+      "prefectureId": "aichi"
+    },
+    {
+      "id": "aichi-5",
+      "name": "愛知5区",
+      "prefectureId": "aichi"
+    },
+    {
+      "id": "aichi-6",
+      "name": "愛知6区",
+      "prefectureId": "aichi"
+    },
+    {
+      "id": "aichi-7",
+      "name": "愛知7区",
+      "prefectureId": "aichi"
+    },
+    {
+      "id": "aichi-9",
+      "name": "愛知9区",
+      "prefectureId": "aichi"
+    },
+    {
+      "id": "aichi-10",
+      "name": "愛知10区",
+      "prefectureId": "aichi"
+    },
+    {
+      "id": "aichi-12",
+      "name": "愛知12区",
+      "prefectureId": "aichi"
+    },
+    {
+      "id": "aichi-13",
+      "name": "愛知13区",
+      "prefectureId": "aichi"
+    },
+    {
+      "id": "aichi-14",
+      "name": "愛知14区",
+      "prefectureId": "aichi"
+    },
+    {
+      "id": "aichi-15",
+      "name": "愛知15区",
+      "prefectureId": "aichi"
+    },
+    {
+      "id": "aichi-16",
+      "name": "愛知16区",
+      "prefectureId": "aichi"
+    },
+    {
+      "id": "mie-1",
+      "name": "三重1区",
+      "prefectureId": "mie"
+    },
+    {
+      "id": "mie-2",
+      "name": "三重2区",
+      "prefectureId": "mie"
+    },
+    {
+      "id": "mie-3",
+      "name": "三重3区",
+      "prefectureId": "mie"
+    },
+    {
+      "id": "mie-4",
+      "name": "三重4区",
+      "prefectureId": "mie"
+    },
+    {
+      "id": "shiga-1",
+      "name": "滋賀1区",
+      "prefectureId": "shiga"
+    },
+    {
+      "id": "shiga-2",
+      "name": "滋賀2区",
+      "prefectureId": "shiga"
+    },
+    {
+      "id": "kyoto-1",
+      "name": "京都1区",
+      "prefectureId": "kyoto"
+    },
+    {
+      "id": "kyoto-2",
+      "name": "京都2区",
+      "prefectureId": "kyoto"
+    },
+    {
+      "id": "kyoto-3",
+      "name": "京都3区",
+      "prefectureId": "kyoto"
+    },
+    {
+      "id": "kyoto-4",
+      "name": "京都4区",
+      "prefectureId": "kyoto"
+    },
+    {
+      "id": "kyoto-5",
+      "name": "京都5区",
+      "prefectureId": "kyoto"
+    },
+    {
+      "id": "kyoto-6",
+      "name": "京都6区",
+      "prefectureId": "kyoto"
+    },
+    {
+      "id": "osaka-1",
+      "name": "大阪1区",
+      "prefectureId": "osaka"
+    },
+    {
+      "id": "osaka-2",
+      "name": "大阪2区",
+      "prefectureId": "osaka"
+    },
+    {
+      "id": "osaka-3",
+      "name": "大阪3区",
+      "prefectureId": "osaka"
+    },
+    {
+      "id": "osaka-4",
+      "name": "大阪4区",
+      "prefectureId": "osaka"
+    },
+    {
+      "id": "osaka-5",
+      "name": "大阪5区",
+      "prefectureId": "osaka"
+    },
+    {
+      "id": "osaka-6",
+      "name": "大阪6区",
+      "prefectureId": "osaka"
+    },
+    {
+      "id": "osaka-7",
+      "name": "大阪7区",
+      "prefectureId": "osaka"
+    },
+    {
+      "id": "osaka-8",
+      "name": "大阪8区",
+      "prefectureId": "osaka"
+    },
+    {
+      "id": "osaka-9",
+      "name": "大阪9区",
+      "prefectureId": "osaka"
+    },
+    {
+      "id": "osaka-10",
+      "name": "大阪10区",
+      "prefectureId": "osaka"
+    },
+    {
+      "id": "osaka-11",
+      "name": "大阪11区",
+      "prefectureId": "osaka"
+    },
+    {
+      "id": "osaka-12",
+      "name": "大阪12区",
+      "prefectureId": "osaka"
+    },
+    {
+      "id": "osaka-13",
+      "name": "大阪13区",
+      "prefectureId": "osaka"
+    },
+    {
+      "id": "osaka-14",
+      "name": "大阪14区",
+      "prefectureId": "osaka"
+    },
+    {
+      "id": "osaka-17",
+      "name": "大阪17区",
+      "prefectureId": "osaka"
+    },
+    {
+      "id": "osaka-18",
+      "name": "大阪18区",
+      "prefectureId": "osaka"
+    },
+    {
+      "id": "hyogo-1",
+      "name": "兵庫1区",
+      "prefectureId": "hyogo"
+    },
+    {
+      "id": "hyogo-2",
+      "name": "兵庫2区",
+      "prefectureId": "hyogo"
+    },
+    {
+      "id": "hyogo-3",
+      "name": "兵庫3区",
+      "prefectureId": "hyogo"
+    },
+    {
+      "id": "hyogo-4",
+      "name": "兵庫4区",
+      "prefectureId": "hyogo"
+    },
+    {
+      "id": "hyogo-5",
+      "name": "兵庫5区",
+      "prefectureId": "hyogo"
+    },
+    {
+      "id": "hyogo-6",
+      "name": "兵庫6区",
+      "prefectureId": "hyogo"
+    },
+    {
+      "id": "hyogo-7",
+      "name": "兵庫7区",
+      "prefectureId": "hyogo"
+    },
+    {
+      "id": "hyogo-8",
+      "name": "兵庫8区",
+      "prefectureId": "hyogo"
+    },
+    {
+      "id": "hyogo-9",
+      "name": "兵庫9区",
+      "prefectureId": "hyogo"
+    },
+    {
+      "id": "hyogo-11",
+      "name": "兵庫11区",
+      "prefectureId": "hyogo"
+    },
+    {
+      "id": "hyogo-12",
+      "name": "兵庫12区",
+      "prefectureId": "hyogo"
+    },
+    {
+      "id": "nara-1",
+      "name": "奈良1区",
+      "prefectureId": "nara"
+    },
+    {
+      "id": "nara-2",
+      "name": "奈良2区",
+      "prefectureId": "nara"
+    },
+    {
+      "id": "nara-3",
+      "name": "奈良3区",
+      "prefectureId": "nara"
+    },
+    {
+      "id": "wakayama-1",
+      "name": "和歌山1区",
+      "prefectureId": "wakayama"
+    },
+    {
+      "id": "wakayama-2",
+      "name": "和歌山2区",
+      "prefectureId": "wakayama"
+    },
+    {
+      "id": "tottori-1",
+      "name": "鳥取1区",
+      "prefectureId": "tottori"
+    },
+    {
+      "id": "tottori-2",
+      "name": "鳥取2区",
+      "prefectureId": "tottori"
+    },
+    {
+      "id": "shimane-2",
+      "name": "島根2区",
+      "prefectureId": "shimane"
+    },
+    {
+      "id": "okayama-1",
+      "name": "岡山1区",
+      "prefectureId": "okayama"
+    },
+    {
+      "id": "okayama-2",
+      "name": "岡山2区",
+      "prefectureId": "okayama"
+    },
+    {
+      "id": "okayama-3",
+      "name": "岡山3区",
+      "prefectureId": "okayama"
+    },
+    {
+      "id": "hiroshima-1",
+      "name": "広島1区",
+      "prefectureId": "hiroshima"
+    },
+    {
+      "id": "hiroshima-2",
+      "name": "広島2区",
+      "prefectureId": "hiroshima"
+    },
+    {
+      "id": "hiroshima-3",
+      "name": "広島3区",
+      "prefectureId": "hiroshima"
+    },
+    {
+      "id": "hiroshima-4",
+      "name": "広島4区",
+      "prefectureId": "hiroshima"
+    },
+    {
+      "id": "hiroshima-5",
+      "name": "広島5区",
+      "prefectureId": "hiroshima"
+    },
+    {
+      "id": "hiroshima-6",
+      "name": "広島6区",
+      "prefectureId": "hiroshima"
+    },
+    {
+      "id": "yamaguchi-1",
+      "name": "山口1区",
+      "prefectureId": "yamaguchi"
+    },
+    {
+      "id": "yamaguchi-2",
+      "name": "山口2区",
+      "prefectureId": "yamaguchi"
+    },
+    {
+      "id": "yamaguchi-3",
+      "name": "山口3区",
+      "prefectureId": "yamaguchi"
+    },
+    {
+      "id": "tokushima-1",
+      "name": "徳島1区",
+      "prefectureId": "tokushima"
+    },
+    {
+      "id": "tokushima-2",
+      "name": "徳島2区",
+      "prefectureId": "tokushima"
+    },
+    {
+      "id": "kagawa-1",
+      "name": "香川1区",
+      "prefectureId": "kagawa"
+    },
+    {
+      "id": "kagawa-2",
+      "name": "香川2区",
+      "prefectureId": "kagawa"
+    },
+    {
+      "id": "kagawa-3",
+      "name": "香川3区",
+      "prefectureId": "kagawa"
+    },
+    {
+      "id": "ehime-1",
+      "name": "愛媛1区",
+      "prefectureId": "ehime"
+    },
+    {
+      "id": "ehime-2",
+      "name": "愛媛2区",
+      "prefectureId": "ehime"
+    },
+    {
+      "id": "ehime-3",
+      "name": "愛媛3区",
+      "prefectureId": "ehime"
+    },
+    {
+      "id": "kochi-1",
+      "name": "高知1区",
+      "prefectureId": "kochi"
+    },
+    {
+      "id": "kochi-2",
+      "name": "高知2区",
+      "prefectureId": "kochi"
+    },
+    {
+      "id": "fukuoka-1",
+      "name": "福岡1区",
+      "prefectureId": "fukuoka"
+    },
+    {
+      "id": "fukuoka-2",
+      "name": "福岡2区",
+      "prefectureId": "fukuoka"
+    },
+    {
+      "id": "fukuoka-3",
+      "name": "福岡3区",
+      "prefectureId": "fukuoka"
+    },
+    {
+      "id": "fukuoka-4",
+      "name": "福岡4区",
+      "prefectureId": "fukuoka"
+    },
+    {
+      "id": "fukuoka-5",
+      "name": "福岡5区",
+      "prefectureId": "fukuoka"
+    },
+    {
+      "id": "fukuoka-6",
+      "name": "福岡6区",
+      "prefectureId": "fukuoka"
+    },
+    {
+      "id": "fukuoka-7",
+      "name": "福岡7区",
+      "prefectureId": "fukuoka"
+    },
+    {
+      "id": "fukuoka-8",
+      "name": "福岡8区",
+      "prefectureId": "fukuoka"
+    },
+    {
+      "id": "fukuoka-9",
+      "name": "福岡9区",
+      "prefectureId": "fukuoka"
+    },
+    {
+      "id": "fukuoka-10",
+      "name": "福岡10区",
+      "prefectureId": "fukuoka"
+    },
+    {
+      "id": "fukuoka-11",
+      "name": "福岡11区",
+      "prefectureId": "fukuoka"
+    },
+    {
+      "id": "saga-1",
+      "name": "佐賀1区",
+      "prefectureId": "saga"
+    },
+    {
+      "id": "saga-2",
+      "name": "佐賀2区",
+      "prefectureId": "saga"
+    },
+    {
+      "id": "nagasaki-1",
+      "name": "長崎1区",
+      "prefectureId": "nagasaki"
+    },
+    {
+      "id": "nagasaki-2",
+      "name": "長崎2区",
+      "prefectureId": "nagasaki"
+    },
+    {
+      "id": "nagasaki-3",
+      "name": "長崎3区",
+      "prefectureId": "nagasaki"
+    },
+    {
+      "id": "kumamoto-1",
+      "name": "熊本1区",
+      "prefectureId": "kumamoto"
+    },
+    {
+      "id": "kumamoto-2",
+      "name": "熊本2区",
+      "prefectureId": "kumamoto"
+    },
+    {
+      "id": "kumamoto-4",
+      "name": "熊本4区",
+      "prefectureId": "kumamoto"
+    },
+    {
+      "id": "oita-1",
+      "name": "大分1区",
+      "prefectureId": "oita"
+    },
+    {
+      "id": "oita-2",
+      "name": "大分2区",
+      "prefectureId": "oita"
+    },
+    {
+      "id": "oita-3",
+      "name": "大分3区",
+      "prefectureId": "oita"
+    },
+    {
+      "id": "miyazaki-1",
+      "name": "宮崎1区",
+      "prefectureId": "miyazaki"
+    },
+    {
+      "id": "miyazaki-2",
+      "name": "宮崎2区",
+      "prefectureId": "miyazaki"
+    },
+    {
+      "id": "miyazaki-3",
+      "name": "宮崎3区",
+      "prefectureId": "miyazaki"
+    },
+    {
+      "id": "kagoshima-1",
+      "name": "鹿児島1区",
+      "prefectureId": "kagoshima"
+    },
+    {
+      "id": "kagoshima-2",
+      "name": "鹿児島2区",
+      "prefectureId": "kagoshima"
+    },
+    {
+      "id": "kagoshima-3",
+      "name": "鹿児島3区",
+      "prefectureId": "kagoshima"
+    },
+    {
+      "id": "kagoshima-4",
+      "name": "鹿児島4区",
+      "prefectureId": "kagoshima"
+    },
+    {
+      "id": "okinawa-1",
+      "name": "沖縄1区",
+      "prefectureId": "okinawa"
+    },
+    {
+      "id": "okinawa-2",
+      "name": "沖縄2区",
+      "prefectureId": "okinawa"
+    },
+    {
+      "id": "okinawa-3",
+      "name": "沖縄3区",
+      "prefectureId": "okinawa"
+    },
+    {
+      "id": "okinawa-4",
+      "name": "沖縄4区",
+      "prefectureId": "okinawa"
+    }
+  ]
+}

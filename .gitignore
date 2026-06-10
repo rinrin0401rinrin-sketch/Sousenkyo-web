@@ -5,6 +5,10 @@ node_modules
 dist
 build
 .DS_Store
+tmp/
+data/imports/
+data/work/
+*.backup-*.csv
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*

@@ -1,0 +1,286 @@
+{
+  "prefectures": [
+    {
+      "districtCount": 13,
+      "id": "hokkaido",
+      "name": "北海道",
+      "region": "北海道"
+    },
+    {
+      "districtCount": 3,
+      "id": "aomori",
+      "name": "青森",
+      "region": "東北"
+    },
+    {
+      "districtCount": 3,
+      "id": "iwate",
+      "name": "岩手",
+      "region": "東北"
+    },
+    {
+      "districtCount": 6,
+      "id": "miyagi",
+      "name": "宮城",
+      "region": "東北"
+    },
+    {
+      "districtCount": 2,
+      "id": "akita",
+      "name": "秋田",
+      "region": "東北"
+    },
+    {
+      "districtCount": 3,
+      "id": "yamagata",
+      "name": "山形",
+      "region": "東北"
+    },
+    {
+      "districtCount": 4,
+      "id": "fukushima",
+      "name": "福島",
+      "region": "東北"
+    },
+    {
+      "districtCount": 7,
+      "id": "ibaraki",
+      "name": "茨城",
+      "region": "関東"
+    },
+    {
+      "districtCount": 4,
+      "id": "tochigi",
+      "name": "栃木",
+      "region": "関東"
+    },
+    {
+      "districtCount": 5,
+      "id": "gunma",
+      "name": "群馬",
+      "region": "関東"
+    },
+    {
+      "districtCount": 16,
+      "id": "saitama",
+      "name": "埼玉",
+      "region": "関東"
+    },
+    {
+      "districtCount": 14,
+      "id": "chiba",
+      "name": "千葉",
+      "region": "関東"
+    },
+    {
+      "districtCount": 29,
+      "id": "tokyo",
+      "name": "東京",
+      "region": "関東"
+    },
+    {
+      "districtCount": 19,
+      "id": "kanagawa",
+      "name": "神奈川",
+      "region": "関東"
+    },
+    {
+      "districtCount": 5,
+      "id": "niigata",
+      "name": "新潟",
+      "region": "北陸信越"
+    },
+    {
+      "districtCount": 3,
+      "id": "toyama",
+      "name": "富山",
+      "region": "北陸信越"
+    },
+    {
+      "districtCount": 3,
+      "id": "ishikawa",
+      "name": "石川",
+      "region": "北陸信越"
+    },
+    {
+      "districtCount": 2,
+      "id": "fukui",
+      "name": "福井",
+      "region": "北陸信越"
+    },
+    {
+      "districtCount": 1,
+      "id": "yamanashi",
+      "name": "山梨",
+      "region": "中部"
+    },
+    {
+      "districtCount": 4,
+      "id": "nagano",
+      "name": "長野",
+      "region": "北陸信越"
+    },
+    {
+      "districtCount": 5,
+      "id": "gifu",
+      "name": "岐阜",
+      "region": "東海"
+    },
+    {
+      "districtCount": 8,
+      "id": "shizuoka",
+      "name": "静岡",
+      "region": "東海"
+    },
+    {
+      "districtCount": 13,
+      "id": "aichi",
+      "name": "愛知",
+      "region": "東海"
+    },
+    {
+      "districtCount": 4,
+      "id": "mie",
+      "name": "三重",
+      "region": "東海"
+    },
+    {
+      "districtCount": 2,
+      "id": "shiga",
+      "name": "滋賀",
+      "region": "近畿"
+    },
+    {
+      "districtCount": 6,
+      "id": "kyoto",
+      "name": "京都",
+      "region": "近畿"
+    },
+    {
+      "districtCount": 18,
+      "id": "osaka",
+      "name": "大阪",
+      "region": "近畿"
+    },
+    {
+      "districtCount": 11,
+      "id": "hyogo",
+      "name": "兵庫",
+      "region": "近畿"
+    },
+    {
+      "districtCount": 3,
+      "id": "nara",
+      "name": "奈良",
+      "region": "近畿"
+    },
+    {
+      "districtCount": 2,
+      "id": "wakayama",
+      "name": "和歌山",
+      "region": "近畿"
+    },
+    {
+      "districtCount": 2,
+      "id": "tottori",
+      "name": "鳥取",
+      "region": "中国"
+    },
+    {
+      "districtCount": 1,
+      "id": "shimane",
+      "name": "島根",
+      "region": "中国"
+    },
+    {
+      "districtCount": 3,
+      "id": "okayama",
+      "name": "岡山",
+      "region": "中国"
+    },
+    {
+      "districtCount": 6,
+      "id": "hiroshima",
+      "name": "広島",
+      "region": "中国"
+    },
+    {
+      "districtCount": 3,
+      "id": "yamaguchi",
+      "name": "山口",
+      "region": "中国"
+    },
+    {
+      "districtCount": 2,
+      "id": "tokushima",
+      "name": "徳島",
+      "region": "四国"
+    },
+    {
+      "districtCount": 3,
+      "id": "kagawa",
+      "name": "香川",
+      "region": "四国"
+    },
+    {
+      "districtCount": 3,
+      "id": "ehime",
+      "name": "愛媛",
+      "region": "四国"
+    },
+    {
+      "districtCount": 3,
+      "id": "kochi",
+      "name": "高知",
+      "region": "四国"
+    },
+    {
+      "districtCount": 13,
+      "id": "fukuoka",
+      "name": "福岡",
+      "region": "九州"
+    },
+    {
+      "districtCount": 2,
+      "id": "saga",
+      "name": "佐賀",
+      "region": "九州"
+    },
+    {
+      "districtCount": 3,
+      "id": "nagasaki",
+      "name": "長崎",
+      "region": "九州"
+    },
+    {
+      "districtCount": 3,
+      "id": "kumamoto",
+      "name": "熊本",
+      "region": "九州"
+    },
+    {
+      "districtCount": 4,
+      "id": "oita",
+      "name": "大分",
+      "region": "九州"
+    },
+    {
+      "districtCount": 3,
+      "id": "miyazaki",
+      "name": "宮崎",
+      "region": "九州"
+    },
+    {
+      "districtCount": 4,
+      "id": "kagoshima",
+      "name": "鹿児島",
+      "region": "九州"
+    },
+    {
+      "districtCount": 4,
+      "id": "okinawa",
+      "name": "沖縄",
+      "region": "九州"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "entries": [
+    {
+      "category": "district",
+      "description": "小選挙区を検索・カード表示するための確認用項目です。",
+      "electionIds": [
+        "shugiin-50th"
+      ],
+      "id": "district-tokyo-1",
+      "label": "東京1区",
+      "reading": "とうきょういっく",
+      "relatedIds": []
+    },
+    {
+      "category": "district",
+      "description": "PDF由来の選挙区名を登録するための確認用項目です。",
+      "electionIds": [
+        "shugiin-50th"
+      ],
+      "id": "district-osaka-1",
+      "label": "大阪1区",
+      "reading": "おおさかいっく",
+      "relatedIds": []
+    }
+  ]
+}

@@ -10,7 +10,19 @@ const chromeBin = process.env.CHROME_BIN ?? findChrome();
 const routes = [
   {
     path: '/',
-    includes: ['第50回 衆議院総選挙', '現在の選挙を見る', '選挙を選択', '政党別議席数'],
+    includes: ['第51回 衆議院総選挙', '候補者を探す', '選挙を選択', '政党別候補者数'],
+  },
+  {
+    path: '/elections/shugiin-51st',
+    includes: ['第51回 衆議院総選挙', '全国ドットマップ', '都道府県リンク', '候補者一覧'],
+  },
+  {
+    path: '/elections/shugiin-51st/prefectures/tokyo',
+    includes: ['東京', '小選挙区と当選者', '選挙詳細へ戻る'],
+  },
+  {
+    path: '/elections/shugiin-51st/members/aoyama-shigeharu',
+    includes: ['青山 繁晴', '自由民主党', '兵庫'],
   },
   {
     path: '/elections/shugiin-50th',
@@ -27,6 +39,30 @@ const routes = [
   {
     path: '/elections/shugiin-49th',
     includes: ['データ準備中', '第49回 衆議院総選挙', 'トップへ戻る'],
+  },
+  {
+    path: '/live',
+    includes: ['開票速報', '速報タイムライン', '確定状況'],
+  },
+  {
+    path: '/map',
+    includes: ['全国マップ', '地図レイヤー', 'フィルター'],
+  },
+  {
+    path: '/parties',
+    includes: ['政党別データ', '政党別議席表', '小選挙区 / 比例内訳'],
+  },
+  {
+    path: '/proportional',
+    includes: ['比例代表', '比例ブロック', '比例復活'],
+  },
+  {
+    path: '/archive',
+    includes: ['過去選挙アーカイブ', '選挙回次', '単語帳で用語を確認'],
+  },
+  {
+    path: '/glossary',
+    includes: ['選挙単語帳', '検索辞書', '候補者名・選挙区・政党名で検索'],
   },
   {
     path: '/unknown-route',

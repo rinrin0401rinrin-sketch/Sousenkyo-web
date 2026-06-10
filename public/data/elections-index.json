@@ -4,9 +4,17 @@
       "id": "shugiin-50th",
       "isDataReady": true,
       "name": "第50回 衆議院総選挙",
-      "status": "current",
+      "status": "past",
       "type": "衆議院",
       "year": 2024
+    },
+    {
+      "id": "shugiin-51st",
+      "isDataReady": true,
+      "name": "第51回 衆議院総選挙",
+      "status": "current",
+      "type": "衆議院",
+      "year": 2028
     },
     {
       "id": "shugiin-49th",

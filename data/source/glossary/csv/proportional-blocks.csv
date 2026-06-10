@@ -1,0 +1,3 @@
+id,label,category,reading,description,electionIds,relatedIds,photoUrl,districtLabel,partyLabel,statusLabel,age,wins,seatType,reviewStatus
+proportional-tokyo,東京ブロック,proportional,とうきょうぶろっく,比例代表ブロックを検索・カード表示するための確認用項目です。,shugiin-50th,,,,,,,,,
+proportional-kinki,近畿ブロック,proportional,きんきぶろっく,比例区分を単語帳で扱うための確認用項目です。,shugiin-50th,,,,,,,,,

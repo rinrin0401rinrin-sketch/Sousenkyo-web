@@ -1,5 +1,7 @@
 import { existsSync, readFileSync, statSync } from 'node:fs';
 import { join } from 'node:path';
+import { glossaryCsvHeaders, glossaryFiles } from './glossary-schema.mjs';
+import { readCsv, validateCsvHeaders } from './csv-utils.mjs';
 
 const root = process.cwd();
 const dataRoot = join(root, 'public', 'data');
@@ -184,6 +186,8 @@ for (const election of elections) {
   validateElection(election.id);
 }
 
+validateGlossary(electionIds);
+
 function validateElection(electionId) {
   const dir = join(dataRoot, electionId);
   const requiredFiles = [
@@ -328,6 +332,144 @@ function validateElection(electionId) {
       requireNumber(seat.seats, `${electionId}/summary.partySeats.${seat.partyId}.seats`);
     }
   }
+}
+
+function validateGlossary(electionIds) {
+  const glossaryDir = join(dataRoot, 'glossary');
+  const sourceGlossaryDir = join(root, 'data', 'source', 'glossary', 'csv');
+
+  const files = [
+    ['candidates.json', 'candidate'],
+    ['parties.json', 'party'],
+    ['districts.json', 'district'],
+    ['proportional-blocks.json', 'proportional'],
+    ['terms.json', 'term'],
+  ];
+  const entriesByFile = [];
+  const allEntries = [];
+
+  for (const [fileName, expectedCategory] of files) {
+    const filePath = join(glossaryDir, fileName);
+    if (!existsSync(filePath)) {
+      errors.push(`${relative(filePath)} がありません`);
+      continue;
+    }
+
+    const entries = ensureArray(readJson(filePath)?.entries, `glossary/${fileName} entries`);
+    entriesByFile.push([fileName, expectedCategory, entries]);
+    allEntries.push(...entries);
+  }
+
+  validateGlossarySourceSync(sourceGlossaryDir, glossaryDir);
+
+  requireUnique(allEntries, 'glossary entries');
+  const glossaryIds = new Set(allEntries.map((entry) => entry.id).filter(Boolean));
+
+  for (const [fileName, expectedCategory, entries] of entriesByFile) {
+    for (const entry of entries) {
+      requireString(entry.id, `glossary/${fileName} id`);
+      requireString(entry.label, `glossary/${fileName}.${entry.id}.label`);
+      if (entry.category !== expectedCategory) {
+        errors.push(`glossary/${fileName}.${entry.id}.category は "${expectedCategory}" である必要があります`);
+      }
+
+      for (const electionId of ensureArray(entry.electionIds ?? [], `glossary/${fileName}.${entry.id}.electionIds`)) {
+        if (!electionIds.has(electionId)) {
+          errors.push(`glossary/${fileName}.${entry.id}.electionIds: "${electionId}" が elections-index.json に存在しません`);
+        }
+      }
+
+      for (const relatedId of ensureArray(entry.relatedIds ?? [], `glossary/${fileName}.${entry.id}.relatedIds`)) {
+        if (!glossaryIds.has(relatedId)) {
+          errors.push(`glossary/${fileName}.${entry.id}.relatedIds: "${relatedId}" が単語帳内に存在しません`);
+        }
+      }
+    }
+  }
+}
+
+function validateGlossarySourceSync(sourceDir, glossaryDir) {
+  const localErrors = [];
+  const pushError = (message) => localErrors.push(message);
+
+  if (!existsSync(sourceDir)) {
+    errors.push(`${relative(sourceDir)} がありません`);
+    return;
+  }
+
+  for (const [csvName, config] of Object.entries(glossaryFiles)) {
+    const csvPath = join(sourceDir, csvName);
+    const jsonPath = join(glossaryDir, config.output);
+    try {
+      validateCsvHeaders(csvPath, glossaryCsvHeaders);
+    } catch (error) {
+      pushError(error.message);
+      continue;
+    }
+
+    if (!existsSync(jsonPath)) continue;
+
+    const expected = readCsv(csvPath).map((row) => normalizeGlossaryCsvRow(row, config.category, pushError));
+    const actual = ensureArray(readJson(jsonPath)?.entries, `glossary/${config.output} entries`);
+    if (stableStringify(expected) !== stableStringify(actual)) {
+      pushError(`${relative(jsonPath)} が ${relative(csvPath)} と同期していません。npm run gen:glossary を実行してください`);
+    }
+  }
+
+  errors.push(...localErrors);
+}
+
+function normalizeGlossaryCsvRow(row, expectedCategory, pushError) {
+  if (row.category && row.category !== expectedCategory) {
+    pushError(`${row.id || 'unknown'}: category は "${expectedCategory}" である必要があります`);
+  }
+
+  return omitEmpty({
+    id: row.id,
+    label: row.label,
+    category: row.category || expectedCategory,
+    reading: row.reading,
+    description: row.description,
+    electionIds: splitGlossaryList(row.electionIds),
+    relatedIds: splitGlossaryList(row.relatedIds),
+    photoUrl: row.photoUrl,
+    districtLabel: row.districtLabel,
+    partyLabel: row.partyLabel,
+    statusLabel: row.statusLabel,
+    age: row.age,
+    wins: row.wins,
+    seatType: row.seatType,
+    reviewStatus: row.reviewStatus,
+  });
+}
+
+function splitGlossaryList(value) {
+  if (!value) return [];
+  return String(value)
+    .split('|')
+    .map((item) => item.trim())
+    .filter(Boolean);
+}
+
+function omitEmpty(record) {
+  return Object.fromEntries(Object.entries(record).filter(([, value]) => value !== undefined && value !== ''));
+}
+
+function stableStringify(value) {
+  return JSON.stringify(sortValue(value));
+}
+
+function sortValue(value) {
+  if (Array.isArray(value)) return value.map(sortValue);
+  if (value && typeof value === 'object') {
+    return Object.keys(value)
+      .sort()
+      .reduce((next, key) => {
+        next[key] = sortValue(value[key]);
+        return next;
+      }, {});
+  }
+  return value;
 }
 
 function validateSummaryConsistency(electionId, summary, blocks, singleResults, proportionalResults) {
