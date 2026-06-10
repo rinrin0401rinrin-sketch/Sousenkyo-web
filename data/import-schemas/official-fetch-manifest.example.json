@@ -1,5 +1,10 @@
 {
   "electionId": "shugiin-50th",
+  "maxBytes": 52428800,
+  "allowedHosts": [
+    "www.soumu.go.jp",
+    ".soumu.go.jp"
+  ],
   "files": [
     {
       "name": "top_level_active.csv",

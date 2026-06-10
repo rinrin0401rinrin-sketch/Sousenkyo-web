@@ -39,6 +39,19 @@ jobs:
         run: |
           node --check scripts/validate-data.mjs
           node --check scripts/release-check.mjs
+          node --check scripts/fetch-official-data.mjs
+          node --check scripts/test-fetch-official-data.mjs
+          node --check scripts/validate-official-pipeline-inputs.mjs
+          node --check scripts/smoke-preview.mjs
+
+      - name: Fetcher security tests
+        run: npm run test:fetch:official
+
+      - name: Scan for secrets
+        run: npm run scan:secrets
+
+      - name: Validate materials strictly
+        run: npm run validate:materials:strict
 
       - name: Validate data strictly
         run: npm run validate:data:strict
@@ -64,4 +77,6 @@ jobs:
         run: npm ci
 
       - name: Release check
-        run: npm run release:check -- ${{ github.event.inputs.election_id }}
+        env:
+          ELECTION_ID: ${{ github.event.inputs.election_id }}
+        run: npm run release:check -- "$ELECTION_ID"

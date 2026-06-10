@@ -50,6 +50,10 @@ id,electionId,publisher,sourceType,format,title,url,retrievedAt,publishedAt,lice
 
 実データ受け入れリハーサルとして、`shugiin-50th` のローカルCSV一式を `shugiin-50th-rehearsal-csv` で台帳登録しています。外部の公式URLやPDFへ差し替える場合は、同じ列を使って行を追加し、元行は履歴として残します。
 
+第51回の単語帳・候補者名簿モードは、`shugiin-51st-*` の行で確認済みCSV、候補者名簿モード用 `election.json`、写真権利台帳を記録しています。開票結果CSV/Excelを受け取ったら、既存行を上書きせず、`sourceType: result` / `turnout` などの新しい行として追加してください。
+
+URLを `fetch:official` で取得する場合は、manifest の `allowedHosts` に公式ドメインを明示します。取得後は `fetch-receipt.json` の `sha256`、`bytes`、`finalUrl`、`contentType` を確認し、台帳行の取得元と一致していることを人間が確認します。
+
 新しい受け入れパッケージの雛形は次で作成できます。
 
 ```bash

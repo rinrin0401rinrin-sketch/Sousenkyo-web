@@ -1,11 +1,29 @@
 import { existsSync, readdirSync, readFileSync, statSync } from 'node:fs';
-import { join, relative } from 'node:path';
+import { spawnSync } from 'node:child_process';
+import { extname, join, relative, sep } from 'node:path';
 
 const root = process.cwd();
 const targets = process.argv.slice(2).filter((arg) => !arg.startsWith('--'));
-const scanTargets = targets.length > 0 ? targets : ['src', 'scripts', 'docs', 'public/data', 'data/source', '.github'];
-const skippedDirectories = new Set(['.git', 'node_modules', 'dist', 'build']);
-const skippedExtensions = new Set(['.png', '.jpg', '.jpeg', '.webp', '.gif', '.ico', '.pdf']);
+const scanTargets = targets.length > 0 ? targets : gitVisibleFiles();
+const skippedDirectories = new Set(['.git', 'node_modules', 'dist', 'build', 'coverage', '.vite']);
+const skippedExtensions = new Set([
+  '.avif',
+  '.bmp',
+  '.gif',
+  '.heic',
+  '.ico',
+  '.jpeg',
+  '.jpg',
+  '.pdf',
+  '.png',
+  '.tiff',
+  '.webp',
+  '.woff',
+  '.woff2',
+  '.ttf',
+  '.otf',
+  '.zip',
+]);
 
 const patterns = [
   ['private key', /-----BEGIN (?:RSA |EC |OPENSSH |DSA )?PRIVATE KEY-----/],
@@ -32,19 +50,22 @@ if (findings.length > 0) {
   process.exit(1);
 }
 
-console.log(`秘密情報スキャンOK: ${scanTargets.join(', ')}`);
+console.log(`秘密情報スキャンOK: ${scanTargets.length} file(s)/target(s)`);
 
 function scanPath(path) {
   const stats = statSync(path);
   if (stats.isDirectory()) {
-    if (skippedDirectories.has(path.split('/').pop())) return;
+    if (skippedDirectories.has(path.split(sep).pop())) return;
     for (const entry of readdirSync(path)) scanPath(join(path, entry));
     return;
   }
 
   if (!stats.isFile() || shouldSkipFile(path)) return;
 
-  const text = readFileSync(path, 'utf8');
+  const buffer = readFileSync(path);
+  if (isProbablyBinary(buffer)) return;
+
+  const text = buffer.toString('utf8');
   const lines = text.split(/\r?\n/);
   lines.forEach((line, index) => {
     for (const [label, pattern] of patterns) {
@@ -57,5 +78,23 @@ function scanPath(path) {
 
 function shouldSkipFile(path) {
   const lowerPath = path.toLowerCase();
-  return [...skippedExtensions].some((extension) => lowerPath.endsWith(extension));
+  const relativePath = relative(root, path);
+  if (relativePath.split(sep).some((part) => skippedDirectories.has(part))) return true;
+  return skippedExtensions.has(extname(lowerPath));
+}
+
+function gitVisibleFiles() {
+  return [...gitFiles(['ls-files', '-z']), ...gitFiles(['ls-files', '--others', '--exclude-standard', '-z'])];
+}
+
+function gitFiles(args) {
+  const result = spawnSync('git', args, { cwd: root, encoding: 'utf8' });
+  if (result.status !== 0) {
+    throw new Error(`git ${args.join(' ')} failed: ${result.stderr.trim() || `exit ${result.status}`}`);
+  }
+  return result.stdout.split('\0').filter(Boolean);
+}
+
+function isProbablyBinary(buffer) {
+  return buffer.includes(0);
 }

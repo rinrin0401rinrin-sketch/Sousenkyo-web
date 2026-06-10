@@ -1,0 +1,87 @@
+name: Official Data Pipeline
+
+on:
+  workflow_dispatch:
+    inputs:
+      election_id:
+        description: Election ID to validate
+        required: true
+        default: shugiin-51st
+      manifest_path:
+        description: Fetch manifest path
+        required: true
+        default: data/import-schemas/shugiin-51st-shugiin-office-fetch-manifest.example.json
+      staged_input_dir:
+        description: Optional staged CSV/TSV directory for import dry-run
+        required: false
+        default: ""
+      schema_path:
+        description: Import schema path
+        required: false
+        default: data/import-schemas/official-csv-v1.example.json
+      final_results:
+        description: Run final-results gate after normal release check
+        type: boolean
+        required: false
+        default: false
+
+jobs:
+  fetch-and-validate:
+    runs-on: ubuntu-latest
+    env:
+      ELECTION_ID: ${{ github.event.inputs.election_id }}
+      MANIFEST_PATH: ${{ github.event.inputs.manifest_path }}
+      STAGED_INPUT_DIR: ${{ github.event.inputs.staged_input_dir }}
+      SCHEMA_PATH: ${{ github.event.inputs.schema_path }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Validate workflow inputs
+        run: npm run validate:official-pipeline-inputs
+
+      - name: Preflight checks
+        run: |
+          npm run test:fetch:official
+          npm run scan:secrets
+          npm run validate:materials:strict
+          npm run validate:data:strict
+
+      - name: Fetch official source dry-run
+        run: npm run fetch:official:dry -- --manifest="$MANIFEST_PATH" --election="$ELECTION_ID"
+
+      - name: Fetch official source
+        run: npm run fetch:official -- --manifest="$MANIFEST_PATH" --election="$ELECTION_ID"
+
+      - name: Import official data dry-run
+        if: env.STAGED_INPUT_DIR != ''
+        run: npm run import:official:dry -- "$ELECTION_ID" --input="$STAGED_INPUT_DIR" --schema="$SCHEMA_PATH"
+
+      - name: Build
+        run: npm run build
+
+      - name: Candidate/prep release gate
+        run: npm run release:check -- "$ELECTION_ID"
+
+      - name: Final-results gate
+        if: github.event.inputs.final_results == 'true'
+        run: npm run release:check:final -- "$ELECTION_ID"
+
+      - name: Upload official intake artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: official-intake-${{ github.event.inputs.election_id }}
+          path: |
+            data/imports/${{ github.event.inputs.election_id }}/
+            data/reports/
+          if-no-files-found: warn

@@ -1,2 +1,9 @@
 id,electionId,publisher,sourceType,format,title,url,retrievedAt,publishedAt,licenseStatus,notes
 shugiin-50th-rehearsal-csv,shugiin-50th,project-local,other,csv,第50回衆議院総選挙 CSVリハーサル一式,data/source/elections/shugiin-50th/csv,2026-05-25,,confirmed,受け入れ手順と台帳検証のリハーサル用ローカルデータパッケージ
+shugiin-51st-glossary-candidates,shugiin-51st,user-confirmed local PDF source,candidate-list,csv,第51回衆議院総選挙 単語帳候補者CSV,data/source/glossary/csv/candidates.csv,2026-06-09,,confirmed,PDF抽出後に人間確認した465名候補者単語帳CSV
+shugiin-51st-glossary-parties,shugiin-51st,user-confirmed local PDF source,party-list,csv,第51回衆議院総選挙 単語帳政党CSV,data/source/glossary/csv/parties.csv,2026-06-09,,confirmed,第51回単語帳で使う政党名と表示情報
+shugiin-51st-glossary-districts,shugiin-51st,user-confirmed local PDF source,district-list,csv,第51回衆議院総選挙 単語帳選挙区CSV,data/source/glossary/csv/districts.csv,2026-06-09,,confirmed,第51回単語帳で使う都道府県と小選挙区の確認用CSV
+shugiin-51st-glossary-proportional-blocks,shugiin-51st,user-confirmed local PDF source,proportional-list,csv,第51回衆議院総選挙 単語帳比例ブロックCSV,data/source/glossary/csv/proportional-blocks.csv,2026-06-09,,confirmed,第51回単語帳で使う比例ブロック確認用CSV
+shugiin-51st-election-source,shugiin-51st,project-local,candidate-list,json,第51回衆議院総選挙 候補者名簿モード election.json,data/source/elections/shugiin-51st/election.json,2026-06-09,,confirmed,候補者名簿モード用の正本。開票結果は未反映
+shugiin-51st-photo-rights,shugiin-51st,user-confirmed local PDF source,other,csv,第51回候補者写真権利台帳,data/source/materials/photo-rights.csv,2026-06-09,,confirmed,写真465件の権利確認台帳
+shugiin-51st-shugiin-office-portal,shugiin-51st,衆議院事務局,other,html,衆議院事務局公式サイト,https://www.shugiin.go.jp/,2026-06-09,,confirmed,第51回の公式元URLとしてユーザー指定。個別CSV/PDF/Excelの直URLは受領後にsourceType別で追加

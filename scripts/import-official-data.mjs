@@ -1,5 +1,5 @@
 import { copyFileSync, existsSync, mkdirSync, readFileSync } from 'node:fs';
-import { join, resolve } from 'node:path';
+import { isAbsolute, join, resolve } from 'node:path';
 import { spawnSync } from 'node:child_process';
 import { assertInside, assertSafeElectionId, root, sourceRoot, toDisplayPath } from './data-utils.mjs';
 import { csvTemplates } from './csv-schema.mjs';
@@ -40,8 +40,10 @@ for (const [fileName, headers] of Object.entries(csvTemplates)) {
   const fileSchema = schema.files?.[fileName] ?? {};
   const sourceConfig = normalizeSourceConfig(fileSchema.source ?? fileName);
   const sourceName = sourceConfig.file;
+  assertSafeSourceFile(sourceName);
   const sourcePath = resolve(inputRoot, sourceName);
   const normalizedPath = resolve(normalizedDir, fileName);
+  assertInside(inputRoot, sourcePath);
   assertInside(normalizedDir, normalizedPath);
 
   if (!existsSync(sourcePath) && !fileSchema.optional) {
@@ -124,6 +126,17 @@ function normalizeSourceConfig(source) {
     return { file: source.file, sheet: source.sheet };
   }
   throw new Error(`schema.files[].source は文字列または { "file": "...", "sheet": "..." } で指定してください`);
+}
+
+function assertSafeSourceFile(file) {
+  if (file.trim() === '') throw new Error('schema.files[].source.file は空にできません');
+  if (isAbsolute(file)) throw new Error(`schema.files[].source.file must be relative to inputRoot: ${file}`);
+  if (file.includes('/') || file.includes('\\')) {
+    throw new Error(`schema.files[].source.file must be a file name, not a path: ${file}`);
+  }
+  if (file.split(/[\\/]/).includes('..') || file === '..') {
+    throw new Error(`schema.files[].source.file must not include parent directory references: ${file}`);
+  }
 }
 
 function readMappedSourceValue(mapping, row) {

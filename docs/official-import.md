@@ -2,6 +2,8 @@
 
 公式Excel/CSVをそのまま画面へ反映せず、必ず staging、差分、strict検証、人間確認を通します。
 
+公開リポジトリ化とGitHub Actionsでの公式データ自動化は [public-automation.md](./public-automation.md) も確認してください。
+
 ```text
 official Excel/CSV
   -> fetch:official
@@ -18,12 +20,24 @@ official Excel/CSV
 
 取得元をmanifestにします。URLでもローカルファイルでも指定できます。URL取得はNodeの `fetch` を使うため、ネットワーク制限のある環境では実行許可が必要です。
 
+URL取得を行うmanifestは、必ず `allowedHosts` に公式ドメインを明示します。`https:` 以外のURL、allowlist外のhost、allowlist外へリダイレクトするURLは取得を止めます。`maxBytes` はmanifest全体または `files[]` ごとに指定できます。
+
+ローカル `path` は、プロジェクト内で人間が確認した信頼済みmanifestだけに使います。外部から受け取ったmanifestをそのまま実行しないでください。
+
 ```bash
 npm run fetch:official:dry -- --manifest=data/import-schemas/official-fetch-manifest.example.json
 npm run fetch:official -- --manifest=data/import-schemas/official-fetch-manifest.example.json
 ```
 
 取得物は `data/imports/{electionId}/{timestamp}/raw/` に保存され、receiptも残ります。
+
+`fetch-receipt.json` には、取得またはコピーした各ファイルの `bytes`、`sha256`、URL取得時の `finalUrl`、`contentType`、`etag`、`lastModified`、redirect履歴を残します。公開前レビューでは、receiptの `sha256` と `data/source/materials/official-sources.csv` の取得元行を照合してください。
+
+fetcherの基本ガードは次で確認できます。
+
+```bash
+npm run test:fetch:official
+```
 
 ## 2. Normalize And Import
 
