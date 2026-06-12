@@ -9,6 +9,7 @@ export const glossaryCsvHeaders = [
   'photoUrl',
   'districtLabel',
   'partyLabel',
+  'caucusLabel',
   'statusLabel',
   'age',
   'wins',

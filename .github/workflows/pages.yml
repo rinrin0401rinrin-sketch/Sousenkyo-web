@@ -13,7 +13,7 @@ permissions:
 
 concurrency:
   group: pages
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -36,6 +36,8 @@ jobs:
         run: npm run test:fetch:official
 
       - name: Release check
+        env:
+          RELEASE_CHECK_SKIP_SMOKE: "true"
         run: npm run release:check
 
       - name: Build

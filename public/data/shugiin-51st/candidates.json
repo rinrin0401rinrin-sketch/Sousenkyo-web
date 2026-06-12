@@ -93,7 +93,7 @@
     {
       "id": "akaba-kazuyoshi",
       "name": "赤羽 一嘉",
-      "partyId": "party-komeito",
+      "partyId": "party-centrist-reform",
       "photoUrl": "/data/glossary/photos/shugiin-51st/akaba-kazuyoshi.png",
       "prefectureId": "osaka",
       "profileUrl": "#",
@@ -223,7 +223,7 @@
     {
       "id": "candidate-023",
       "name": "有田芳生",
-      "partyId": "party-cdp",
+      "partyId": "party-centrist-reform",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-023.png",
       "prefectureId": "miyagi",
       "profileUrl": "#",
@@ -283,7 +283,7 @@
     {
       "id": "candidate-029",
       "name": "伊佐進一",
-      "partyId": "party-komeito",
+      "partyId": "party-centrist-reform",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-029.png",
       "prefectureId": "osaka",
       "profileUrl": "#",
@@ -293,7 +293,7 @@
     {
       "id": "candidate-030",
       "name": "石井啓一",
-      "partyId": "party-komeito",
+      "partyId": "party-centrist-reform",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-030.png",
       "prefectureId": "saitama",
       "profileUrl": "#",
@@ -394,7 +394,7 @@
       "districtId": "kyoto-3",
       "id": "candidate-040",
       "name": "泉健太",
-      "partyId": "party-cdp",
+      "partyId": "party-centrist-reform",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-040.png",
       "prefectureId": "kyoto",
       "profileUrl": "#",
@@ -471,13 +471,13 @@
       "wins": 8
     },
     {
+      "districtId": "aichi-8",
       "id": "candidate-048",
       "name": "伊藤忠彦",
       "partyId": "party-ldp",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-048.png",
-      "prefectureId": "kanagawa",
+      "prefectureId": "aichi",
       "profileUrl": "#",
-      "proportionalBlockId": "minamikanto-block",
       "wins": 7
     },
     {
@@ -533,7 +533,7 @@
     {
       "id": "candidate-054",
       "name": "犬飼明佳",
-      "partyId": "party-komeito",
+      "partyId": "party-centrist-reform",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-054.png",
       "prefectureId": "aichi",
       "profileUrl": "#",
@@ -621,12 +621,12 @@
       "wins": 3
     },
     {
-      "districtId": "oita-3",
+      "districtId": "toyama-2",
       "id": "candidate-063",
       "name": "上田英俊",
       "partyId": "party-ldp",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-063.png",
-      "prefectureId": "oita",
+      "prefectureId": "toyama",
       "profileUrl": "#",
       "wins": 3
     },
@@ -663,7 +663,7 @@
     {
       "id": "candidate-067",
       "name": "浮島智子",
-      "partyId": "party-komeito",
+      "partyId": "party-centrist-reform",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-067.png",
       "prefectureId": "hokkaido",
       "profileUrl": "#",
@@ -673,7 +673,7 @@
     {
       "id": "candidate-068",
       "name": "宇佐美 登",
-      "partyId": "party-mirai",
+      "partyId": "party-team-mirai",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-068.png",
       "prefectureId": "tokyo",
       "profileUrl": "#",
@@ -685,9 +685,9 @@
       "name": "臼木秀剛",
       "partyId": "party-dpfp",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-069.png",
-      "prefectureId": "tokyo",
+      "prefectureId": "hokkaido",
       "profileUrl": "#",
-      "proportionalBlockId": "tokyo-block",
+      "proportionalBlockId": "hokkaido-block",
       "wins": 2
     },
     {
@@ -771,7 +771,7 @@
       "wins": 2
     },
     {
-      "districtId": "osaka-5",
+      "districtId": "osaka-15",
       "id": "candidate-078",
       "name": "浦野靖人",
       "partyId": "party-ishin",
@@ -863,7 +863,7 @@
     {
       "id": "candidate-087",
       "name": "大森江里子",
-      "partyId": "party-cdp",
+      "partyId": "party-centrist-reform",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-087.png",
       "prefectureId": "tokyo",
       "profileUrl": "#",
@@ -873,7 +873,7 @@
     {
       "id": "candidate-088",
       "name": "大島敦",
-      "partyId": "party-cdp",
+      "partyId": "party-centrist-reform",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-088.png",
       "prefectureId": "saitama",
       "profileUrl": "#",
@@ -914,7 +914,7 @@
       "districtId": "kagawa-1",
       "id": "candidate-092",
       "name": "小川淳也",
-      "partyId": "party-cdp",
+      "partyId": "party-centrist-reform",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-092.png",
       "prefectureId": "kagawa",
       "profileUrl": "#",
@@ -953,7 +953,7 @@
     {
       "id": "candidate-096",
       "name": "岡本三成",
-      "partyId": "party-komeito",
+      "partyId": "party-centrist-reform",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-096.png",
       "prefectureId": "tokyo",
       "profileUrl": "#",
@@ -983,7 +983,7 @@
     {
       "id": "candidate-099",
       "name": "落合貴之",
-      "partyId": "party-cdp",
+      "partyId": "party-centrist-reform",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-099.png",
       "prefectureId": "tokyo",
       "profileUrl": "#",
@@ -1043,7 +1043,7 @@
     {
       "id": "candidate-105",
       "name": "河西宏一",
-      "partyId": "party-komeito",
+      "partyId": "party-centrist-reform",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-105.png",
       "prefectureId": "tokyo",
       "profileUrl": "#",
@@ -1071,12 +1071,12 @@
       "wins": 10
     },
     {
-      "districtId": "fukuoka-2",
+      "districtId": "saitama-6",
       "id": "candidate-108",
       "name": "尾花瑛仁",
       "partyId": "party-ldp",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-108.png",
-      "prefectureId": "fukuoka",
+      "prefectureId": "saitama",
       "profileUrl": "#",
       "wins": 1
     },
@@ -1243,7 +1243,7 @@
     {
       "id": "candidate-125",
       "name": "金子恵美",
-      "partyId": "party-cdp",
+      "partyId": "party-centrist-reform",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-125.png",
       "prefectureId": "miyagi",
       "profileUrl": "#",
@@ -1263,7 +1263,7 @@
     {
       "id": "candidate-127",
       "name": "河合道雄",
-      "partyId": "party-mirai",
+      "partyId": "party-team-mirai",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-127.png",
       "prefectureId": "kanagawa",
       "profileUrl": "#",
@@ -1294,7 +1294,7 @@
       "districtId": "hokkaido-10",
       "id": "candidate-130",
       "name": "神谷裕",
-      "partyId": "party-cdp",
+      "partyId": "party-centrist-reform",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-130.png",
       "prefectureId": "hokkaido",
       "profileUrl": "#",
@@ -1353,7 +1353,7 @@
     {
       "id": "candidate-136",
       "name": "河野義博",
-      "partyId": "party-komeito",
+      "partyId": "party-centrist-reform",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-136.png",
       "prefectureId": "fukuoka",
       "profileUrl": "#",
@@ -1371,13 +1371,13 @@
       "wins": 1
     },
     {
+      "districtId": "aichi-1",
       "id": "candidate-138",
       "name": "河村 たかし",
-      "partyId": "party-yuukoku",
+      "partyId": "party-yuukoku-union",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-138.png",
-      "prefectureId": "fukuoka",
+      "prefectureId": "aichi",
       "profileUrl": "#",
-      "proportionalBlockId": "kyushu-block",
       "wins": 7
     },
     {
@@ -1423,7 +1423,7 @@
     {
       "id": "candidate-143",
       "name": "菊田真紀子",
-      "partyId": "party-cdp",
+      "partyId": "party-centrist-reform",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-143.png",
       "prefectureId": "niigata",
       "profileUrl": "#",
@@ -1453,7 +1453,7 @@
     {
       "id": "candidate-146",
       "name": "金城泰邦",
-      "partyId": "party-komeito",
+      "partyId": "party-centrist-reform",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-146.png",
       "prefectureId": "fukuoka",
       "profileUrl": "#",
@@ -1503,7 +1503,7 @@
     {
       "id": "candidate-151",
       "name": "国重 徹",
-      "partyId": "party-komeito",
+      "partyId": "party-centrist-reform",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-151.png",
       "prefectureId": "osaka",
       "profileUrl": "#",
@@ -1611,12 +1611,12 @@
       "wins": 1
     },
     {
-      "districtId": "fukuoka-5",
+      "districtId": "osaka-16",
       "id": "candidate-162",
       "name": "黒田征樹",
       "partyId": "party-ishin",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-162.png",
-      "prefectureId": "fukuoka",
+      "prefectureId": "osaka",
       "profileUrl": "#",
       "wins": 2
     },
@@ -1643,7 +1643,7 @@
     {
       "id": "candidate-165",
       "name": "輿水恵一",
-      "partyId": "party-komeito",
+      "partyId": "party-centrist-reform",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-165.png",
       "prefectureId": "saitama",
       "profileUrl": "#",
@@ -1703,7 +1703,7 @@
     {
       "id": "candidate-171",
       "name": "小林修平",
-      "partyId": "party-mirai",
+      "partyId": "party-team-mirai",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-171.png",
       "prefectureId": "kanagawa",
       "profileUrl": "#",
@@ -1733,7 +1733,7 @@
     {
       "id": "candidate-174",
       "name": "後藤祐一",
-      "partyId": "party-cdp",
+      "partyId": "party-centrist-reform",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-174.png",
       "prefectureId": "kanagawa",
       "profileUrl": "#",
@@ -1742,7 +1742,7 @@
     },
     {
       "id": "candidate-175",
-      "name": "今元 洋佑",
+      "name": "今 洋佑",
       "partyId": "party-ldp",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-175.png",
       "prefectureId": "niigata",
@@ -1753,7 +1753,7 @@
     {
       "id": "candidate-176",
       "name": "近藤和也",
-      "partyId": "party-cdp",
+      "partyId": "party-centrist-reform",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-176.png",
       "prefectureId": "niigata",
       "profileUrl": "#",
@@ -1813,7 +1813,7 @@
     {
       "id": "candidate-182",
       "name": "斉藤 鉄夫",
-      "partyId": "party-komeito",
+      "partyId": "party-centrist-reform",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-182.png",
       "prefectureId": "hiroshima",
       "profileUrl": "#",
@@ -1911,12 +1911,12 @@
       "wins": 7
     },
     {
-      "districtId": "kanagawa-5",
+      "districtId": "kumamoto-3",
       "id": "candidate-192",
       "name": "坂本哲志",
       "partyId": "party-ldp",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-192.png",
-      "prefectureId": "kanagawa",
+      "prefectureId": "kumamoto",
       "profileUrl": "#",
       "wins": 9
     },
@@ -1943,7 +1943,7 @@
     {
       "id": "candidate-195",
       "name": "重徳和彦",
-      "partyId": "party-cdp",
+      "partyId": "party-centrist-reform",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-195.png",
       "prefectureId": "aichi",
       "profileUrl": "#",
@@ -1963,7 +1963,7 @@
     {
       "id": "candidate-197",
       "name": "佐藤英道",
-      "partyId": "party-komeito",
+      "partyId": "party-centrist-reform",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-197.png",
       "prefectureId": "hokkaido",
       "profileUrl": "#",
@@ -2012,7 +2012,7 @@
     },
     {
       "id": "candidate-202",
-      "name": "重本護",
+      "name": "繁本護",
       "partyId": "party-ldp",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-202.png",
       "prefectureId": "osaka",
@@ -2024,7 +2024,7 @@
       "districtId": "iwate-1",
       "id": "candidate-203",
       "name": "階 猛",
-      "partyId": "party-cdp",
+      "partyId": "party-centrist-reform",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-203.png",
       "prefectureId": "iwate",
       "profileUrl": "#",
@@ -2061,12 +2061,12 @@
       "wins": 10
     },
     {
-      "districtId": "saitama-2",
+      "districtId": "tokyo-9",
       "id": "candidate-207",
       "name": "菅原一秀",
       "partyId": "party-ldp",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-207.png",
-      "prefectureId": "saitama",
+      "prefectureId": "tokyo",
       "profileUrl": "#",
       "wins": 7
     },
@@ -2083,7 +2083,7 @@
     {
       "id": "candidate-209",
       "name": "庄子賢一",
-      "partyId": "party-komeito",
+      "partyId": "party-centrist-reform",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-209.png",
       "prefectureId": "miyagi",
       "profileUrl": "#",
@@ -2173,7 +2173,7 @@
     {
       "id": "candidate-218",
       "name": "須田英太郎",
-      "partyId": "party-mirai",
+      "partyId": "party-team-mirai",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-218.png",
       "prefectureId": "aichi",
       "profileUrl": "#",
@@ -2331,12 +2331,12 @@
       "wins": 11
     },
     {
-      "districtId": "tokyo-4",
+      "districtId": "shimane-1",
       "id": "candidate-234",
       "name": "高階恵美子",
       "partyId": "party-ldp",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-234.png",
-      "prefectureId": "tokyo",
+      "prefectureId": "shimane",
       "profileUrl": "#",
       "wins": 2
     },
@@ -2353,7 +2353,7 @@
     {
       "id": "candidate-236",
       "name": "高山聡史",
-      "partyId": "party-mirai",
+      "partyId": "party-team-mirai",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-236.png",
       "prefectureId": "tokyo",
       "profileUrl": "#",
@@ -2403,7 +2403,7 @@
     {
       "id": "candidate-241",
       "name": "田嶋要",
-      "partyId": "party-cdp",
+      "partyId": "party-centrist-reform",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-241.png",
       "prefectureId": "kanagawa",
       "profileUrl": "#",
@@ -2451,12 +2451,12 @@
       "wins": 6
     },
     {
-      "districtId": "hokkaido-12",
+      "districtId": "shiga-3",
       "id": "candidate-246",
       "name": "武村展英",
       "partyId": "party-ldp",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-246.png",
-      "prefectureId": "hokkaido",
+      "prefectureId": "shiga",
       "profileUrl": "#",
       "wins": 6
     },
@@ -2571,13 +2571,13 @@
       "wins": 1
     },
     {
+      "districtId": "osaka-19",
       "id": "candidate-258",
       "name": "谷川 とむ",
       "partyId": "party-ldp",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-258.png",
       "prefectureId": "osaka",
       "profileUrl": "#",
-      "proportionalBlockId": "kinki-block",
       "wins": 4
     },
     {
@@ -2591,13 +2591,13 @@
       "wins": 1
     },
     {
+      "districtId": "aichi-11",
       "id": "candidate-260",
       "name": "丹野 みどり",
       "partyId": "party-dpfp",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-260.png",
-      "prefectureId": "hiroshima",
+      "prefectureId": "aichi",
       "profileUrl": "#",
-      "proportionalBlockId": "chugoku-block",
       "wins": 2
     },
     {
@@ -2663,7 +2663,7 @@
     {
       "id": "candidate-267",
       "name": "角田秀穂",
-      "partyId": "party-komeito",
+      "partyId": "party-centrist-reform",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-267.png",
       "prefectureId": "kanagawa",
       "profileUrl": "#",
@@ -2723,7 +2723,7 @@
     {
       "id": "candidate-273",
       "name": "土橋章宏",
-      "partyId": "party-mirai",
+      "partyId": "party-team-mirai",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-273.png",
       "prefectureId": "tokyo",
       "profileUrl": "#",
@@ -2751,12 +2751,12 @@
       "wins": 6
     },
     {
-      "districtId": "miyagi-1",
+      "districtId": "hyogo-10",
       "id": "candidate-276",
       "name": "渡海紀三朗",
       "partyId": "party-ldp",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-276.png",
-      "prefectureId": "miyagi",
+      "prefectureId": "hyogo",
       "profileUrl": "#",
       "wins": 12
     },
@@ -2773,7 +2773,7 @@
     {
       "id": "candidate-278",
       "name": "中川宏昌",
-      "partyId": "party-komeito",
+      "partyId": "party-centrist-reform",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-278.png",
       "prefectureId": "niigata",
       "profileUrl": "#",
@@ -2783,7 +2783,7 @@
     {
       "id": "candidate-279",
       "name": "中川康洋",
-      "partyId": "party-komeito",
+      "partyId": "party-centrist-reform",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-279.png",
       "prefectureId": "aichi",
       "profileUrl": "#",
@@ -2841,12 +2841,12 @@
       "wins": 5
     },
     {
-      "districtId": "toyama-1",
+      "districtId": "kanagawa-4",
       "id": "candidate-285",
       "name": "永田磨梨奈",
       "partyId": "party-ldp",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-285.png",
-      "prefectureId": "toyama",
+      "prefectureId": "kanagawa",
       "profileUrl": "#",
       "wins": 1
     },
@@ -2883,7 +2883,7 @@
     {
       "id": "candidate-289",
       "name": "長妻昭",
-      "partyId": "party-cdp",
+      "partyId": "party-centrist-reform",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-289.png",
       "prefectureId": "tokyo",
       "profileUrl": "#",
@@ -2901,13 +2901,13 @@
       "wins": 3
     },
     {
+      "districtId": "kanagawa-3",
       "id": "candidate-291",
       "name": "中西健治",
       "partyId": "party-ldp",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-291.png",
-      "prefectureId": "tokyo",
+      "prefectureId": "kanagawa",
       "profileUrl": "#",
-      "proportionalBlockId": "tokyo-block",
       "wins": 3
     },
     {
@@ -2921,12 +2921,12 @@
       "wins": 13
     },
     {
-      "districtId": "kochi-1",
+      "districtId": "yamanashi-1",
       "id": "candidate-293",
       "name": "中谷真一",
       "partyId": "party-ldp",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-293.png",
-      "prefectureId": "kochi",
+      "prefectureId": "yamanashi",
       "profileUrl": "#",
       "wins": 6
     },
@@ -2943,7 +2943,7 @@
     {
       "id": "candidate-295",
       "name": "中野洋昌",
-      "partyId": "party-komeito",
+      "partyId": "party-centrist-reform",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-295.png",
       "prefectureId": "osaka",
       "profileUrl": "#",
@@ -3103,7 +3103,7 @@
     {
       "id": "candidate-311",
       "name": "西園勝秀",
-      "partyId": "party-komeito",
+      "partyId": "party-centrist-reform",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-311.png",
       "prefectureId": "aichi",
       "profileUrl": "#",
@@ -3153,7 +3153,7 @@
     {
       "id": "candidate-316",
       "name": "西村智奈美",
-      "partyId": "party-cdp",
+      "partyId": "party-centrist-reform",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-316.png",
       "prefectureId": "niigata",
       "profileUrl": "#",
@@ -3204,7 +3204,7 @@
       "districtId": "chiba-14",
       "id": "candidate-321",
       "name": "野田佳彦",
-      "partyId": "party-cdp",
+      "partyId": "party-centrist-reform",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-321.png",
       "prefectureId": "chiba",
       "profileUrl": "#",
@@ -3223,7 +3223,7 @@
     {
       "id": "candidate-323",
       "name": "沼崎満子",
-      "partyId": "party-cdp",
+      "partyId": "party-centrist-reform",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-323.png",
       "prefectureId": "kanagawa",
       "profileUrl": "#",
@@ -3261,12 +3261,12 @@
       "wins": 2
     },
     {
-      "districtId": "osaka-9",
+      "districtId": "okayama-4",
       "id": "candidate-327",
       "name": "橋本岳",
       "partyId": "party-ldp",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-327.png",
-      "prefectureId": "osaka",
+      "prefectureId": "okayama",
       "profileUrl": "#",
       "wins": 6
     },
@@ -3284,7 +3284,7 @@
       "districtId": "kagoshima-3",
       "id": "candidate-329",
       "name": "野間 健",
-      "partyId": "party-cdp",
+      "partyId": "party-centrist-reform",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-329.png",
       "prefectureId": "kagoshima",
       "profileUrl": "#",
@@ -3373,7 +3373,7 @@
     {
       "id": "candidate-338",
       "name": "原田直樹",
-      "partyId": "party-cdp",
+      "partyId": "party-centrist-reform",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-338.png",
       "prefectureId": "kanagawa",
       "profileUrl": "#",
@@ -3403,7 +3403,7 @@
     {
       "id": "candidate-341",
       "name": "浜地雅一",
-      "partyId": "party-komeito",
+      "partyId": "party-centrist-reform",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-341.png",
       "prefectureId": "fukuoka",
       "profileUrl": "#",
@@ -3413,7 +3413,7 @@
     {
       "id": "candidate-342",
       "name": "林拓海",
-      "partyId": "party-mirai",
+      "partyId": "party-team-mirai",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-342.png",
       "prefectureId": "miyagi",
       "profileUrl": "#",
@@ -3493,7 +3493,7 @@
     {
       "id": "candidate-350",
       "name": "福重隆浩",
-      "partyId": "party-komeito",
+      "partyId": "party-centrist-reform",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-350.png",
       "prefectureId": "saitama",
       "profileUrl": "#",
@@ -3501,19 +3501,19 @@
       "wins": 3
     },
     {
+      "districtId": "tokyo-18",
       "id": "candidate-351",
       "name": "福田 かおる",
       "partyId": "party-ldp",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-351.png",
-      "prefectureId": "saitama",
+      "prefectureId": "tokyo",
       "profileUrl": "#",
-      "proportionalBlockId": "kitakanto-block",
       "wins": 2
     },
     {
       "id": "candidate-352",
       "name": "平林晃",
-      "partyId": "party-komeito",
+      "partyId": "party-centrist-reform",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-352.png",
       "prefectureId": "hiroshima",
       "profileUrl": "#",
@@ -3561,13 +3561,13 @@
       "wins": 1
     },
     {
+      "districtId": "nagano-2",
       "id": "candidate-357",
       "name": "藤田 ひかる",
       "partyId": "party-ldp",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-357.png",
-      "prefectureId": "aichi",
+      "prefectureId": "nagano",
       "profileUrl": "#",
-      "proportionalBlockId": "tokai-block",
       "wins": 1
     },
     {
@@ -3591,13 +3591,13 @@
       "wins": 2
     },
     {
+      "districtId": "akita-2",
       "id": "candidate-360",
       "name": "福原淳嗣",
       "partyId": "party-ldp",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-360.png",
-      "prefectureId": "aichi",
+      "prefectureId": "akita",
       "profileUrl": "#",
-      "proportionalBlockId": "tokai-block",
       "wins": 2
     },
     {
@@ -3713,7 +3713,7 @@
     {
       "id": "candidate-372",
       "name": "古川 あおい",
-      "partyId": "party-mirai",
+      "partyId": "party-team-mirai",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-372.png",
       "prefectureId": "fukuoka",
       "profileUrl": "#",
@@ -3773,7 +3773,7 @@
     {
       "districtId": "saitama-4",
       "id": "candidate-378",
-      "name": "保坂 泰",
+      "name": "穂坂 泰",
       "partyId": "party-ldp",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-378.png",
       "prefectureId": "saitama",
@@ -3851,54 +3851,54 @@
       "wins": 1
     },
     {
-      "districtId": "hokkaido-9",
-      "id": "candidate-386",
-      "name": "松下英樹",
-      "partyId": "party-ldp",
-      "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-386.png",
-      "prefectureId": "hokkaido",
-      "profileUrl": "#",
-      "wins": 1
-    },
-    {
-      "districtId": "tokyo-14",
-      "id": "candidate-387",
-      "name": "松島 みどり",
-      "partyId": "party-ldp",
-      "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-387.png",
-      "prefectureId": "tokyo",
-      "profileUrl": "#",
-      "wins": 9
-    },
-    {
-      "districtId": "chiba-3",
-      "id": "candidate-388",
-      "name": "松野博一",
-      "partyId": "party-ldp",
-      "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-388.png",
-      "prefectureId": "chiba",
-      "profileUrl": "#",
-      "wins": 10
-    },
-    {
       "districtId": "chiba-13",
-      "id": "candidate-389",
+      "id": "candidate-386",
       "name": "松本 尚",
       "partyId": "party-ldp",
-      "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-389.png",
+      "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-386.png",
       "prefectureId": "chiba",
       "profileUrl": "#",
       "wins": 3
     },
     {
       "districtId": "tokyo-19",
-      "id": "candidate-390",
+      "id": "candidate-387",
       "name": "松本 洋平",
       "partyId": "party-ldp",
-      "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-390.png",
+      "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-387.png",
       "prefectureId": "tokyo",
       "profileUrl": "#",
       "wins": 7
+    },
+    {
+      "districtId": "hokkaido-9",
+      "id": "candidate-388",
+      "name": "松下英樹",
+      "partyId": "party-ldp",
+      "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-388.png",
+      "prefectureId": "hokkaido",
+      "profileUrl": "#",
+      "wins": 1
+    },
+    {
+      "districtId": "tokyo-14",
+      "id": "candidate-389",
+      "name": "松島 みどり",
+      "partyId": "party-ldp",
+      "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-389.png",
+      "prefectureId": "tokyo",
+      "profileUrl": "#",
+      "wins": 9
+    },
+    {
+      "districtId": "chiba-3",
+      "id": "candidate-390",
+      "name": "松野博一",
+      "partyId": "party-ldp",
+      "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-390.png",
+      "prefectureId": "chiba",
+      "profileUrl": "#",
+      "wins": 10
     },
     {
       "id": "candidate-391",
@@ -4013,7 +4013,7 @@
     {
       "id": "candidate-402",
       "name": "峰島侑也",
-      "partyId": "party-mirai",
+      "partyId": "party-team-mirai",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-402.png",
       "prefectureId": "tokyo",
       "profileUrl": "#",
@@ -4113,7 +4113,7 @@
     {
       "id": "candidate-412",
       "name": "武藤 かず子",
-      "partyId": "party-mirai",
+      "partyId": "party-team-mirai",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-412.png",
       "prefectureId": "saitama",
       "profileUrl": "#",
@@ -4191,13 +4191,13 @@
       "wins": 1
     },
     {
+      "districtId": "tochigi-5",
       "id": "candidate-420",
       "name": "茂木敏充",
       "partyId": "party-ldp",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-420.png",
-      "prefectureId": "hokkaido",
+      "prefectureId": "tochigi",
       "profileUrl": "#",
-      "proportionalBlockId": "hokkaido-block",
       "wins": 12
     },
     {
@@ -4223,7 +4223,7 @@
     {
       "id": "candidate-423",
       "name": "山岡達丸",
-      "partyId": "party-cdp",
+      "partyId": "party-centrist-reform",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-423.png",
       "prefectureId": "hokkaido",
       "profileUrl": "#",
@@ -4273,7 +4273,7 @@
     {
       "id": "candidate-428",
       "name": "山崎正恭",
-      "partyId": "party-cdp",
+      "partyId": "party-centrist-reform",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-428.png",
       "prefectureId": "kagawa",
       "profileUrl": "#",
@@ -4343,7 +4343,7 @@
     {
       "id": "candidate-435",
       "name": "山本香苗",
-      "partyId": "party-komeito",
+      "partyId": "party-centrist-reform",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-435.png",
       "prefectureId": "osaka",
       "profileUrl": "#",
@@ -4363,7 +4363,7 @@
     {
       "id": "candidate-437",
       "name": "山田瑛理",
-      "partyId": "party-mirai",
+      "partyId": "party-team-mirai",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-437.png",
       "prefectureId": "kanagawa",
       "profileUrl": "#",
@@ -4493,7 +4493,7 @@
     {
       "id": "candidate-450",
       "name": "吉田宣弘",
-      "partyId": "party-komeito",
+      "partyId": "party-centrist-reform",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-450.png",
       "prefectureId": "fukuoka",
       "profileUrl": "#",
@@ -4533,7 +4533,7 @@
     {
       "id": "candidate-454",
       "name": "笠浩史",
-      "partyId": "party-cdp",
+      "partyId": "party-centrist-reform",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-454.png",
       "prefectureId": "kanagawa",
       "profileUrl": "#",
@@ -4593,7 +4593,7 @@
     {
       "id": "candidate-460",
       "name": "早稲田 夕季",
-      "partyId": "party-cdp",
+      "partyId": "party-centrist-reform",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-460.png",
       "prefectureId": "kanagawa",
       "profileUrl": "#",
@@ -4634,7 +4634,7 @@
       "districtId": "miyazaki-1",
       "id": "candidate-464",
       "name": "渡辺 創",
-      "partyId": "party-cdp",
+      "partyId": "party-centrist-reform",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-464.png",
       "prefectureId": "miyazaki",
       "profileUrl": "#",

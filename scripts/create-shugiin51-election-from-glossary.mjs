@@ -14,8 +14,7 @@ const dryRun = process.argv.includes('--dry-run');
 
 const partyColors = new Map([
   ['自由民主党', '#2563eb'],
-  ['立憲民主党', '#ef4444'],
-  ['公明党', '#f59e0b'],
+  ['中道改革連合', '#ef4444'],
   ['日本維新の会', '#22c55e'],
   ['国民民主党', '#f97316'],
   ['日本共産党', '#dc2626'],
@@ -24,8 +23,8 @@ const partyColors = new Map([
   ['日本保守党', '#0f766e'],
   ['社会民主党', '#ec4899'],
   ['無所属', '#64748b'],
-  ['みらい', '#7c3aed'],
-  ['ゆうこく', '#334155'],
+  ['チームみらい', '#7c3aed'],
+  ['ゆうこく連合', '#334155'],
 ]);
 
 const prefectures = [
@@ -125,6 +124,7 @@ const partyByLabel = new Map(
 );
 
 const districtMap = new Map();
+const singleDistrictOwners = new Map();
 const blockPartySeats = new Map();
 const members = [];
 const electionCandidates = [];
@@ -159,6 +159,14 @@ for (const [index, row] of candidates.entries()) {
       name: row.districtLabel,
       prefectureId,
     });
+  }
+  if (districtInfo) {
+    const owner = singleDistrictOwners.get(districtId);
+    if (owner) {
+      issues.push(`${row.id}: 小選挙区 "${row.districtLabel}" が ${owner.id} (${owner.label}) と重複しています`);
+    } else {
+      singleDistrictOwners.set(districtId, { id: row.id, label: row.label });
+    }
   }
 
   const wins = toNumber(row.wins) ?? 0;
@@ -213,13 +221,19 @@ for (const [index, row] of candidates.entries()) {
   }
 }
 
+const singleSeats = singleMemberDistricts.length;
+const proportionalSeats = candidates.length - singleSeats;
+if (singleDistrictOwners.size !== singleSeats) {
+  issues.push(`小選挙区の候補者数 ${singleSeats} とユニーク選挙区数 ${singleDistrictOwners.size} が一致しません`);
+}
+if (districtMap.size !== singleSeats) {
+  issues.push(`districts.json の選挙区数 ${districtMap.size} と小選挙区候補者数 ${singleSeats} が一致しません`);
+}
 if (issues.length > 0) {
   console.error(issues.join('\n'));
   process.exit(1);
 }
 
-const singleSeats = singleMemberDistricts.length;
-const proportionalSeats = candidates.length - singleSeats;
 const source = {
   election: { id: electionId },
   files: {
@@ -429,8 +443,7 @@ function toShortPartyName(label) {
   return (
     {
       自由民主党: '自民',
-      立憲民主党: '立憲',
-      公明党: '公明',
+      中道改革連合: '中',
       日本維新の会: '維新',
       国民民主党: '国民',
       日本共産党: '共産',
@@ -438,6 +451,8 @@ function toShortPartyName(label) {
       参政党: '参政',
       日本保守党: '保守',
       社会民主党: '社民',
+      チームみらい: 'み',
+      ゆうこく連合: 'ゆ',
       無所属: '無',
     }[label] ?? label
   );

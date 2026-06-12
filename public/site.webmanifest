@@ -1,0 +1,24 @@
+{
+  "name": "衆議院総選挙ダッシュボード",
+  "short_name": "総選挙Web",
+  "description": "候補者名簿と選挙データを確認できる選挙特番風Webアプリ",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#f7fbff",
+  "theme_color": "#eef7ff",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -7,18 +7,21 @@ import { ErrorScreen } from '../components/ErrorScreen';
 import { LoadingScreen } from '../components/LoadingScreen';
 import { useAsyncData } from '../hooks/useAsyncData';
 import type { GlossaryCategory, GlossaryEntry } from '../types/glossary';
+import { getCaucusLabelFromPartyLabel, getGlossaryCaucusRoster } from '../utils/caucusGroups';
 import { loadElectionsIndex, loadGlossaryBundle } from '../utils/dataLoader';
 import { publicPath } from '../utils/publicPath';
 
 type GlossaryMode = 'search' | 'cards';
 type CategoryFilter = 'all' | GlossaryCategory;
 type SeatScopeFilter = 'all' | 'single' | 'proportional' | 'female' | 'freshman';
+type SortMode = 'prefecture' | 'caucus' | 'kana';
 
 const preferredElectionId = 'shugiin-51st';
 const searchResultLimit = 465;
 const searchResultIncrement = 465;
 const allPrefecturesValue = 'all';
 const allDistrictsValue = 'all';
+const allCaucusesValue = 'all';
 const tokyoDistrictCount = 30;
 const swipeThreshold = 46;
 const japanesePrefectures = [
@@ -163,6 +166,8 @@ export function GlossaryPage() {
   const [seatScope, setSeatScope] = useState<SeatScopeFilter>(initialSeatScope);
   const [prefecture, setPrefecture] = useState(initialPrefecture);
   const [districtKey, setDistrictKey] = useState(allDistrictsValue);
+  const [caucus, setCaucus] = useState(allCaucusesValue);
+  const [sortMode, setSortMode] = useState<SortMode>('prefecture');
   const [cardIndex, setCardIndex] = useState(0);
   const [visibleLimit, setVisibleLimit] = useState(searchResultLimit);
   const deferredQuery = useDeferredValue(query);
@@ -175,6 +180,8 @@ export function GlossaryPage() {
     setSeatScope(readSeatScopeParam(searchParams.get('seat')));
     setPrefecture(readPrefectureParam(searchParams.get('prefecture')));
     setDistrictKey(allDistrictsValue);
+    setCaucus(allCaucusesValue);
+    setSortMode('prefecture');
     setCardIndex(0);
     setVisibleLimit(searchResultLimit);
   }, [searchParams]);
@@ -196,6 +203,7 @@ export function GlossaryPage() {
   }, [state]);
 
   const candidateEntries = useMemo(() => entries.filter((entry) => entry.category === 'candidate'), [entries]);
+  const glossaryParties = state.status === 'success' ? state.data.glossary.parties : [];
 
   const locationOptions = useMemo(() => {
     const names = new Set<string>();
@@ -214,6 +222,15 @@ export function GlossaryPage() {
   const districtOptions = useMemo(
     () => buildDistrictOptions(candidateEntries, prefecture, seatScope),
     [candidateEntries, prefecture, seatScope],
+  );
+
+  const caucusBaseCandidates = useMemo(
+    () => filterCandidatesForCaucusRoster(candidateEntries, electionId, seatScope, prefecture, districtKey),
+    [candidateEntries, districtKey, electionId, prefecture, seatScope],
+  );
+  const caucusRoster = useMemo(
+    () => getGlossaryCaucusRoster(caucusBaseCandidates, glossaryParties),
+    [caucusBaseCandidates, glossaryParties],
   );
 
   const filteredEntries = useMemo(() => {
@@ -237,11 +254,15 @@ export function GlossaryPage() {
         if (entry.category !== 'candidate') return false;
         if (districtOptionKey(parsed) !== districtKey) return false;
       }
+      if (caucus !== allCaucusesValue) {
+        if (entry.category !== 'candidate') return false;
+        if (getEntryCaucusLabel(entry) !== caucus) return false;
+      }
       if (!normalizedQuery) return true;
       return searchableEntryText(entry).includes(normalizedQuery);
     });
-    return sortGlossaryEntries(filtered, prefecture);
-  }, [category, deferredQuery, districtKey, electionId, entries, prefecture, seatScope]);
+    return sortGlossaryEntries(filtered, prefecture, sortMode);
+  }, [category, caucus, deferredQuery, districtKey, electionId, entries, prefecture, seatScope, sortMode]);
 
   const visibleEntries = useMemo(
     () => (mode === 'search' ? filteredEntries.slice(0, visibleLimit) : filteredEntries),
@@ -257,6 +278,11 @@ export function GlossaryPage() {
   const resetSelection = () => {
     setCardIndex(0);
     setVisibleLimit(searchResultLimit);
+  };
+
+  const resetCaucusSelection = () => {
+    setCaucus(allCaucusesValue);
+    resetSelection();
   };
 
   return (
@@ -289,7 +315,7 @@ export function GlossaryPage() {
                   setQuery(event.target.value);
                   resetSelection();
                 }}
-                placeholder="候補者名・選挙区・政党名で検索"
+                placeholder="候補者名・選挙区・政党名・会派名で検索"
                 className="mt-2 min-h-12 w-full rounded-2xl border border-white/70 bg-white/75 px-4 text-sm font-bold text-slate-700 shadow-sm outline-none backdrop-blur-xl focus:ring-4 focus:ring-sky-100"
               />
             </label>
@@ -298,7 +324,7 @@ export function GlossaryPage() {
               value={category}
               onChange={(value) => {
                 setCategory(value as CategoryFilter);
-                resetSelection();
+                resetCaucusSelection();
               }}
             >
               {categoryOptions.map((option) => (
@@ -312,7 +338,7 @@ export function GlossaryPage() {
               value={electionId}
               onChange={(value) => {
                 setElectionId(value);
-                resetSelection();
+                resetCaucusSelection();
               }}
             >
               <option value="all">すべて</option>
@@ -331,7 +357,7 @@ export function GlossaryPage() {
                 setPrefecture(allPrefecturesValue);
                 setDistrictKey(allDistrictsValue);
                 setCategory(nextValue === 'all' ? category : 'candidate');
-                resetSelection();
+                resetCaucusSelection();
               }}
             >
               <option value="all">すべて</option>
@@ -368,7 +394,7 @@ export function GlossaryPage() {
                 setPrefecture(value);
                 setDistrictKey(allDistrictsValue);
                 setCategory(value === allPrefecturesValue ? category : 'candidate');
-                resetSelection();
+                resetCaucusSelection();
               }}
             >
               <option value={allPrefecturesValue}>すべて</option>
@@ -385,6 +411,46 @@ export function GlossaryPage() {
               onSelect={(value) => {
                 setDistrictKey(value);
                 setCategory(value === allDistrictsValue && prefecture === allPrefecturesValue ? category : 'candidate');
+                resetCaucusSelection();
+              }}
+            />
+          </div>
+          <div className="mt-5 grid gap-3 lg:grid-cols-[14rem_14rem_1fr]">
+            <FilterSelect
+              label="会派"
+              value={caucus}
+              onChange={(value) => {
+                setCaucus(value);
+                setCategory(value === allCaucusesValue ? category : 'candidate');
+                resetSelection();
+              }}
+            >
+              <option value={allCaucusesValue}>すべて</option>
+              {caucusRoster.map((item) => (
+                <option key={item.id} value={item.label}>
+                  {item.label}
+                </option>
+              ))}
+            </FilterSelect>
+            <FilterSelect
+              label="並び替え"
+              value={sortMode}
+              onChange={(value) => {
+                setSortMode(value as SortMode);
+                resetSelection();
+              }}
+            >
+              <option value="prefecture">都道府県順</option>
+              <option value="caucus">会派順</option>
+              <option value="kana">五十音順</option>
+            </FilterSelect>
+            <CaucusScroller
+              caucuses={caucusRoster}
+              selected={caucus}
+              total={caucusBaseCandidates.length}
+              onSelect={(value) => {
+                setCaucus(value);
+                setCategory(value === allCaucusesValue ? category : 'candidate');
                 resetSelection();
               }}
             />
@@ -423,7 +489,7 @@ export function GlossaryPage() {
             ) : null}
           </section>
         ) : (
-          <EmptyState title="単語が見つかりません" message="検索語、分類、選挙回次を変更してください。" />
+          <EmptyState title="単語が見つかりません" message="検索語、分類、選挙回次、会派を変更してください。" />
         )}
       </div>
     </AppShell>
@@ -554,6 +620,10 @@ function GlossaryCard({
                 </span>
               ))}
             </div>
+            <div className="mt-3 rounded-[1.25rem] border border-white/70 bg-white/65 px-4 py-3 text-center shadow-sm">
+              <p className="text-[0.65rem] font-black uppercase tracking-[0.18em] text-slate-400">Caucus</p>
+              <p className="mt-1 overflow-wrap-anywhere text-sm font-black leading-5 text-slate-900">{getEntryCaucusLabel(entry)}</p>
+            </div>
 
             <div className="mt-auto rounded-[1.4rem] border border-sky-100 bg-slate-50/70 p-4">
               <p className="text-xs font-black text-slate-500">カード裏メモ</p>
@@ -618,7 +688,7 @@ function publicGlossaryPhoto(photoUrl?: string): string | undefined {
 function cardChips(entry: GlossaryEntry) {
   const chips = [
     entry.districtLabel || categoryLabels[entry.category],
-    entry.partyLabel || '確認中',
+    entry.partyLabel || '党派確認中',
     entry.statusLabel || '確認中',
     entry.seatType || '区分未',
     entry.age ? `${entry.age}歳` : '年齢未',
@@ -633,13 +703,13 @@ function fitChip(value: string) {
 
 function backMemo(entry: GlossaryEntry) {
   if (entry.wins || entry.seatType) {
-    return `当選回数 ${entry.wins || '-'}回 / ${entry.seatType || '区分確認中'}`;
+    return `当選回数 ${entry.wins || '-'}回 / ${entry.seatType || '区分確認中'} / ${getEntryCaucusLabel(entry)}`;
   }
   return entry.description || 'CSV確認後に詳細を追加します。';
 }
 
 function GlossaryMeta({ entry }: { entry: GlossaryEntry }) {
-  const meta = [entry.partyLabel, entry.districtLabel, entry.statusLabel, entry.seatType].filter(Boolean);
+  const meta = [getEntryCaucusLabel(entry), entry.partyLabel, entry.districtLabel, entry.statusLabel, entry.seatType].filter(Boolean);
 
   return (
     <div className="mt-5 flex flex-wrap gap-2">
@@ -744,6 +814,66 @@ function DistrictScroller({
               >
                 <span>{district.label}</span>
                 <span className={isSelected ? 'text-white/70' : 'text-slate-400'}>{district.count}名</span>
+              </button>
+            );
+          })}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function CaucusScroller({
+  caucuses,
+  selected,
+  total,
+  onSelect,
+}: {
+  caucuses: Array<{ id: string; label: string; color: string; count: number }>;
+  selected: string;
+  total: number;
+  onSelect: (value: string) => void;
+}) {
+  return (
+    <div className="min-w-0">
+      <div className="flex items-end justify-between gap-3">
+        <span className="text-xs font-black uppercase tracking-[0.16em] text-slate-500">会派別人数</span>
+        <span className="text-[0.68rem] font-black text-slate-400">{caucuses.length} groups</span>
+      </div>
+      <div className="mt-2 overflow-x-auto rounded-3xl border border-white/70 bg-white/50 p-2 shadow-inner backdrop-blur-xl [scrollbar-width:thin] [scrollbar-color:rgba(148,163,184,.55)_transparent]">
+        <div className="flex min-w-max gap-2">
+          <button
+            type="button"
+            onClick={() => onSelect(allCaucusesValue)}
+            className={[
+              'flex min-h-12 min-w-24 flex-col items-center justify-center rounded-2xl border px-3 text-xs font-black transition',
+              selected === allCaucusesValue
+                ? 'border-slate-950 bg-slate-950 text-white shadow-[0_14px_34px_rgba(15,23,42,0.22)]'
+                : 'border-sky-100 bg-white/75 text-slate-700 shadow-sm hover:-translate-y-0.5 hover:border-sky-200 hover:bg-sky-50',
+            ].join(' ')}
+          >
+            <span>すべて</span>
+            <span className={selected === allCaucusesValue ? 'text-white/70' : 'text-slate-400'}>{total}名</span>
+          </button>
+          {caucuses.map((item) => {
+            const isSelected = selected === item.label;
+            return (
+              <button
+                key={item.id}
+                type="button"
+                onClick={() => onSelect(item.label)}
+                className={[
+                  'flex min-h-12 min-w-32 flex-col items-center justify-center rounded-2xl border px-3 text-xs font-black transition',
+                  isSelected
+                    ? 'border-slate-950 bg-slate-950 text-white shadow-[0_14px_34px_rgba(15,23,42,0.22)]'
+                    : 'border-sky-100 bg-white/75 text-slate-700 shadow-sm hover:-translate-y-0.5 hover:border-sky-200 hover:bg-sky-50',
+                ].join(' ')}
+              >
+                <span className="flex max-w-36 items-center gap-1.5 truncate">
+                  <span className="h-2.5 w-2.5 shrink-0 rounded-full" style={{ backgroundColor: item.color }} />
+                  <span className="truncate">{item.label}</span>
+                </span>
+                <span className={isSelected ? 'text-white/70' : 'text-slate-400'}>{item.count}名</span>
               </button>
             );
           })}
@@ -866,8 +996,16 @@ function compareLocationNames(a: string, b: string): number {
   return a.localeCompare(b, 'ja-JP');
 }
 
-function sortGlossaryEntries(entries: GlossaryEntry[], selectedPrefecture: string): GlossaryEntry[] {
+function sortGlossaryEntries(entries: GlossaryEntry[], selectedPrefecture: string, sortMode: SortMode): GlossaryEntry[] {
   return [...entries].sort((a, b) => {
+    if (sortMode === 'caucus') {
+      const caucusOrder = getEntryCaucusLabel(a).localeCompare(getEntryCaucusLabel(b), 'ja-JP');
+      if (caucusOrder !== 0) return caucusOrder;
+    }
+    if (sortMode === 'kana') {
+      const readingOrder = (a.reading || a.label).localeCompare(b.reading || b.label, 'ja-JP');
+      if (readingOrder !== 0) return readingOrder;
+    }
     const aParsed = parseDistrictLabel(a.districtLabel);
     const bParsed = parseDistrictLabel(b.districtLabel);
     const aDistrictOrder = districtSortOrder(aParsed, selectedPrefecture);
@@ -881,10 +1019,22 @@ function districtSortOrder(
   parsed: { prefecture: string; number?: number; isProportional: boolean } | undefined,
   selectedPrefecture: string,
 ): number {
-  if (selectedPrefecture === allPrefecturesValue) return 0;
   if (!parsed) return 9999;
-  if (parsed.isProportional) return selectedPrefecture === allPrefecturesValue ? 9000 : 8000;
+  if (selectedPrefecture === allPrefecturesValue) {
+    const locationIndex = locationSortIndex(parsed.prefecture);
+    const blockOffset = parsed.isProportional ? 500 : 0;
+    return locationIndex * 100 + blockOffset + (parsed.number ?? 90);
+  }
+  if (parsed.isProportional) return 8000;
   return parsed.number ?? 7000;
+}
+
+function locationSortIndex(name: string): number {
+  const prefectureIndex = japanesePrefectures.indexOf(name);
+  if (prefectureIndex >= 0) return prefectureIndex;
+  const blockIndex = proportionalBlockOrder.indexOf(name);
+  if (blockIndex >= 0) return 500 + blockIndex;
+  return 999;
 }
 
 function cycleCardIndex(nextIndex: number, count: number): number {
@@ -899,11 +1049,36 @@ function searchableEntryText(entry: GlossaryEntry): string {
       entry.reading,
       entry.description,
       entry.districtLabel,
+      getEntryCaucusLabel(entry),
       entry.partyLabel,
       entry.statusLabel,
       entry.seatType,
     ].join(' '),
   );
+}
+
+function getEntryCaucusLabel(entry: GlossaryEntry): string {
+  return entry.caucusLabel ?? getCaucusLabelFromPartyLabel(entry.partyLabel);
+}
+
+function filterCandidatesForCaucusRoster(
+  entries: GlossaryEntry[],
+  electionId: string,
+  seatScope: SeatScopeFilter,
+  prefecture: string,
+  districtKey: string,
+): GlossaryEntry[] {
+  return entries.filter((entry) => {
+    if (electionId !== 'all' && !(entry.electionIds ?? []).includes(electionId)) return false;
+    const parsed = parseDistrictLabel(entry.districtLabel);
+    if (seatScope === 'single' && parsed?.isProportional) return false;
+    if (seatScope === 'proportional' && !parsed?.isProportional) return false;
+    if (seatScope === 'female' && !isFemaleCandidate(entry)) return false;
+    if (seatScope === 'freshman' && !isFreshmanCandidate(entry)) return false;
+    if (prefecture !== allPrefecturesValue && parsed?.prefecture !== prefecture) return false;
+    if (districtKey !== allDistrictsValue && districtOptionKey(parsed) !== districtKey) return false;
+    return true;
+  });
 }
 
 function readModeParam(value: string | null): GlossaryMode {

@@ -174,14 +174,14 @@
     {
       "age": "67",
       "category": "candidate",
-      "description": "比近畿 / 公明党 / 前職 / 当選11回 / 67歳",
+      "description": "比近畿 / 中道改革連合 / 前職 / 当選11回 / 67歳",
       "districtLabel": "比近畿",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "akaba-kazuyoshi",
       "label": "赤羽 一嘉",
-      "partyLabel": "公明党",
+      "partyLabel": "中道改革連合",
       "photoUrl": "/data/glossary/photos/shugiin-51st/akaba-kazuyoshi.png",
       "reading": "あかば かずよし",
       "relatedIds": [],
@@ -421,14 +421,14 @@
     {
       "age": "73",
       "category": "candidate",
-      "description": "比東北 / 立憲民主党 / 前職 / 当選2回 / 73歳",
+      "description": "比東北 / 中道改革連合 / 前職 / 当選2回 / 73歳",
       "districtLabel": "比東北",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-023",
       "label": "有田芳生",
-      "partyLabel": "立憲民主党",
+      "partyLabel": "中道改革連合",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-023.png",
       "reading": "ありたよしふ",
       "relatedIds": [],
@@ -535,14 +535,14 @@
     {
       "age": "51",
       "category": "candidate",
-      "description": "比近畿 / 公明党 / 元職 / 当選5回 / 51歳",
+      "description": "比近畿 / 中道改革連合 / 元職 / 当選5回 / 51歳",
       "districtLabel": "比近畿",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-029",
       "label": "伊佐進一",
-      "partyLabel": "公明党",
+      "partyLabel": "中道改革連合",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-029.png",
       "reading": "いさしんいち",
       "relatedIds": [],
@@ -554,14 +554,14 @@
     {
       "age": "67",
       "category": "candidate",
-      "description": "比北関東 / 公明党 / 元職 / 当選11回 / 67歳",
+      "description": "比北関東 / 中道改革連合 / 元職 / 当選11回 / 67歳",
       "districtLabel": "比北関東",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-030",
       "label": "石井啓一",
-      "partyLabel": "公明党",
+      "partyLabel": "中道改革連合",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-030.png",
       "reading": "いしい けいいち",
       "relatedIds": [],
@@ -744,14 +744,14 @@
     {
       "age": "51",
       "category": "candidate",
-      "description": "京都3区 / 立憲民主党 / 前職 / 当選10回 / 51歳",
+      "description": "京都3区 / 中道改革連合 / 前職 / 当選10回 / 51歳",
       "districtLabel": "京都3区",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-040",
       "label": "泉健太",
-      "partyLabel": "立憲民主党",
+      "partyLabel": "中道改革連合",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-040.png",
       "reading": "いずみ けんた",
       "relatedIds": [],
@@ -896,8 +896,8 @@
     {
       "age": "61",
       "category": "candidate",
-      "description": "比南関東 / 自由民主党 / 前職 / 当選7回 / 61歳",
-      "districtLabel": "比南関東",
+      "description": "愛知8区 / 自由民主党 / 前職 / 当選7回 / 61歳",
+      "districtLabel": "愛知8区",
       "electionIds": [
         "shugiin-51st"
       ],
@@ -908,7 +908,7 @@
       "reading": "いとうただひこ",
       "relatedIds": [],
       "reviewStatus": "ok",
-      "seatType": "比例",
+      "seatType": "小選挙区",
       "statusLabel": "前職",
       "wins": "7"
     },
@@ -1010,14 +1010,14 @@
     {
       "age": "53",
       "category": "candidate",
-      "description": "比東海 / 公明党 / 新人 / 当選1回 / 53歳",
+      "description": "比東海 / 中道改革連合 / 新人 / 当選1回 / 53歳",
       "districtLabel": "比東海",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-054",
       "label": "犬飼明佳",
-      "partyLabel": "公明党",
+      "partyLabel": "中道改革連合",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-054.png",
       "reading": "いぬかいあきよし",
       "relatedIds": [],
@@ -1181,8 +1181,8 @@
     {
       "age": "61",
       "category": "candidate",
-      "description": "大分3区 / 自由民主党 / 前職 / 当選3回 / 61歳",
-      "districtLabel": "大分3区",
+      "description": "富山2区 / 自由民主党 / 前職 / 当選3回 / 61歳",
+      "districtLabel": "富山2区",
       "electionIds": [
         "shugiin-51st"
       ],
@@ -1257,14 +1257,14 @@
     {
       "age": "63",
       "category": "candidate",
-      "description": "比北海道 / 公明党 / 前職 / 当選6回 / 63歳",
+      "description": "比北海道 / 中道改革連合 / 前職 / 当選6回 / 63歳",
       "districtLabel": "比北海道",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-067",
       "label": "浮島智子",
-      "partyLabel": "公明党",
+      "partyLabel": "中道改革連合",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-067.png",
       "reading": "うきしまともこ",
       "relatedIds": [],
@@ -1276,14 +1276,14 @@
     {
       "age": "58",
       "category": "candidate",
-      "description": "比東京 / みらい / 元職 / 当選3回 / 58歳",
+      "description": "比東京 / チームみらい / 元職 / 当選3回 / 58歳",
       "districtLabel": "比東京",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-068",
       "label": "宇佐美 登",
-      "partyLabel": "みらい",
+      "partyLabel": "チームみらい",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-068.png",
       "reading": "うさみのぼる",
       "relatedIds": [],
@@ -1295,8 +1295,8 @@
     {
       "age": "44",
       "category": "candidate",
-      "description": "比東京 / 国民民主党 / 前職 / 当選2回 / 44歳",
-      "districtLabel": "比東京",
+      "description": "比北海道 / 国民民主党 / 前職 / 当選2回 / 44歳",
+      "districtLabel": "比北海道",
       "electionIds": [
         "shugiin-51st"
       ],
@@ -1466,8 +1466,8 @@
     {
       "age": "52",
       "category": "candidate",
-      "description": "大阪5区 / 日本維新の会 / 前職 / 当選6回 / 52歳",
-      "districtLabel": "大阪5区",
+      "description": "大阪15区 / 日本維新の会 / 前職 / 当選6回 / 52歳",
+      "districtLabel": "大阪15区",
       "electionIds": [
         "shugiin-51st"
       ],
@@ -1637,14 +1637,14 @@
     {
       "age": "52",
       "category": "candidate",
-      "description": "比東京 / 立憲民主党 / 前職 / 当選2回 / 52歳",
+      "description": "比東京 / 中道改革連合 / 前職 / 当選2回 / 52歳",
       "districtLabel": "比東京",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-087",
       "label": "大森江里子",
-      "partyLabel": "立憲民主党",
+      "partyLabel": "中道改革連合",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-087.png",
       "reading": "おおもり えりこ",
       "relatedIds": [],
@@ -1656,14 +1656,14 @@
     {
       "age": "69",
       "category": "candidate",
-      "description": "比北関東 / 立憲民主党 / 前職 / 当選10回 / 69歳",
+      "description": "比北関東 / 中道改革連合 / 前職 / 当選10回 / 69歳",
       "districtLabel": "比北関東",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-088",
       "label": "大島敦",
-      "partyLabel": "立憲民主党",
+      "partyLabel": "中道改革連合",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-088.png",
       "reading": "おおしま あつし",
       "relatedIds": [],
@@ -1732,14 +1732,14 @@
     {
       "age": "54",
       "category": "candidate",
-      "description": "香川1区 / 立憲民主党 / 前職 / 当選8回 / 54歳",
+      "description": "香川1区 / 中道改革連合 / 前職 / 当選8回 / 54歳",
       "districtLabel": "香川1区",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-092",
       "label": "小川淳也",
-      "partyLabel": "立憲民主党",
+      "partyLabel": "中道改革連合",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-092.png",
       "reading": "おがわじゅんや",
       "relatedIds": [],
@@ -1808,14 +1808,14 @@
     {
       "age": "60",
       "category": "candidate",
-      "description": "比東京 / 公明党 / 前職 / 当選6回 / 60歳",
+      "description": "比東京 / 中道改革連合 / 前職 / 当選6回 / 60歳",
       "districtLabel": "比東京",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-096",
       "label": "岡本三成",
-      "partyLabel": "公明党",
+      "partyLabel": "中道改革連合",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-096.png",
       "reading": "おかもと みつなり",
       "relatedIds": [],
@@ -1865,14 +1865,14 @@
     {
       "age": "46",
       "category": "candidate",
-      "description": "比東京 / 立憲民主党 / 前職 / 当選5回 / 46歳",
+      "description": "比東京 / 中道改革連合 / 前職 / 当選5回 / 46歳",
       "districtLabel": "比東京",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-099",
       "label": "落合貴之",
-      "partyLabel": "立憲民主党",
+      "partyLabel": "中道改革連合",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-099.png",
       "reading": "おちあいたかゆき",
       "relatedIds": [],
@@ -1979,14 +1979,14 @@
     {
       "age": "46",
       "category": "candidate",
-      "description": "比東京 / 公明党 / 前職 / 当選3回 / 46歳",
+      "description": "比東京 / 中道改革連合 / 前職 / 当選3回 / 46歳",
       "districtLabel": "比東京",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-105",
       "label": "河西宏一",
-      "partyLabel": "公明党",
+      "partyLabel": "中道改革連合",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-105.png",
       "reading": "かさい こういち",
       "relatedIds": [],
@@ -2036,8 +2036,8 @@
     {
       "age": "42",
       "category": "candidate",
-      "description": "福岡2区 / 自由民主党 / 新人 / 当選1回 / 42歳",
-      "districtLabel": "福岡2区",
+      "description": "埼玉6区 / 自由民主党 / 新人 / 当選1回 / 42歳",
+      "districtLabel": "埼玉6区",
       "electionIds": [
         "shugiin-51st"
       ],
@@ -2359,14 +2359,14 @@
     {
       "age": "60",
       "category": "candidate",
-      "description": "比東北 / 立憲民主党 / 前職 / 当選5回 / 60歳",
+      "description": "比東北 / 中道改革連合 / 前職 / 当選5回 / 60歳",
       "districtLabel": "比東北",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-125",
       "label": "金子恵美",
-      "partyLabel": "立憲民主党",
+      "partyLabel": "中道改革連合",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-125.png",
       "reading": "かねこえみ",
       "relatedIds": [],
@@ -2397,14 +2397,14 @@
     {
       "age": "35",
       "category": "candidate",
-      "description": "比南関東 / みらい / 新人 / 当選1回 / 35歳",
+      "description": "比南関東 / チームみらい / 新人 / 当選1回 / 35歳",
       "districtLabel": "比南関東",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-127",
       "label": "河合道雄",
-      "partyLabel": "みらい",
+      "partyLabel": "チームみらい",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-127.png",
       "reading": "かわいみちお",
       "relatedIds": [],
@@ -2454,14 +2454,14 @@
     {
       "age": "57",
       "category": "candidate",
-      "description": "北海道10区 / 立憲民主党 / 前職 / 当選4回 / 57歳",
+      "description": "北海道10区 / 中道改革連合 / 前職 / 当選4回 / 57歳",
       "districtLabel": "北海道10区",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-130",
       "label": "神谷裕",
-      "partyLabel": "立憲民主党",
+      "partyLabel": "中道改革連合",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-130.png",
       "reading": "かみやひろし",
       "relatedIds": [],
@@ -2568,14 +2568,14 @@
     {
       "age": "48",
       "category": "candidate",
-      "description": "比九州 / 公明党 / 新人 / 当選1回 / 48歳",
+      "description": "比九州 / 中道改革連合 / 新人 / 当選1回 / 48歳",
       "districtLabel": "比九州",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-136",
       "label": "河野義博",
-      "partyLabel": "公明党",
+      "partyLabel": "中道改革連合",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-136.png",
       "reading": "かわのよしひろ",
       "relatedIds": [],
@@ -2606,19 +2606,19 @@
     {
       "age": "77",
       "category": "candidate",
-      "description": "比九州 / ゆうこく / 前職 / 当選7回 / 77歳",
-      "districtLabel": "比九州",
+      "description": "愛知1区 / ゆうこく連合 / 前職 / 当選7回 / 77歳",
+      "districtLabel": "愛知1区",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-138",
       "label": "河村 たかし",
-      "partyLabel": "ゆうこく",
+      "partyLabel": "ゆうこく連合",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-138.png",
       "reading": "かわむらたかし",
       "relatedIds": [],
       "reviewStatus": "ok",
-      "seatType": "比例",
+      "seatType": "小選挙区",
       "statusLabel": "前職",
       "wins": "7"
     },
@@ -2701,14 +2701,14 @@
     {
       "age": "56",
       "category": "candidate",
-      "description": "比北信越 / 立憲民主党 / 前職 / 当選9回 / 56歳",
+      "description": "比北信越 / 中道改革連合 / 前職 / 当選9回 / 56歳",
       "districtLabel": "比北信越",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-143",
       "label": "菊田真紀子",
-      "partyLabel": "立憲民主党",
+      "partyLabel": "中道改革連合",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-143.png",
       "reading": "きくたまきこ",
       "relatedIds": [],
@@ -2758,14 +2758,14 @@
     {
       "age": "56",
       "category": "candidate",
-      "description": "比九州 / 公明党 / 前職 / 当選3回 / 56歳",
+      "description": "比九州 / 中道改革連合 / 前職 / 当選3回 / 56歳",
       "districtLabel": "比九州",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-146",
       "label": "金城泰邦",
-      "partyLabel": "公明党",
+      "partyLabel": "中道改革連合",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-146.png",
       "reading": "きんじょうやすくに",
       "relatedIds": [],
@@ -2853,14 +2853,14 @@
     {
       "age": "51",
       "category": "candidate",
-      "description": "比近畿 / 公明党 / 元職 / 当選5回 / 51歳",
+      "description": "比近畿 / 中道改革連合 / 元職 / 当選5回 / 51歳",
       "districtLabel": "比近畿",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-151",
       "label": "国重 徹",
-      "partyLabel": "公明党",
+      "partyLabel": "中道改革連合",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-151.png",
       "reading": "くにしげとおる",
       "relatedIds": [],
@@ -3062,8 +3062,8 @@
     {
       "age": "46",
       "category": "candidate",
-      "description": "福岡5区 / 日本維新の会 / 前職 / 当選2回 / 46歳",
-      "districtLabel": "福岡5区",
+      "description": "大阪16区 / 日本維新の会 / 前職 / 当選2回 / 46歳",
+      "districtLabel": "大阪16区",
       "electionIds": [
         "shugiin-51st"
       ],
@@ -3119,14 +3119,14 @@
     {
       "age": "64",
       "category": "candidate",
-      "description": "比北関東 / 公明党 / 前職 / 当選5回 / 64歳",
+      "description": "比北関東 / 中道改革連合 / 前職 / 当選5回 / 64歳",
       "districtLabel": "比北関東",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-165",
       "label": "輿水恵一",
-      "partyLabel": "公明党",
+      "partyLabel": "中道改革連合",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-165.png",
       "reading": "こしみずけいいち",
       "relatedIds": [],
@@ -3233,14 +3233,14 @@
     {
       "age": "35",
       "category": "candidate",
-      "description": "比南関東 / みらい / 新人 / 当選1回 / 35歳",
+      "description": "比南関東 / チームみらい / 新人 / 当選1回 / 35歳",
       "districtLabel": "比南関東",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-171",
       "label": "小林修平",
-      "partyLabel": "みらい",
+      "partyLabel": "チームみらい",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-171.png",
       "reading": "こばやししゅうへい",
       "relatedIds": [],
@@ -3290,14 +3290,14 @@
     {
       "age": "56",
       "category": "candidate",
-      "description": "比南関東 / 立憲民主党 / 前職 / 当選7回 / 56歳",
+      "description": "比南関東 / 中道改革連合 / 前職 / 当選7回 / 56歳",
       "districtLabel": "比南関東",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-174",
       "label": "後藤祐一",
-      "partyLabel": "立憲民主党",
+      "partyLabel": "中道改革連合",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-174.png",
       "reading": "ごとうゆういち",
       "relatedIds": [],
@@ -3315,10 +3315,10 @@
         "shugiin-51st"
       ],
       "id": "candidate-175",
-      "label": "今元 洋佑",
+      "label": "今 洋佑",
       "partyLabel": "自由民主党",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-175.png",
-      "reading": "こんもとようすけ",
+      "reading": "こんようすけ",
       "relatedIds": [],
       "reviewStatus": "ok",
       "seatType": "比例",
@@ -3328,14 +3328,14 @@
     {
       "age": "52",
       "category": "candidate",
-      "description": "比北信越 / 立憲民主党 / 前職 / 当選5回 / 52歳",
+      "description": "比北信越 / 中道改革連合 / 前職 / 当選5回 / 52歳",
       "districtLabel": "比北信越",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-176",
       "label": "近藤和也",
-      "partyLabel": "立憲民主党",
+      "partyLabel": "中道改革連合",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-176.png",
       "reading": "こんどうかずや",
       "relatedIds": [],
@@ -3442,14 +3442,14 @@
     {
       "age": "74",
       "category": "candidate",
-      "description": "比中国 / 公明党 / 前職 / 当選12回 / 74歳",
+      "description": "比中国 / 中道改革連合 / 前職 / 当選12回 / 74歳",
       "districtLabel": "比中国",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-182",
       "label": "斉藤 鉄夫",
-      "partyLabel": "公明党",
+      "partyLabel": "中道改革連合",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-182.png",
       "reading": "さいとうてつお",
       "relatedIds": [],
@@ -3632,8 +3632,8 @@
     {
       "age": "75",
       "category": "candidate",
-      "description": "神奈川5区 / 自由民主党 / 前職 / 当選9回 / 75歳",
-      "districtLabel": "神奈川5区",
+      "description": "熊本3区 / 自由民主党 / 前職 / 当選9回 / 75歳",
+      "districtLabel": "熊本3区",
       "electionIds": [
         "shugiin-51st"
       ],
@@ -3689,14 +3689,14 @@
     {
       "age": "55",
       "category": "candidate",
-      "description": "比東海 / 立憲民主党 / 前職 / 当選6回 / 55歳",
+      "description": "比東海 / 中道改革連合 / 前職 / 当選6回 / 55歳",
       "districtLabel": "比東海",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-195",
       "label": "重徳和彦",
-      "partyLabel": "立憲民主党",
+      "partyLabel": "中道改革連合",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-195.png",
       "reading": "しげとくかずひこ",
       "relatedIds": [],
@@ -3727,14 +3727,14 @@
     {
       "age": "65",
       "category": "candidate",
-      "description": "比北海道 / 公明党 / 前職 / 当選6回 / 65歳",
+      "description": "比北海道 / 中道改革連合 / 前職 / 当選6回 / 65歳",
       "districtLabel": "比北海道",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-197",
       "label": "佐藤英道",
-      "partyLabel": "公明党",
+      "partyLabel": "中道改革連合",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-197.png",
       "reading": "さとうひでみち",
       "relatedIds": [],
@@ -3828,7 +3828,7 @@
         "shugiin-51st"
       ],
       "id": "candidate-202",
-      "label": "重本護",
+      "label": "繁本護",
       "partyLabel": "自由民主党",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-202.png",
       "reading": "しげもとまもる",
@@ -3841,14 +3841,14 @@
     {
       "age": "59",
       "category": "candidate",
-      "description": "岩手1区 / 立憲民主党 / 前職 / 当選8回 / 59歳",
+      "description": "岩手1区 / 中道改革連合 / 前職 / 当選8回 / 59歳",
       "districtLabel": "岩手1区",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-203",
       "label": "階 猛",
-      "partyLabel": "立憲民主党",
+      "partyLabel": "中道改革連合",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-203.png",
       "reading": "しなたけし",
       "relatedIds": [],
@@ -3917,8 +3917,8 @@
     {
       "age": "64",
       "category": "candidate",
-      "description": "埼玉2区 / 自由民主党 / 元職 / 当選7回 / 64歳",
-      "districtLabel": "埼玉2区",
+      "description": "東京9区 / 自由民主党 / 元職 / 当選7回 / 64歳",
+      "districtLabel": "東京9区",
       "electionIds": [
         "shugiin-51st"
       ],
@@ -3955,14 +3955,14 @@
     {
       "age": "63",
       "category": "candidate",
-      "description": "比東北 / 公明党 / 前職 / 当選3回 / 63歳",
+      "description": "比東北 / 中道改革連合 / 前職 / 当選3回 / 63歳",
       "districtLabel": "比東北",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-209",
       "label": "庄子賢一",
-      "partyLabel": "公明党",
+      "partyLabel": "中道改革連合",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-209.png",
       "reading": "しょうじけんいち",
       "relatedIds": [],
@@ -4126,14 +4126,14 @@
     {
       "age": "35",
       "category": "candidate",
-      "description": "比東海 / みらい / 新人 / 当選1回 / 35歳",
+      "description": "比東海 / チームみらい / 新人 / 当選1回 / 35歳",
       "districtLabel": "比東海",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-218",
       "label": "須田英太郎",
-      "partyLabel": "みらい",
+      "partyLabel": "チームみらい",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-218.png",
       "reading": "すだえいたろう",
       "relatedIds": [],
@@ -4430,8 +4430,8 @@
     {
       "age": "62",
       "category": "candidate",
-      "description": "東京4区 / 自由民主党 / 元職 / 当選2回 / 62歳",
-      "districtLabel": "東京4区",
+      "description": "島根1区 / 自由民主党 / 元職 / 当選2回 / 62歳",
+      "districtLabel": "島根1区",
       "electionIds": [
         "shugiin-51st"
       ],
@@ -4468,14 +4468,14 @@
     {
       "age": "39",
       "category": "candidate",
-      "description": "比東京 / みらい / 新人 / 当選1回 / 39歳",
+      "description": "比東京 / チームみらい / 新人 / 当選1回 / 39歳",
       "districtLabel": "比東京",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-236",
       "label": "高山聡史",
-      "partyLabel": "みらい",
+      "partyLabel": "チームみらい",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-236.png",
       "reading": "たかやまさとし",
       "relatedIds": [],
@@ -4563,14 +4563,14 @@
     {
       "age": "64",
       "category": "candidate",
-      "description": "比南関東 / 立憲民主党 / 前職 / 当選9回 / 64歳",
+      "description": "比南関東 / 中道改革連合 / 前職 / 当選9回 / 64歳",
       "districtLabel": "比南関東",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-241",
       "label": "田嶋要",
-      "partyLabel": "立憲民主党",
+      "partyLabel": "中道改革連合",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-241.png",
       "reading": "たじまかなめ",
       "relatedIds": [],
@@ -4658,8 +4658,8 @@
     {
       "age": "54",
       "category": "candidate",
-      "description": "北海道12区 / 自由民主党 / 前職 / 当選6回 / 54歳",
-      "districtLabel": "北海道12区",
+      "description": "滋賀3区 / 自由民主党 / 前職 / 当選6回 / 54歳",
+      "districtLabel": "滋賀3区",
       "electionIds": [
         "shugiin-51st"
       ],
@@ -4886,8 +4886,8 @@
     {
       "age": "49",
       "category": "candidate",
-      "description": "比近畿 / 自由民主党 / 元職 / 当選4回 / 49歳",
-      "districtLabel": "比近畿",
+      "description": "大阪19区 / 自由民主党 / 元職 / 当選4回 / 49歳",
+      "districtLabel": "大阪19区",
       "electionIds": [
         "shugiin-51st"
       ],
@@ -4898,7 +4898,7 @@
       "reading": "たにがわとむ",
       "relatedIds": [],
       "reviewStatus": "ok",
-      "seatType": "比例",
+      "seatType": "小選挙区",
       "statusLabel": "元職",
       "wins": "4"
     },
@@ -4924,8 +4924,8 @@
     {
       "age": "52",
       "category": "candidate",
-      "description": "比中国 / 国民民主党 / 前職 / 当選2回 / 52歳",
-      "districtLabel": "比中国",
+      "description": "愛知11区 / 国民民主党 / 前職 / 当選2回 / 52歳",
+      "districtLabel": "愛知11区",
       "electionIds": [
         "shugiin-51st"
       ],
@@ -4936,7 +4936,7 @@
       "reading": "たんのみどり",
       "relatedIds": [],
       "reviewStatus": "ok",
-      "seatType": "比例",
+      "seatType": "小選挙区",
       "statusLabel": "前職",
       "wins": "2"
     },
@@ -5057,14 +5057,14 @@
     {
       "age": "64",
       "category": "candidate",
-      "description": "比南関東 / 公明党 / 前職 / 当選4回 / 64歳",
+      "description": "比南関東 / 中道改革連合 / 前職 / 当選4回 / 64歳",
       "districtLabel": "比南関東",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-267",
       "label": "角田秀穂",
-      "partyLabel": "公明党",
+      "partyLabel": "中道改革連合",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-267.png",
       "reading": "つのだひでお",
       "relatedIds": [],
@@ -5171,14 +5171,14 @@
     {
       "age": "56",
       "category": "candidate",
-      "description": "比東京 / みらい / 新人 / 当選1回 / 56歳",
+      "description": "比東京 / チームみらい / 新人 / 当選1回 / 56歳",
       "districtLabel": "比東京",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-273",
       "label": "土橋章宏",
-      "partyLabel": "みらい",
+      "partyLabel": "チームみらい",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-273.png",
       "reading": "どばしあきひろ",
       "relatedIds": [],
@@ -5228,8 +5228,8 @@
     {
       "age": "77",
       "category": "candidate",
-      "description": "宮城1区 / 自由民主党 / 前職 / 当選12回 / 77歳",
-      "districtLabel": "宮城1区",
+      "description": "兵庫10区 / 自由民主党 / 前職 / 当選12回 / 77歳",
+      "districtLabel": "兵庫10区",
       "electionIds": [
         "shugiin-51st"
       ],
@@ -5266,14 +5266,14 @@
     {
       "age": "55",
       "category": "candidate",
-      "description": "比北信越 / 公明党 / 前職 / 当選3回 / 55歳",
+      "description": "比北信越 / 中道改革連合 / 前職 / 当選3回 / 55歳",
       "districtLabel": "比北信越",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-278",
       "label": "中川宏昌",
-      "partyLabel": "公明党",
+      "partyLabel": "中道改革連合",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-278.png",
       "reading": "なかがわ ひろまさ",
       "relatedIds": [],
@@ -5285,14 +5285,14 @@
     {
       "age": "57",
       "category": "candidate",
-      "description": "比東海 / 公明党 / 前職 / 当選4回 / 57歳",
+      "description": "比東海 / 中道改革連合 / 前職 / 当選4回 / 57歳",
       "districtLabel": "比東海",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-279",
       "label": "中川康洋",
-      "partyLabel": "公明党",
+      "partyLabel": "中道改革連合",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-279.png",
       "reading": "なかがわやすひろ",
       "relatedIds": [],
@@ -5399,8 +5399,8 @@
     {
       "age": "42",
       "category": "candidate",
-      "description": "富山1区 / 自由民主党 / 新人 / 当選1回 / 42歳",
-      "districtLabel": "富山1区",
+      "description": "神奈川4区 / 自由民主党 / 新人 / 当選1回 / 42歳",
+      "districtLabel": "神奈川4区",
       "electionIds": [
         "shugiin-51st"
       ],
@@ -5475,14 +5475,14 @@
     {
       "age": "65",
       "category": "candidate",
-      "description": "比東京 / 立憲民主党 / 前職 / 当選10回 / 65歳",
+      "description": "比東京 / 中道改革連合 / 前職 / 当選10回 / 65歳",
       "districtLabel": "比東京",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-289",
       "label": "長妻昭",
-      "partyLabel": "立憲民主党",
+      "partyLabel": "中道改革連合",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-289.png",
       "reading": "ながつまあきら",
       "relatedIds": [],
@@ -5513,8 +5513,8 @@
     {
       "age": "62",
       "category": "candidate",
-      "description": "比東京 / 自由民主党 / 前職 / 当選3回 / 62歳",
-      "districtLabel": "比東京",
+      "description": "神奈川3区 / 自由民主党 / 前職 / 当選3回 / 62歳",
+      "districtLabel": "神奈川3区",
       "electionIds": [
         "shugiin-51st"
       ],
@@ -5525,7 +5525,7 @@
       "reading": "なかにしけんじ",
       "relatedIds": [],
       "reviewStatus": "ok",
-      "seatType": "比例",
+      "seatType": "小選挙区",
       "statusLabel": "前職",
       "wins": "3"
     },
@@ -5551,8 +5551,8 @@
     {
       "age": "49",
       "category": "candidate",
-      "description": "高知1区 / 自由民主党 / 前職 / 当選6回 / 49歳",
-      "districtLabel": "高知1区",
+      "description": "山梨1区 / 自由民主党 / 前職 / 当選6回 / 49歳",
+      "districtLabel": "山梨1区",
       "electionIds": [
         "shugiin-51st"
       ],
@@ -5589,14 +5589,14 @@
     {
       "age": "48",
       "category": "candidate",
-      "description": "比近畿 / 公明党 / 前職 / 当選6回 / 48歳",
+      "description": "比近畿 / 中道改革連合 / 前職 / 当選6回 / 48歳",
       "districtLabel": "比近畿",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-295",
       "label": "中野洋昌",
-      "partyLabel": "公明党",
+      "partyLabel": "中道改革連合",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-295.png",
       "reading": "なかのひろまさ",
       "relatedIds": [],
@@ -5893,14 +5893,14 @@
     {
       "age": "58",
       "category": "candidate",
-      "description": "比東海 / 公明党 / 前職 / 当選2回 / 58歳",
+      "description": "比東海 / 中道改革連合 / 前職 / 当選2回 / 58歳",
       "districtLabel": "比東海",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-311",
       "label": "西園勝秀",
-      "partyLabel": "公明党",
+      "partyLabel": "中道改革連合",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-311.png",
       "reading": "にしぞのかつひで",
       "relatedIds": [],
@@ -5988,14 +5988,14 @@
     {
       "age": "59",
       "category": "candidate",
-      "description": "比北信越 / 立憲民主党 / 前職 / 当選8回 / 59歳",
+      "description": "比北信越 / 中道改革連合 / 前職 / 当選8回 / 59歳",
       "districtLabel": "比北信越",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-316",
       "label": "西村智奈美",
-      "partyLabel": "立憲民主党",
+      "partyLabel": "中道改革連合",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-316.png",
       "reading": "にしむらちなみ",
       "relatedIds": [],
@@ -6083,14 +6083,14 @@
     {
       "age": "68",
       "category": "candidate",
-      "description": "千葉14区 / 立憲民主党 / 前職 / 当選11回 / 68歳",
+      "description": "千葉14区 / 中道改革連合 / 前職 / 当選11回 / 68歳",
       "districtLabel": "千葉14区",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-321",
       "label": "野田佳彦",
-      "partyLabel": "立憲民主党",
+      "partyLabel": "中道改革連合",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-321.png",
       "reading": "のだよしひこ",
       "relatedIds": [],
@@ -6121,14 +6121,14 @@
     {
       "age": "52",
       "category": "candidate",
-      "description": "比南関東 / 立憲民主党 / 前職 / 当選2回 / 52歳",
+      "description": "比南関東 / 中道改革連合 / 前職 / 当選2回 / 52歳",
       "districtLabel": "比南関東",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-323",
       "label": "沼崎満子",
-      "partyLabel": "立憲民主党",
+      "partyLabel": "中道改革連合",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-323.png",
       "reading": "ぬまざきみつこ",
       "relatedIds": [],
@@ -6197,8 +6197,8 @@
     {
       "age": "52",
       "category": "candidate",
-      "description": "大阪9区 / 自由民主党 / 元職 / 当選6回 / 52歳",
-      "districtLabel": "大阪9区",
+      "description": "岡山4区 / 自由民主党 / 元職 / 当選6回 / 52歳",
+      "districtLabel": "岡山4区",
       "electionIds": [
         "shugiin-51st"
       ],
@@ -6235,14 +6235,14 @@
     {
       "age": "67",
       "category": "candidate",
-      "description": "鹿児島3区 / 立憲民主党 / 前職 / 当選5回 / 67歳",
+      "description": "鹿児島3区 / 中道改革連合 / 前職 / 当選5回 / 67歳",
       "districtLabel": "鹿児島3区",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-329",
       "label": "野間 健",
-      "partyLabel": "立憲民主党",
+      "partyLabel": "中道改革連合",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-329.png",
       "reading": "のまたけし",
       "relatedIds": [],
@@ -6406,14 +6406,14 @@
     {
       "age": "35",
       "category": "candidate",
-      "description": "比南関東 / 立憲民主党 / 新人 / 当選1回 / 35歳",
+      "description": "比南関東 / 中道改革連合 / 新人 / 当選1回 / 35歳",
       "districtLabel": "比南関東",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-338",
       "label": "原田直樹",
-      "partyLabel": "立憲民主党",
+      "partyLabel": "中道改革連合",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-338.png",
       "reading": "はらだなおき",
       "relatedIds": [],
@@ -6463,14 +6463,14 @@
     {
       "age": "55",
       "category": "candidate",
-      "description": "比九州 / 公明党 / 前職 / 当選6回 / 55歳",
+      "description": "比九州 / 中道改革連合 / 前職 / 当選6回 / 55歳",
       "districtLabel": "比九州",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-341",
       "label": "浜地雅一",
-      "partyLabel": "公明党",
+      "partyLabel": "中道改革連合",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-341.png",
       "reading": "はまちまさかず",
       "relatedIds": [],
@@ -6482,16 +6482,16 @@
     {
       "age": "28",
       "category": "candidate",
-      "description": "比東北 / みらい / 新人 / 当選1回 / 28歳",
+      "description": "比東北 / チームみらい / 新人 / 当選1回 / 28歳",
       "districtLabel": "比東北",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-342",
       "label": "林拓海",
-      "partyLabel": "みらい",
+      "partyLabel": "チームみらい",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-342.png",
-      "reading": "はやしたく",
+      "reading": "はやしたくみ",
       "relatedIds": [],
       "reviewStatus": "ok",
       "seatType": "比例",
@@ -6634,14 +6634,14 @@
     {
       "age": "63",
       "category": "candidate",
-      "description": "比北関東 / 公明党 / 前職 / 当選3回 / 63歳",
+      "description": "比北関東 / 中道改革連合 / 前職 / 当選3回 / 63歳",
       "districtLabel": "比北関東",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-350",
       "label": "福重隆浩",
-      "partyLabel": "公明党",
+      "partyLabel": "中道改革連合",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-350.png",
       "reading": "ふくしげたかひろ",
       "relatedIds": [],
@@ -6653,8 +6653,8 @@
     {
       "age": "40",
       "category": "candidate",
-      "description": "比北関東 / 自由民主党 / 前職 / 当選2回 / 40歳",
-      "districtLabel": "比北関東",
+      "description": "東京18区 / 自由民主党 / 前職 / 当選2回 / 40歳",
+      "districtLabel": "東京18区",
       "electionIds": [
         "shugiin-51st"
       ],
@@ -6665,21 +6665,21 @@
       "reading": "ふくだかおる",
       "relatedIds": [],
       "reviewStatus": "ok",
-      "seatType": "比例",
+      "seatType": "小選挙区",
       "statusLabel": "前職",
       "wins": "2"
     },
     {
       "age": "55",
       "category": "candidate",
-      "description": "比中国 / 公明党 / 前職 / 当選3回 / 55歳",
+      "description": "比中国 / 中道改革連合 / 前職 / 当選3回 / 55歳",
       "districtLabel": "比中国",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-352",
       "label": "平林晃",
-      "partyLabel": "公明党",
+      "partyLabel": "中道改革連合",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-352.png",
       "reading": "ひらばやし あきら",
       "relatedIds": [],
@@ -6767,8 +6767,8 @@
     {
       "age": "35",
       "category": "candidate",
-      "description": "比東海 / 自由民主党 / 新人 / 当選1回 / 35歳",
-      "districtLabel": "比東海",
+      "description": "長野2区 / 自由民主党 / 新人 / 当選1回 / 35歳",
+      "districtLabel": "長野2区",
       "electionIds": [
         "shugiin-51st"
       ],
@@ -6779,7 +6779,7 @@
       "reading": "ふじたひかる",
       "relatedIds": [],
       "reviewStatus": "ok",
-      "seatType": "比例",
+      "seatType": "小選挙区",
       "statusLabel": "新人",
       "wins": "1"
     },
@@ -6814,7 +6814,7 @@
       "label": "福田徹",
       "partyLabel": "国民民主党",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-359.png",
-      "reading": "ふくだとおる",
+      "reading": "ふくたとおる",
       "relatedIds": [],
       "reviewStatus": "ok",
       "seatType": "比例",
@@ -6824,8 +6824,8 @@
     {
       "age": "58",
       "category": "candidate",
-      "description": "比東海 / 自由民主党 / 前職 / 当選2回 / 58歳",
-      "districtLabel": "比東海",
+      "description": "秋田2区 / 自由民主党 / 前職 / 当選2回 / 58歳",
+      "districtLabel": "秋田2区",
       "electionIds": [
         "shugiin-51st"
       ],
@@ -6836,7 +6836,7 @@
       "reading": "ふくはらじゅんじ",
       "relatedIds": [],
       "reviewStatus": "ok",
-      "seatType": "比例",
+      "seatType": "小選挙区",
       "statusLabel": "前職",
       "wins": "2"
     },
@@ -7052,14 +7052,14 @@
     {
       "age": "34",
       "category": "candidate",
-      "description": "比九州 / みらい / 新人 / 当選1回 / 34歳",
+      "description": "比九州 / チームみらい / 新人 / 当選1回 / 34歳",
       "districtLabel": "比九州",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-372",
       "label": "古川 あおい",
-      "partyLabel": "みらい",
+      "partyLabel": "チームみらい",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-372.png",
       "reading": "ふるかわあおい",
       "relatedIds": [],
@@ -7172,7 +7172,7 @@
         "shugiin-51st"
       ],
       "id": "candidate-378",
-      "label": "保坂 泰",
+      "label": "穂坂 泰",
       "partyLabel": "自由民主党",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-378.png",
       "reading": "ほさかやすし",
@@ -7316,63 +7316,6 @@
       "wins": "1"
     },
     {
-      "age": "35",
-      "category": "candidate",
-      "description": "北海道9区 / 自由民主党 / 新人 / 当選1回 / 35歳",
-      "districtLabel": "北海道9区",
-      "electionIds": [
-        "shugiin-51st"
-      ],
-      "id": "candidate-386",
-      "label": "松下英樹",
-      "partyLabel": "自由民主党",
-      "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-386.png",
-      "reading": "まつしたひでき",
-      "relatedIds": [],
-      "reviewStatus": "ok",
-      "seatType": "小選挙区",
-      "statusLabel": "新人",
-      "wins": "1"
-    },
-    {
-      "age": "69",
-      "category": "candidate",
-      "description": "東京14区 / 自由民主党 / 前職 / 当選9回 / 69歳",
-      "districtLabel": "東京14区",
-      "electionIds": [
-        "shugiin-51st"
-      ],
-      "id": "candidate-387",
-      "label": "松島 みどり",
-      "partyLabel": "自由民主党",
-      "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-387.png",
-      "reading": "まつしまみどり",
-      "relatedIds": [],
-      "reviewStatus": "ok",
-      "seatType": "小選挙区",
-      "statusLabel": "前職",
-      "wins": "9"
-    },
-    {
-      "age": "63",
-      "category": "candidate",
-      "description": "千葉3区 / 自由民主党 / 前職 / 当選10回 / 63歳",
-      "districtLabel": "千葉3区",
-      "electionIds": [
-        "shugiin-51st"
-      ],
-      "id": "candidate-388",
-      "label": "松野博一",
-      "partyLabel": "自由民主党",
-      "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-388.png",
-      "reading": "まつのひろかず",
-      "relatedIds": [],
-      "reviewStatus": "ok",
-      "seatType": "小選挙区",
-      "statusLabel": "前職",
-      "wins": "10"
-    },
-    {
       "age": "63",
       "category": "candidate",
       "description": "千葉13区 / 自由民主党 / 前職 / 当選3回 / 63歳",
@@ -7380,10 +7323,10 @@
       "electionIds": [
         "shugiin-51st"
       ],
-      "id": "candidate-389",
+      "id": "candidate-386",
       "label": "松本 尚",
       "partyLabel": "自由民主党",
-      "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-389.png",
+      "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-386.png",
       "reading": "まつもとひさし",
       "relatedIds": [],
       "reviewStatus": "ok",
@@ -7399,16 +7342,73 @@
       "electionIds": [
         "shugiin-51st"
       ],
-      "id": "candidate-390",
+      "id": "candidate-387",
       "label": "松本 洋平",
       "partyLabel": "自由民主党",
-      "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-390.png",
+      "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-387.png",
       "reading": "まつもとようへい",
       "relatedIds": [],
       "reviewStatus": "ok",
       "seatType": "小選挙区",
       "statusLabel": "前職",
       "wins": "7"
+    },
+    {
+      "age": "35",
+      "category": "candidate",
+      "description": "北海道9区 / 自由民主党 / 新人 / 当選1回 / 35歳",
+      "districtLabel": "北海道9区",
+      "electionIds": [
+        "shugiin-51st"
+      ],
+      "id": "candidate-388",
+      "label": "松下英樹",
+      "partyLabel": "自由民主党",
+      "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-388.png",
+      "reading": "まつしたひでき",
+      "relatedIds": [],
+      "reviewStatus": "ok",
+      "seatType": "小選挙区",
+      "statusLabel": "新人",
+      "wins": "1"
+    },
+    {
+      "age": "69",
+      "category": "candidate",
+      "description": "東京14区 / 自由民主党 / 前職 / 当選9回 / 69歳",
+      "districtLabel": "東京14区",
+      "electionIds": [
+        "shugiin-51st"
+      ],
+      "id": "candidate-389",
+      "label": "松島 みどり",
+      "partyLabel": "自由民主党",
+      "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-389.png",
+      "reading": "まつしまみどり",
+      "relatedIds": [],
+      "reviewStatus": "ok",
+      "seatType": "小選挙区",
+      "statusLabel": "前職",
+      "wins": "9"
+    },
+    {
+      "age": "63",
+      "category": "candidate",
+      "description": "千葉3区 / 自由民主党 / 前職 / 当選10回 / 63歳",
+      "districtLabel": "千葉3区",
+      "electionIds": [
+        "shugiin-51st"
+      ],
+      "id": "candidate-390",
+      "label": "松野博一",
+      "partyLabel": "自由民主党",
+      "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-390.png",
+      "reading": "まつのひろかず",
+      "relatedIds": [],
+      "reviewStatus": "ok",
+      "seatType": "小選挙区",
+      "statusLabel": "前職",
+      "wins": "10"
     },
     {
       "age": "59",
@@ -7622,14 +7622,14 @@
     {
       "age": "35",
       "category": "candidate",
-      "description": "比東京 / みらい / 新人 / 当選1回 / 35歳",
+      "description": "比東京 / チームみらい / 新人 / 当選1回 / 35歳",
       "districtLabel": "比東京",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-402",
       "label": "峰島侑也",
-      "partyLabel": "みらい",
+      "partyLabel": "チームみらい",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-402.png",
       "reading": "みねしまゆうや",
       "relatedIds": [],
@@ -7812,14 +7812,14 @@
     {
       "age": "44",
       "category": "candidate",
-      "description": "比北関東 / みらい / 新人 / 当選1回 / 44歳",
+      "description": "比北関東 / チームみらい / 新人 / 当選1回 / 44歳",
       "districtLabel": "比北関東",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-412",
       "label": "武藤 かず子",
-      "partyLabel": "みらい",
+      "partyLabel": "チームみらい",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-412.png",
       "reading": "むとうかずこ",
       "relatedIds": [],
@@ -7964,8 +7964,8 @@
     {
       "age": "70",
       "category": "candidate",
-      "description": "比北海道 / 自由民主党 / 前職 / 当選12回 / 70歳",
-      "districtLabel": "比北海道",
+      "description": "栃木5区 / 自由民主党 / 前職 / 当選12回 / 70歳",
+      "districtLabel": "栃木5区",
       "electionIds": [
         "shugiin-51st"
       ],
@@ -7976,7 +7976,7 @@
       "reading": "もてぎとしみつ",
       "relatedIds": [],
       "reviewStatus": "ok",
-      "seatType": "比例",
+      "seatType": "小選挙区",
       "statusLabel": "前職",
       "wins": "12"
     },
@@ -8021,14 +8021,14 @@
     {
       "age": "46",
       "category": "candidate",
-      "description": "比北海道 / 立憲民主党 / 前職 / 当選5回 / 46歳",
+      "description": "比北海道 / 中道改革連合 / 前職 / 当選5回 / 46歳",
       "districtLabel": "比北海道",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-423",
       "label": "山岡達丸",
-      "partyLabel": "立憲民主党",
+      "partyLabel": "中道改革連合",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-423.png",
       "reading": "やまおかたつまる",
       "relatedIds": [],
@@ -8116,14 +8116,14 @@
     {
       "age": "54",
       "category": "candidate",
-      "description": "比四国 / 立憲民主党 / 前職 / 当選3回 / 54歳",
+      "description": "比四国 / 中道改革連合 / 前職 / 当選3回 / 54歳",
       "districtLabel": "比四国",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-428",
       "label": "山崎正恭",
-      "partyLabel": "立憲民主党",
+      "partyLabel": "中道改革連合",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-428.png",
       "reading": "やまさきまさやす",
       "relatedIds": [],
@@ -8249,14 +8249,14 @@
     {
       "age": "54",
       "category": "candidate",
-      "description": "比近畿 / 公明党 / 新人 / 当選1回 / 54歳",
+      "description": "比近畿 / 中道改革連合 / 新人 / 当選1回 / 54歳",
       "districtLabel": "比近畿",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-435",
       "label": "山本香苗",
-      "partyLabel": "公明党",
+      "partyLabel": "中道改革連合",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-435.png",
       "reading": "やまもとかなえ",
       "relatedIds": [],
@@ -8287,14 +8287,14 @@
     {
       "age": "43",
       "category": "candidate",
-      "description": "比南関東 / みらい / 新人 / 当選1回 / 43歳",
+      "description": "比南関東 / チームみらい / 新人 / 当選1回 / 43歳",
       "districtLabel": "比南関東",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-437",
       "label": "山田瑛理",
-      "partyLabel": "みらい",
+      "partyLabel": "チームみらい",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-437.png",
       "reading": "やまだえり",
       "relatedIds": [],
@@ -8534,14 +8534,14 @@
     {
       "age": "58",
       "category": "candidate",
-      "description": "比九州 / 公明党 / 前職 / 当選5回 / 58歳",
+      "description": "比九州 / 中道改革連合 / 前職 / 当選5回 / 58歳",
       "districtLabel": "比九州",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-450",
       "label": "吉田宣弘",
-      "partyLabel": "公明党",
+      "partyLabel": "中道改革連合",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-450.png",
       "reading": "よしだのぶひろ",
       "relatedIds": [],
@@ -8610,14 +8610,14 @@
     {
       "age": "61",
       "category": "candidate",
-      "description": "比南関東 / 立憲民主党 / 前職 / 当選9回 / 61歳",
+      "description": "比南関東 / 中道改革連合 / 前職 / 当選9回 / 61歳",
       "districtLabel": "比南関東",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-454",
       "label": "笠浩史",
-      "partyLabel": "立憲民主党",
+      "partyLabel": "中道改革連合",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-454.png",
       "reading": "りゅうひろふみ",
       "relatedIds": [],
@@ -8724,14 +8724,14 @@
     {
       "age": "67",
       "category": "candidate",
-      "description": "比南関東 / 立憲民主党 / 前職 / 当選4回 / 67歳",
+      "description": "比南関東 / 中道改革連合 / 前職 / 当選4回 / 67歳",
       "districtLabel": "比南関東",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-460",
       "label": "早稲田 夕季",
-      "partyLabel": "立憲民主党",
+      "partyLabel": "中道改革連合",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-460.png",
       "reading": "わせだゆき",
       "relatedIds": [],
@@ -8800,14 +8800,14 @@
     {
       "age": "48",
       "category": "candidate",
-      "description": "宮崎1区 / 立憲民主党 / 前職 / 当選3回 / 48歳",
+      "description": "宮崎1区 / 中道改革連合 / 前職 / 当選3回 / 48歳",
       "districtLabel": "宮崎1区",
       "electionIds": [
         "shugiin-51st"
       ],
       "id": "candidate-464",
       "label": "渡辺 創",
-      "partyLabel": "立憲民主党",
+      "partyLabel": "中道改革連合",
       "photoUrl": "/data/glossary/photos/shugiin-51st/candidate-464.png",
       "reading": "わたなべ そう",
       "relatedIds": [],

@@ -54,9 +54,9 @@ export const specialPages: SpecialPageConfig[] = [
   {
     id: 'parties',
     path: '/parties',
-    eyebrow: 'PARTY ANALYTICS',
-    title: '政党別データ',
-    subtitle: '政党別議席、前回比、小選挙区と比例区の内訳をまとめる分析ページ。',
+    eyebrow: 'CAUCUS ANALYTICS',
+    title: '会派別データ',
+    subtitle: '会派別議席、前回比、小選挙区と比例区の内訳をまとめる分析ページ。',
     imageUrl: '/data/shugiin-50th/visuals/pages/party-analysis.png',
     accent: '#22c55e',
     metrics: [
@@ -65,7 +65,7 @@ export const specialPages: SpecialPageConfig[] = [
       { label: '地域', value: '47', detail: '分布分析' },
     ],
     panels: [
-      { title: '政党別議席表', description: 'JSONのpartySeatsを正として、政党別に議席数を表示します。', tags: ['議席', '政党'] },
+      { title: '会派別議席表', description: '公式結果データを正として、会派別に議席数を表示します。', tags: ['議席', '会派'] },
       { title: '小選挙区 / 比例内訳', description: '選挙制度ごとの獲得状況を比較しやすくします。', tags: ['小選挙区', '比例'] },
       { title: '地域別の強弱', description: '都道府県や比例ブロックごとの傾向を見せる拡張枠です。', tags: ['地域', '比較'] },
     ],
@@ -85,7 +85,7 @@ export const specialPages: SpecialPageConfig[] = [
     ],
     panels: [
       { title: '比例ブロック選択', description: '北海道から九州まで、ブロック別に結果を切り替えます。', tags: ['11ブロック', '選択'] },
-      { title: '議席配分', description: '政党別の比例議席と得票率を同じ画面で確認できます。', tags: ['議席', '得票率'] },
+      { title: '議席配分', description: '会派別の比例議席と得票率を同じ画面で確認できます。', tags: ['議席', '得票率'] },
       { title: '比例復活', description: '復活当選者や惜敗率の表示へ拡張しやすい構造です。', tags: ['比例復活', '惜敗率'] },
     ],
   },

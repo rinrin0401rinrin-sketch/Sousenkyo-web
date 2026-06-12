@@ -121,6 +121,11 @@
       "prefectureId": "akita"
     },
     {
+      "id": "akita-2",
+      "name": "秋田2区",
+      "prefectureId": "akita"
+    },
+    {
       "id": "akita-3",
       "name": "秋田3区",
       "prefectureId": "akita"
@@ -216,6 +221,11 @@
       "prefectureId": "tochigi"
     },
     {
+      "id": "tochigi-5",
+      "name": "栃木5区",
+      "prefectureId": "tochigi"
+    },
+    {
       "id": "gunma-1",
       "name": "群馬1区",
       "prefectureId": "gunma"
@@ -263,6 +273,11 @@
     {
       "id": "saitama-5",
       "name": "埼玉5区",
+      "prefectureId": "saitama"
+    },
+    {
+      "id": "saitama-6",
+      "name": "埼玉6区",
       "prefectureId": "saitama"
     },
     {
@@ -426,6 +441,11 @@
       "prefectureId": "tokyo"
     },
     {
+      "id": "tokyo-9",
+      "name": "東京9区",
+      "prefectureId": "tokyo"
+    },
+    {
       "id": "tokyo-10",
       "name": "東京10区",
       "prefectureId": "tokyo"
@@ -463,6 +483,11 @@
     {
       "id": "tokyo-17",
       "name": "東京17区",
+      "prefectureId": "tokyo"
+    },
+    {
+      "id": "tokyo-18",
+      "name": "東京18区",
       "prefectureId": "tokyo"
     },
     {
@@ -533,6 +558,16 @@
     {
       "id": "kanagawa-2",
       "name": "神奈川2区",
+      "prefectureId": "kanagawa"
+    },
+    {
+      "id": "kanagawa-3",
+      "name": "神奈川3区",
+      "prefectureId": "kanagawa"
+    },
+    {
+      "id": "kanagawa-4",
+      "name": "神奈川4区",
       "prefectureId": "kanagawa"
     },
     {
@@ -646,6 +681,11 @@
       "prefectureId": "toyama"
     },
     {
+      "id": "toyama-2",
+      "name": "富山2区",
+      "prefectureId": "toyama"
+    },
+    {
       "id": "toyama-3",
       "name": "富山3区",
       "prefectureId": "toyama"
@@ -676,6 +716,11 @@
       "prefectureId": "fukui"
     },
     {
+      "id": "yamanashi-1",
+      "name": "山梨1区",
+      "prefectureId": "yamanashi"
+    },
+    {
       "id": "yamanashi-2",
       "name": "山梨2区",
       "prefectureId": "yamanashi"
@@ -683,6 +728,11 @@
     {
       "id": "nagano-1",
       "name": "長野1区",
+      "prefectureId": "nagano"
+    },
+    {
+      "id": "nagano-2",
+      "name": "長野2区",
       "prefectureId": "nagano"
     },
     {
@@ -766,6 +816,11 @@
       "prefectureId": "shizuoka"
     },
     {
+      "id": "aichi-1",
+      "name": "愛知1区",
+      "prefectureId": "aichi"
+    },
+    {
       "id": "aichi-2",
       "name": "愛知2区",
       "prefectureId": "aichi"
@@ -796,6 +851,11 @@
       "prefectureId": "aichi"
     },
     {
+      "id": "aichi-8",
+      "name": "愛知8区",
+      "prefectureId": "aichi"
+    },
+    {
       "id": "aichi-9",
       "name": "愛知9区",
       "prefectureId": "aichi"
@@ -803,6 +863,11 @@
     {
       "id": "aichi-10",
       "name": "愛知10区",
+      "prefectureId": "aichi"
+    },
+    {
+      "id": "aichi-11",
+      "name": "愛知11区",
       "prefectureId": "aichi"
     },
     {
@@ -858,6 +923,11 @@
     {
       "id": "shiga-2",
       "name": "滋賀2区",
+      "prefectureId": "shiga"
+    },
+    {
+      "id": "shiga-3",
+      "name": "滋賀3区",
       "prefectureId": "shiga"
     },
     {
@@ -961,6 +1031,16 @@
       "prefectureId": "osaka"
     },
     {
+      "id": "osaka-15",
+      "name": "大阪15区",
+      "prefectureId": "osaka"
+    },
+    {
+      "id": "osaka-16",
+      "name": "大阪16区",
+      "prefectureId": "osaka"
+    },
+    {
       "id": "osaka-17",
       "name": "大阪17区",
       "prefectureId": "osaka"
@@ -968,6 +1048,11 @@
     {
       "id": "osaka-18",
       "name": "大阪18区",
+      "prefectureId": "osaka"
+    },
+    {
+      "id": "osaka-19",
+      "name": "大阪19区",
       "prefectureId": "osaka"
     },
     {
@@ -1016,6 +1101,11 @@
       "prefectureId": "hyogo"
     },
     {
+      "id": "hyogo-10",
+      "name": "兵庫10区",
+      "prefectureId": "hyogo"
+    },
+    {
       "id": "hyogo-11",
       "name": "兵庫11区",
       "prefectureId": "hyogo"
@@ -1061,6 +1151,11 @@
       "prefectureId": "tottori"
     },
     {
+      "id": "shimane-1",
+      "name": "島根1区",
+      "prefectureId": "shimane"
+    },
+    {
       "id": "shimane-2",
       "name": "島根2区",
       "prefectureId": "shimane"
@@ -1078,6 +1173,11 @@
     {
       "id": "okayama-3",
       "name": "岡山3区",
+      "prefectureId": "okayama"
+    },
+    {
+      "id": "okayama-4",
+      "name": "岡山4区",
       "prefectureId": "okayama"
     },
     {
@@ -1263,6 +1363,11 @@
     {
       "id": "kumamoto-2",
       "name": "熊本2区",
+      "prefectureId": "kumamoto"
+    },
+    {
+      "id": "kumamoto-3",
+      "name": "熊本3区",
       "prefectureId": "kumamoto"
     },
     {
