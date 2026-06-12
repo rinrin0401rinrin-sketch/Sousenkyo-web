@@ -84,6 +84,10 @@ function findChrome() {
 async function dumpDom(url) {
   const { stdout } = await execFileAsync(chromeBin, [
     '--headless',
+    '--no-sandbox',
+    '--disable-dev-shm-usage',
+    '--disable-setuid-sandbox',
+    '--disable-extensions',
     '--disable-gpu',
     '--window-size=390,1200',
     '--virtual-time-budget=5000',
@@ -91,6 +95,8 @@ async function dumpDom(url) {
     url,
   ], {
     maxBuffer: 10 * 1024 * 1024,
+    timeout: 20000,
+    killSignal: 'SIGKILL',
   });
 
   return stdout;
