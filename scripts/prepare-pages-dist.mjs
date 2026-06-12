@@ -11,7 +11,6 @@ const staticRoutes = [
   'proportional',
   'archive',
   'glossary',
-  'unknown-route',
   'elections/shugiin-51st',
   'elections/shugiin-51st/prefectures/tokyo',
   'elections/shugiin-51st/members/aoyama-shigeharu',
