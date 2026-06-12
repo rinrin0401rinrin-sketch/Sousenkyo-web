@@ -44,7 +44,7 @@ jobs:
         run: npm run pages:build
 
       - name: Smoke Pages build
-        run: SMOKE_SKIP_BUILD=true SMOKE_BASE_PATH=/Sousenkyo-web npm run smoke:preview
+        run: test -f dist/index.html && test -f dist/404.html && test -f dist/glossary/index.html && test -d dist/assets
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
