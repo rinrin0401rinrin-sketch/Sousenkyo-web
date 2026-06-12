@@ -4,6 +4,7 @@ import { assertSafeElectionId, publicDataRoot, readJson } from './data-utils.mjs
 
 const electionId = process.argv.slice(2).find((arg) => !arg.startsWith('--')) ?? readCurrentElectionId();
 const requireFinalResults = process.argv.includes('--final-results') || process.env.REQUIRE_FINAL_RESULTS === 'true';
+const skipSmokePreview = process.env.RELEASE_CHECK_SKIP_SMOKE === 'true';
 const confirmedStatuses = new Set(['elected', 'proportionalRevival']);
 const placeholderStatuses = new Set(['counting', 'pending']);
 
@@ -35,8 +36,9 @@ const steps = [
   ['npm', ['run', 'validate:data:strict']],
   ['npm', ['run', 'report:data:check', '--', electionId]],
   ['npm', ['run', 'build']],
-  ['npm', ['run', 'smoke:preview']],
 ];
+
+if (!skipSmokePreview) steps.push(['npm', ['run', 'smoke:preview']]);
 
 for (const [command, args] of steps) {
   console.log(`\n> ${command} ${args.join(' ')}`);
