@@ -6,7 +6,6 @@ import { EmptyState } from '../components/EmptyState';
 import { ErrorScreen } from '../components/ErrorScreen';
 import { LoadingScreen } from '../components/LoadingScreen';
 import { Panel } from '../components/Panel';
-import { PartyBadge } from '../components/PartyBadge';
 import { StatCard } from '../components/StatCard';
 import { specialPages } from '../data/specialPages';
 import { useAsyncData } from '../hooks/useAsyncData';
@@ -17,8 +16,9 @@ import {
   loadElectionsIndex,
   loadGlossaryCandidatesAndParties,
 } from '../utils/dataLoader';
-import { getPartySeats, getUndecidedDistrictCount } from '../utils/electionHelpers';
+import { getUndecidedDistrictCount } from '../utils/electionHelpers';
 import { getElectionReadiness } from '../utils/electionReadiness';
+import { getCaucusSeatCounts, getGlossaryCaucusRoster } from '../utils/caucusGroups';
 import { publicPath } from '../utils/publicPath';
 
 export function HomePage() {
@@ -41,7 +41,7 @@ export function HomePage() {
   }
 
   const { active, index, bundle, glossary } = state.data;
-  const partySeats = getPartySeats(bundle);
+  const caucusSeats = getCaucusSeatCounts(bundle.summary.partySeats, bundle.parties);
   const undecidedDistrictCount = getUndecidedDistrictCount(bundle);
   const readiness = getElectionReadiness(bundle);
   const totalSeats = bundle.summary.totalSeats;
@@ -51,7 +51,7 @@ export function HomePage() {
   const singleMemberCandidates = glossaryCandidates.filter((entry) => entry.seatType === '小選挙区');
   const proportionalCandidates = glossaryCandidates.filter((entry) => entry.seatType === '比例');
   const photoReadyCandidates = glossaryCandidates.filter((entry) => Boolean(entry.photoUrl));
-  const partyRoster = getGlossaryPartyRoster(glossaryCandidates, glossaryParties);
+  const caucusRoster = getGlossaryCaucusRoster(glossaryCandidates, glossaryParties);
   const previewCandidates = getGlossaryPreviewCandidates(glossaryCandidates);
   const glossarySearchPath = `/glossary?category=candidate&election=${encodeURIComponent(active.currentId)}`;
 
@@ -145,18 +145,21 @@ export function HomePage() {
             <div className="rounded-[1.75rem] border border-white/70 bg-white/55 p-4 shadow-sm backdrop-blur-xl">
               <div className="mb-3 flex items-center justify-between gap-3">
                 <div>
-                  <p className="text-xs font-black uppercase tracking-[0.16em] text-slate-500">Party Master</p>
-                  <h3 className="mt-1 text-lg font-black text-slate-950">政党名マスター</h3>
+                  <p className="text-xs font-black uppercase tracking-[0.16em] text-slate-500">Caucus Roster</p>
+                  <h3 className="mt-1 text-lg font-black text-slate-950">会派別内訳</h3>
                 </div>
                 <span className="rounded-full bg-white/70 px-3 py-1 text-xs font-black text-slate-600">
-                  {partyRoster.length} parties
+                  {caucusRoster.length}会派
                 </span>
               </div>
               <div className="grid gap-2">
-                {partyRoster.map((party) => (
-                  <div key={party.label} className="flex items-center justify-between rounded-2xl border border-white/70 bg-white/55 px-3 py-2">
-                    <span className="text-sm font-black text-slate-800">{party.label}</span>
-                    <span className="text-xs font-bold text-slate-500">{party.count}名</span>
+                {caucusRoster.map((caucus) => (
+                  <div key={caucus.id} className="flex items-center justify-between rounded-2xl border border-white/70 bg-white/55 px-3 py-2">
+                    <span className="inline-flex min-w-0 items-center gap-2 text-sm font-black text-slate-800">
+                      <span className="h-2.5 w-2.5 shrink-0 rounded-full" style={{ backgroundColor: caucus.color }} />
+                      <span className="truncate">{caucus.label}</span>
+                    </span>
+                    <span className="shrink-0 text-xs font-bold text-slate-500">{caucus.count}名</span>
                   </div>
                 ))}
               </div>
@@ -251,46 +254,53 @@ export function HomePage() {
           <div className="mb-4 flex items-center justify-between gap-4">
             <div>
               <p className="text-xs font-bold text-slate-500">
-                {readiness.isCandidateRosterMode ? '第51回候補者マスター' : '既存政党のみ'}
+                {readiness.isCandidateRosterMode ? '第51回候補者マスター' : '会派別集計'}
               </p>
               <h2 className="text-2xl font-black text-slate-950">
-                {readiness.isCandidateRosterMode ? '政党別候補者数' : '政党別議席数'}
+                {readiness.isCandidateRosterMode ? '会派別候補者数' : '会派別議席数'}
               </h2>
             </div>
           </div>
           {readiness.isCandidateRosterMode ? (
             <div className="space-y-3">
-              {partyRoster.map((party) => (
-                <div key={party.label} className="rounded-3xl border border-slate-200 bg-white p-4">
+              {caucusRoster.map((caucus) => (
+                <div key={caucus.id} className="rounded-3xl border border-slate-200 bg-white p-4">
                   <div className="flex items-center justify-between gap-4">
-                    <span className="text-sm font-black text-slate-800">{party.label}</span>
-                    <span className="text-xl font-black text-slate-950">{party.count}</span>
+                    <span className="inline-flex min-w-0 items-center gap-2 text-sm font-black text-slate-800">
+                      <span className="h-2.5 w-2.5 shrink-0 rounded-full" style={{ backgroundColor: caucus.color }} />
+                      <span className="truncate">{caucus.label}</span>
+                    </span>
+                    <span className="shrink-0 text-xl font-black text-slate-950">{caucus.count}</span>
                   </div>
                   <div className="mt-3 h-2 overflow-hidden rounded-full bg-slate-100">
                     <div
-                      className="h-full rounded-full bg-sky-400"
+                      className="h-full rounded-full"
                       style={{
-                        width: glossaryCandidates.length > 0 ? `${Math.min(100, (party.count / glossaryCandidates.length) * 100)}%` : '0%',
+                        width: glossaryCandidates.length > 0 ? `${Math.min(100, (caucus.count / glossaryCandidates.length) * 100)}%` : '0%',
+                        backgroundColor: caucus.color,
                       }}
                     />
                   </div>
                 </div>
               ))}
             </div>
-          ) : partySeats.length > 0 ? (
+          ) : caucusSeats.length > 0 ? (
             <div className="space-y-3">
-              {partySeats.map(({ partyId, seats, party }) => (
-                <div key={partyId} className="rounded-3xl border border-slate-200 bg-white p-4">
+              {caucusSeats.map((caucus) => (
+                <div key={caucus.id} className="rounded-3xl border border-slate-200 bg-white p-4">
                   <div className="flex items-center justify-between gap-4">
-                    <PartyBadge party={party} />
-                    <span className="text-xl font-black text-slate-950">{seats}</span>
+                    <span className="inline-flex min-w-0 items-center gap-2 rounded-full border border-white/70 bg-white/65 px-3 py-1 text-xs font-bold text-slate-700 shadow-sm backdrop-blur-xl">
+                      <span className="h-2.5 w-2.5 shrink-0 rounded-full" style={{ backgroundColor: caucus.color }} />
+                      <span className="truncate">{caucus.label}</span>
+                    </span>
+                    <span className="shrink-0 text-xl font-black text-slate-950">{caucus.count}</span>
                   </div>
                   <div className="mt-3 h-2 overflow-hidden rounded-full bg-slate-100">
                     <div
                       className="h-full rounded-full"
                       style={{
-                        width: totalSeats > 0 ? `${Math.min(100, (seats / totalSeats) * 100)}%` : '0%',
-                        backgroundColor: party?.color ?? '#94a3b8',
+                        width: totalSeats > 0 ? `${Math.min(100, (caucus.count / totalSeats) * 100)}%` : '0%',
+                        backgroundColor: caucus.color,
                       }}
                     />
                   </div>
@@ -298,25 +308,12 @@ export function HomePage() {
               ))}
             </div>
           ) : (
-            <EmptyState title="議席データは未反映です" message="公式結果CSV/Excelを確認後、summary.json の partySeats を反映します。" />
+            <EmptyState title="会派別議席は未反映です" message="公式結果CSV/Excelを確認後、会派別の議席内訳を反映します。" />
           )}
         </Panel>
       </div>
     </AppShell>
   );
-}
-
-function getGlossaryPartyRoster(candidates: GlossaryEntry[], parties: GlossaryEntry[]) {
-  const counts = new Map<string, number>();
-  for (const candidate of candidates) {
-    if (!candidate.partyLabel) continue;
-    counts.set(candidate.partyLabel, (counts.get(candidate.partyLabel) ?? 0) + 1);
-  }
-
-  return parties
-    .map((party) => ({ label: party.label, count: counts.get(party.label) ?? 0 }))
-    .filter((party) => party.count > 0)
-    .sort((left, right) => right.count - left.count || left.label.localeCompare(right.label, 'ja'));
 }
 
 function getGlossaryPreviewCandidates(candidates: GlossaryEntry[]) {

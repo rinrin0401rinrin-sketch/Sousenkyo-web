@@ -1,7 +1,7 @@
 {
   "prefectures": [
     {
-      "districtCount": 13,
+      "districtCount": 12,
       "id": "hokkaido",
       "name": "北海道",
       "region": "北海道"
@@ -19,13 +19,13 @@
       "region": "東北"
     },
     {
-      "districtCount": 6,
+      "districtCount": 5,
       "id": "miyagi",
       "name": "宮城",
       "region": "東北"
     },
     {
-      "districtCount": 2,
+      "districtCount": 3,
       "id": "akita",
       "name": "秋田",
       "region": "東北"
@@ -49,7 +49,7 @@
       "region": "関東"
     },
     {
-      "districtCount": 4,
+      "districtCount": 5,
       "id": "tochigi",
       "name": "栃木",
       "region": "関東"
@@ -73,13 +73,13 @@
       "region": "関東"
     },
     {
-      "districtCount": 29,
+      "districtCount": 30,
       "id": "tokyo",
       "name": "東京",
       "region": "関東"
     },
     {
-      "districtCount": 19,
+      "districtCount": 20,
       "id": "kanagawa",
       "name": "神奈川",
       "region": "関東"
@@ -109,13 +109,13 @@
       "region": "北陸信越"
     },
     {
-      "districtCount": 1,
+      "districtCount": 2,
       "id": "yamanashi",
       "name": "山梨",
       "region": "中部"
     },
     {
-      "districtCount": 4,
+      "districtCount": 5,
       "id": "nagano",
       "name": "長野",
       "region": "北陸信越"
@@ -133,7 +133,7 @@
       "region": "東海"
     },
     {
-      "districtCount": 13,
+      "districtCount": 16,
       "id": "aichi",
       "name": "愛知",
       "region": "東海"
@@ -145,7 +145,7 @@
       "region": "東海"
     },
     {
-      "districtCount": 2,
+      "districtCount": 3,
       "id": "shiga",
       "name": "滋賀",
       "region": "近畿"
@@ -157,13 +157,13 @@
       "region": "近畿"
     },
     {
-      "districtCount": 18,
+      "districtCount": 19,
       "id": "osaka",
       "name": "大阪",
       "region": "近畿"
     },
     {
-      "districtCount": 11,
+      "districtCount": 12,
       "id": "hyogo",
       "name": "兵庫",
       "region": "近畿"
@@ -187,13 +187,13 @@
       "region": "中国"
     },
     {
-      "districtCount": 1,
+      "districtCount": 2,
       "id": "shimane",
       "name": "島根",
       "region": "中国"
     },
     {
-      "districtCount": 3,
+      "districtCount": 4,
       "id": "okayama",
       "name": "岡山",
       "region": "中国"
@@ -229,13 +229,13 @@
       "region": "四国"
     },
     {
-      "districtCount": 3,
+      "districtCount": 2,
       "id": "kochi",
       "name": "高知",
       "region": "四国"
     },
     {
-      "districtCount": 13,
+      "districtCount": 11,
       "id": "fukuoka",
       "name": "福岡",
       "region": "九州"
@@ -253,13 +253,13 @@
       "region": "九州"
     },
     {
-      "districtCount": 3,
+      "districtCount": 4,
       "id": "kumamoto",
       "name": "熊本",
       "region": "九州"
     },
     {
-      "districtCount": 4,
+      "districtCount": 3,
       "id": "oita",
       "name": "大分",
       "region": "九州"

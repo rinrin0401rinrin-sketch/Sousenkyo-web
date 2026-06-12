@@ -13,17 +13,17 @@
     {
       "id": "kitakanto-block",
       "name": "北関東",
-      "seats": 20
+      "seats": 19
     },
     {
       "id": "minamikanto-block",
       "name": "南関東",
-      "seats": 24
+      "seats": 23
     },
     {
       "id": "tokyo-block",
       "name": "東京",
-      "seats": 21
+      "seats": 19
     },
     {
       "id": "hokuriku-shinetsu-block",
@@ -33,17 +33,17 @@
     {
       "id": "tokai-block",
       "name": "東海",
-      "seats": 23
+      "seats": 21
     },
     {
       "id": "kinki-block",
       "name": "近畿",
-      "seats": 29
+      "seats": 28
     },
     {
       "id": "chugoku-block",
       "name": "中国",
-      "seats": 11
+      "seats": 10
     },
     {
       "id": "shikoku-block",
@@ -53,7 +53,7 @@
     {
       "id": "kyushu-block",
       "name": "九州",
-      "seats": 21
+      "seats": 20
     }
   ]
 }

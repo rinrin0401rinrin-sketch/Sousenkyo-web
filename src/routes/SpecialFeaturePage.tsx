@@ -3,13 +3,13 @@ import { AppShell } from '../components/AppShell';
 import { EmptyState } from '../components/EmptyState';
 import { ErrorScreen } from '../components/ErrorScreen';
 import { LoadingScreen } from '../components/LoadingScreen';
-import { PartyBadge } from '../components/PartyBadge';
 import { StatCard } from '../components/StatCard';
 import { getSpecialPage, type SpecialPageId } from '../data/specialPages';
 import { useAsyncData } from '../hooks/useAsyncData';
 import { loadActiveElection, loadElectionBundle, loadElectionsIndex } from '../utils/dataLoader';
-import { getPartySeats, getUndecidedDistrictCount } from '../utils/electionHelpers';
+import { getUndecidedDistrictCount } from '../utils/electionHelpers';
 import { getElectionReadiness } from '../utils/electionReadiness';
+import { getBundleCaucusCandidateCounts, getCaucusSeatCounts, type CaucusCount } from '../utils/caucusGroups';
 import { publicPath } from '../utils/publicPath';
 
 type SpecialFeaturePageProps = {
@@ -28,8 +28,8 @@ export function SpecialFeaturePage({ pageId }: SpecialFeaturePageProps) {
   if (state.status === 'error') return <ErrorScreen message={state.error.message} />;
 
   const { active, index, bundle } = state.data;
-  const partySeats = getPartySeats(bundle);
-  const partyCandidateCounts = getPartyCandidateCounts(bundle);
+  const caucusSeats = getCaucusSeatCounts(bundle.summary.partySeats, bundle.parties);
+  const caucusCandidateCounts = getBundleCaucusCandidateCounts(bundle.members, bundle.parties);
   const readiness = getElectionReadiness(bundle);
   const undecidedDistrictCount = getUndecidedDistrictCount(bundle);
   const proportionalBlocks = bundle.proportionalBlocks.slice(0, 11);
@@ -111,8 +111,8 @@ export function SpecialFeaturePage({ pageId }: SpecialFeaturePageProps) {
           <ContextPanel
             pageId={pageId}
             activeId={active.currentId}
-            partySeats={partySeats}
-            partyCandidateCounts={partyCandidateCounts}
+            caucusSeats={caucusSeats}
+            caucusCandidateCounts={caucusCandidateCounts}
             isCandidateRosterMode={readiness.isCandidateRosterMode}
             elections={index.elections}
             blocks={proportionalBlocks}
@@ -126,16 +126,16 @@ export function SpecialFeaturePage({ pageId }: SpecialFeaturePageProps) {
 function ContextPanel({
   pageId,
   activeId,
-  partySeats,
-  partyCandidateCounts,
+  caucusSeats,
+  caucusCandidateCounts,
   isCandidateRosterMode,
   elections,
   blocks,
 }: {
   pageId: SpecialPageId;
   activeId: string;
-  partySeats: ReturnType<typeof getPartySeats>;
-  partyCandidateCounts: ReturnType<typeof getPartyCandidateCounts>;
+  caucusSeats: CaucusCount[];
+  caucusCandidateCounts: CaucusCount[];
   isCandidateRosterMode: boolean;
   elections: Awaited<ReturnType<typeof loadElectionsIndex>>['elections'];
   blocks: Awaited<ReturnType<typeof loadElectionBundle>>['proportionalBlocks'];
@@ -204,48 +204,42 @@ function ContextPanel({
   return (
     <aside className="glass-surface-rich p-5 sm:p-6">
       <p className="text-xs font-black uppercase tracking-[0.18em] text-slate-500">
-        {isCandidateRosterMode ? 'Party Roster' : 'Party Seats'}
+        {isCandidateRosterMode ? 'Caucus Roster' : 'Caucus Seats'}
       </p>
       <h2 className="mt-1 text-2xl font-black text-slate-950">
-        {isCandidateRosterMode ? '政党別候補者数' : '政党別議席'}
+        {isCandidateRosterMode ? '会派別候補者数' : '会派別議席'}
       </h2>
       {isCandidateRosterMode ? (
         <div className="mt-5 space-y-3">
-          {partyCandidateCounts.map(({ party, count }) => (
-            <div key={party.id} className="rounded-3xl border border-white/70 bg-white/60 p-4">
+          {caucusCandidateCounts.map((caucus) => (
+            <div key={caucus.id} className="rounded-3xl border border-white/70 bg-white/60 p-4">
               <div className="flex items-center justify-between gap-4">
-                <PartyBadge party={party} />
-                <span className="text-xl font-black text-slate-950">{count}</span>
+                <span className="inline-flex min-w-0 items-center gap-2 rounded-full border border-white/70 bg-white/65 px-3 py-1 text-xs font-bold text-slate-700 shadow-sm backdrop-blur-xl">
+                  <span className="h-2.5 w-2.5 shrink-0 rounded-full" style={{ backgroundColor: caucus.color }} />
+                  <span className="truncate">{caucus.label}</span>
+                </span>
+                <span className="shrink-0 text-xl font-black text-slate-950">{caucus.count}</span>
               </div>
             </div>
           ))}
         </div>
-      ) : partySeats.length > 0 ? (
+      ) : caucusSeats.length > 0 ? (
         <div className="mt-5 space-y-3">
-          {partySeats.map(({ partyId, seats, party }) => (
-            <div key={partyId} className="rounded-3xl border border-white/70 bg-white/60 p-4">
+          {caucusSeats.map((caucus) => (
+            <div key={caucus.id} className="rounded-3xl border border-white/70 bg-white/60 p-4">
               <div className="flex items-center justify-between gap-4">
-                <PartyBadge party={party} />
-                <span className="text-xl font-black text-slate-950">{seats}</span>
+                <span className="inline-flex min-w-0 items-center gap-2 rounded-full border border-white/70 bg-white/65 px-3 py-1 text-xs font-bold text-slate-700 shadow-sm backdrop-blur-xl">
+                  <span className="h-2.5 w-2.5 shrink-0 rounded-full" style={{ backgroundColor: caucus.color }} />
+                  <span className="truncate">{caucus.label}</span>
+                </span>
+                <span className="shrink-0 text-xl font-black text-slate-950">{caucus.count}</span>
               </div>
             </div>
           ))}
         </div>
       ) : (
-        <EmptyState title="政党別議席は未反映です" message="公式結果CSV/Excelを確認後、summary.json の partySeats を反映します。" />
+        <EmptyState title="会派別議席は未反映です" message="公式結果CSV/Excelを確認後、会派別の議席内訳を反映します。" />
       )}
     </aside>
   );
-}
-
-function getPartyCandidateCounts(bundle: Awaited<ReturnType<typeof loadElectionBundle>>) {
-  const counts = new Map<string, number>();
-  for (const member of bundle.members) {
-    counts.set(member.partyId, (counts.get(member.partyId) ?? 0) + 1);
-  }
-
-  return bundle.parties
-    .map((party) => ({ party, count: counts.get(party.id) ?? 0 }))
-    .filter((item) => item.count > 0)
-    .sort((left, right) => right.count - left.count || left.party.name.localeCompare(right.party.name, 'ja'));
 }

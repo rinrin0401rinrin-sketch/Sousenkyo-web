@@ -40,21 +40,9 @@
       "electionIds": [
         "shugiin-51st"
       ],
-      "id": "party-cdp",
-      "label": "立憲民主党",
-      "reading": "りっけんみんしゅとう",
-      "relatedIds": [],
-      "reviewStatus": "ok"
-    },
-    {
-      "category": "party",
-      "description": "第51回単語帳で使用する政党名です。",
-      "electionIds": [
-        "shugiin-51st"
-      ],
-      "id": "party-komeito",
-      "label": "公明党",
-      "reading": "こうめいとう",
+      "id": "party-centrist-reform",
+      "label": "中道改革連合",
+      "reading": "ちゅうどうかいかくれんごう",
       "relatedIds": [],
       "reviewStatus": "ok"
     },
@@ -160,9 +148,9 @@
       "electionIds": [
         "shugiin-51st"
       ],
-      "id": "party-mirai",
-      "label": "みらい",
-      "reading": "みらい",
+      "id": "party-team-mirai",
+      "label": "チームみらい",
+      "reading": "ちーむみらい",
       "relatedIds": [],
       "reviewStatus": "ok"
     },
@@ -172,9 +160,9 @@
       "electionIds": [
         "shugiin-51st"
       ],
-      "id": "party-yuukoku",
-      "label": "ゆうこく",
-      "reading": "ゆうこく",
+      "id": "party-yuukoku-union",
+      "label": "ゆうこく連合",
+      "reading": "ゆうこくれんごう",
       "relatedIds": [],
       "reviewStatus": "ok"
     }

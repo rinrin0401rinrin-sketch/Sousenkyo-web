@@ -11,6 +11,7 @@ export type GlossaryEntry = {
   photoUrl?: string;
   districtLabel?: string;
   partyLabel?: string;
+  caucusLabel?: string;
   statusLabel?: string;
   age?: string;
   wins?: string;

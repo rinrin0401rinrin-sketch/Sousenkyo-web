@@ -1,3 +1,3 @@
-id,label,category,reading,description,electionIds,relatedIds,photoUrl,districtLabel,partyLabel,statusLabel,age,wins,seatType,reviewStatus
-district-tokyo-1,東京1区,district,とうきょういっく,小選挙区を検索・カード表示するための確認用項目です。,shugiin-50th,,,,,,,,,
-district-osaka-1,大阪1区,district,おおさかいっく,PDF由来の選挙区名を登録するための確認用項目です。,shugiin-50th,,,,,,,,,
+id,label,category,reading,description,electionIds,relatedIds,photoUrl,districtLabel,partyLabel,caucusLabel,statusLabel,age,wins,seatType,reviewStatus
+district-tokyo-1,東京1区,district,とうきょういっく,小選挙区を検索・カード表示するための確認用項目です。,shugiin-50th,,,,,,,,,,
+district-osaka-1,大阪1区,district,おおさかいっく,PDF由来の選挙区名を登録するための確認用項目です。,shugiin-50th,,,,,,,,,,

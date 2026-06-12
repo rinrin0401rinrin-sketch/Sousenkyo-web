@@ -435,6 +435,7 @@ function normalizeGlossaryCsvRow(row, expectedCategory, pushError) {
     photoUrl: row.photoUrl,
     districtLabel: row.districtLabel,
     partyLabel: row.partyLabel,
+    caucusLabel: row.caucusLabel,
     statusLabel: row.statusLabel,
     age: row.age,
     wins: row.wins,

@@ -8,15 +8,9 @@
     },
     {
       "color": "#ef4444",
-      "id": "party-cdp",
-      "name": "立憲民主党",
-      "shortName": "立憲"
-    },
-    {
-      "color": "#f59e0b",
-      "id": "party-komeito",
-      "name": "公明党",
-      "shortName": "公明"
+      "id": "party-centrist-reform",
+      "name": "中道改革連合",
+      "shortName": "中"
     },
     {
       "color": "#22c55e",
@@ -68,15 +62,15 @@
     },
     {
       "color": "#7c3aed",
-      "id": "party-mirai",
-      "name": "みらい",
-      "shortName": "みらい"
+      "id": "party-team-mirai",
+      "name": "チームみらい",
+      "shortName": "み"
     },
     {
       "color": "#334155",
-      "id": "party-yuukoku",
-      "name": "ゆうこく",
-      "shortName": "ゆうこく"
+      "id": "party-yuukoku-union",
+      "name": "ゆうこく連合",
+      "shortName": "ゆ"
     }
   ]
 }

@@ -10,7 +10,7 @@ const chromeBin = process.env.CHROME_BIN ?? findChrome();
 const routes = [
   {
     path: '/',
-    includes: ['第51回 衆議院総選挙', '候補者を探す', '選挙を選択', '政党別候補者数'],
+    includes: ['第51回 衆議院総選挙', '候補者を探す', '選挙を選択', '会派別候補者数'],
   },
   {
     path: '/elections/shugiin-51st',
@@ -50,7 +50,7 @@ const routes = [
   },
   {
     path: '/parties',
-    includes: ['政党別データ', '政党別議席表', '小選挙区 / 比例内訳'],
+    includes: ['会派別データ', '会派別議席表', '小選挙区 / 比例内訳'],
   },
   {
     path: '/proportional',
@@ -62,7 +62,7 @@ const routes = [
   },
   {
     path: '/glossary',
-    includes: ['選挙単語帳', '検索辞書', '候補者名・選挙区・政党名で検索'],
+    includes: ['選挙単語帳', '検索辞書', '候補者名・選挙区・政党名・会派名で検索'],
   },
   {
     path: '/unknown-route',
