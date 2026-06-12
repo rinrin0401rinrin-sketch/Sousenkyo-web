@@ -1,4 +1,5 @@
 import { spawn } from 'node:child_process';
+import { once } from 'node:events';
 
 const port = process.env.PREVIEW_PORT ?? '4173';
 const host = '127.0.0.1';
@@ -26,7 +27,7 @@ try {
     SMOKE_BASE_URL: baseUrl,
   });
 } finally {
-  preview.kill('SIGTERM');
+  await stopProcess(preview);
 }
 
 function run(command, args, env = process.env) {
@@ -54,4 +55,18 @@ async function waitForHttp(url) {
     await new Promise((resolve) => setTimeout(resolve, 300));
   }
   throw new Error(`${url} did not become ready`);
+}
+
+async function stopProcess(child) {
+  if (child.exitCode !== null || child.signalCode !== null) return;
+
+  child.kill('SIGTERM');
+  const timeout = new Promise((resolve) => {
+    setTimeout(() => {
+      if (child.exitCode === null && child.signalCode === null) child.kill('SIGKILL');
+      resolve();
+    }, 3000);
+  });
+
+  await Promise.race([once(child, 'exit'), timeout]);
 }
