@@ -1,6 +1,7 @@
 {
   "members": [
     {
+      "caucusLabel": "自民",
       "districtId": "hyogo-8",
       "id": "aoyama-shigeharu",
       "name": "青山 繁晴",
@@ -11,6 +12,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "aichi-12",
       "id": "aoyama-shuhei",
       "name": "青山 周平",
@@ -21,6 +23,7 @@
       "wins": 5
     },
     {
+      "caucusLabel": "自民",
       "districtId": "tottori-2",
       "id": "akazawa-ryosei",
       "name": "赤沢 亮正",
@@ -31,6 +34,7 @@
       "wins": 8
     },
     {
+      "caucusLabel": "自民",
       "districtId": "okayama-1",
       "id": "aisawa-ichiro",
       "name": "逢沢 一郎",
@@ -41,6 +45,7 @@
       "wins": 14
     },
     {
+      "caucusLabel": "参政",
       "id": "aoki-hitomi",
       "name": "青木 ひとみ",
       "partyId": "party-sanseito",
@@ -51,6 +56,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "維新",
       "districtId": "osaka-14",
       "id": "aoyagi-hitoshi",
       "name": "青柳 仁士",
@@ -61,6 +67,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "自民",
       "id": "asada-masumi",
       "name": "浅田 真澄美",
       "partyId": "party-ldp",
@@ -71,6 +78,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "国民",
       "districtId": "ibaraki-5",
       "id": "asano-satoshi",
       "name": "浅野 哲",
@@ -81,6 +89,7 @@
       "wins": 4
     },
     {
+      "caucusLabel": "自民",
       "districtId": "hokkaido-6",
       "id": "azuma-kuniyoshi",
       "name": "東 国幹",
@@ -91,6 +100,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "中道",
       "id": "akaba-kazuyoshi",
       "name": "赤羽 一嘉",
       "partyId": "party-centrist-reform",
@@ -101,6 +111,7 @@
       "wins": 11
     },
     {
+      "caucusLabel": "自民",
       "districtId": "kanagawa-14",
       "id": "akama-jiro",
       "name": "赤間 二郎",
@@ -111,6 +122,7 @@
       "wins": 7
     },
     {
+      "caucusLabel": "自民",
       "id": "akiba-kenya",
       "name": "秋葉 賢也",
       "partyId": "party-ldp",
@@ -121,6 +133,7 @@
       "wins": 8
     },
     {
+      "caucusLabel": "維新",
       "districtId": "hyogo-2",
       "id": "abe-keishi",
       "name": "阿部 圭史",
@@ -131,6 +144,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "維新",
       "id": "abe-tsukasa",
       "name": "阿部 司",
       "partyId": "party-ishin",
@@ -141,6 +155,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "自民",
       "id": "abe-toshiko",
       "name": "阿部 俊子",
       "partyId": "party-ldp",
@@ -151,6 +166,7 @@
       "wins": 8
     },
     {
+      "caucusLabel": "維新",
       "districtId": "osaka-3",
       "id": "azuma-toru",
       "name": "東 徹",
@@ -161,6 +177,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "自民",
       "districtId": "tokyo-6",
       "id": "azemoto-shogo",
       "name": "畦元 将吾",
@@ -171,6 +188,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "自民",
       "districtId": "fukuoka-8",
       "id": "aso-taro",
       "name": "麻生 太郎",
@@ -181,6 +199,7 @@
       "wins": 16
     },
     {
+      "caucusLabel": "国民",
       "id": "iizumi-kamon",
       "name": "飯泉 嘉門",
       "partyId": "party-dpfp",
@@ -191,6 +210,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "tochigi-2",
       "id": "igarashi-kiyoshi",
       "name": "五十嵐 清",
@@ -201,6 +221,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "維新",
       "districtId": "osaka-10",
       "id": "candidate-021",
       "name": "池下卓",
@@ -211,6 +232,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-022",
       "name": "阿部弘樹",
       "partyId": "party-ldp",
@@ -221,6 +243,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "中道",
       "id": "candidate-023",
       "name": "有田芳生",
       "partyId": "party-centrist-reform",
@@ -231,6 +254,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "自民",
       "districtId": "tokyo-28",
       "id": "candidate-024",
       "name": "安藤高夫",
@@ -241,6 +265,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "自民",
       "districtId": "aichi-13",
       "id": "candidate-025",
       "name": "石井 拓",
@@ -251,6 +276,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-026",
       "name": "石川 昭政",
       "partyId": "party-ldp",
@@ -261,6 +287,7 @@
       "wins": 5
     },
     {
+      "caucusLabel": "参政",
       "id": "candidate-027",
       "name": "石川 勝",
       "partyId": "party-sanseito",
@@ -271,6 +298,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "維新",
       "id": "candidate-028",
       "name": "池畑浩太朗",
       "partyId": "party-ishin",
@@ -281,6 +309,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "中道",
       "id": "candidate-029",
       "name": "伊佐進一",
       "partyId": "party-centrist-reform",
@@ -291,6 +320,7 @@
       "wins": 5
     },
     {
+      "caucusLabel": "無所属",
       "id": "candidate-030",
       "name": "石井啓一",
       "partyId": "party-centrist-reform",
@@ -301,6 +331,7 @@
       "wins": 11
     },
     {
+      "caucusLabel": "自民",
       "districtId": "hiroshima-3",
       "id": "candidate-031",
       "name": "石橋林太郎",
@@ -311,6 +342,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "自民",
       "districtId": "tokyo-3",
       "id": "candidate-032",
       "name": "石原宏高",
@@ -321,6 +353,7 @@
       "wins": 7
     },
     {
+      "caucusLabel": "自民",
       "districtId": "mie-3",
       "id": "candidate-033",
       "name": "石原正敬",
@@ -331,6 +364,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "自民",
       "districtId": "tochigi-4",
       "id": "candidate-034",
       "name": "石坂 太",
@@ -341,6 +375,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-035",
       "name": "石田真敏",
       "partyId": "party-ldp",
@@ -351,6 +386,7 @@
       "wins": 10
     },
     {
+      "caucusLabel": "自民",
       "districtId": "tottori-1",
       "id": "candidate-036",
       "name": "石破茂",
@@ -361,6 +397,7 @@
       "wins": 14
     },
     {
+      "caucusLabel": "自民",
       "districtId": "nagano-3",
       "id": "candidate-037",
       "name": "井出庸生",
@@ -371,6 +408,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "国民",
       "id": "candidate-038",
       "name": "井戸正枝",
       "partyId": "party-dpfp",
@@ -381,6 +419,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "参政",
       "id": "candidate-039",
       "name": "伊藤恵介",
       "partyId": "party-sanseito",
@@ -391,6 +430,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "中道",
       "districtId": "kyoto-3",
       "id": "candidate-040",
       "name": "泉健太",
@@ -401,6 +441,7 @@
       "wins": 10
     },
     {
+      "caucusLabel": "維新",
       "id": "candidate-041",
       "name": "一谷勇一郎",
       "partyId": "party-ishin",
@@ -411,6 +452,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "維新",
       "id": "candidate-042",
       "name": "市村浩一郎",
       "partyId": "party-ishin",
@@ -421,6 +463,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "自民",
       "districtId": "tokyo-22",
       "id": "candidate-043",
       "name": "伊藤達也",
@@ -431,6 +474,7 @@
       "wins": 11
     },
     {
+      "caucusLabel": "維新",
       "id": "candidate-044",
       "name": "伊東信久",
       "partyId": "party-ishin",
@@ -441,6 +485,7 @@
       "wins": 5
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-045",
       "name": "伊東良孝",
       "partyId": "party-ldp",
@@ -451,6 +496,7 @@
       "wins": 7
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-046",
       "name": "伊藤聡",
       "partyId": "party-ldp",
@@ -461,6 +507,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-047",
       "name": "伊藤信太郎",
       "partyId": "party-ldp",
@@ -471,6 +518,7 @@
       "wins": 8
     },
     {
+      "caucusLabel": "自民",
       "districtId": "aichi-8",
       "id": "candidate-048",
       "name": "伊藤忠彦",
@@ -481,6 +529,7 @@
       "wins": 7
     },
     {
+      "caucusLabel": "自民",
       "districtId": "gunma-2",
       "id": "candidate-049",
       "name": "井野俊郎",
@@ -491,6 +540,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "自民",
       "districtId": "tokyo-25",
       "id": "candidate-050",
       "name": "井上 信治",
@@ -501,6 +551,7 @@
       "wins": 9
     },
     {
+      "caucusLabel": "自民",
       "districtId": "fukuoka-1",
       "id": "candidate-051",
       "name": "井上貴博",
@@ -511,6 +562,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "自民",
       "districtId": "fukui-1",
       "id": "candidate-052",
       "name": "稲田朋美",
@@ -521,6 +573,7 @@
       "wins": 8
     },
     {
+      "caucusLabel": "自民",
       "districtId": "shizuoka-8",
       "id": "candidate-053",
       "name": "稲葉大輔",
@@ -531,6 +584,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "中道",
       "id": "candidate-054",
       "name": "犬飼明佳",
       "partyId": "party-centrist-reform",
@@ -541,6 +595,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "saitama-5",
       "id": "candidate-055",
       "name": "井原隆",
@@ -551,6 +606,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "aichi-14",
       "id": "candidate-056",
       "name": "今枝宗一郎",
@@ -561,6 +617,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "自民",
       "districtId": "tokyo-26",
       "id": "candidate-057",
       "name": "今岡植",
@@ -571,6 +628,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "維新",
       "districtId": "osaka-1",
       "id": "candidate-058",
       "name": "井上英孝",
@@ -581,6 +639,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "自民",
       "districtId": "shizuoka-2",
       "id": "candidate-059",
       "name": "井林辰憲",
@@ -591,6 +650,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "自民",
       "districtId": "ehime-2",
       "id": "candidate-060",
       "name": "井原 巧",
@@ -601,6 +661,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "自民",
       "districtId": "oita-3",
       "id": "candidate-061",
       "name": "岩屋毅",
@@ -611,6 +672,7 @@
       "wins": 11
     },
     {
+      "caucusLabel": "自民",
       "districtId": "fukushima-3",
       "id": "candidate-062",
       "name": "上杉謙太郎",
@@ -621,6 +683,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "自民",
       "districtId": "toyama-2",
       "id": "candidate-063",
       "name": "上田英俊",
@@ -631,6 +694,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-064",
       "name": "岩崎比菜",
       "partyId": "party-ldp",
@@ -641,6 +705,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "saga-1",
       "id": "candidate-065",
       "name": "岩田和親",
@@ -651,6 +716,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "維新",
       "districtId": "osaka-13",
       "id": "candidate-066",
       "name": "岩谷良平",
@@ -661,6 +727,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "中道",
       "id": "candidate-067",
       "name": "浮島智子",
       "partyId": "party-centrist-reform",
@@ -671,6 +738,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "みらい",
       "id": "candidate-068",
       "name": "宇佐美 登",
       "partyId": "party-team-mirai",
@@ -681,6 +749,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "国民",
       "id": "candidate-069",
       "name": "臼木秀剛",
       "partyId": "party-dpfp",
@@ -691,6 +760,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "自民",
       "districtId": "shiga-2",
       "id": "candidate-070",
       "name": "上野賢一郎",
@@ -701,6 +771,7 @@
       "wins": 7
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-071",
       "name": "上野宏史",
       "partyId": "party-ldp",
@@ -711,6 +782,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "自民",
       "districtId": "kanagawa-9",
       "id": "candidate-072",
       "name": "上原正裕",
@@ -721,6 +793,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "維新",
       "districtId": "osaka-8",
       "id": "candidate-073",
       "name": "漆間譲司",
@@ -731,6 +804,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-074",
       "name": "江渡聡徳",
       "partyId": "party-ldp",
@@ -741,6 +815,7 @@
       "wins": 10
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-075",
       "name": "江藤拓",
       "partyId": "party-ldp",
@@ -751,6 +826,7 @@
       "wins": 9
     },
     {
+      "caucusLabel": "自民",
       "districtId": "niigata-1",
       "id": "candidate-076",
       "name": "内山航",
@@ -761,6 +837,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "維新",
       "districtId": "osaka-5",
       "id": "candidate-077",
       "name": "梅村聡",
@@ -771,6 +848,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "維新",
       "districtId": "osaka-15",
       "id": "candidate-078",
       "name": "浦野靖人",
@@ -781,6 +859,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "自民",
       "districtId": "yamagata-1",
       "id": "candidate-079",
       "name": "遠藤寛明",
@@ -791,6 +870,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "shiga-1",
       "id": "candidate-080",
       "name": "大岡敏孝",
@@ -801,6 +881,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "自民",
       "districtId": "hyogo-6",
       "id": "candidate-081",
       "name": "大串正樹",
@@ -811,6 +892,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "自民",
       "districtId": "oita-1",
       "id": "candidate-082",
       "name": "衛藤博昭",
@@ -821,6 +903,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "chiba-5",
       "id": "candidate-083",
       "name": "英利アルフィヤ",
@@ -831,6 +914,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "維新",
       "districtId": "osaka-18",
       "id": "candidate-084",
       "name": "遠藤敬",
@@ -841,6 +925,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "自民",
       "districtId": "tokyo-16",
       "id": "candidate-085",
       "name": "大西洋平",
@@ -851,6 +936,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "自民",
       "districtId": "kagawa-3",
       "id": "candidate-086",
       "name": "大野敬太郎",
@@ -861,6 +947,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "中道",
       "id": "candidate-087",
       "name": "大森江里子",
       "partyId": "party-centrist-reform",
@@ -871,6 +958,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "中道",
       "id": "candidate-088",
       "name": "大島敦",
       "partyId": "party-centrist-reform",
@@ -881,6 +969,7 @@
       "wins": 10
     },
     {
+      "caucusLabel": "自民",
       "districtId": "tokyo-15",
       "id": "candidate-089",
       "name": "大空幸星",
@@ -891,6 +980,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "自民",
       "districtId": "saitama-9",
       "id": "candidate-090",
       "name": "大塚拓",
@@ -901,6 +991,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "自民",
       "districtId": "aichi-5",
       "id": "candidate-091",
       "name": "岡本康宏",
@@ -911,6 +1002,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "中道",
       "districtId": "kagawa-1",
       "id": "candidate-092",
       "name": "小川淳也",
@@ -921,6 +1013,7 @@
       "wins": 8
     },
     {
+      "caucusLabel": "維新",
       "districtId": "osaka-7",
       "id": "candidate-093",
       "name": "奥下剛光",
@@ -931,6 +1024,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "無所属",
       "districtId": "fukuoka-9",
       "id": "candidate-094",
       "name": "緒方 林太郎",
@@ -941,6 +1035,7 @@
       "wins": 5
     },
     {
+      "caucusLabel": "国民",
       "id": "candidate-095",
       "name": "岡野純子",
       "partyId": "party-dpfp",
@@ -951,6 +1046,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "中道",
       "id": "candidate-096",
       "name": "岡本三成",
       "partyId": "party-centrist-reform",
@@ -961,6 +1057,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "国民",
       "id": "candidate-097",
       "name": "小竹 凱",
       "partyId": "party-dpfp",
@@ -971,6 +1068,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "自民",
       "districtId": "tokyo-21",
       "id": "candidate-098",
       "name": "小田原潔",
@@ -981,6 +1079,7 @@
       "wins": 5
     },
     {
+      "caucusLabel": "中道",
       "id": "candidate-099",
       "name": "落合貴之",
       "partyId": "party-centrist-reform",
@@ -991,6 +1090,7 @@
       "wins": 5
     },
     {
+      "caucusLabel": "自民",
       "districtId": "kochi-2",
       "id": "candidate-100",
       "name": "尾崎 正直",
@@ -1001,6 +1101,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-101",
       "name": "長田紘一郎",
       "partyId": "party-ldp",
@@ -1011,6 +1112,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-102",
       "name": "小里泰弘",
       "partyId": "party-ldp",
@@ -1021,6 +1123,7 @@
       "wins": 7
     },
     {
+      "caucusLabel": "自民",
       "districtId": "gunma-5",
       "id": "candidate-103",
       "name": "小渕 優子",
@@ -1031,6 +1134,7 @@
       "wins": 10
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-104",
       "name": "尾身朝子",
       "partyId": "party-ldp",
@@ -1041,6 +1145,7 @@
       "wins": 4
     },
     {
+      "caucusLabel": "中道",
       "id": "candidate-105",
       "name": "河西宏一",
       "partyId": "party-centrist-reform",
@@ -1051,6 +1156,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "自民",
       "districtId": "fukuoka-2",
       "id": "candidate-106",
       "name": "鬼木誠",
@@ -1061,6 +1167,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "自民",
       "districtId": "miyagi-5",
       "id": "candidate-107",
       "name": "小野寺五典",
@@ -1071,6 +1178,7 @@
       "wins": 10
     },
     {
+      "caucusLabel": "自民",
       "districtId": "saitama-6",
       "id": "candidate-108",
       "name": "尾花瑛仁",
@@ -1081,6 +1189,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "shizuoka-6",
       "id": "candidate-109",
       "name": "勝俣孝明",
@@ -1091,6 +1200,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "自民",
       "districtId": "kyoto-1",
       "id": "candidate-110",
       "name": "勝目 康",
@@ -1101,6 +1211,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "自民",
       "districtId": "tokyo-8",
       "id": "candidate-111",
       "name": "門 寛子",
@@ -1111,6 +1222,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "chiba-4",
       "id": "candidate-112",
       "name": "鹿嶋祐介",
@@ -1121,6 +1233,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "ibaraki-4",
       "id": "candidate-113",
       "name": "梶山弘志",
@@ -1131,6 +1244,7 @@
       "wins": 10
     },
     {
+      "caucusLabel": "維新",
       "id": "candidate-114",
       "name": "柏倉祐司",
       "partyId": "party-ishin",
@@ -1141,6 +1255,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "自民",
       "districtId": "gifu-4",
       "id": "candidate-115",
       "name": "加藤 大博",
@@ -1151,6 +1266,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "nagasaki-2",
       "id": "candidate-116",
       "name": "加藤竜祥",
@@ -1161,6 +1277,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "自民",
       "districtId": "chiba-1",
       "id": "candidate-117",
       "name": "門山宏哲",
@@ -1171,6 +1288,7 @@
       "wins": 5
     },
     {
+      "caucusLabel": "自民",
       "districtId": "yamagata-3",
       "id": "candidate-118",
       "name": "加藤鮎子",
@@ -1181,6 +1299,7 @@
       "wins": 5
     },
     {
+      "caucusLabel": "自民",
       "districtId": "okayama-3",
       "id": "candidate-119",
       "name": "加藤勝信",
@@ -1191,6 +1310,7 @@
       "wins": 9
     },
     {
+      "caucusLabel": "自民",
       "districtId": "hokkaido-1",
       "id": "candidate-120",
       "name": "加藤貴弘",
@@ -1201,6 +1321,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "nagasaki-3",
       "id": "candidate-121",
       "name": "金子容三",
@@ -1211,6 +1332,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "維新",
       "id": "candidate-122",
       "name": "金村龍那",
       "partyId": "party-ishin",
@@ -1221,6 +1343,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "自民",
       "districtId": "shizuoka-1",
       "id": "candidate-123",
       "name": "上川陽子",
@@ -1231,6 +1354,7 @@
       "wins": 9
     },
     {
+      "caucusLabel": "自民",
       "districtId": "kanagawa-20",
       "id": "candidate-124",
       "name": "金沢 結衣",
@@ -1241,6 +1365,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "中道",
       "id": "candidate-125",
       "name": "金子恵美",
       "partyId": "party-centrist-reform",
@@ -1251,6 +1376,7 @@
       "wins": 5
     },
     {
+      "caucusLabel": "自民",
       "districtId": "kumamoto-4",
       "id": "candidate-126",
       "name": "金子恭之",
@@ -1261,6 +1387,7 @@
       "wins": 10
     },
     {
+      "caucusLabel": "みらい",
       "id": "candidate-127",
       "name": "河合道雄",
       "partyId": "party-team-mirai",
@@ -1271,6 +1398,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "mie-2",
       "id": "candidate-128",
       "name": "川崎秀人",
@@ -1281,6 +1409,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-129",
       "name": "河野正美",
       "partyId": "party-ldp",
@@ -1291,6 +1420,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "中道",
       "districtId": "hokkaido-10",
       "id": "candidate-130",
       "name": "神谷裕",
@@ -1301,6 +1431,7 @@
       "wins": 4
     },
     {
+      "caucusLabel": "参政",
       "id": "candidate-131",
       "name": "川裕一郎",
       "partyId": "party-sanseito",
@@ -1311,6 +1442,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "国民",
       "id": "candidate-132",
       "name": "河井昭成",
       "partyId": "party-dpfp",
@@ -1321,6 +1453,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-133",
       "name": "菅家一郎",
       "partyId": "party-ldp",
@@ -1331,6 +1464,7 @@
       "wins": 5
     },
     {
+      "caucusLabel": "自民",
       "districtId": "aomori-2",
       "id": "candidate-134",
       "name": "神田潤一",
@@ -1341,6 +1475,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "自民",
       "districtId": "shizuoka-7",
       "id": "candidate-135",
       "name": "城内 実",
@@ -1351,6 +1486,7 @@
       "wins": 8
     },
     {
+      "caucusLabel": "中道",
       "id": "candidate-136",
       "name": "河野義博",
       "partyId": "party-centrist-reform",
@@ -1361,6 +1497,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "tokyo-23",
       "id": "candidate-137",
       "name": "川松真一朗",
@@ -1371,6 +1508,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "無所属",
       "districtId": "aichi-1",
       "id": "candidate-138",
       "name": "河村 たかし",
@@ -1381,6 +1519,7 @@
       "wins": 7
     },
     {
+      "caucusLabel": "自民",
       "districtId": "hiroshima-1",
       "id": "candidate-139",
       "name": "岸田文雄",
@@ -1391,6 +1530,7 @@
       "wins": 12
     },
     {
+      "caucusLabel": "維新",
       "id": "candidate-140",
       "name": "喜多義典",
       "partyId": "party-ishin",
@@ -1401,6 +1541,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "kyoto-4",
       "id": "candidate-141",
       "name": "北神圭朗",
@@ -1411,6 +1552,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "自民",
       "districtId": "saitama-3",
       "id": "candidate-142",
       "name": "黄川田 仁志",
@@ -1421,6 +1563,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "中道",
       "id": "candidate-143",
       "name": "菊田真紀子",
       "partyId": "party-centrist-reform",
@@ -1431,6 +1574,7 @@
       "wins": 9
     },
     {
+      "caucusLabel": "自民",
       "districtId": "yamaguchi-2",
       "id": "candidate-144",
       "name": "岸信千世",
@@ -1441,6 +1585,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "自民",
       "districtId": "aomori-3",
       "id": "candidate-145",
       "name": "木村次郎",
@@ -1451,6 +1596,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "中道",
       "id": "candidate-146",
       "name": "金城泰邦",
       "partyId": "party-centrist-reform",
@@ -1461,6 +1607,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "自民",
       "districtId": "kanagawa-19",
       "id": "candidate-147",
       "name": "草間 剛",
@@ -1471,6 +1618,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "参政",
       "id": "candidate-148",
       "name": "木下敏之",
       "partyId": "party-sanseito",
@@ -1481,6 +1629,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "tokyo-20",
       "id": "candidate-149",
       "name": "木原誠二",
@@ -1491,6 +1640,7 @@
       "wins": 7
     },
     {
+      "caucusLabel": "自民",
       "districtId": "kumamoto-1",
       "id": "candidate-150",
       "name": "木原 稔",
@@ -1501,6 +1651,7 @@
       "wins": 7
     },
     {
+      "caucusLabel": "中道",
       "id": "candidate-151",
       "name": "国重 徹",
       "partyId": "party-centrist-reform",
@@ -1511,6 +1662,7 @@
       "wins": 5
     },
     {
+      "caucusLabel": "自民",
       "districtId": "ibaraki-6",
       "id": "candidate-152",
       "name": "国光文乃",
@@ -1521,6 +1673,7 @@
       "wins": 4
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-153",
       "name": "熊田裕通",
       "partyId": "party-ldp",
@@ -1531,6 +1684,7 @@
       "wins": 5
     },
     {
+      "caucusLabel": "自民",
       "districtId": "aichi-4",
       "id": "candidate-154",
       "name": "工藤彰三",
@@ -1541,6 +1695,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "参政",
       "id": "candidate-155",
       "name": "工藤聖子",
       "partyId": "party-sanseito",
@@ -1551,6 +1706,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "niigata-2",
       "id": "candidate-156",
       "name": "国定勇人",
@@ -1561,6 +1717,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "自民",
       "districtId": "chiba-10",
       "id": "candidate-157",
       "name": "小池正昭",
@@ -1571,6 +1728,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "自民",
       "districtId": "kanagawa-11",
       "id": "candidate-158",
       "name": "小泉進次郎",
@@ -1581,6 +1739,7 @@
       "wins": 7
     },
     {
+      "caucusLabel": "自民",
       "districtId": "saitama-11",
       "id": "candidate-159",
       "name": "小泉龍司",
@@ -1591,6 +1750,7 @@
       "wins": 9
     },
     {
+      "caucusLabel": "自民",
       "districtId": "fukuoka-5",
       "id": "candidate-160",
       "name": "栗原渉",
@@ -1601,6 +1761,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "自民",
       "districtId": "tokyo-27",
       "id": "candidate-161",
       "name": "黒崎祐一",
@@ -1611,6 +1772,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "維新",
       "districtId": "osaka-16",
       "id": "candidate-162",
       "name": "黒田征樹",
@@ -1621,6 +1783,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "自民",
       "districtId": "fukuoka-3",
       "id": "candidate-163",
       "name": "古賀篤",
@@ -1631,6 +1794,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "自民",
       "districtId": "okinawa-1",
       "id": "candidate-164",
       "name": "国場幸之助",
@@ -1641,6 +1805,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "中道",
       "id": "candidate-165",
       "name": "輿水恵一",
       "partyId": "party-centrist-reform",
@@ -1651,6 +1816,7 @@
       "wins": 5
     },
     {
+      "caucusLabel": "自民",
       "districtId": "kanagawa-15",
       "id": "candidate-166",
       "name": "河野太郎",
@@ -1661,6 +1827,7 @@
       "wins": 11
     },
     {
+      "caucusLabel": "自民",
       "districtId": "yamaguchi-1",
       "id": "candidate-167",
       "name": "高村正大",
@@ -1671,6 +1838,7 @@
       "wins": 4
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-168",
       "name": "高麗啓一郎",
       "partyId": "party-ldp",
@@ -1681,6 +1849,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "国民",
       "id": "candidate-169",
       "name": "許斐亮太郎",
       "partyId": "party-dpfp",
@@ -1691,6 +1860,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "自民",
       "districtId": "nara-1",
       "id": "candidate-170",
       "name": "小林茂樹",
@@ -1701,6 +1871,7 @@
       "wins": 5
     },
     {
+      "caucusLabel": "みらい",
       "id": "candidate-171",
       "name": "小林修平",
       "partyId": "party-team-mirai",
@@ -1711,6 +1882,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-172",
       "name": "小寺裕雄",
       "partyId": "party-ldp",
@@ -1721,6 +1893,7 @@
       "wins": 4
     },
     {
+      "caucusLabel": "自民",
       "districtId": "nagano-4",
       "id": "candidate-173",
       "name": "後藤茂之",
@@ -1731,6 +1904,7 @@
       "wins": 9
     },
     {
+      "caucusLabel": "中道",
       "id": "candidate-174",
       "name": "後藤祐一",
       "partyId": "party-centrist-reform",
@@ -1741,6 +1915,7 @@
       "wins": 7
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-175",
       "name": "今 洋佑",
       "partyId": "party-ldp",
@@ -1751,6 +1926,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "中道",
       "id": "candidate-176",
       "name": "近藤和也",
       "partyId": "party-centrist-reform",
@@ -1761,6 +1937,7 @@
       "wins": 5
     },
     {
+      "caucusLabel": "国民",
       "id": "candidate-177",
       "name": "近藤雅彦",
       "partyId": "party-dpfp",
@@ -1771,6 +1948,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "chiba-2",
       "id": "candidate-178",
       "name": "小林鷹之",
@@ -1781,6 +1959,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "自民",
       "districtId": "hiroshima-6",
       "id": "candidate-179",
       "name": "小林史明",
@@ -1791,6 +1970,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "自民",
       "districtId": "ishikawa-1",
       "id": "candidate-180",
       "name": "小森卓郎",
@@ -1801,6 +1981,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "自民",
       "districtId": "chiba-7",
       "id": "candidate-181",
       "name": "斎藤健",
@@ -1811,6 +1992,7 @@
       "wins": 7
     },
     {
+      "caucusLabel": "中道",
       "id": "candidate-182",
       "name": "斉藤 鉄夫",
       "partyId": "party-centrist-reform",
@@ -1821,6 +2003,7 @@
       "wins": 12
     },
     {
+      "caucusLabel": "自民",
       "districtId": "niigata-3",
       "id": "candidate-183",
       "name": "斎藤洋明",
@@ -1831,6 +2014,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "自民",
       "districtId": "fukui-2",
       "id": "candidate-184",
       "name": "斉木武志",
@@ -1841,6 +2025,7 @@
       "wins": 4
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-185",
       "name": "西條昌良",
       "partyId": "party-ldp",
@@ -1851,6 +2036,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "維新",
       "id": "candidate-186",
       "name": "斎藤アレックス",
       "partyId": "party-ishin",
@@ -1861,6 +2047,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "自民",
       "districtId": "fukushima-4",
       "id": "candidate-187",
       "name": "坂本竜太郎",
@@ -1871,6 +2058,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "自民",
       "districtId": "gunma-3",
       "id": "candidate-188",
       "name": "笹川博義",
@@ -1881,6 +2069,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "自民",
       "districtId": "ishikawa-2",
       "id": "candidate-189",
       "name": "佐々木紀",
@@ -1891,6 +2080,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-190",
       "name": "斉藤 里恵",
       "partyId": "party-ldp",
@@ -1901,6 +2091,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "kanagawa-5",
       "id": "candidate-191",
       "name": "坂井学",
@@ -1911,6 +2102,7 @@
       "wins": 7
     },
     {
+      "caucusLabel": "自民",
       "districtId": "kumamoto-3",
       "id": "candidate-192",
       "name": "坂本哲志",
@@ -1921,6 +2113,7 @@
       "wins": 9
     },
     {
+      "caucusLabel": "共産",
       "id": "candidate-193",
       "name": "塩川鉄也",
       "partyId": "party-jcp",
@@ -1931,6 +2124,7 @@
       "wins": 10
     },
     {
+      "caucusLabel": "自民",
       "districtId": "ehime-1",
       "id": "candidate-194",
       "name": "塩崎 彰久",
@@ -1941,6 +2135,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "中道",
       "id": "candidate-195",
       "name": "重徳和彦",
       "partyId": "party-centrist-reform",
@@ -1951,6 +2146,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "国民",
       "id": "candidate-196",
       "name": "佐々木真琴",
       "partyId": "party-dpfp",
@@ -1961,6 +2157,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "中道",
       "id": "candidate-197",
       "name": "佐藤英道",
       "partyId": "party-centrist-reform",
@@ -1971,6 +2168,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "自民",
       "districtId": "kanagawa-16",
       "id": "candidate-198",
       "name": "佐藤主迪",
@@ -1981,6 +2179,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "okinawa-3",
       "id": "candidate-199",
       "name": "島尻 安伊子",
@@ -1991,6 +2190,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-200",
       "name": "島田智明",
       "partyId": "party-ldp",
@@ -2001,6 +2201,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "参政",
       "id": "candidate-201",
       "name": "島村薫",
       "partyId": "party-sanseito",
@@ -2011,6 +2212,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-202",
       "name": "繁本護",
       "partyId": "party-ldp",
@@ -2021,6 +2223,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "中道",
       "districtId": "iwate-1",
       "id": "candidate-203",
       "name": "階 猛",
@@ -2031,6 +2234,7 @@
       "wins": 8
     },
     {
+      "caucusLabel": "自民",
       "districtId": "saitama-8",
       "id": "candidate-204",
       "name": "柴山昌彦",
@@ -2041,6 +2245,7 @@
       "wins": 9
     },
     {
+      "caucusLabel": "自民",
       "districtId": "hiroshima-4",
       "id": "candidate-205",
       "name": "新谷正義",
@@ -2051,6 +2256,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "自民",
       "districtId": "saitama-2",
       "id": "candidate-206",
       "name": "新藤義孝",
@@ -2061,6 +2267,7 @@
       "wins": 10
     },
     {
+      "caucusLabel": "自民",
       "districtId": "tokyo-9",
       "id": "candidate-207",
       "name": "菅原一秀",
@@ -2071,6 +2278,7 @@
       "wins": 7
     },
     {
+      "caucusLabel": "自民",
       "districtId": "tokyo-11",
       "id": "candidate-208",
       "name": "下村博文",
@@ -2081,6 +2289,7 @@
       "wins": 10
     },
     {
+      "caucusLabel": "中道",
       "id": "candidate-209",
       "name": "庄子賢一",
       "partyId": "party-centrist-reform",
@@ -2091,6 +2300,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-210",
       "name": "白坂亜紀",
       "partyId": "party-ldp",
@@ -2101,6 +2311,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-211",
       "name": "鈴木 淳司",
       "partyId": "party-ldp",
@@ -2111,6 +2322,7 @@
       "wins": 7
     },
     {
+      "caucusLabel": "自民",
       "districtId": "hokkaido-7",
       "id": "candidate-212",
       "name": "鈴木貴子",
@@ -2121,6 +2333,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-213",
       "name": "鈴木拓海",
       "partyId": "party-ldp",
@@ -2131,6 +2344,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "mie-4",
       "id": "candidate-214",
       "name": "鈴木英敬",
@@ -2141,6 +2355,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "自民",
       "districtId": "kanagawa-7",
       "id": "candidate-215",
       "name": "鈴木馨祐",
@@ -2151,6 +2366,7 @@
       "wins": 7
     },
     {
+      "caucusLabel": "自民",
       "districtId": "iwate-2",
       "id": "candidate-216",
       "name": "鈴木俊一",
@@ -2161,6 +2377,7 @@
       "wins": 12
     },
     {
+      "caucusLabel": "国民",
       "id": "candidate-217",
       "name": "鈴木義弘",
       "partyId": "party-dpfp",
@@ -2171,6 +2388,7 @@
       "wins": 5
     },
     {
+      "caucusLabel": "みらい",
       "id": "candidate-218",
       "name": "須田英太郎",
       "partyId": "party-team-mirai",
@@ -2181,6 +2399,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "維新",
       "id": "candidate-219",
       "name": "住吉寛紀",
       "partyId": "party-ishin",
@@ -2191,6 +2410,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "自民",
       "districtId": "yamagata-2",
       "id": "candidate-220",
       "name": "鈴木憲和",
@@ -2201,6 +2421,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "自民",
       "districtId": "tokyo-10",
       "id": "candidate-221",
       "name": "鈴木隼人",
@@ -2211,6 +2432,7 @@
       "wins": 5
     },
     {
+      "caucusLabel": "参政",
       "id": "candidate-222",
       "name": "鈴木美香",
       "partyId": "party-sanseito",
@@ -2221,6 +2443,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "wakayama-2",
       "id": "candidate-223",
       "name": "世耕弘成",
@@ -2231,6 +2454,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-224",
       "name": "瀬戸隆一",
       "partyId": "party-ldp",
@@ -2241,6 +2465,7 @@
       "wins": 5
     },
     {
+      "caucusLabel": "自民",
       "districtId": "kyoto-6",
       "id": "candidate-225",
       "name": "園崎弘道",
@@ -2251,6 +2476,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "維新",
       "id": "candidate-226",
       "name": "関健一郎",
       "partyId": "party-ishin",
@@ -2261,6 +2487,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "自民",
       "districtId": "hyogo-3",
       "id": "candidate-227",
       "name": "関芳弘",
@@ -2271,6 +2498,7 @@
       "wins": 7
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-228",
       "name": "世古万美子",
       "partyId": "party-ldp",
@@ -2281,6 +2509,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "tokyo-12",
       "id": "candidate-229",
       "name": "高木 啓",
@@ -2291,6 +2520,7 @@
       "wins": 4
     },
     {
+      "caucusLabel": "自民",
       "districtId": "hokkaido-3",
       "id": "candidate-230",
       "name": "高木宏寿",
@@ -2301,6 +2531,7 @@
       "wins": 4
     },
     {
+      "caucusLabel": "国民",
       "id": "candidate-231",
       "name": "高沢一基",
       "partyId": "party-dpfp",
@@ -2311,6 +2542,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "tokyo-4",
       "id": "candidate-232",
       "name": "平将明",
@@ -2321,6 +2553,7 @@
       "wins": 8
     },
     {
+      "caucusLabel": "自民",
       "districtId": "nara-2",
       "id": "candidate-233",
       "name": "高市早苗",
@@ -2331,6 +2564,7 @@
       "wins": 11
     },
     {
+      "caucusLabel": "自民",
       "districtId": "shimane-1",
       "id": "candidate-234",
       "name": "高階恵美子",
@@ -2341,6 +2575,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "維新",
       "districtId": "osaka-2",
       "id": "candidate-235",
       "name": "高見亮",
@@ -2351,6 +2586,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "みらい",
       "id": "candidate-236",
       "name": "高山聡史",
       "partyId": "party-team-mirai",
@@ -2361,6 +2597,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-237",
       "name": "武井俊輔",
       "partyId": "party-ldp",
@@ -2371,6 +2608,7 @@
       "wins": 5
     },
     {
+      "caucusLabel": "自民",
       "districtId": "niigata-5",
       "id": "candidate-238",
       "name": "高鳥 修一",
@@ -2381,6 +2619,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "自民",
       "districtId": "hokkaido-2",
       "id": "candidate-239",
       "name": "高橋祐介",
@@ -2391,6 +2630,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "自民",
       "districtId": "shimane-2",
       "id": "candidate-240",
       "name": "高見康裕",
@@ -2401,6 +2641,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "中道",
       "id": "candidate-241",
       "name": "田嶋要",
       "partyId": "party-centrist-reform",
@@ -2411,6 +2652,7 @@
       "wins": 9
     },
     {
+      "caucusLabel": "自民",
       "districtId": "toyama-3",
       "id": "candidate-242",
       "name": "橘慶一郎",
@@ -2421,6 +2663,7 @@
       "wins": 7
     },
     {
+      "caucusLabel": "共産",
       "id": "candidate-243",
       "name": "辰巳孝太郎",
       "partyId": "party-jcp",
@@ -2431,6 +2674,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "自民",
       "districtId": "fukuoka-11",
       "id": "candidate-244",
       "name": "武田良太",
@@ -2441,6 +2685,7 @@
       "wins": 8
     },
     {
+      "caucusLabel": "自民",
       "districtId": "hokkaido-12",
       "id": "candidate-245",
       "name": "武部 新",
@@ -2451,6 +2696,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "自民",
       "districtId": "shiga-3",
       "id": "candidate-246",
       "name": "武村展英",
@@ -2461,6 +2707,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-247",
       "name": "田中昌史",
       "partyId": "party-ldp",
@@ -2471,6 +2718,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "saitama-15",
       "id": "candidate-248",
       "name": "田中良生",
@@ -2481,6 +2729,7 @@
       "wins": 7
     },
     {
+      "caucusLabel": "自民",
       "districtId": "gifu-2",
       "id": "candidate-249",
       "name": "棚橋泰文",
@@ -2491,6 +2740,7 @@
       "wins": 11
     },
     {
+      "caucusLabel": "自民",
       "districtId": "ibaraki-1",
       "id": "candidate-250",
       "name": "田所嘉徳",
@@ -2501,6 +2751,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "自民",
       "districtId": "kanagawa-10",
       "id": "candidate-251",
       "name": "田中和徳",
@@ -2511,6 +2762,7 @@
       "wins": 11
     },
     {
+      "caucusLabel": "国民",
       "id": "candidate-252",
       "name": "田中健",
       "partyId": "party-dpfp",
@@ -2521,6 +2773,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "自民",
       "districtId": "nara-3",
       "id": "candidate-253",
       "name": "田野瀬太道",
@@ -2531,6 +2784,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-254",
       "name": "田畑裕明",
       "partyId": "party-ldp",
@@ -2541,6 +2795,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "国民",
       "districtId": "kagawa-2",
       "id": "candidate-255",
       "name": "玉木雄一郎",
@@ -2551,6 +2806,7 @@
       "wins": 7
     },
     {
+      "caucusLabel": "自民",
       "districtId": "hyogo-5",
       "id": "candidate-256",
       "name": "谷公一",
@@ -2561,6 +2817,7 @@
       "wins": 9
     },
     {
+      "caucusLabel": "参政",
       "id": "candidate-257",
       "name": "谷 浩一郎",
       "partyId": "party-sanseito",
@@ -2571,6 +2828,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "osaka-19",
       "id": "candidate-258",
       "name": "谷川 とむ",
@@ -2581,6 +2839,7 @@
       "wins": 4
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-259",
       "name": "俵田祐児",
       "partyId": "party-ldp",
@@ -2591,6 +2850,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "国民",
       "districtId": "aichi-11",
       "id": "candidate-260",
       "name": "丹野 みどり",
@@ -2601,6 +2861,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "自民",
       "districtId": "tokyo-2",
       "id": "candidate-261",
       "name": "辻 清人",
@@ -2611,6 +2872,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "自民",
       "districtId": "chiba-9",
       "id": "candidate-262",
       "name": "田宮寿人",
@@ -2621,6 +2883,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "共産",
       "id": "candidate-263",
       "name": "田村智子",
       "partyId": "party-jcp",
@@ -2631,6 +2894,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "自民",
       "districtId": "mie-1",
       "id": "candidate-264",
       "name": "田村憲久",
@@ -2641,6 +2905,7 @@
       "wins": 11
     },
     {
+      "caucusLabel": "自民",
       "districtId": "tokyo-13",
       "id": "candidate-265",
       "name": "土田慎",
@@ -2651,6 +2916,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "自民",
       "districtId": "saitama-16",
       "id": "candidate-266",
       "name": "土屋品子",
@@ -2661,6 +2927,7 @@
       "wins": 10
     },
     {
+      "caucusLabel": "中道",
       "id": "candidate-267",
       "name": "角田秀穂",
       "partyId": "party-centrist-reform",
@@ -2671,6 +2938,7 @@
       "wins": 4
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-268",
       "name": "辻秀樹",
       "partyId": "party-ldp",
@@ -2681,6 +2949,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-269",
       "name": "辻由布子",
       "partyId": "party-ldp",
@@ -2691,6 +2960,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "aomori-1",
       "id": "candidate-270",
       "name": "津島 淳",
@@ -2701,6 +2971,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "自民",
       "districtId": "akita-1",
       "id": "candidate-271",
       "name": "冨樫博之",
@@ -2711,6 +2982,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-272",
       "name": "渡嘉敷奈緒美",
       "partyId": "party-ldp",
@@ -2721,6 +2993,7 @@
       "wins": 5
     },
     {
+      "caucusLabel": "みらい",
       "id": "candidate-273",
       "name": "土橋章宏",
       "partyId": "party-team-mirai",
@@ -2731,6 +3004,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-274",
       "name": "寺田 稔",
       "partyId": "party-ldp",
@@ -2741,6 +3015,7 @@
       "wins": 8
     },
     {
+      "caucusLabel": "自民",
       "districtId": "miyagi-1",
       "id": "candidate-275",
       "name": "土井 亨",
@@ -2751,6 +3026,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "自民",
       "districtId": "hyogo-10",
       "id": "candidate-276",
       "name": "渡海紀三朗",
@@ -2761,6 +3037,7 @@
       "wins": 12
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-277",
       "name": "中川貴元",
       "partyId": "party-ldp",
@@ -2771,6 +3048,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "中道",
       "id": "candidate-278",
       "name": "中川宏昌",
       "partyId": "party-centrist-reform",
@@ -2781,6 +3059,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "中道",
       "id": "candidate-279",
       "name": "中川康洋",
       "partyId": "party-centrist-reform",
@@ -2791,6 +3070,7 @@
       "wins": 4
     },
     {
+      "caucusLabel": "参政",
       "id": "candidate-280",
       "name": "豊田真由子",
       "partyId": "party-sanseito",
@@ -2801,6 +3081,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-281",
       "name": "永岡 桂子",
       "partyId": "party-ldp",
@@ -2811,6 +3092,7 @@
       "wins": 8
     },
     {
+      "caucusLabel": "自民",
       "districtId": "hokkaido-11",
       "id": "candidate-282",
       "name": "中川 紘一",
@@ -2821,6 +3103,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "gunma-1",
       "id": "candidate-283",
       "name": "中曽根康隆",
@@ -2831,6 +3114,7 @@
       "wins": 4
     },
     {
+      "caucusLabel": "自民",
       "districtId": "toyama-1",
       "id": "candidate-284",
       "name": "中田 宏",
@@ -2841,6 +3125,7 @@
       "wins": 5
     },
     {
+      "caucusLabel": "自民",
       "districtId": "kanagawa-4",
       "id": "candidate-285",
       "name": "永田磨梨奈",
@@ -2851,6 +3136,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "aichi-9",
       "id": "candidate-286",
       "name": "長坂 康正",
@@ -2861,6 +3147,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "自民",
       "districtId": "tokyo-29",
       "id": "candidate-287",
       "name": "長沢興祐",
@@ -2871,6 +3158,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "tokyo-30",
       "id": "candidate-288",
       "name": "長島昭久",
@@ -2881,6 +3169,7 @@
       "wins": 9
     },
     {
+      "caucusLabel": "中道",
       "id": "candidate-289",
       "name": "長妻昭",
       "partyId": "party-centrist-reform",
@@ -2891,6 +3180,7 @@
       "wins": 10
     },
     {
+      "caucusLabel": "国民",
       "districtId": "miyazaki-2",
       "id": "candidate-290",
       "name": "長友慎治",
@@ -2901,6 +3191,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "自民",
       "districtId": "kanagawa-3",
       "id": "candidate-291",
       "name": "中西健治",
@@ -2911,6 +3202,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "自民",
       "districtId": "kochi-1",
       "id": "candidate-292",
       "name": "中谷元",
@@ -2921,6 +3213,7 @@
       "wins": 13
     },
     {
+      "caucusLabel": "自民",
       "districtId": "yamanashi-1",
       "id": "candidate-293",
       "name": "中谷真一",
@@ -2931,6 +3224,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "維新",
       "districtId": "osaka-11",
       "id": "candidate-294",
       "name": "中司宏",
@@ -2941,6 +3235,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "中道",
       "id": "candidate-295",
       "name": "中野洋昌",
       "partyId": "party-centrist-reform",
@@ -2951,6 +3246,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "無所属",
       "districtId": "ibaraki-7",
       "id": "candidate-296",
       "name": "中村勇太",
@@ -2961,6 +3257,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "自民",
       "districtId": "hokkaido-4",
       "id": "candidate-297",
       "name": "中村裕之",
@@ -2971,6 +3268,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-298",
       "name": "中根一幸",
       "partyId": "party-ldp",
@@ -2981,6 +3279,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-299",
       "name": "長野春信",
       "partyId": "party-ldp",
@@ -2991,6 +3290,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "saitama-7",
       "id": "candidate-300",
       "name": "中野英幸",
@@ -3001,6 +3301,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "国民",
       "id": "candidate-301",
       "name": "鍋島勢理",
       "partyId": "party-dpfp",
@@ -3011,6 +3312,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "tokushima-1",
       "id": "candidate-302",
       "name": "仁木博文",
@@ -3021,6 +3323,7 @@
       "wins": 4
     },
     {
+      "caucusLabel": "国民",
       "districtId": "nagasaki-1",
       "id": "candidate-303",
       "name": "西岡秀子",
@@ -3031,6 +3334,7 @@
       "wins": 4
     },
     {
+      "caucusLabel": "参政",
       "id": "candidate-304",
       "name": "中谷 めぐ",
       "partyId": "party-sanseito",
@@ -3041,6 +3345,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-305",
       "name": "中山展宏",
       "partyId": "party-ldp",
@@ -3051,6 +3356,7 @@
       "wins": 5
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-306",
       "name": "中山泰秀",
       "partyId": "party-ldp",
@@ -3061,6 +3367,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "自民",
       "districtId": "ishikawa-3",
       "id": "candidate-307",
       "name": "西田昭二",
@@ -3071,6 +3378,7 @@
       "wins": 4
     },
     {
+      "caucusLabel": "自民",
       "districtId": "kumamoto-2",
       "id": "candidate-308",
       "name": "西野太亮",
@@ -3081,6 +3389,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "自民",
       "districtId": "miyagi-3",
       "id": "candidate-309",
       "name": "西村明宏",
@@ -3091,6 +3400,7 @@
       "wins": 7
     },
     {
+      "caucusLabel": "国民",
       "id": "candidate-310",
       "name": "西岡義高",
       "partyId": "party-dpfp",
@@ -3101,6 +3411,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "中道",
       "id": "candidate-311",
       "name": "西園勝秀",
       "partyId": "party-centrist-reform",
@@ -3111,6 +3422,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "維新",
       "districtId": "osaka-6",
       "id": "candidate-312",
       "name": "西田 薫",
@@ -3121,6 +3433,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "自民",
       "districtId": "fukushima-1",
       "id": "candidate-313",
       "name": "西山 尚利",
@@ -3131,6 +3444,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "kanagawa-2",
       "id": "candidate-314",
       "name": "新田章文",
@@ -3141,6 +3455,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "aichi-6",
       "id": "candidate-315",
       "name": "丹羽秀樹",
@@ -3151,6 +3466,7 @@
       "wins": 8
     },
     {
+      "caucusLabel": "中道",
       "id": "candidate-316",
       "name": "西村智奈美",
       "partyId": "party-centrist-reform",
@@ -3161,6 +3477,7 @@
       "wins": 8
     },
     {
+      "caucusLabel": "自民",
       "districtId": "hyogo-9",
       "id": "candidate-317",
       "name": "西村康稔",
@@ -3171,6 +3488,7 @@
       "wins": 9
     },
     {
+      "caucusLabel": "自民",
       "districtId": "okinawa-4",
       "id": "candidate-318",
       "name": "西銘恒三郎",
@@ -3181,6 +3499,7 @@
       "wins": 8
     },
     {
+      "caucusLabel": "自民",
       "districtId": "aichi-15",
       "id": "candidate-319",
       "name": "根本幸典",
@@ -3191,6 +3510,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "自民",
       "districtId": "gifu-1",
       "id": "candidate-320",
       "name": "野田聖子",
@@ -3201,6 +3521,7 @@
       "wins": 12
     },
     {
+      "caucusLabel": "中道",
       "districtId": "chiba-14",
       "id": "candidate-321",
       "name": "野田佳彦",
@@ -3211,6 +3532,7 @@
       "wins": 11
     },
     {
+      "caucusLabel": "自民",
       "districtId": "ibaraki-2",
       "id": "candidate-322",
       "name": "額賀 福志郎",
@@ -3221,6 +3543,7 @@
       "wins": 15
     },
     {
+      "caucusLabel": "中道",
       "id": "candidate-323",
       "name": "沼崎満子",
       "partyId": "party-centrist-reform",
@@ -3231,6 +3554,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "自民",
       "districtId": "fukushima-2",
       "id": "candidate-324",
       "name": "根本 拓",
@@ -3241,6 +3565,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "自民",
       "districtId": "tokyo-24",
       "id": "candidate-325",
       "name": "萩生田 光一",
@@ -3251,6 +3576,7 @@
       "wins": 8
     },
     {
+      "caucusLabel": "維新",
       "districtId": "osaka-9",
       "id": "candidate-326",
       "name": "萩原佳",
@@ -3261,6 +3587,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "自民",
       "districtId": "okayama-4",
       "id": "candidate-327",
       "name": "橋本岳",
@@ -3271,6 +3598,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "自民",
       "districtId": "saitama-12",
       "id": "candidate-328",
       "name": "野中 厚",
@@ -3281,6 +3609,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "中道",
       "districtId": "kagoshima-3",
       "id": "candidate-329",
       "name": "野間 健",
@@ -3291,6 +3620,7 @@
       "wins": 5
     },
     {
+      "caucusLabel": "国民",
       "id": "candidate-330",
       "name": "野村美穂",
       "partyId": "party-dpfp",
@@ -3301,6 +3631,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "fukuoka-6",
       "id": "candidate-331",
       "name": "鳩山二郎",
@@ -3311,6 +3642,7 @@
       "wins": 5
     },
     {
+      "caucusLabel": "自民",
       "districtId": "ibaraki-3",
       "id": "candidate-332",
       "name": "葉梨康弘",
@@ -3321,6 +3653,7 @@
       "wins": 8
     },
     {
+      "caucusLabel": "維新",
       "districtId": "osaka-17",
       "id": "candidate-333",
       "name": "馬場伸幸",
@@ -3331,6 +3664,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "国民",
       "id": "candidate-334",
       "name": "橋本 幹彦",
       "partyId": "party-dpfp",
@@ -3341,6 +3675,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "自民",
       "districtId": "ehime-3",
       "id": "candidate-335",
       "name": "長谷川淳二",
@@ -3351,6 +3686,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "共産",
       "id": "candidate-336",
       "name": "畑野君枝",
       "partyId": "party-jcp",
@@ -3361,6 +3697,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "自民",
       "districtId": "yamaguchi-3",
       "id": "candidate-337",
       "name": "林 芳正",
@@ -3371,6 +3708,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "中道",
       "id": "candidate-338",
       "name": "原田直樹",
       "partyId": "party-centrist-reform",
@@ -3381,6 +3719,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "維新",
       "id": "candidate-339",
       "name": "原山大亮",
       "partyId": "party-ishin",
@@ -3391,6 +3730,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "chiba-12",
       "id": "candidate-340",
       "name": "浜田 靖一",
@@ -3401,6 +3741,7 @@
       "wins": 12
     },
     {
+      "caucusLabel": "中道",
       "id": "candidate-341",
       "name": "浜地雅一",
       "partyId": "party-centrist-reform",
@@ -3411,6 +3752,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "みらい",
       "id": "candidate-342",
       "name": "林拓海",
       "partyId": "party-team-mirai",
@@ -3421,6 +3763,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "hiroshima-2",
       "id": "candidate-343",
       "name": "平口洋",
@@ -3431,6 +3774,7 @@
       "wins": 7
     },
     {
+      "caucusLabel": "自民",
       "districtId": "tokyo-17",
       "id": "candidate-344",
       "name": "平沢勝栄",
@@ -3441,6 +3785,7 @@
       "wins": 11
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-345",
       "name": "平沼正二郎",
       "partyId": "party-ldp",
@@ -3451,6 +3796,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-346",
       "name": "東田 淳平",
       "partyId": "party-ldp",
@@ -3461,6 +3807,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "国民",
       "districtId": "aichi-7",
       "id": "candidate-347",
       "name": "日野紗里亜",
@@ -3471,6 +3818,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-348",
       "name": "平井卓也",
       "partyId": "party-ldp",
@@ -3481,6 +3829,7 @@
       "wins": 10
     },
     {
+      "caucusLabel": "自民",
       "districtId": "shizuoka-4",
       "id": "candidate-349",
       "name": "深沢陽一",
@@ -3491,6 +3840,7 @@
       "wins": 4
     },
     {
+      "caucusLabel": "中道",
       "id": "candidate-350",
       "name": "福重隆浩",
       "partyId": "party-centrist-reform",
@@ -3501,6 +3851,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "自民",
       "districtId": "tokyo-18",
       "id": "candidate-351",
       "name": "福田 かおる",
@@ -3511,6 +3862,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "中道",
       "id": "candidate-352",
       "name": "平林晃",
       "partyId": "party-centrist-reform",
@@ -3521,6 +3873,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "自民",
       "districtId": "oita-2",
       "id": "candidate-353",
       "name": "広瀬 建",
@@ -3531,6 +3884,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "国民",
       "id": "candidate-354",
       "name": "深作 ヘスス",
       "partyId": "party-dpfp",
@@ -3541,6 +3895,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "自民",
       "districtId": "hyogo-4",
       "id": "candidate-355",
       "name": "藤井比早之",
@@ -3551,6 +3906,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-356",
       "name": "藤沢忠盛",
       "partyId": "party-ldp",
@@ -3561,6 +3917,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "nagano-2",
       "id": "candidate-357",
       "name": "藤田 ひかる",
@@ -3571,6 +3928,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "gunma-4",
       "id": "candidate-358",
       "name": "福田 達夫",
@@ -3581,6 +3939,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "国民",
       "id": "candidate-359",
       "name": "福田徹",
       "partyId": "party-dpfp",
@@ -3591,6 +3950,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "自民",
       "districtId": "akita-2",
       "id": "candidate-360",
       "name": "福原淳嗣",
@@ -3601,6 +3961,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "自民",
       "districtId": "fukuoka-7",
       "id": "candidate-361",
       "name": "藤丸敏",
@@ -3611,6 +3972,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "自民",
       "districtId": "iwate-3",
       "id": "candidate-362",
       "name": "藤原 崇",
@@ -3621,6 +3983,7 @@
       "wins": 5
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-363",
       "name": "文月涼",
       "partyId": "party-ldp",
@@ -3631,6 +3994,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "維新",
       "districtId": "osaka-12",
       "id": "candidate-364",
       "name": "藤田文武",
@@ -3641,6 +4005,7 @@
       "wins": 4
     },
     {
+      "caucusLabel": "自民",
       "districtId": "saitama-14",
       "id": "candidate-365",
       "name": "藤田 誠",
@@ -3651,6 +4016,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-366",
       "name": "藤田洋司",
       "partyId": "party-ldp",
@@ -3661,6 +4027,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "kanagawa-6",
       "id": "candidate-367",
       "name": "古川直季",
@@ -3671,6 +4038,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "国民",
       "districtId": "aichi-2",
       "id": "candidate-368",
       "name": "古川元久",
@@ -3681,6 +4049,7 @@
       "wins": 11
     },
     {
+      "caucusLabel": "自民",
       "districtId": "saga-2",
       "id": "candidate-369",
       "name": "古川康",
@@ -3691,6 +4060,7 @@
       "wins": 5
     },
     {
+      "caucusLabel": "自民",
       "districtId": "tochigi-1",
       "id": "candidate-370",
       "name": "船田 元",
@@ -3701,6 +4071,7 @@
       "wins": 15
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-371",
       "name": "古井康介",
       "partyId": "party-ldp",
@@ -3711,6 +4082,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "みらい",
       "id": "candidate-372",
       "name": "古川 あおい",
       "partyId": "party-team-mirai",
@@ -3721,6 +4093,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "kanagawa-12",
       "id": "candidate-373",
       "name": "星野剛士",
@@ -3731,6 +4104,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-374",
       "name": "細田健一",
       "partyId": "party-ldp",
@@ -3741,6 +4115,7 @@
       "wins": 5
     },
     {
+      "caucusLabel": "自民",
       "districtId": "shizuoka-5",
       "id": "candidate-375",
       "name": "細野豪志",
@@ -3751,6 +4126,7 @@
       "wins": 10
     },
     {
+      "caucusLabel": "自民",
       "districtId": "miyazaki-3",
       "id": "candidate-376",
       "name": "古川禎久",
@@ -3761,6 +4137,7 @@
       "wins": 9
     },
     {
+      "caucusLabel": "自民",
       "districtId": "gifu-5",
       "id": "candidate-377",
       "name": "古屋圭司",
@@ -3771,6 +4148,7 @@
       "wins": 13
     },
     {
+      "caucusLabel": "自民",
       "districtId": "saitama-4",
       "id": "candidate-378",
       "name": "穂坂 泰",
@@ -3781,6 +4159,7 @@
       "wins": 4
     },
     {
+      "caucusLabel": "維新",
       "districtId": "kyoto-2",
       "id": "candidate-379",
       "name": "前原誠司",
@@ -3791,6 +4170,7 @@
       "wins": 12
     },
     {
+      "caucusLabel": "自民",
       "districtId": "kanagawa-17",
       "id": "candidate-380",
       "name": "牧島 かれん",
@@ -3801,6 +4181,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "参政",
       "id": "candidate-381",
       "name": "牧野俊一",
       "partyId": "party-sanseito",
@@ -3811,6 +4192,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "yamanashi-2",
       "id": "candidate-382",
       "name": "堀内詔子",
@@ -3821,6 +4203,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "自民",
       "districtId": "kyoto-5",
       "id": "candidate-383",
       "name": "本田太郎",
@@ -3831,6 +4214,7 @@
       "wins": 4
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-384",
       "name": "前川恵",
       "partyId": "party-ldp",
@@ -3841,6 +4225,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "自民",
       "districtId": "chiba-8",
       "id": "candidate-385",
       "name": "松本泉",
@@ -3851,6 +4236,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "chiba-13",
       "id": "candidate-386",
       "name": "松本 尚",
@@ -3861,6 +4247,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "自民",
       "districtId": "tokyo-19",
       "id": "candidate-387",
       "name": "松本 洋平",
@@ -3871,6 +4258,7 @@
       "wins": 7
     },
     {
+      "caucusLabel": "自民",
       "districtId": "hokkaido-9",
       "id": "candidate-388",
       "name": "松下英樹",
@@ -3881,6 +4269,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "tokyo-14",
       "id": "candidate-389",
       "name": "松島 みどり",
@@ -3891,6 +4280,7 @@
       "wins": 9
     },
     {
+      "caucusLabel": "自民",
       "districtId": "chiba-3",
       "id": "candidate-390",
       "name": "松野博一",
@@ -3901,6 +4291,7 @@
       "wins": 10
     },
     {
+      "caucusLabel": "維新",
       "id": "candidate-391",
       "name": "三木圭恵",
       "partyId": "party-ishin",
@@ -3911,6 +4302,7 @@
       "wins": 4
     },
     {
+      "caucusLabel": "自民",
       "districtId": "aichi-3",
       "id": "candidate-392",
       "name": "水野良彦",
@@ -3921,6 +4313,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "kagoshima-2",
       "id": "candidate-393",
       "name": "三反園 訓",
@@ -3931,6 +4324,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "自民",
       "districtId": "kanagawa-1",
       "id": "candidate-394",
       "name": "丸尾南都子",
@@ -3941,6 +4335,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "tokyo-7",
       "id": "candidate-395",
       "name": "丸川珠代",
@@ -3951,6 +4346,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "kanagawa-13",
       "id": "candidate-396",
       "name": "丸田康一郎",
@@ -3961,6 +4357,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "維新",
       "districtId": "osaka-4",
       "id": "candidate-397",
       "name": "美延 映夫",
@@ -3971,6 +4368,7 @@
       "wins": 4
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-398",
       "name": "御法川信英",
       "partyId": "party-ldp",
@@ -3981,6 +4379,7 @@
       "wins": 8
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-399",
       "name": "三原朝利",
       "partyId": "party-ldp",
@@ -3991,6 +4390,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "kanagawa-8",
       "id": "candidate-400",
       "name": "三谷 英弘",
@@ -4001,6 +4401,7 @@
       "wins": 5
     },
     {
+      "caucusLabel": "自民",
       "districtId": "saitama-13",
       "id": "candidate-401",
       "name": "三林裕巳",
@@ -4011,6 +4412,7 @@
       "wins": 5
     },
     {
+      "caucusLabel": "みらい",
       "id": "candidate-402",
       "name": "峰島侑也",
       "partyId": "party-team-mirai",
@@ -4021,6 +4423,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "nagano-5",
       "id": "candidate-403",
       "name": "宮下一郎",
@@ -4031,6 +4434,7 @@
       "wins": 8
     },
     {
+      "caucusLabel": "自民",
       "districtId": "hokkaido-8",
       "id": "candidate-404",
       "name": "向山 淳",
@@ -4041,6 +4445,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "国民",
       "id": "candidate-405",
       "name": "向山好一",
       "partyId": "party-dpfp",
@@ -4051,6 +4456,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "自民",
       "districtId": "fukuoka-4",
       "id": "candidate-406",
       "name": "宮内秀樹",
@@ -4061,6 +4467,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "自民",
       "districtId": "okinawa-2",
       "id": "candidate-407",
       "name": "宮崎政久",
@@ -4071,6 +4478,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "自民",
       "districtId": "kagoshima-1",
       "id": "candidate-408",
       "name": "宮路拓馬",
@@ -4081,6 +4489,7 @@
       "wins": 5
     },
     {
+      "caucusLabel": "自民",
       "districtId": "saitama-1",
       "id": "candidate-409",
       "name": "村井英樹",
@@ -4091,6 +4500,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "国民",
       "districtId": "akita-3",
       "id": "candidate-410",
       "name": "村岡 敏英",
@@ -4101,6 +4511,7 @@
       "wins": 4
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-411",
       "name": "村上誠一郎",
       "partyId": "party-ldp",
@@ -4111,6 +4522,7 @@
       "wins": 14
     },
     {
+      "caucusLabel": "みらい",
       "id": "candidate-412",
       "name": "武藤 かず子",
       "partyId": "party-team-mirai",
@@ -4121,6 +4533,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "gifu-3",
       "id": "candidate-413",
       "name": "武藤容治",
@@ -4131,6 +4544,7 @@
       "wins": 7
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-414",
       "name": "宗清 皇一",
       "partyId": "party-ldp",
@@ -4141,6 +4555,7 @@
       "wins": 4
     },
     {
+      "caucusLabel": "無所属",
       "districtId": "chiba-11",
       "id": "candidate-415",
       "name": "森 英介",
@@ -4151,6 +4566,7 @@
       "wins": 13
     },
     {
+      "caucusLabel": "国民",
       "id": "candidate-416",
       "name": "森 洋介",
       "partyId": "party-dpfp",
@@ -4161,6 +4577,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "自民",
       "districtId": "miyagi-4",
       "id": "candidate-417",
       "name": "森下千里",
@@ -4171,6 +4588,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "維新",
       "id": "candidate-418",
       "name": "村上智信",
       "partyId": "party-ishin",
@@ -4181,6 +4599,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-419",
       "name": "村木汀",
       "partyId": "party-ldp",
@@ -4191,6 +4610,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "tochigi-5",
       "id": "candidate-420",
       "name": "茂木敏充",
@@ -4201,6 +4621,7 @@
       "wins": 12
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-421",
       "name": "保岡宏武",
       "partyId": "party-ldp",
@@ -4211,6 +4632,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-422",
       "name": "簗和生",
       "partyId": "party-ldp",
@@ -4221,6 +4643,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "中道",
       "id": "candidate-423",
       "name": "山岡達丸",
       "partyId": "party-centrist-reform",
@@ -4231,6 +4654,7 @@
       "wins": 5
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-424",
       "name": "森原 紀代子",
       "partyId": "party-ldp",
@@ -4241,6 +4665,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "kagoshima-4",
       "id": "candidate-425",
       "name": "森山裕",
@@ -4251,6 +4676,7 @@
       "wins": 9
     },
     {
+      "caucusLabel": "自民",
       "districtId": "hyogo-1",
       "id": "candidate-426",
       "name": "盛山正仁",
@@ -4261,6 +4687,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "自民",
       "districtId": "hyogo-12",
       "id": "candidate-427",
       "name": "山口壮",
@@ -4271,6 +4698,7 @@
       "wins": 9
     },
     {
+      "caucusLabel": "中道",
       "id": "candidate-428",
       "name": "山崎正恭",
       "partyId": "party-centrist-reform",
@@ -4281,6 +4709,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "自民",
       "districtId": "aichi-16",
       "id": "candidate-429",
       "name": "山下史守朗",
@@ -4291,6 +4720,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "kanagawa-18",
       "id": "candidate-430",
       "name": "山際大志郎",
@@ -4301,6 +4731,7 @@
       "wins": 8
     },
     {
+      "caucusLabel": "自民",
       "districtId": "tokushima-2",
       "id": "candidate-431",
       "name": "山口俊一",
@@ -4311,6 +4742,7 @@
       "wins": 13
     },
     {
+      "caucusLabel": "自民",
       "districtId": "saitama-10",
       "id": "candidate-432",
       "name": "山口晋",
@@ -4321,6 +4753,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "自民",
       "districtId": "tokyo-1",
       "id": "candidate-433",
       "name": "山田美樹",
@@ -4331,6 +4764,7 @@
       "wins": 5
     },
     {
+      "caucusLabel": "自民",
       "districtId": "hyogo-11",
       "id": "candidate-434",
       "name": "山田基靖",
@@ -4341,6 +4775,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "中道",
       "id": "candidate-435",
       "name": "山本香苗",
       "partyId": "party-centrist-reform",
@@ -4351,6 +4786,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "okayama-2",
       "id": "candidate-436",
       "name": "山下貴司",
@@ -4361,6 +4797,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "みらい",
       "id": "candidate-437",
       "name": "山田瑛理",
       "partyId": "party-team-mirai",
@@ -4371,6 +4808,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "hyogo-7",
       "id": "candidate-438",
       "name": "山田賢司",
@@ -4381,6 +4819,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "自民",
       "districtId": "wakayama-1",
       "id": "candidate-439",
       "name": "山本大地",
@@ -4391,6 +4830,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "自民",
       "districtId": "shizuoka-3",
       "id": "candidate-440",
       "name": "山本裕三",
@@ -4401,6 +4841,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "維新",
       "id": "candidate-441",
       "name": "横田光弘",
       "partyId": "party-ishin",
@@ -4411,6 +4852,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-442",
       "name": "山本 左近",
       "partyId": "party-ldp",
@@ -4421,6 +4863,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "無所属",
       "id": "candidate-443",
       "name": "山本譲司",
       "partyId": "party-reiwa",
@@ -4431,6 +4874,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "自民",
       "districtId": "hiroshima-5",
       "id": "candidate-444",
       "name": "山本深",
@@ -4441,6 +4885,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-445",
       "name": "吉田有理",
       "partyId": "party-ldp",
@@ -4451,6 +4896,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "fukuoka-10",
       "id": "candidate-446",
       "name": "吉村 悠",
@@ -4461,6 +4907,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-447",
       "name": "米内紘正",
       "partyId": "party-ldp",
@@ -4471,6 +4918,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "参政",
       "id": "candidate-448",
       "name": "吉川里奈",
       "partyId": "party-sanseito",
@@ -4481,6 +4929,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-449",
       "name": "吉田真次",
       "partyId": "party-ldp",
@@ -4491,6 +4940,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "中道",
       "id": "candidate-450",
       "name": "吉田宣弘",
       "partyId": "party-centrist-reform",
@@ -4501,6 +4951,7 @@
       "wins": 5
     },
     {
+      "caucusLabel": "自民",
       "districtId": "tokyo-5",
       "id": "candidate-451",
       "name": "若宮健嗣",
@@ -4511,6 +4962,7 @@
       "wins": 6
     },
     {
+      "caucusLabel": "自民",
       "districtId": "aichi-10",
       "id": "candidate-452",
       "name": "若山慎司",
@@ -4521,6 +4973,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "自民",
       "districtId": "niigata-4",
       "id": "candidate-453",
       "name": "鷲尾英一郎",
@@ -4531,6 +4984,7 @@
       "wins": 7
     },
     {
+      "caucusLabel": "中道",
       "id": "candidate-454",
       "name": "笠浩史",
       "partyId": "party-centrist-reform",
@@ -4541,6 +4995,7 @@
       "wins": 9
     },
     {
+      "caucusLabel": "維新",
       "id": "candidate-455",
       "name": "若狭清史",
       "partyId": "party-ishin",
@@ -4551,6 +5006,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "nagano-1",
       "id": "candidate-456",
       "name": "若林健太",
@@ -4561,6 +5017,7 @@
       "wins": 2
     },
     {
+      "caucusLabel": "参政",
       "id": "candidate-457",
       "name": "渡辺 藍理",
       "partyId": "party-sanseito",
@@ -4571,6 +5028,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "miyagi-2",
       "id": "candidate-458",
       "name": "渡辺勝幸",
@@ -4581,6 +5039,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "id": "candidate-459",
       "name": "渡辺孝一",
       "partyId": "party-ldp",
@@ -4591,6 +5050,7 @@
       "wins": 5
     },
     {
+      "caucusLabel": "中道",
       "id": "candidate-460",
       "name": "早稲田 夕季",
       "partyId": "party-centrist-reform",
@@ -4601,6 +5061,7 @@
       "wins": 4
     },
     {
+      "caucusLabel": "参政",
       "id": "candidate-461",
       "name": "和田政宗",
       "partyId": "party-sanseito",
@@ -4611,6 +5072,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "自民",
       "districtId": "hokkaido-5",
       "id": "candidate-462",
       "name": "和田義明",
@@ -4621,6 +5083,7 @@
       "wins": 4
     },
     {
+      "caucusLabel": "無所属",
       "districtId": "tochigi-3",
       "id": "candidate-463",
       "name": "渡辺 真太朗",
@@ -4631,6 +5094,7 @@
       "wins": 1
     },
     {
+      "caucusLabel": "中道",
       "districtId": "miyazaki-1",
       "id": "candidate-464",
       "name": "渡辺 創",
@@ -4641,6 +5105,7 @@
       "wins": 3
     },
     {
+      "caucusLabel": "自民",
       "districtId": "chiba-6",
       "id": "candidate-465",
       "name": "渡辺 博道",

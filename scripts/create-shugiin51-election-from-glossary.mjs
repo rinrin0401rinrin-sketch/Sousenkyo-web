@@ -178,6 +178,7 @@ for (const [index, row] of candidates.entries()) {
     ...(districtId ? { districtId } : {}),
     ...(block ? { proportionalBlockId: block.id } : {}),
     ...(row.photoUrl ? { photoUrl: row.photoUrl } : {}),
+    ...(row.caucusLabel ? { caucusLabel: row.caucusLabel } : {}),
     wins,
   };
 
