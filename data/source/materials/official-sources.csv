@@ -7,3 +7,6 @@ shugiin-51st-glossary-proportional-blocks,shugiin-51st,user-confirmed local PDF 
 shugiin-51st-election-source,shugiin-51st,project-local,candidate-list,json,第51回衆議院総選挙 候補者名簿モード election.json,data/source/elections/shugiin-51st/election.json,2026-06-09,,confirmed,候補者名簿モード用の正本。開票結果は未反映
 shugiin-51st-photo-rights,shugiin-51st,user-confirmed local PDF source,other,csv,第51回候補者写真権利台帳,data/source/materials/photo-rights.csv,2026-06-09,,confirmed,写真465件の権利確認台帳
 shugiin-51st-shugiin-office-portal,shugiin-51st,衆議院事務局,other,html,衆議院事務局公式サイト,https://www.shugiin.go.jp/,2026-06-09,,confirmed,第51回の公式元URLとしてユーザー指定。個別CSV/PDF/Excelの直URLは受領後にsourceType別で追加
+shugiin-51st-caucus-summary,shugiin-51st,衆議院事務局,caucus-list,html,会派名及び会派別所属議員数,https://www.shugiin.go.jp/internet/itdb_annai.nsf/html/statics/shiryo/kaiha_m.htm,2026-06-13,2026-02-18,confirmed,令和8年2月18日現在の公式会派数。中道48名・無所属7名の根拠
+shugiin-51st-caucus-chudo,shugiin-51st,衆議院事務局,caucus-members,html,中道改革連合・無所属 会派別議員一覧,https://www.shugiin.go.jp/internet/itdb_annai.nsf/html/statics/syu/020kaiha.htm,2026-06-13,2026-02-18,confirmed,公式会派別議員一覧からcaucusLabel=中道を照合
+shugiin-51st-caucus-independent,shugiin-51st,衆議院事務局,caucus-members,html,無所属 会派別議員一覧,https://www.shugiin.go.jp/internet/itdb_annai.nsf/html/statics/syu/999kaiha.htm,2026-06-13,2026-02-18,confirmed,公式会派別議員一覧からcaucusLabel=無所属を照合

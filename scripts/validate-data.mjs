@@ -11,6 +11,18 @@ const strict = process.argv.includes('--strict');
 const errors = [];
 const warnings = [];
 const infos = [];
+const expectedGlossaryCaucusCounts = {
+  'shugiin-51st': {
+    自民: 316,
+    中道: 48,
+    維新: 36,
+    国民: 28,
+    参政: 15,
+    みらい: 11,
+    共産: 4,
+    無所属: 7,
+  },
+};
 
 function readJson(path) {
   try {
@@ -361,6 +373,7 @@ function validateGlossary(electionIds) {
   }
 
   validateGlossarySourceSync(sourceGlossaryDir, glossaryDir);
+  validateExpectedGlossaryCaucusCounts(entriesByFile);
 
   requireUnique(allEntries, 'glossary entries');
   const glossaryIds = new Set(allEntries.map((entry) => entry.id).filter(Boolean));
@@ -384,6 +397,38 @@ function validateGlossary(electionIds) {
           errors.push(`glossary/${fileName}.${entry.id}.relatedIds: "${relatedId}" が単語帳内に存在しません`);
         }
       }
+    }
+  }
+}
+
+function validateExpectedGlossaryCaucusCounts(entriesByFile) {
+  const candidates = entriesByFile.find(([fileName]) => fileName === 'candidates.csv')?.[2] ?? [];
+
+  for (const [electionId, expectedCounts] of Object.entries(expectedGlossaryCaucusCounts)) {
+    const rows = candidates.filter((entry) => ensureArray(entry.electionIds ?? [], `glossary/candidates.json.${entry.id}.electionIds`).includes(electionId));
+    if (rows.length === 0) continue;
+
+    const actualCounts = new Map();
+    for (const entry of rows) {
+      if (!entry.caucusLabel) {
+        errors.push(`glossary/candidates.json.${entry.id}: ${electionId} の候補者は caucusLabel が必須です`);
+        continue;
+      }
+      actualCounts.set(entry.caucusLabel, (actualCounts.get(entry.caucusLabel) ?? 0) + 1);
+    }
+
+    for (const [label, expectedCount] of Object.entries(expectedCounts)) {
+      const actualCount = actualCounts.get(label) ?? 0;
+      if (actualCount !== expectedCount) {
+        errors.push(
+          `glossary/candidates.json: ${electionId} の caucusLabel "${label}" は ${expectedCount} 名である必要があります (actual: ${actualCount})`,
+        );
+      }
+      actualCounts.delete(label);
+    }
+
+    for (const [label, actualCount] of actualCounts) {
+      errors.push(`glossary/candidates.json: ${electionId} に未定義の caucusLabel "${label}" が ${actualCount} 名あります`);
     }
   }
 }

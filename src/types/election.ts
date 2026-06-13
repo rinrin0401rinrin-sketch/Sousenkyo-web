@@ -95,6 +95,7 @@ export type Candidate = {
   id: string;
   name: string;
   partyId: string;
+  caucusLabel?: string;
   prefectureId: string;
   districtId?: string;
   proportionalBlockId?: string;

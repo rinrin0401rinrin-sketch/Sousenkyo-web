@@ -1058,6 +1058,7 @@ function searchableEntryText(entry: GlossaryEntry): string {
 }
 
 function getEntryCaucusLabel(entry: GlossaryEntry): string {
+  if (entry.category === 'candidate') return entry.caucusLabel || '会派未設定';
   return entry.caucusLabel ?? getCaucusLabelFromPartyLabel(entry.partyLabel);
 }
 

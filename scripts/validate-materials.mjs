@@ -24,7 +24,18 @@ const officialSourceHeaders = [
   'notes',
 ];
 const photoRightsHeaders = ['candidateId', 'electionId', 'photoFile', 'sourceUrl', 'rightHolder', 'rightsStatus', 'retrievedAt', 'notes'];
-const sourceTypes = new Set(['result', 'candidate-list', 'district-list', 'party-list', 'proportional-list', 'turnout', 'other', '']);
+const sourceTypes = new Set([
+  'result',
+  'candidate-list',
+  'district-list',
+  'party-list',
+  'proportional-list',
+  'caucus-list',
+  'caucus-members',
+  'turnout',
+  'other',
+  '',
+]);
 const formats = new Set(['csv', 'xlsx', 'pdf', 'html', 'json', 'other', '']);
 const rightsStatuses = new Set(['confirmed', 'needs-review', 'restricted', 'unknown', '']);
 

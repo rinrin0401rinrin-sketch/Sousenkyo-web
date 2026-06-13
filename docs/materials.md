@@ -42,7 +42,7 @@ npm run validate:data:strict
 id,electionId,publisher,sourceType,format,title,url,retrievedAt,publishedAt,licenseStatus,notes
 ```
 
-- `sourceType`: `result`, `candidate-list`, `district-list`, `party-list`, `proportional-list`, `turnout`, `other`
+- `sourceType`: `result`, `candidate-list`, `district-list`, `party-list`, `proportional-list`, `caucus-list`, `caucus-members`, `turnout`, `other`
 - `format`: `csv`, `xlsx`, `pdf`, `html`, `json`, `other`
 - `licenseStatus`: `confirmed`, `needs-review`, `restricted`, `unknown`
 

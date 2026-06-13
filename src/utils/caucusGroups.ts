@@ -42,7 +42,7 @@ export function getGlossaryCaucusRoster(candidates: GlossaryEntry[], parties: Gl
 
   for (const candidate of candidates) {
     const partyLabel = candidate.partyLabel;
-    const label = candidate.caucusLabel ?? getCaucusLabelFromPartyLabel(partyLabel);
+    const label = candidate.caucusLabel || '会派未設定';
     const current = counts.get(label);
     const color = partyLabel ? (partyColorByLabel.get(partyLabel) ?? COLOR_BY_PARTY_LABEL[partyLabel] ?? DEFAULT_COLOR) : DEFAULT_COLOR;
 
