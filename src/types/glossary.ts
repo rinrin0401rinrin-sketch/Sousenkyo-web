@@ -30,3 +30,21 @@ export type GlossaryBundle = {
   proportionalBlocks: GlossaryEntry[];
   terms: GlossaryEntry[];
 };
+
+export type OfficialCaucus = {
+  label: string;
+  name: string;
+  count: number;
+  women?: number;
+  sourceUrl?: string;
+  members?: string[];
+};
+
+export type OfficialCaucusData = {
+  sourceName: string;
+  sourceUrl: string;
+  asOfDate: string;
+  fetchedAt: string;
+  electionId: string;
+  caucuses: OfficialCaucus[];
+};

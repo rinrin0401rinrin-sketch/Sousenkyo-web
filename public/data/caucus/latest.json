@@ -1,0 +1,65 @@
+{
+  "asOfDate": "令和8年2月18日現在",
+  "caucuses": [
+    {
+      "count": 316,
+      "label": "自民",
+      "name": "自由民主党・無所属の会",
+      "sourceUrl": "https://www.shugiin.go.jp/internet/itdb_annai.nsf/html/statics/syu/011kaiha.htm",
+      "women": 39
+    },
+    {
+      "count": 48,
+      "label": "中道",
+      "name": "中道改革連合・無所属",
+      "sourceUrl": "https://www.shugiin.go.jp/internet/itdb_annai.nsf/html/statics/syu/020kaiha.htm",
+      "women": 8
+    },
+    {
+      "count": 36,
+      "label": "維新",
+      "name": "日本維新の会",
+      "sourceUrl": "https://www.shugiin.go.jp/internet/itdb_annai.nsf/html/statics/syu/030kaiha.htm",
+      "women": 1
+    },
+    {
+      "count": 28,
+      "label": "国民",
+      "name": "国民民主党・無所属クラブ",
+      "sourceUrl": "https://www.shugiin.go.jp/internet/itdb_annai.nsf/html/statics/syu/040kaiha.htm",
+      "women": 8
+    },
+    {
+      "count": 15,
+      "label": "参政",
+      "name": "参政党",
+      "sourceUrl": "https://www.shugiin.go.jp/internet/itdb_annai.nsf/html/statics/syu/050kaiha.htm",
+      "women": 8
+    },
+    {
+      "count": 11,
+      "label": "みらい",
+      "name": "チームみらい",
+      "sourceUrl": "https://www.shugiin.go.jp/internet/itdb_annai.nsf/html/statics/syu/060kaiha.htm",
+      "women": 2
+    },
+    {
+      "count": 4,
+      "label": "共産",
+      "name": "日本共産党",
+      "sourceUrl": "https://www.shugiin.go.jp/internet/itdb_annai.nsf/html/statics/syu/070kaiha.htm",
+      "women": 2
+    },
+    {
+      "count": 7,
+      "label": "無所属",
+      "name": "無所属",
+      "sourceUrl": "https://www.shugiin.go.jp/internet/itdb_annai.nsf/html/statics/syu/999kaiha.htm",
+      "women": 0
+    }
+  ],
+  "electionId": "shugiin-51st",
+  "fetchedAt": "2026-06-13T00:00:00+09:00",
+  "sourceName": "衆議院 会派名及び会派別所属議員数",
+  "sourceUrl": "https://www.shugiin.go.jp/internet/itdb_annai.nsf/html/statics/shiryo/kaiha_m.htm"
+}

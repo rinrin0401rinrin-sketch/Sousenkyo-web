@@ -12,7 +12,7 @@ import type {
   Prefecture,
   ProportionalBlock,
 } from '../types/election';
-import type { GlossaryBundle, GlossaryFile } from '../types/glossary';
+import type { GlossaryBundle, GlossaryFile, OfficialCaucusData } from '../types/glossary';
 import { publicPath } from './publicPath';
 
 type ElectionBundleJson = {
@@ -119,6 +119,10 @@ export async function loadGlossaryCandidatesAndParties(): Promise<Pick<GlossaryB
   ]);
 
   return { candidates, parties };
+}
+
+export function loadOfficialCaucusLatest(): Promise<OfficialCaucusData | undefined> {
+  return loadOptionalJson<OfficialCaucusData>('/data/caucus/latest.json');
 }
 
 export async function loadElectionBundle(electionId: string): Promise<ElectionBundle> {

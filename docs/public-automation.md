@@ -20,7 +20,7 @@ npm run build
 
 ## Automation Stages
 
-完全自動化は、次の6段階で進めます。
+完全自動化は、次の7段階で進めます。
 
 1. 公式URLの登録
    - 第51回の公式元は `衆議院事務局` として `data/source/materials/official-sources.csv` に記録します。
@@ -36,19 +36,26 @@ npm run build
    - Excelは fetch で保存し、人間がシートをCSV/TSVへ書き出してから `import:official:dry` に渡します。
    - Excel直読みを入れる場合は、sheet名 allowlist、最大行数、最大列数、ファイルサイズ上限を必須にします。
 
-4. 結果データ接続
+4. 公式会派JSON照合
+   - 公式ページから会派別人数をJSON化したら、`data/imports/{electionId}/official-caucus.json` など import 管理下に置きます。
+   - JSONは `{"electionId":"shugiin-51st","caucuses":[{"label":"自民","count":316}]}` を最小形にし、必要に応じて `memberIds` または `memberNames` を追加します。
+   - 公開前チェックは `npm run validate:official-caucus -- {electionId} --official=data/imports/{electionId}/official-caucus.json --fail-on-diff` で、`public/data/glossary/candidates.json` の `caucusLabel` と差分を見ます。
+   - 衆議院公式ページが取得可能な時間帯は `npm run update:caucus:dry -- --election=shugiin-51st` で取得・差分を確認し、問題なければ `npm run update:caucus -- --election=shugiin-51st` で `public/data/caucus/latest.json` を更新します。
+   - 公式ページがメンテナンス表示の場合、fetcher は失敗させます。メンテHTMLを正常な会派データとして公開しないためです。
+
+5. 結果データ接続
    - 小選挙区は `single_member_district_results.csv`。
    - 比例代表は `proportional_results.csv`。
    - 政党別議席は `summary_party_seats.csv`。
    - 開票率と更新日時は `summary.csv`。
    - 候補者名簿モードと確定結果モードを混ぜず、最終公開前は `release:check:final` を通します。
 
-5. GitHub Actions automation
+6. GitHub Actions automation
    - `.github/workflows/official-data-pipeline.yml` を手動実行します。
    - fetch、receipt生成、素材台帳検証、データ検証、build、release gate、artifact保存までを自動化します。
    - `staged_input_dir` を指定した時だけ import dry-run を行います。
 
-6. Human approval gate
+7. Human approval gate
    - 自動取得しただけでは公開JSONへ反映しません。
    - artifact、receipt、normalized CSV、diff report を人間が確認します。
    - 確認後に `import:official --apply`、`gen:data`、`release:check`、必要なら `release:check:final` を通して公開します。

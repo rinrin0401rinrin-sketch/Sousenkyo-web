@@ -54,6 +54,32 @@ id,electionId,publisher,sourceType,format,title,url,retrievedAt,publishedAt,lice
 
 URLを `fetch:official` で取得する場合は、manifest の `allowedHosts` に公式ドメインを明示します。取得後は `fetch-receipt.json` の `sha256`、`bytes`、`finalUrl`、`contentType` を確認し、台帳行の取得元と一致していることを人間が確認します。
 
+会派別人数を公式ページからJSON化した場合は、`format: json`、`sourceType: caucus-list` または `caucus-members` として台帳に残します。最小スキーマは次の形です。
+
+```json
+{
+  "electionId": "shugiin-51st",
+  "caucuses": [
+    { "label": "自民", "count": 316 },
+    { "label": "中道", "count": 48, "memberNames": ["氏名"] }
+  ]
+}
+```
+
+照合は次を使います。
+
+```bash
+npm run validate:official-caucus -- {electionId} --official=data/imports/{electionId}/official-caucus.json --fail-on-diff
+```
+
+公開中アプリが参照する最新会派データは `public/data/caucus/latest.json` です。公式ページから更新する場合は次の順で進めます。
+
+```bash
+npm run update:caucus:dry -- --election=shugiin-51st
+npm run update:caucus -- --election=shugiin-51st
+npm run validate:official-caucus -- shugiin-51st --official=public/data/caucus/latest.json --fail-on-diff
+```
+
 新しい受け入れパッケージの雛形は次で作成できます。
 
 ```bash

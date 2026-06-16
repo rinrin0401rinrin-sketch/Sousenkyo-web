@@ -1,4 +1,5 @@
 import { spawn } from 'node:child_process';
+import { existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { assertSafeElectionId, publicDataRoot, readJson } from './data-utils.mjs';
 
@@ -33,6 +34,7 @@ const steps = [
   ['npm', ['run', 'gen:data:dry', '--', electionId]],
   ['npm', ['run', 'gen:glossary:dry']],
   ['npm', ['run', 'validate:materials:strict']],
+  ...officialCaucusValidationSteps(electionId),
   ['npm', ['run', 'validate:data:strict']],
   ['npm', ['run', 'report:data:check', '--', electionId]],
   ['npm', ['run', 'build']],
@@ -136,6 +138,29 @@ function validateReleaseEligibility(targetElectionId, options) {
 
   validateSummarySeatConsistency(targetElectionId, summary, blocks, singleResults, proportionalResults, errors);
   return errors;
+}
+
+function officialCaucusValidationSteps(targetElectionId) {
+  const officialCaucusPath = join(publicDataRoot, 'caucus', 'latest.json');
+  if (!existsSync(officialCaucusPath)) return [];
+  const officialCaucus = readJson(officialCaucusPath);
+  if (officialCaucus.electionId && officialCaucus.electionId !== targetElectionId) {
+    console.log(
+      `Official caucus validation skipped for ${targetElectionId}: latest caucus data is for ${officialCaucus.electionId}`,
+    );
+    return [];
+  }
+  return [
+    [
+      'node',
+      [
+        'scripts/validate-official-caucus.mjs',
+        targetElectionId,
+        '--official=public/data/caucus/latest.json',
+        '--fail-on-diff',
+      ],
+    ],
+  ];
 }
 
 function validateSummarySeatConsistency(electionId, summary, blocks, singleResults, proportionalResults, errors) {
