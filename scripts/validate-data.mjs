@@ -402,7 +402,7 @@ function validateGlossary(electionIds) {
 }
 
 function validateExpectedGlossaryCaucusCounts(entriesByFile) {
-  const candidates = entriesByFile.find(([fileName]) => fileName === 'candidates.csv')?.[2] ?? [];
+  const candidates = entriesByFile.find(([fileName]) => fileName === 'candidates.json')?.[2] ?? [];
 
   for (const [electionId, expectedCounts] of Object.entries(expectedGlossaryCaucusCounts)) {
     const rows = candidates.filter((entry) => ensureArray(entry.electionIds ?? [], `glossary/candidates.json.${entry.id}.electionIds`).includes(electionId));

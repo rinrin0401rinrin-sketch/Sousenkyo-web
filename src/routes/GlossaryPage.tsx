@@ -8,7 +8,7 @@ import { LoadingScreen } from '../components/LoadingScreen';
 import { useAsyncData } from '../hooks/useAsyncData';
 import type { GlossaryCategory, GlossaryEntry } from '../types/glossary';
 import { getCaucusLabelFromPartyLabel, getGlossaryCaucusRoster } from '../utils/caucusGroups';
-import { loadElectionsIndex, loadGlossaryBundle } from '../utils/dataLoader';
+import { loadElectionsIndex, loadGlossaryBundle, loadOfficialCaucusLatest } from '../utils/dataLoader';
 import { publicPath } from '../utils/publicPath';
 
 type GlossaryMode = 'search' | 'cards';
@@ -116,12 +116,9 @@ const femaleCandidateIds = new Set([
   'candidate-336',
   'candidate-351',
   'candidate-357',
-  'candidate-363',
-  'candidate-372',
   'candidate-380',
   'candidate-382',
   'candidate-384',
-  'candidate-387',
   'candidate-391',
   'candidate-394',
   'candidate-395',
@@ -187,8 +184,12 @@ export function GlossaryPage() {
   }, [searchParams]);
 
   const state = useAsyncData(async () => {
-    const [glossary, electionsIndex] = await Promise.all([loadGlossaryBundle(), loadElectionsIndex()]);
-    return { glossary, electionsIndex };
+    const [glossary, electionsIndex, officialCaucus] = await Promise.all([
+      loadGlossaryBundle(),
+      loadElectionsIndex(),
+      loadOfficialCaucusLatest(),
+    ]);
+    return { glossary, electionsIndex, officialCaucus };
   }, []);
 
   const entries = useMemo(() => {
@@ -446,6 +447,9 @@ export function GlossaryPage() {
             </FilterSelect>
             <CaucusScroller
               caucuses={caucusRoster}
+              officialAsOfDate={
+                state.data.officialCaucus?.electionId === electionId ? state.data.officialCaucus.asOfDate : undefined
+              }
               selected={caucus}
               total={caucusBaseCandidates.length}
               onSelect={(value) => {
@@ -825,11 +829,13 @@ function DistrictScroller({
 
 function CaucusScroller({
   caucuses,
+  officialAsOfDate,
   selected,
   total,
   onSelect,
 }: {
   caucuses: Array<{ id: string; label: string; color: string; count: number }>;
+  officialAsOfDate?: string;
   selected: string;
   total: number;
   onSelect: (value: string) => void;
@@ -837,7 +843,10 @@ function CaucusScroller({
   return (
     <div className="min-w-0">
       <div className="flex items-end justify-between gap-3">
-        <span className="text-xs font-black uppercase tracking-[0.16em] text-slate-500">会派別人数</span>
+        <div>
+          <span className="text-xs font-black uppercase tracking-[0.16em] text-slate-500">会派別人数</span>
+          {officialAsOfDate ? <p className="mt-1 text-[0.68rem] font-black text-slate-400">公式: {officialAsOfDate}</p> : null}
+        </div>
         <span className="text-[0.68rem] font-black text-slate-400">{caucuses.length} groups</span>
       </div>
       <div className="mt-2 overflow-x-auto rounded-3xl border border-white/70 bg-white/50 p-2 shadow-inner backdrop-blur-xl [scrollbar-width:thin] [scrollbar-color:rgba(148,163,184,.55)_transparent]">
