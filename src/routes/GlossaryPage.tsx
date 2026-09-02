@@ -590,7 +590,7 @@ function GlossaryCard({
           didSwipeRef.current = false;
         }}
         onTouchEnd={handleTouchEnd}
-        className="glossary-study-card mx-auto flex aspect-[3/5] w-full max-w-[22.5rem] flex-col overflow-hidden rounded-[2rem] border border-sky-100 bg-white/90 px-5 py-5 shadow-[0_24px_70px_rgba(103,132,162,0.18)] backdrop-blur-xl"
+        className="glossary-study-card mx-auto flex aspect-[3/5] w-full max-w-[17rem] flex-col overflow-hidden rounded-[2rem] border border-sky-100 bg-white/90 px-5 py-5 shadow-[0_24px_70px_rgba(103,132,162,0.18)] backdrop-blur-xl sm:max-w-[22.5rem]"
         aria-label={isBackSide ? 'カード表面を表示' : 'カード裏面を表示'}
         aria-live="polite"
       >
@@ -599,9 +599,9 @@ function GlossaryCard({
             <CandidatePhoto entry={entry} size="hero" />
           </div>
         ) : (
-          <div className="mt-5 flex min-h-0 flex-1 flex-col">
+          <div className="mt-2 flex min-h-0 flex-1 flex-col sm:mt-5">
             <div className="h-1 shrink-0 rounded-full bg-sky-300" />
-            <div className="mt-4 flex shrink-0 items-center justify-between gap-3">
+            <div className="mt-3 flex shrink-0 items-center justify-between gap-3 sm:mt-4">
               <p className="text-[0.68rem] font-black uppercase tracking-[0.24em] text-slate-500">Back Side</p>
               <p className="rounded-full border border-sky-100 bg-sky-50/80 px-3 py-1 text-xs font-black text-slate-600">
                 {count > 0 ? (index % count) + 1 : 0} / {count}
@@ -609,34 +609,34 @@ function GlossaryCard({
             </div>
             <p className="shrink-0 text-center text-xs font-black text-slate-500">{categoryLabels[entry.category]}</p>
 
-            <h2 className="mt-4 overflow-wrap-anywhere text-center font-serif text-[clamp(2rem,9vw,2.8rem)] font-black leading-[1.04] tracking-tight text-slate-950">
+            <h2 className="mt-2 overflow-wrap-anywhere text-center font-serif text-[clamp(1.6rem,8vw,2.8rem)] font-black leading-[1.04] tracking-tight text-slate-950 sm:mt-4 sm:text-[clamp(2rem,9vw,2.8rem)]">
               {entry.label}
             </h2>
-            <p className="mt-2 overflow-wrap-anywhere text-center text-sm font-black text-slate-500">{entry.reading || '読み未設定'}</p>
+            <p className="mt-1 overflow-wrap-anywhere text-center text-sm font-black text-slate-500 sm:mt-2">{entry.reading || '読み未設定'}</p>
 
-            <div className="mt-4 grid grid-cols-2 gap-2">
+            <div className="mt-2 grid grid-cols-2 gap-1.5 sm:mt-4 sm:gap-2">
               {cardChips(entry).map((chip) => (
                 <span
                   key={chip}
-                  className="flex min-h-10 items-center justify-center rounded-full border border-sky-100 bg-sky-50/70 px-2 text-center text-xs font-black leading-tight text-slate-800 shadow-sm"
+                  className="flex min-h-8 items-center justify-center rounded-full border border-sky-100 bg-sky-50/70 px-1.5 text-center text-[0.68rem] font-black leading-tight text-slate-800 shadow-sm sm:min-h-10 sm:px-2 sm:text-xs"
                 >
                   {chip}
                 </span>
               ))}
             </div>
-            <div className="mt-3 rounded-[1.25rem] border border-white/70 bg-white/65 px-4 py-3 text-center shadow-sm">
+            <div className="mt-2 rounded-[1.25rem] border border-white/70 bg-white/65 px-3 py-2 text-center shadow-sm sm:mt-3 sm:px-4 sm:py-3">
               <p className="text-[0.65rem] font-black uppercase tracking-[0.18em] text-slate-400">Caucus</p>
               <p className="mt-1 overflow-wrap-anywhere text-sm font-black leading-5 text-slate-900">{getEntryCaucusLabel(entry)}</p>
             </div>
 
-            <div className="mt-auto rounded-[1.4rem] border border-sky-100 bg-slate-50/70 p-4">
+            <div className="mt-auto rounded-[1.4rem] border border-sky-100 bg-slate-50/70 p-3 sm:p-4">
               <p className="text-xs font-black text-slate-500">カード裏メモ</p>
-              <p className="mt-2 text-center text-sm font-black leading-6 text-slate-950">{backMemo(entry)}</p>
+              <p className="mt-1 text-center text-sm font-black leading-5 text-slate-950 sm:mt-2 sm:leading-6">{backMemo(entry)}</p>
             </div>
           </div>
         )}
       </article>
-      <div className="mx-auto grid w-full max-w-[22.5rem] grid-cols-[1fr_auto_1fr] items-center gap-3">
+      <div className="mx-auto grid w-full max-w-[17rem] grid-cols-[1fr_auto_1fr] items-center gap-3 sm:max-w-[22.5rem]">
           <button type="button" onClick={onPrevious} className="min-h-12 rounded-2xl bg-white/80 text-sm font-black text-slate-700 shadow-sm">
             前へ
           </button>
