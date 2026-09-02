@@ -38,14 +38,17 @@ export function AppShell({ children }: AppShellProps) {
           </nav>
         </div>
         <nav className="mx-auto flex max-w-6xl gap-2 overflow-x-auto px-4 pb-3 text-sm font-bold text-slate-600 sm:px-6 lg:hidden">
-          <Link className="shrink-0 rounded-full bg-white/60 px-3 py-2" to="/">
+          <Link className="inline-flex min-h-11 shrink-0 items-center rounded-full bg-white/60 px-4 py-2" to="/">
             トップ
           </Link>
-          <Link className="shrink-0 rounded-full bg-white/60 px-3 py-2" to="/glossary?category=candidate">
+          <Link
+            className="inline-flex min-h-11 shrink-0 items-center rounded-full bg-white/60 px-4 py-2"
+            to="/glossary?category=candidate"
+          >
             候補者検索
           </Link>
           {[...primaryNav, ...secondaryNav].map((page) => (
-            <Link key={page.id} className="shrink-0 rounded-full bg-white/60 px-3 py-2" to={page.path}>
+            <Link key={page.id} className="inline-flex min-h-11 shrink-0 items-center rounded-full bg-white/60 px-4 py-2" to={page.path}>
               {page.title}
             </Link>
           ))}
